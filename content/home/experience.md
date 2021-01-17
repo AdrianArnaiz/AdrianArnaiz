@@ -22,24 +22,36 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Research Staff
+    company: University of Burgos - SmartArt European Project
     company_url: ''
-    location: California
-    date_start: '2017-01-01'
+    location: Burgos
+    date_start: '2020-12'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Data Analysis in web behaviour
+        * Create digital content
         
-  - title: Professor
-    company: University X
+  - title: Research staff
+    company: University of Burgos
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Burgos
+    date_start: '2020-01-01'
+    date_end: '2020-09-05'
+    description: 
+        * Support VR research in data mining 
+        * Support in MLaas platfomr: UBUMLaas
+        * Research in Network Analysis: 2 conference works
+        * Research in Parkinson's Disease detenction through voice
+        
+  - title: Junior Inteligent Automation Consultant
+    company: Ernst & Young
+    company_url: ''
+    location: Madrid
+    date_start: '2019-12-23'
+    date_end: '2019-09-05'
+    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes
+
 ---
