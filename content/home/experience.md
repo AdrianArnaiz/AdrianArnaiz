@@ -51,7 +51,15 @@ experience:
     company: Ernst & Young
     company_url: ''
     location: Madrid
-    date_start: '2019-12-23'
-    date_end: '2019-09-05'
-    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes.
+    date_start: '2019-09-05'
+    date_end: '2019-12-23'
+    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes, included email classification in Telefonica.
+   
+  - title: Research fellow
+    company: ADMIRABLE GIR, University of Burgos
+    company_url: ''
+    location: Burgos
+    date_start: '2018-12-15'
+    date_end: '2019-07-05'
+    description: |2- Research assistant scholarship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Working with collaboration grant. Research in the project "Use of biomarkers extracted from the voice for the detection of Parkinson", which was my Bachelor's Thesis, evaluated with honors.
 ---
