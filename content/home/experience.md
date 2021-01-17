@@ -61,5 +61,5 @@ experience:
     location: Burgos
     date_start: '2018-12-15'
     date_end: '2019-07-05'
-    description: |2- Research assistant scholarship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Working with collaboration grant. Research in the project "Use of biomarkers extracted from the voice for the detection of Parkinson", which was my Bachelor's Thesis, evaluated with honors.
+    description: Research assistant scholarship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Working with collaboration grant. Research in the project "Use of biomarkers extracted from the voice for the detection of Parkinson", which was my Bachelor's Thesis, evaluated with honors.
 ---
