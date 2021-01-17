@@ -26,7 +26,7 @@ experience:
     company: University of Burgos - SmartArt European Project
     company_url: ''
     location: Burgos
-    date_start: '2020-12'
+    date_start: '2020-12-10'
     date_end: ''
     description: |2-
         Responsibilities include:
