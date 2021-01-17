@@ -41,6 +41,7 @@ experience:
     date_start: '2020-01-01'
     date_end: '2020-09-05'
     description: |2-
+    
         * Support VR research in data mining 
         * Support in MLaas platfomr: UBUMLaas
         * Research in Network Analysis: 2 conference works
