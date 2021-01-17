@@ -40,7 +40,7 @@ experience:
     location: Burgos
     date_start: '2020-01-01'
     date_end: '2020-09-05'
-    description: 
+    description: |2-
         * Support VR research in data mining 
         * Support in MLaas platfomr: UBUMLaas
         * Research in Network Analysis: 2 conference works
@@ -52,6 +52,5 @@ experience:
     location: Madrid
     date_start: '2019-12-23'
     date_end: '2019-09-05'
-    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes
-
+    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes.
 ---
