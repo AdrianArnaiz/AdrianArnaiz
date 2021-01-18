@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Staff
-    company: University of Burgos - SmartArt European Project
+    company: University of Burgos - DATAHES GIR -martArt European Project
     company_url: ''
     location: Burgos
     date_start: '2020-12-10'
@@ -35,7 +35,7 @@ experience:
         * Create digital content
         
   - title: Research staff
-    company: University of Burgos
+    company: University of Burgos - ADMIRABLE GIR
     company_url: ''
     location: Burgos
     date_start: '2020-01-01'
@@ -56,7 +56,7 @@ experience:
     description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes, included email classification in Telefonica.
    
   - title: Research fellow
-    company: ADMIRABLE GIR, University of Burgos
+    company: University of Burgos - ADMIRABLE GIR
     company_url: ''
     location: Burgos
     date_start: '2018-12-15'
