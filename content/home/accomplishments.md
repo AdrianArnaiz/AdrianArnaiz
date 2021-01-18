@@ -23,6 +23,14 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+- certificate_url: media/SMBQ2020.pdf
+  date_end: ""
+  date_start: "2020-09-08"
+  description: ""
+  organization: Universidade Do Porto and IBM Research
+  organization_url: https://smbq2020.dcc.fc.up.pt/
+  title: Summer School on Machine Learning and Big Data with Quantum Computing
+  url: ""
 - certificate_url: https://www.datacamp.com/statement-of-accomplishment/course/c5f48846f0343761a37c30264e15baea49e5892b
   date_end: ""
   date_start: "2020-06-24"
