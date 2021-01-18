@@ -29,8 +29,8 @@ experience:
     date_start: '2020-12-10'
     date_end: ''
     description: |2-
-        Responsibilities include:
-        
+    
+        * DATAHES: Data Analysis Techniques Applied in Health Environments Sciences.
         * Data Analysis in web behaviour
         * Create digital content
         
@@ -42,6 +42,7 @@ experience:
     date_end: '2020-09-05'
     description: |2-
     
+        * ADMIRABLE: Advanced Data MIning Research And [Business intelligence | Bioinformatics | Big Data] LEarning.    
         * Support VR research in data mining 
         * Support in MLaas platfomr: UBUMLaas
         * Research in Network Analysis: 2 conference works
