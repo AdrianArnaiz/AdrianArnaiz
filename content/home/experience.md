@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Research Staff
     company: University of Burgos - DATAHES GIR -martArt European Project
-    company_url: ''
+    company_url: 'https://www.ubu.es/data-analysis-techniques-applied-health-environments-sciences-datahes-english'
     location: Burgos
     date_start: '2020-12-10'
     date_end: ''
@@ -36,7 +36,7 @@ experience:
         
   - title: Research staff
     company: University of Burgos - ADMIRABLE GIR
-    company_url: ''
+    company_url: 'http://admirable-ubu.es/'
     location: Burgos
     date_start: '2020-01-01'
     date_end: '2020-09-05'
@@ -49,7 +49,7 @@ experience:
         
   - title: Junior Inteligent Automation Consultant
     company: Ernst & Young
-    company_url: ''
+    company_url: 'https://www.ey.com/en_gl/intelligent-automation'
     location: Madrid
     date_start: '2019-09-05'
     date_end: '2019-12-23'
@@ -57,7 +57,7 @@ experience:
    
   - title: Research fellow
     company: University of Burgos - ADMIRABLE GIR
-    company_url: ''
+    company_url: 'http://admirable-ubu.es/'
     location: Burgos
     date_start: '2018-12-15'
     date_end: '2019-07-05'
