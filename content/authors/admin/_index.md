@@ -75,9 +75,12 @@ email: ""
 highlight_name: false
 ---
 
-Adrián Arnaiz interests and short bio - TBD
+I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my early academic career. I am working on the application of ML and DL methods to medicine, and network science applied to social networks. However I am passionate about many other fields of AI. My passion for research and AI started in 2018 when I was awarded a research scholarship from Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the Bsc Extraordinary acadmic mention.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I mainly have worked in the intersection of ML, DL and Medicine in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) both with outstanding results (*honours*). Besides, I (we) have also research in the Network Sciende field, leading to 2 conference papers. 
+
+Although I have mainly worked in AI applications, I am also keen on understand all the algorithms and implications of each element, with a great interest in the most intrinsic and mathematical operation of the algorithms.
+Nuevos campos
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
