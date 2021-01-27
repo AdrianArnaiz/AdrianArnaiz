@@ -31,7 +31,7 @@ education:
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
     year: 2021
-  - course: BSc in Computer Science
+  - course: BSc in Computer Science [Extraordinary award]
     institution: Burgos University
     year: 2019
 
