@@ -14,7 +14,7 @@ organizations:
   url: https://www.ubu.es/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Ai researcher @ UBU -- ML/DL/RL/NS enthusiast and its intersection with Medicine.
 
 # Interests to show in About widget
 interests:
@@ -23,7 +23,7 @@ interests:
 - Deep Learning
 - Reinforcement Learning
 - Network Science
-- Grometric Learning (GNN)
+- Geometric Learning (GNN)
 
 # Education to show in About widget
 education:
@@ -32,11 +32,7 @@ education:
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
     year: 2021
   - course: BSc in Computer Science
-    institution: |2-
-
-      Burgos University
-      Bachelor's extraordinary award 18/19
-
+    institution: Burgos University
     year: 2019
 
 # Social/Academic Networking
