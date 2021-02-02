@@ -7,9 +7,9 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 23
 
-title: Projects
+title: Portfolio
 subtitle: ''
 
 content:
@@ -29,16 +29,14 @@ content:
     tag: '*'
   - name: Deep Learning
     tag: Deep Learning
-  - name: Speach Analysis
-    tag: Speach Analysis
+  - name: Speech Analysis
+    tag: Speech Analysis
   - name: Computer Vision
     tag: Computer Vision
   - name: Representation Learning
     tag: Representation Learning
   - name: Transfer Learning
     tag: Transfer Learning  
-  - name: Other
-    tag: Demo
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -49,7 +47,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 5
+  view: 3
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
