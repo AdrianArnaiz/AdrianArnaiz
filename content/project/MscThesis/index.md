@@ -1,6 +1,6 @@
 ---
 title: Deep Convolutional Autoencoders for reconstructing magnetic resonance images of the healthy brain
-summary: Msc Thesis [english] graded with honours [9.6/10] about applying deep and representation learning techniques to reconstruct brain T1-weighted MRI and help in the Neuroimaging pipeline.
+summary: Msc Thesis [english] graded with honours [9.6/10] about applying deep and representation learning techniques to reconstruct brain T1-weighted MRI and help in the Neuroimaging pipeline. Directed by Dr. [Baris Kanber](https://www.ucl.ac.uk/ion/people/dr-baris-kanber).
 tags:
 - Computer Vision
 - Representation Learning

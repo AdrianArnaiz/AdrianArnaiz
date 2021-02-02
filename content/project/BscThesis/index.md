@@ -1,6 +1,6 @@
 ---
 title: Parkinson Disease Detection through Voice
-summary: Bsc Thesis [spanish] graded with honours [9.8/10] about the application of Machine and Transfer learning techniques to the Parkinson's Disease detection through the voice biomarkers.
+summary: Bsc Thesis [spanish] graded with honours [9.8/10] about the application of Machine and Transfer learning techniques to the Parkinson's Disease detection through the voice biomarkers. Directed by Dr. [Cesar I. García-Osorio](https://scholar.google.com/citations?hl=en&user=X08I-_4AAAAJ&view_op=list_works&sortby=pubdate) and Dr. [Jose F. Díes-Pastor](https://orcid.org/0000-0001-5013-7505).
 tags:
 - Deep Learning
 - Speech Analysis
