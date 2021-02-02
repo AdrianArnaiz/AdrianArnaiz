@@ -1,6 +1,6 @@
 ---
-title: Parkinson Disease Detection trough Voice
-summary: Bsc Thesis graded with honours [9.8/10] about the application of Machine and Transfer learning techniques to the Parkinson's Disease detection through the voice biomarkers.
+title: Parkinson Disease Detection through Voice
+summary: Bsc Thesis [spanish] graded with honours [9.8/10] about the application of Machine and Transfer learning techniques to the Parkinson's Disease detection through the voice biomarkers.
 tags:
 - Deep Learning
 - Speech Analysis
