@@ -1,14 +1,19 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Deep Convolutional Autoencoders for reconstructing magnetic resonance images of the healthy brain
+summary: Msc Thesis graded with honours [9.6/10] about applying deep and representation learning techniques to reconstruct brain T1-weighted MRI and help in the Neuroimaging pipeline.
 tags:
-- Demo
-date: "2016-04-27T00:00:00Z"
+- Computer Vision
+- Representation Learning
+- Deep Learning
+date: "2021-01-19T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://example.org
+external_link: https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: MRI Reconstruction
   focal_point: Smart
+
+url_pdf: media/AdrianArnaiz_MRIAutoencoder.pdf
+url_slides: media/PPT_AdrianArnaiz_Deep Convolutional Autoencoders for reconstructing magnetic resonance images.pdf
 ---

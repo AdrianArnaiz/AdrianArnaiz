@@ -29,6 +29,14 @@ content:
     tag: '*'
   - name: Deep Learning
     tag: Deep Learning
+  - name: Speach Analysis
+    tag: Speach Analysis
+  - name: Computer Vision
+    tag: Computer Vision
+  - name: Representation Learning
+    tag: Representation Learning
+  - name: Transfer Learning
+    tag: Transfer Learning  
   - name: Other
     tag: Demo
 
