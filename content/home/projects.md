@@ -27,16 +27,22 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
   - name: Speech Analysis
     tag: Speech Analysis
+  - name: Deep Learning
+    tag: Deep Learning
   - name: Computer Vision
     tag: Computer Vision
   - name: Representation Learning
     tag: Representation Learning
   - name: Transfer Learning
-    tag: Transfer Learning  
+    tag: Transfer Learning
+  - name: GAN
+    tag: GAN
+  - name: Statistical Analysis  
+    tag: Statistical Analysis  
+  - name: Other
+    tag: Other 
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

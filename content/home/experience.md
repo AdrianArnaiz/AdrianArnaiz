@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Staff
-    company: University of Burgos - DATAHES GIR -martArt European Project
+    company: University of Burgos - DATAHES GIR - SmartArt European Project
     company_url: 'https://www.ubu.es/data-analysis-techniques-applied-health-environments-sciences-datahes-english'
     location: Burgos
     date_start: '2020-12-10'
