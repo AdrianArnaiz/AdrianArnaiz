@@ -1,6 +1,6 @@
 ---
 title: Other Projects on my GitHub
-summary: I have also open to public another projects like statistical analysis of COVID-19 timeseries or the application of GANs for model debiasing.
+summary: I have also open to public another projects like statistical analysis of COVID-19 timeseries, the application of GANs for model debiasing or a very brief collaboration in the development of UBUMLaaS a platform of Machine Learning as a service.
 tags:
 - Other
 - GAN
