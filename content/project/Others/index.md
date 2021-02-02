@@ -5,7 +5,7 @@ tags:
 - Other
 - GAN
 - Statistical Analysis
-date: "2021-01-19T00:00:00Z"
+date: "1997-01-23T11:17:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://github.com/AdrianArnaiz/
