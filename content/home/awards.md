@@ -10,12 +10,11 @@ headless: true
 weight: 45
 
 title: 'Awards'
-subtitle: 'asd'
 
 # Section design
 design:
   # Use a 1-column layout
-  columns: "1"
+  columns: "2"
   # Use a dark navy background with light text.
   background:
     color: '#0053D6'
