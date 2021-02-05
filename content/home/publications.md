@@ -36,10 +36,9 @@ design:
   #   4 = Citation (publication only)
   view: 4
 
-# FOR FILTERING
-#{{% callout note %}}
-#Quickly discover relevant content by [filtering publications](./publication/).
-#{{% /callout %}}
+# FILTERING
 ---
-
+{{% callout note %}}
+Search by [filtering publications](./publication/)... I know, I know, there are very few, but give me a little time.
+{{% /callout %}}
 
