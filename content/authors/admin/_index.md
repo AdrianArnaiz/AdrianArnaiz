@@ -88,9 +88,9 @@ highlight_name: false
 #```
 ---
 
-[**THIS PAGE IS STILL IN DEVELOPMENT (AS PUBLICATIONS OR BLOG POSTS), SOME INFORMATION IS THE DEFAULT GIVEN BY WOWCHEMY. SOON EVERYTHING IS GOING TO BE READY FOR ALL OF YOU**]
+[**THIS PAGE IS STILL IN DEVELOPMENT (AS bibtexs OR BLOG POSTS), SOME INFORMATION IS THE DEFAULT GIVEN BY WOWCHEMY. It is at 90% but SOON EVERYTHING IS GOING TO BE READY FOR ALL OF YOU**]
 
-I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my early academic career. I am working on the application of **ML** and **DL** methods to **life science**, and **network science** applied to social networks. However I am passionate about many other fields of **AI**. My passion for research and AI started in 2018 when I was awarded a research scholarship from Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the Bsc Extraordinary acadmic mention.
+I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my early academic career. I am working on the application of **ML** and **DL** methods to **life science**, and **network science** applied to social networks. However, I am passionate about many other fields of **AI**. My passion for research and AI started in 2018 when I was awarded a research scholarship from the Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the Bsc Extraordinary academic mention.
 
 I mainly have worked in the intersection of ML, DL and Medicine in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) both with outstanding results (*honours*). Besides, I (we) have also research in the Network Science field, leading to 2 conference papers. However, I am discovering new fields that also delight me, as **Reinforcement Learning** (graded with honors in the Master's subject) or **GNN**.
 
