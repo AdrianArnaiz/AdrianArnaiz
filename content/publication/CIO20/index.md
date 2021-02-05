@@ -32,7 +32,7 @@ summary: Graph statistical analysis to unveil the informal structure of the know
 tags:
 - Network Science
 
-featured: false
+featured: true
 
 links:
 - name: 14th CIO Homepage
@@ -53,7 +53,7 @@ url_video: ''
 image:
   caption: 'Brief Approach, Network and degree distribution analysis'
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
