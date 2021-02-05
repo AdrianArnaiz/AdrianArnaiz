@@ -16,9 +16,9 @@ design:
   # Use a 1-column layout
   columns: "2"
   # Use a dark navy background with light text.
-  background:
-    color: '#0053D6'
-    text_color_light: true
+  #background:
+  #  color: '#0053D6'
+  #  text_color_light: true
 ---
 
 ### Extraordinary Award of Degree in Computer Engineering 
