@@ -4,7 +4,7 @@ authors:
 - Jose L. Garrido‐Labrador
 - Jose M. Ramírez‐Sanz
 - admin 
-- Ahedo, V.
+- Virginia Ahedo
 - César I. García‐Osorio
 - Jose I. Santos
 - Jose M. Galán
