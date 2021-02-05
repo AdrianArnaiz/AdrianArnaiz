@@ -32,7 +32,7 @@ summary: Graph statistical analysis to unveil the informal structure of the know
 tags:
 - Network Science
 
-featured: true
+featured: false
 
 links:
 - name: 14th CIO Homepage
