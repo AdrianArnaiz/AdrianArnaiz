@@ -34,21 +34,21 @@ publication_types: ["1"]
 publication: In *6th Workshop on Complex Sociotechnical Systems*
 publication_short: In *VI COMSOTEC WORKSHOP*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Network Science
+tags: []
+#- Network Science
 
 # Display this page in the Featured widget?
 featured: false
 
 # Custom links (uncomment lines below)
 # links:
-- name: Comsotec Homepage
-  url: http://www.comsotec.org
+#- name: Comsotec Homepage
+#  url: http://www.comsotec.org
 url_pdf: ''
 url_code: ''
 url_dataset: ''
