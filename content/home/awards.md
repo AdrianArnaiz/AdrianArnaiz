@@ -18,8 +18,12 @@ design:
   columns: "1"
   # Use a dark navy background with light text.
   background:
-    color: 'navy'
+    gradient_start: '#0053D6'
+    gradient_end: '#FFFFFF'
     text_color_light: true
 ---
 
-Add any content to the body of the section here.
+### Extraordinary Award of Degree in Computer Engineering 
+
+- 📚 Award for the best student qualification record of the Computer Engineering
+Degree from the University of Burgos, academic year 18/19.*
