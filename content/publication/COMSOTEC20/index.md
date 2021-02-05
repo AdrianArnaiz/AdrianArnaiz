@@ -48,8 +48,7 @@ featured: false
 # Custom links (uncomment lines below)
 # links:
 - name: Comsotec Homepage
-  url: http://www.comsotec.org/
-
+  url: http://www.comsotec.org
 url_pdf: ''
 url_code: ''
 url_dataset: ''
