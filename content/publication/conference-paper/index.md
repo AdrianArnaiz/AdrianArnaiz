@@ -1,28 +1,13 @@
 ---
-title: "Unveiling the informal structure of an academic field in Spain. A network analysis."
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
+title: "An example conference paper"
 authors:
-- Jose L. Garrido‐Labrador
-- Jose M. Ramírez‐Sanz
-- admin 
-- Ahedo, V.
-- César I. García‐Osorio
-- Jose I. Santos
-- Jose M. Galán
-# Author notes (optional)
-
-#author_notes:
-#- "Equal contribution"
-#- "Equal contribution"
-
-date: "2020-02-13T00:00:00Z"
+- admin
+- Robert Ford
+date: "2013-07-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-02-13T00:00:00Z"
+publishDate: "2017-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -31,32 +16,29 @@ publishDate: "2020-02-13T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *6th Workshop on Complex Sociotechnical Systems*
-publication_short: In *VI COMSOTEC WORKSHOP*
+publication: In *Source Themes Conference*
+publication_short: In *STC*
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags:
+- Source Themes
+featured: true
 
-# Display this page in the Featured widget?
-featured: false
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
+links:
+- name: Custom Link
+  url: http://example.org
+url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_code: '#'
+url_dataset: '#'
+url_poster: '#'
 url_project: ''
 url_slides: ''
-url_source: 'http://www.im-creator.com/free/goonies/comsotec2020ubu'
-url_video: ''
+url_source: '#'
+url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -70,15 +52,15 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-# projects:
-# - example
+projects:
+- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+slides: example
 ---
 
 {{% callout note %}}
