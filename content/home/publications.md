@@ -39,6 +39,6 @@ design:
 # FILTERING
 ---
 {{% callout note %}}
-Search by [filtering publications](./publication/)... I know, I know, there are very few, but give me a little time.
+[Filter publications](./publication/)... I know, I know, there are very few, but give me a little time.
 {{% /callout %}}
 
