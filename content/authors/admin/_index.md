@@ -26,8 +26,8 @@ interests:
 - Linear Algebra
 - Multivariate Calculus and optimization
 - Probabilistic Machine Learning
-- [*ToDo*] Geometric Learning (GNN)
-- [*ToDo*] Neuroscience
+- Geometric Learning (GNN) [*ToDo*]
+- Neuroscience [*ToDo*]
 
 # Education to show in About widget
 education:
