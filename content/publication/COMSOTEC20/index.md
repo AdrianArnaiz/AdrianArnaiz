@@ -5,13 +5,13 @@ title: "Unveiling the informal structure of an academic field in Spain. A networ
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Ramírez‐Sanz, J.M
-- Garrido‐Labrador, J.L.
-- Ahedo, V.
+- Jose L. Garrido‐Labrador
+- Jose M. Ramírez‐Sanz
 - admin 
-- García‐Osorio, C.
-- Santos, J.I
-- Galán, J.M.
+- Ahedo, V.
+- César I. García‐Osorio
+- Jose I. Santos
+- Jose M. Galán
 # Author notes (optional)
 
 #author_notes:
@@ -31,7 +31,7 @@ publishDate: "2020-02-13T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Workshop on Complex Sociotechnical Systems*
+publication: In *6th Workshop on Complex Sociotechnical Systems*
 publication_short: In *VI COMSOTEC WORKSHOP*
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
@@ -42,7 +42,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
