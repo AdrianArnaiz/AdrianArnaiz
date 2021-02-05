@@ -73,3 +73,5 @@ image:
 {{% callout note %}}
 Click the *Cite* button above to show and copy bibtex reference.
 {{% /callout %}}
+
+## References
