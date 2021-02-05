@@ -21,9 +21,13 @@ interests:
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning
-- Reinforcement Learning
 - Network Science
-- Geometric Learning (GNN)
+- Reinforcement Learning
+- Linear Algebra
+- Multivariate Calculus and optimization
+- Probabilistic Machine Learning
+- ToDo: Geometric Learning (GNN)
+- ToDo: Neuroscience (GNN)
 
 # Education to show in About widget
 education:
