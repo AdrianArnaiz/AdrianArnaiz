@@ -9,10 +9,10 @@ summary: Compilation of Artificial intelligence courses, slides, videos, books a
 projects: []
 
 # Date published
-date: "2021-02-11T20:24:00Z"
+date: "2021-02-11T21:24:00Z"
 
 # Date updated
-lastmod: "2021-02-11T20:24:00Z"
+# lastmod: "2021-02-11T20:24:00Z"
 
 # Is this an unpublished draft?
 draft: false
