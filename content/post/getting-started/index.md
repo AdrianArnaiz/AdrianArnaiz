@@ -9,10 +9,10 @@ summary: Welcome 👋 We know that first impressions are important, so we've pop
 projects: []
 
 # Date published
-date: "2016-04-20T00:00:00Z"
+date: "2021-04-20T00:00:00Z"
 
 # Date updated
-lastmod: "2020-12-13T00:00:00Z"
+# lastmod: "2020-12-13T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: true
