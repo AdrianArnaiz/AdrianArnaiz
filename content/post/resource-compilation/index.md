@@ -9,16 +9,16 @@ summary: Compilation of Artificial intelligence courses, slides, videos, books a
 projects: []
 
 # Date published
-date: "2021-02-11T20:32:00Z"
+date: "2021-02-11T00:00:00Z"
 
 # Date updated
-lastmod: "2021-02-11T20:32:00Z"
+lastmod: "2021-02-11T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
 
 # Show this page in the Featured widget?
-featured: true
+featured: false
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
