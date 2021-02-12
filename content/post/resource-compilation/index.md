@@ -34,12 +34,9 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Follow
-  url: https://github.com/AdrianArnaiz/ai-resources-compilation
-- name: Github
+  name: Star Github
   url: https://github.com/AdrianArnaiz/ai-resources-compilation
 
-url_code: 'https://github.com/AdrianArnaiz/ai-resources-compilation'
 
 authors:
 - admin
@@ -153,7 +150,7 @@ $$P(S_{t+1}\mid S_t) = P(S_{t+1}\mid S_1, ..., S_N)$$
  - | *[Blog](https://medium.com/@michael.bronstein) - [Video1](https://www.youtube.com/watch?v=ptcBmEHDWds) - [Video2](https://www.youtube.com/watch?v=8kTxTX0eBRA) - [Video3](https://www.youtube.com/watch?v=PLGcx65MhCc)* | **Michael Bronstein Blog**
  - | *[Course](https://www.cl.cam.ac.uk/teaching/2021/R250/) soon* |  **Cambridge Course of ML and GNN**: resources not available yet
  - Aforementioned:
-	-* | [Course](https://atcold.github.io/pytorch-Deep-Learning/) - [Code](https://github.com/Atcold/pytorch-Deep-Learning)* | **Yann LeCun & Alfredo Canziani course of DL**
+	  - | *[Course](https://atcold.github.io/pytorch-Deep-Learning/) - [Code](https://github.com/Atcold/pytorch-Deep-Learning)* | **Yann LeCun & Alfredo Canziani course of DL**
     - | *[Course](http://uvadlc.github.io/)* | **University of Amsterdam DL Course**: DL, EBM, GNN
  - | *[Code](https://github.com/rusty1s/pytorch_geometric)* | **Pytorch Geometric**
  - | *[Paper](https://arxiv.org/abs/2012.08752)* | **Review paper, Yu Zhou et. al.: *Graph Neural Networks: Taxonomy, Advances and Trends***
