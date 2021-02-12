@@ -12,7 +12,7 @@ summary: Compilation of Artificial intelligence courses, slides, videos, books a
 date: "2021-02-12T09:55:00Z"
 
 # Date updated
-publishDate: "2021-02-12T09:00:00Z"
+publishDate: "2021-02-12T09:56:00Z"
 
 # Is this an unpublished draft?
 draft: false
