@@ -34,7 +34,7 @@ image:
 links:
 - icon: github
   icon_pack: fab
-  name: Star Github
+  name: Published on Github
   url: https://github.com/AdrianArnaiz/ai-resources-compilation
 
 
@@ -79,9 +79,7 @@ Resources are in continous growth.
 Contributions, suggestions are corrections are very welcome.
 {{% /callout %}}
 
-**Table of Contents**
-
-| Topics |
+| Table of Contents |
 |--------|
 | [Linear Algebra and Calculus](#linear-algebra-and-calculus) |
 | [Statistics](#statistics) |

@@ -10,7 +10,7 @@ headless: true
 weight: 60
 
 title: Recent Posts
-subtitle:
+subtitle: Thoughts, explanations or tutorials made by myself
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -40,4 +40,4 @@ design:
   view: 2
 ---
 
-{{< hl >}}[**All Posts**](https://adrian-arnaiz.netlify.app/post){{< /hl >}}
+{{< hl >}}[**Go to All Posts**](https://adrian-arnaiz.netlify.app/post){{< /hl >}}
