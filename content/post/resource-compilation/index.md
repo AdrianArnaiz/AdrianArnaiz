@@ -31,6 +31,16 @@ image:
   #focal_point: ""
   #preview_only: false
 
+links:
+- icon: github
+  icon_pack: fab
+  name: Follow
+  url: https://github.com/AdrianArnaiz/ai-resources-compilation
+- name: Github
+  url: https://github.com/AdrianArnaiz/ai-resources-compilation
+
+url_code: 'https://github.com/AdrianArnaiz/ai-resources-compilation'
+
 authors:
 - admin
 
