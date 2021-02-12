@@ -77,7 +77,7 @@ The best way to get to the cutting-edge level of any topic is being aware of the
 {{% callout note %}}
 Resources are in continous ampliation. 
 Contributions, suggestions are corrections are very welcome.
-{{% /callout %}
+{{% /callout %}}
 
 **Table of Contents**
 
