@@ -9,13 +9,13 @@ summary: Compilation of Artificial intelligence courses, slides, videos, books a
 # projects: []
 
 # Date published
-#date: "2021-02-12T09:34:00Z"
+date: "2021-02-12T09:55:00Z"
 
 # Date updated
-# lastmod: "2021-02-11T20:24:00Z"
+publishDate: "2021-02-12T09:00:00Z"
 
 # Is this an unpublished draft?
-#draft: false
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
