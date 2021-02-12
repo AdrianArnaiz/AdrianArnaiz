@@ -3,7 +3,10 @@ title: Compilation of AI resources, from scratch to hot topics
 subtitle: Compilation of courses, slides, videos, books and code about broad AI topics
 
 # Summary for listings and search engines
-summary: Compilation of Artificial intelligence courses, slides, videos, books and code about broad AI topics. Maths, Linear Algebra and Calculus, going through Statistics, specific and also broad Machine and Deep Learning Courses and finally leading to cutting-edge areas like Graph Neural Networks, Reinforcement Learning or Neuroscience
+summary: Compilation of Artificial intelligence courses, slides, videos, books and code about broad AI topics. Maths, Linear Algebra and Calculus, going through Statistics, specific and also broad Machine and Deep Learning Courses and finally leading to cutting-edge areas like Graph Neural Networks, Reinforcement Learning or Neuroscience.
+
+math: true
+diagram: true
 
 # Link this post with a project
 # projects: []
