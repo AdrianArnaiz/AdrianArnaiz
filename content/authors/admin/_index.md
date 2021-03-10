@@ -55,7 +55,7 @@ social:
   link: https://orcid.org/0000-0001-5567-801X
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
-  link: https://orcid.org/0000-0001-5567-801X
+  link: https://scholar.google.com/citations?hl=es&user=M50V8k4AAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/AdrianArnaiz
