@@ -22,12 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: PhD Student
+    company: ELLIS (European Lab for Learning & Intelligent Systems) & Max Planck SWS
+    company_url: 'https://ellis.eu/'
+    location: Alicante
+    date_start: '2021-11-01'
+    date_end: ''
+    description: ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and MPI-SWS with Dr. Nuria Oliver, Dr. Manuél Gómez Rodríguez and Dr. Francisco Escolano as advisors.
+
   - title: Research Staff
     company: University of Burgos - DATAHES GIR - SmartArt European Project
     company_url: 'https://www.ubu.es/data-analysis-techniques-applied-health-environments-sciences-datahes-english'
     location: Burgos
     date_start: '2020-12-10'
-    date_end: ''
+    date_end: '2021-08-10'
     description: |2-
     
         * DATAHES: Data Analysis Techniques Applied in Health Environments Sciences.

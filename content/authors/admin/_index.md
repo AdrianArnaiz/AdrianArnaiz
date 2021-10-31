@@ -18,20 +18,19 @@ bio: Ai researcher @ UBU -- ML/DL/RL/NS enthusiast and its intersection with Med
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Machine Learning
+- AI & ML
 - Deep Learning
-- Network Science
+- Network Science and Graph Neural Networks
 - Reinforcement Learning
-- Linear Algebra
-- Multivariate Calculus and optimization
 - Probabilistic Machine Learning
-- Geometric Learning (GNN) [*ToDo*]
 - Neuroscience [*ToDo*]
 
 # Education to show in About widget
 education:
   courses:
+  - course: ELLIS PhD student in ML
+    institution: ELLIS Alicante and MPI-SWS
+    year: Ongoing
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
     year: 2021
@@ -92,13 +91,23 @@ highlight_name: false
 #```
 
 # [**THIS PAGE IS STILL IN DEVELOPMENT (AS bibtexs OR BLOG POSTS), SOME INFORMATION IS THE DEFAULT GIVEN BY WOWCHEMY. It is at 90% but # SOON EVERYTHING IS GOING TO BE READY FOR ALL OF YOU**]
----
 
+I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my PhD at ELLIS Network. I am working on the application of **ML** and **DL** methods to **life science**, and **network science** applied to social networks. However, I am passionate about many other fields of **AI**. My passion for research and AI started in 2018 when I was awarded a research scholarship from the Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the BSc Extraordinary academic mention.
 
-I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my early academic career. I am working on the application of **ML** and **DL** methods to **life science**, and **network science** applied to social networks. However, I am passionate about many other fields of **AI**. My passion for research and AI started in 2018 when I was awarded a research scholarship from the Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the Bsc Extraordinary academic mention.
-
-I mainly have worked in the intersection of ML, DL and Medicine in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) both with outstanding results (*honours*). Besides, I (we) have also research in the Network Science field, leading to 2 conference papers. However, I am discovering new fields that also delight me, as **Reinforcement Learning** (graded with honors in the Master's subject) or **GNN**.
+I mainly have worked in the intersection of ML, DL and Medicine in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) both with outstanding results (*honours*). Besides, I (we) have also research in the Network Science field, leading to some conference papers. However, I am discovering new fields that also delight me, as **Reinforcement Learning** (graded with honors in the Master's subject) or **GNN**.
 
 Although I have mostly worked in AI applications, I am also keen on deepening in theoretical concepts of each topic, with a great interest in the most intrinsic and mathematical operation of the algorithms *enjoying* when it makes me work up a sweat. Therefore, I am also enthusiastic about fully understand the essence of any topic I worked on which turns me very eager to learn, and improves my research capacity both reviewing the SoTA and proposing new perspectives.
 
 Last but not least, I love to spend time playing guitar :guitar: and clarinet and also sweat a bit cycling :bike: and playing soccer :soccer:.
+
+---
+
+I am a Spanish boy born in 97. I am a Computer Scientist, with a Master's in Data Science, focused on my PhD in ML at [ELLIS lab](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) and I will visit [MPI-SWS](https://www.mpi-sws.org/) as part of the [ELLIS PhD & PostDoc program](https://ellis.eu/phd-postdoc). I am advised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/) and [Dr. Francisco Escolano](https://scholar.google.com/citations?user=pAe4Pf8AAAAJ&hl=es).
+
+ I've mainly worked on the application of **ML** and **DL** methods to **life science**, and **network science** and **graph theory**, as in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) - both with outstanding results (*honours*) -  and leading to some conference papers as well. However, I am passionate about many other fields of **AI**, thus, we will sharpen the main topic of the PhD in the coming months. My passion for research and AI started in 2018 when I was awarded a research scholarship from the Spanish Ministry of Education in order to carry out my BSc thesis at [ADMIRABLE](https://admirable-ubu.es/) Burgos’ University research group which, among more works, led me to get the BSc Extraordinary academic mention. I've also been awarded in 2021 a Spanish FPU fellowship, which I had to decline due to scholarship incompatibilities. 
+
+Although I have mostly worked in AI applications, I am also keen on deepening in theoretical concepts of each topic, with a great interest in the most intrinsic and mathematical implications of the algorithms *enjoying* when it makes me work up a sweat. 
+
+Last but not least, I love to spend time playing guitar :guitar: and clarinet and also sweat a bit cycling :bike: and playing soccer :soccer:.
+
+
