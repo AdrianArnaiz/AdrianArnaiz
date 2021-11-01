@@ -20,6 +20,9 @@ design:
   #  color: '#0053D6'
   #  text_color_light: true
 ---
+### FPU PhD Fellowship (Declined) 
+2021 - ***Spanish Goverment - Universities Ministry***
+> 📚 *Doctoral Fellowship given by Spanish Goverment. FPU20/03687. Grants for pre-doctoral contracts for the completion of doctoral theses, in Spanish Universities.*
 
 ### Extraordinary Award of Degree in Computer Engineering 
 2019 - ***Council of the University of Burgos***
@@ -29,6 +32,10 @@ design:
 2019 - ***OTRI (Information Transfer Office of Burgos University)***
 > 💡 *Project awarded: {{< hl >}}BSc Thesis{{< /hl >}}:Use of bio-markers extracted from the voice for the detection of Parkinson. Financial aid and one year of advice for the project.*
 
+### Undergraduate Research Fellowship 
+2019 - ***University of Burgos***
+> 📚 *Assistant research Fellowship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Research in the project 'Use of biomarkers extracted from the voicefor the detection of Parkinson', which is my final degree project (BSc Thesis), evaluated with honors.*
+
 ### [3rd place in Spin-Up CyL Contest](https://diariodevalladolid.elmundo.es/articulo/innovadores/poli-detecta-drogas-volante/20170314112648216192.html)
 2017 - ***Spin Up - Junior Achievement***
 > 💡 *3 months of advice and access to conferences in Google for Startups Campus*
@@ -36,7 +43,7 @@ design:
 *************************
 
 #### 8 out of 10 MSc Subjects graded with honours, included Thesis
-> GPA: 9.7
+> GPA: 9.7 / 10
 
 #### 10 out of 39 BSc Subjects graded with honours, included Thesis
-> GPA: 8.9
+> GPA: 8.9 / 10
