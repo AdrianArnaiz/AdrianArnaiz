@@ -19,6 +19,7 @@ links:
   url: https://paperswithcode.com/paper/deep-convolutional-autoencoders-for
 url_pdf: http://hdl.handle.net/10609/127059
 url_slides: media/PPT_AdrianArnaiz_Deep Convolutional Autoencoders for reconstructing magnetic resonance images.pdf
+url_poster: media/PosterMScTheis.pdf
 
 ##Si añadimos algo abajo creamos una página interna
 ---
