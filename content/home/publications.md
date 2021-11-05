@@ -39,6 +39,6 @@ design:
 # FILTERING
 ---
 {{% callout note %}}
-[Filter publications](./publication/)... I know, I know, there are very few, but give me a little time.
+[Filter publications](./publication/).
 {{% /callout %}}
 
