@@ -10,11 +10,11 @@ role: Artificial Intelligence Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Burgos University
-  url: https://www.ubu.es/
+- name: ELLIS Alicante
+  url: https://ellisalicante.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ai researcher @ UBU -- ML/DL/RL/NS enthusiast and its intersection with Medicine.
+bio: ELLIS PhD Student in Fairness ML at ELLIS.
 
 # Interests to show in About widget
 interests:
