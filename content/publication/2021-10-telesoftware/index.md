@@ -21,7 +21,7 @@ authors:
 #- "Equal contribution"
 
 date: "2021-10-11T00:00:00Z"
-doi: ""
+doi: "10.3389/fneur.2021.745917"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-10-11T00:00:00Z"

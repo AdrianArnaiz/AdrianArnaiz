@@ -11,7 +11,7 @@ authors:
 - Jose M. Galán
 
 date: "2021-06-09T00:00:00Z"
-doi: ""
+doi: "10.5281/zenodo.5109480"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-06-09T00:00:00Z"
@@ -43,6 +43,8 @@ featured: false
 links:
 - name: 15th CIO Homepage
   url: https://www3.ubu.es/15icieim/index.html
+- name: doi
+  url: https://dx.doi.org/10.5281/zenodo.5109480
 url_pdf: ''
 url_code: ''
 url_dataset: ''
