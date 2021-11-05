@@ -51,7 +51,7 @@ featured: false
 # Custom links (uncomment lines below)
 links:
 - name: doi
-  url: 10.3389/fneur.2021.745917
+  url: https://doi.org/10.3389/fneur.2021.745917
 url_pdf: 'https://www.frontiersin.org/articles/10.3389/fneur.2021.745917/pdf'
 url_code: 'https://github.com/fisubu/fisubu.github.io'
 url_dataset: ''
