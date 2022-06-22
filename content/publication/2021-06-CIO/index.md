@@ -10,21 +10,21 @@ authors:
 - Jose I. Santos
 - Jose M. Galán
 
-date: "2021-06-09T00:00:00Z"
-doi: "10.5281/zenodo.5109480"
+date: "2022-01-31T00:00:00Z"
+doi: "https://doi.org/10.4995/ijpme.2022.16666"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-06-09T00:00:00Z"
+publishDate: "2022-06-06T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the 15th International Conference on Industrial Engineering and Industrial Management and XXV Congreso de Ingeniería de Organización*
-publication_short: In *15th CIO Proceedings*
+publication: In **International Journal of Production Management and Engineering**. 2022, V. 10, n. 1, p. 65-76
+publication_short: In *IJPME*
 
 abstract: Understanding the scientific and social structure of a discipline is a fundamental aspect for scientific evaluation processes, identifying trends and niches, and balancing the trade-off between exploitation and exploration re-search. This article aims to analyze the scientific structure of the knowledge area of business organization in Spain through the scientific production of doctoral theses by means of complex networks analysis tools. Our contribution formalizes the social network of co-participation in thesis examining committees and thesis supervision. This network has a modular structure that is partially explained by thematic specialization in different sub-disciplines. We also analyze the interdis-ciplinary structure of the discipline by means of a bipartite network of theses and thesis descriptors, which enables the characterization of affinity levels between fields, re-search poles and thematic clusters. Our results have implications for the scientific evaluation and formal definition of related fields.
 
@@ -41,17 +41,13 @@ tags:
 featured: false
 
 links:
-- name: 15th CIO Homepage
-  url: https://www3.ubu.es/15icieim/index.html
-- name: doi
-  url: https://dx.doi.org/10.5281/zenodo.5109480
-url_pdf: ''
+url_pdf: 'http://hdl.handle.net/10259/6385'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://cioxxv.pressbooks.com/chapter/mapping-the-scientific-structure-of-organization-and-management-of-enterprises-using-complex-networks/' 
+url_source: 'https://polipapers.upv.es/index.php/IJPME/article/view/16666' 
 # '#' para ir a la pagina inicial
 url_video: ''
 
