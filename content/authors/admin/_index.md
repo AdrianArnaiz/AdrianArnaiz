@@ -43,31 +43,31 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/arnaiztech
-- icon: orcid 
-  icon_pack: ai
-  link: https://orcid.org/0000-0001-5567-801X
 - icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=es&user=M50V8k4AAAAJ
+- icon: orcid 
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-5567-801X
 - icon: github
   icon_pack: fab
   link: https://github.com/AdrianArnaiz
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/adrian-arnaiz-rodriguez/?locale=en_US
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/arnaiztech
+- icon: envelope
+  icon_pack: fas
+  link: '/#contact'
   
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-#- icon: cv
-#  icon_pack: ai
-# link: media/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
