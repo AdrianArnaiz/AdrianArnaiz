@@ -34,8 +34,8 @@
   weight = 52
 
 [[main]]
-  name = "Organizatiom"
-  url = "#Dissemination"
+  name = "Organization"
+  url = "#Organization"
   weight = 55
 
 [[main]]
