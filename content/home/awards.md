@@ -20,6 +20,10 @@ design:
   #  color: '#0053D6'
   #  text_color_light: true
 ---
+### Outstanding Reviewer ICML 2022](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)
+2022 - ***International Conference on Machine Learning 2022**
+> 💡 *Selected as Outstanding Reviewers of ICML 2022 (Top 10 %)*
+
 ### FPU PhD Fellowship (Declined) 
 2021 - ***Spanish Goverment - Universities Ministry***
 > 📚 *Doctoral Fellowship given by Spanish Goverment. FPU20/03687. Grants for pre-doctoral contracts for the completion of doctoral theses, in Spanish Universities.*
