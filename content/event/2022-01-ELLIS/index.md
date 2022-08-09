@@ -1,5 +1,5 @@
 ---
-title: "Fairness in Machine Learning: From introduction to current approaches"
+title: "[ELLIS Talks - University of Alicante] Fairness in Machine Learning: From introduction to current approaches"
 
 event: ELLIS Talks
 event_url: https://twitter.com/iuii/status/1480555962821971973
