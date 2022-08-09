@@ -21,7 +21,7 @@ design:
   #  text_color_light: true
 ---
 ### [Outstanding Reviewer ICML 2022](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)
-2022 - ***International Conference on Machine Learning 2022**
+2022 - ***International Conference on Machine Learning 2022***
 > 💡 *Selected as Outstanding Reviewer of ICML 2022 (Top 10 %)*
 
 ### FPU PhD Fellowship (Declined) 

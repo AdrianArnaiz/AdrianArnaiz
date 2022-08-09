@@ -6,7 +6,7 @@ title: Adrián Arnaiz-Rodríguez
 superuser: true
 
 # Role/position/tagline
-role: Artificial Intelligence Researcher
+role: Artificial Intelligence PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,23 +14,22 @@ organizations:
   url: https://ellisalicante.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: ELLIS PhD Student in Fairness ML at ELLIS.
+bio: ELLIS PhD Student in Fairness ML at ELLIS Alicante.
 
 # Interests to show in About widget
 interests:
-- AI & ML
-- Deep Learning
-- Network Science and Graph Neural Networks
-- Reinforcement Learning
-- Probabilistic Machine Learning
-- Neuroscience [*ToDo*]
+- AI & ML for Decision Making
+- Algorithmic Fairness
+- Graph Neural Networks and Network Science
+- Causality
+- Deep and Reinforcement Learning
 
 # Education to show in About widget
 education:
   courses:
   - course: ELLIS PhD student in ML
     institution: ELLIS Alicante and MPI-SWS
-    year: Ongoing
+    year: 1st year
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
     year: 2021
