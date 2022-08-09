@@ -1,5 +1,5 @@
 ---
-title: "Mapping the scientific structure of Organization and management of enterprises using complex networks"
+title: "DiffWire: Inductive Graph Rewiring via the Lovász Bound"
 authors:
 - admin
 - Ahmed Begga
