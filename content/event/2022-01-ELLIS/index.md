@@ -39,7 +39,7 @@ links:
   url: https://twitter.com/arnaiztech
 url_code: ""
 url_pdf: ""
-#url_slides: "static\media\Talk_Fairness_UA.pdf"
+url_slides: "media\Talk_Fairness_UA.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
