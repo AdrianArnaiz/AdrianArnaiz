@@ -39,7 +39,7 @@ links:
   url: https://twitter.com/arnaiztech
 url_code: ""
 url_pdf: ""
-url_slides: "static\media\Talk_Fairness_UA.pdf"
+#url_slides: "static\media\Talk_Fairness_UA.pdf"
 url_video: ""
 
 # Markdown Slides (optional).
@@ -58,8 +58,5 @@ url_video: ""
 # - example
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
 
 Long Talk after 2 months of PhD. The talk in focused on giving a long introduction to the sociotechnical problem of Algorithmic Fairness in Decision Making. This-90 slides presentaion covers broadly the motivation, previous approaches, current approaches and open challenges of the field. In addition, it also cover some sociological and historical concerns about this field, wich is obvoiusly interdisciplinary given the deep importance that it has in ethical and sociological problems.
