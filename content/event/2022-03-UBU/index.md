@@ -1,7 +1,7 @@
 ---
 title: "[University of Burgos] A Fairness perspective in algorithmic decision-making (Spanish)"
 
-event: ELLIS Talks
+event: PhD Seminars in Industrial Technologies and Civil Engineering
 event_url: https://www.ubu.es/agenda/seminario-fairness-en-la-toma-de-decisiones-algoritmica
 
 location: University of Burgos - Virtual
