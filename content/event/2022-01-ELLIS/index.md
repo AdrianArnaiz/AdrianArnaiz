@@ -10,7 +10,7 @@ address:
   city: Alicante
   country: Spain
 
-summary: A introductory sociotechnical talk to Algorithmic Fairness
+summary: An introductory sociotechnical tutorial to Algorithmic Fairness
 abstract: "Machine learning models are becoming the main tools for addressing complex societal problems and are also increasingly deployed to make or support decisions about individuals in many consequential areas of their lives, from justice to healthcare. Therefore, the ethical implications of such decisions, including concepts such as privacy, transparency, accountability, reliability, autonomy, and fairness need to be taken into account. Specifically, we will explain the current landscape in AI Fairness, from the sources of the bias and different algorithmic fairness approaches to their limitations and cutting-edge approaches. The main goal is to provide a general overview of what is Fairness as well as the main research challenges that the community has to address **from a sociotechnical** perspective."
 
 # Talk start and end times.
