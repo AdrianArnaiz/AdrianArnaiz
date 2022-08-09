@@ -7,9 +7,9 @@ widget: blank
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 55
 
-title: 'Voluntary work and Scientific Disssemination'
+title: 'Voluntary work and Scientific Dissemination'
 
 # Section design
 design:
