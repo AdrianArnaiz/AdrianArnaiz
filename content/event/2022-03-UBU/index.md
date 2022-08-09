@@ -17,8 +17,8 @@ En concreto, explicaremos el panorama actual de la equidad en la IA, desde las f
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-03-03T10:00:00Z"
-date_end: "2022-03-03T13:00:00Z"
+date: "2022-03-03T11:00:00Z"
+date_end: "2022-03-03T12:40:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
