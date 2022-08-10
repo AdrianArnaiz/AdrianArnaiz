@@ -34,13 +34,6 @@ design:
 * Occasional collaborator in Lightly AI PyTorch-based library for Self-Supervised Learing. Main contributor of Lightly version 1.1.2
 * More open source codes in GitHub: applications, experiments and data analysis
 
-{{< spoiler text="**Click to view the spoiler**" >}}
-***You found me!***
-* asd
-* asdad
-* asdd
-{{< /spoiler >}}
-
 ```mermaid
 gantt
   dateFormat  YYYY-MM-DD
