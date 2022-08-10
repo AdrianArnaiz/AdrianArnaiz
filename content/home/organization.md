@@ -22,16 +22,14 @@ design:
 ---
 
 
-## Scientific organization
-* Head of organization of **ELLIS Doctoral Symposium 2022** Alicante, Sep 2022
-* Moderator of Qualcomm+ELLIS Reading Group Session about GNN+HCML Online, Feb 2022
-  * Round table: Pim de Haan, Carlos Castillo, Efstatios Gavves and Manuel Gómez Rodríguez
-* Volunteer at NeurIPS Workshop "Human-Centered AI" Virtual, Dec 2021
+**Scientific organization**
+* ==Head== of organization of **ELLIS Doctoral Symposium 2022** - Alicante, Sep 2022 
+* ==Head== of **ELLIS HCML Reading Group**: guest sessions and round tables - Virtual, bi-weekly sessions
+* ==Moderator== of **Qualcomm+ELLIS Reading Group Session about GNN+HCML** - Online, Feb 2022
+  > Round table: Pim de Haan, Carlos Castillo, Efstatios Gavves and Manuel Gómez Rodríguez
+* ==Volunteer== at **NeurIPS Workshop "Human-Centered AI"** - Virtual, Dec 2021
 
-## Science communication
-* Head of **ELLIS HCML Reading Group**: guest sessions and round tables bi-weekly sessions
-
-## Open Source software
+**Open Source software**
 * Open source code from BSc and MSc final projects and all published papers
 * Occasional collaborator in Lightly AI PyTorch-based library for Self-Supervised Learing. Main contributor of Lightly version 1.1.2
 * More open source codes in GitHub: applications, experiments and data analysis
