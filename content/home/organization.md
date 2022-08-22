@@ -23,11 +23,11 @@ design:
 
 
 **Scientific organization**
-* {{< hl >}}Head{{< /hl >}} of organization of **ELLIS Doctoral Symposium 2022** - *Alicante, Sep 2022*
-* {{< hl >}}Head{{< /hl >}} of **ELLIS HCML Reading Group**: guest sessions and round tables - *Virtual, bi-weekly sessions*
-* {{< hl >}}Moderator{{< /hl >}} of **Qualcomm+ELLIS Reading Group Session about GNN+HCML** - *Online, Feb 2022*
+* {{< hl >}}Head{{< /hl >}} of organization of **[ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/)** - *Alicante, Sep 2022*
+* {{< hl >}}Head{{< /hl >}} of organization of **[ELLIS HCML Reading Group](https://ellisalicante.org/en/readingGroup)**: guest sessions and round tables - *Virtual, bi-weekly sessions*
+* {{< hl >}}Moderator{{< /hl >}} of **[Qualcomm+ELLIS Reading Group Session about GNN+HCML](https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research)** - *Online, Feb 2022*
   > Round table: Pim de Haan, Carlos Castillo, Efstatios Gavves and Manuel Gómez Rodríguez
-* {{< hl >}}Volunteer{{< /hl >}} at **NeurIPS Workshop "Human-Centered AI"** - *Virtual, Dec 2021*
+* {{< hl >}}Volunteer{{< /hl >}} at **[NeurIPS Workshop "Human-Centered AI"](https://sites.google.com/view/hcai-human-centered-ai-neurips/home)** - *Virtual, Dec 2021*
 
 **Open Source software**
 * Open source code from BSc and MSc final projects and all published papers
