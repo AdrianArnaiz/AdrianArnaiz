@@ -31,11 +31,11 @@ image:
   #focal_point: ""
   #preview_only: false
 
-#links:
-#- icon: info
-#  icon_pack: fas
-#  name: Official ELLIS Page Event
-#  url: "https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research"
+links:
+- icon: info
+  icon_pack: fas
+  name: Official ELLIS Page Event
+  url: "https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research"
 
 
 authors:
@@ -54,6 +54,20 @@ categories:
 ---
 
 # Graph Neural Networks and Human-Centric ML intersection
+
+{{% callout note %}}
+TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It is the most human-like data type, it captures complex relationship and its interpretable!
+{{% /callout %}}
+
+{{< hl >}}The past 17th February of 2022, I and my ELLIS Alicante collegues organized a 2-hour Guest Session in the ELLIS HCML Reading Group in which I was moderator of the main panel. This session was organized together with **Qualcomm AI Research**. **The main purpose was to discuss the intersection between Graph Neural Networks and Human-Centric Machine Learning** in a panel made up by distinguished scientist from ELLIS and Qualcomm AI Research,  which **I organized and moderated**.{{< /hl >}} 
+
+> - Speakers : Pim de Haan [^1] , Manuel Gómez Rodríguez [^2], Carlos Castillo [^3] and Efstratios Gavves [^4].
+> - Moderator: Adrián Arnaiz Rodríguez
+> - Round table about the intersection of Graph Neural Networks and Human-Centric Machine Learning, with the participation of Pim de Hann, Manuel Gómez-Rodríguez, Carlos Castillo and Efstratios Gavves.
+[^1] Qualcomm AI Research, University of Amsterdam, ELLIS PhD Student
+[^2] Max Plack Institute for Software Systems, ELLIS Fellow
+[^3] Universitat Pompeu Fabra, Ellis Fellow
+[^4] Qualcomm AI Research, University of Amsterdam, ELLIS Scholar
 
 ## GNN and HCML intersection 
 
