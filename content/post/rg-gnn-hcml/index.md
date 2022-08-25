@@ -26,16 +26,16 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'From Chouldechova, A., & Roth, A. (2020).'
+  caption: 'From Chouldechova, A., and Roth, A. (2020).'
   placement: 3
   #focal_point: ""
   #preview_only: false
 
-links:
-- icon: info
-  icon_pack: fas
-  name: Official ELLIS Page Event
-  url: "https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research"
+#links:
+#- icon: info
+#  icon_pack: fas
+#  name: Official ELLIS Page Event
+#  url: "https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research"
 
 
 authors:
