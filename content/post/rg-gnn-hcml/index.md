@@ -53,23 +53,7 @@ categories:
 - HCML
 ---
 
-# Compilation AI Resources from Linear Algebra to GNN, RL or NeuroScience 
-
-{{% callout note %}}
-TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It is the most human-like data type, it captures complex relationship and its interpretable!
-{{% /callout %}}
-
-{{< hl >}}The past 17th February of 2022, I and my ELLIS Alicante collegues organized a 2-hour Guest Session in the ELLIS HCML Reading Group in which I was moderator of the main panel. This session was organized together with **Qualcomm AI Research**. **The main purpose was to discuss the intersection between Graph Neural Networks and Human-Centric Machine Learning** in a panel made up by distinguished scientist from ELLIS and Qualcomm AI Research,  which **I organized and moderated**.{{< /hl >}} 
-
-> - Speakers : Pim de Haan [^1] , Manuel Gómez Rodríguez [^2], Carlos Castillo [^3] and Efstratios Gavves [^4].
-> - Moderator: Adrián Arnaiz Rodríguez
-> - Round table about the intersection of Graph Neural Networks and Human-Centric Machine Learning, with the participation of Pim de Hann, Manuel Gómez-Rodríguez, Carlos Castillo and Efstratios Gavves.
-
-[^1] Qualcomm AI Research, University of Amsterdam, ELLIS PhD Student
-[^2] Max Plack Institute for Software Systems, ELLIS Fellow
-[^3] Universitat Pompeu Fabra, Ellis Fellow
-[^4] Qualcomm AI Research, University of Amsterdam, ELLIS Scholar
-
+# Graph Neural Networks and Human-Centric ML intersection
 
 ## GNN and HCML intersection 
 
@@ -86,7 +70,7 @@ Then, we went beyond the paper to more classical Network Science and Graph ML sc
 One example of the classical Algorithmic Fairness concepts moved into GNN is the well- known Adversarial Debiasing [7], which has been applied into the task of node and graph embed- dings [8, 9] for learning fair representations. However, there are more examples in the literature which contribute with more advanced approaches and suited to the Graph’s scenario, e.g., Individ- ual Fairness in Ranking approaches [10], fair embeddings based on Walk techniques [11, 12], or causal approaches both for node classification (robustness) and XAI [13, 14, 15]. Briefly, most of the potential biases in graph come from the structure of the graph in terms of nodes, edges and features, (V, E, G), and the propagation of the information that we can do using message-passing along the graph.
 The message-passing method, which is the main strength of current Graph Theory landscape,
  
-can be also a big limitation. The aggregation of information along all the network can lead us to make more accurate and robust predictions, but it can be also the source of many problems. First, the message-passing only adds value if the structure of the network is related with the task we want to solve, otherwise, this message-passing only add noise to the node features and instead would be better to only use the features in our task. In addition, this structure could add even more biased situations when there’s a social component: "[. . . ] there may be networks built on graph data to be homophily-dominant (i.e. nodes in the local neighborhood all belong to the same sensitive class) with minimal connections across nodes of differing sensitive attributes [. . . ] Graph data generated through discriminatory means is either a) missing edges that would have been present in more fair settings, or b) over-representing homophilous edges due to social stratification" by [16, Donald Loveland et al., 2022].
+can be also a big limitation. The aggregation of information along all the network can lead us to make more accurate and robust predictions, but it can be also the source of many problems. First, the message-passing only adds value if the structure of the network is related with the task we want to solve, otherwise, this message-passing only add noise to the node features and instead would be better to only use the features in our task. In addition, this structure could add even more biased situations when there’s a social component: "[...] there may be networks built on graph data to be homophily-dominant (i.e. nodes in the local neighborhood all belong to the same sensitive class) with minimal connections across nodes of differing sensitive attributes [...] Graph data generated through discriminatory means is either a) missing edges that would have been present in more fair settings, or b) over-representing homophilous edges due to social stratification" by [16, Donald Loveland et al., 2022].
 
 That is the reason why other concepts of the graph structure should be analyzed, such as the assortativity (homophily or heterophily) both in terms of degree features, protected attributes and labels (D, X, Y ), or how is the community structure to analyze if there are low-density small com- munities that can identify a minority group. Some current and promising approaches are starting to edit the structure of the graph – i.e. graph rewiring – to control the information flow with the goal of only aggregating information when it’s needed both in terms of maximizing accuracy or be compliant with some fairness requirement [17, 18, 19, 16, 20]. Within his approach, very few methods has been proposed to explore edge addition and deletion to promote fairness, and most of them relies on optimization problems instead of learning problems.
 After that conclusion, we moved to more Human-Centric applications of GNN, where XAI becomes even more important [21, 22]. However, the main XAI goal is neither convince people to blindly trust the algorithm nor to convince people that the decision made by ML model is correct. We’d rather want to enhance the collaboration with them, leading the ML Algorithm to give the best response, but also let it be able to say "I don’t know", or to give an explanation about the decision which the human can interpret to identify if the algorithm is performing robustly or doing it wrong. Other main takeaway of this point is that, apart from the XAI math-related, if we want to give better explanation in the social context, the problem turns even more context-aware.
@@ -109,10 +93,8 @@ Finally, we briefly discuss about the role of causality in this scenario. We alr
 [8]	Enyan Dai and Suhang Wang. "Say no to the discrimination: Learning fair graph neural networks with limited sensitive attribute information". In: Proceedings of the 14th ACM International Conference on Web Search and Data Mining. 2021, pp. 680–688.
 [9]	Avishek Bose and William Hamilton. "Compositional fairness constraints for graph embed- dings". In: International Conference on Machine Learning. PMLR. 2019, pp. 715–724.
 [10]	Yushun Dong et al. "Individual fairness for graph neural networks: A ranking based ap- proach". In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021, pp. 300–310.
-[11]	Tahleen Rahman et al. "Fairwalk: Towards Fair Graph Embedding". In: Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19. Interna- tional Joint Conferences on Artificial Intelligence Organization, July 2019, pp. 3289–3295. DOI: 10 . 24963 / ijcai . 2019 / 456. URL: https : / / doi . org / 10 . 24963 / ijcai.2019/456.
-[12]	Ahmad Khajehnejad et al. "CrossWalk: Fairness-enhanced Node Representation Learning".
-In: arXiv preprint arXiv:2105.02725 (2021).
- 
+[11]	Tahleen Rahman et al. "Fairwalk: Towards Fair Graph Embedding". In: Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI-19. Interna- tional Joint Conferences on Artificial Intelligence Organization, July 2019
+[12]	Ahmad Khajehnejad et al. "CrossWalk: Fairness-enhanced Node Representation Learning". In: arXiv preprint arXiv:2105.02725 (2021).
 [13]	Chirag Agarwal, Himabindu Lakkaraju, and Marinka Zitnik. "Towards a unified framework for fair and stable graph representation learning". In: Uncertainty in Artificial Intelligence. PMLR. 2021, pp. 2114–2124.
 [14]	Jing Ma et al. "Learning Fair Node Representations with Graph Counterfactual Fairness". In: arXiv preprint arXiv:2201.03662 (2022).
 [15]	Ana Lucic et al. "Cf-gnnexplainer: Counterfactual explanations for graph neural networks". In: arXiv preprint arXiv:2102.03322 (2021).
