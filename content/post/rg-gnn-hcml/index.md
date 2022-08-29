@@ -1,5 +1,5 @@
 ---
-title: Notes about my ELLIS + Qualcomm AI Research Workshop on GNN + HCML
+title: Notes about ELLIS + Qualcomm AI Research Workshop on GNN + HCML
 subtitle: Reading Group Session and Panel about Graph Neural Networks and Human-Centric Machine Learning by distinguished scientist from ELLIS and Qualcomm AI Research in which I was organizer and moderator.
 
 # Summary for listings and search engines
@@ -68,6 +68,10 @@ TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It
 [^2]: Max Plack Institute for Software Systems, ELLIS Fellow
 [^3]: Universitat Pompeu Fabra, Ellis Fellow
 [^4]: Qualcomm AI Research, University of Amsterdam, ELLIS Scholar
+
+
+{{< toc >}}
+
 
 ## GNN and HCML intersection 
 
@@ -174,4 +178,4 @@ works". In: arXiv preprint arXiv:2108.05233 (2021).
 
 [32]	Wanyu Lin, Hao Lan, and Baochun Li. "Generative causal explanations for graph neural networks". In: International Conference on Machine Learning. PMLR. 2021, pp. 6666– 6679.ç
 
-[33] **Arnaiz-Rodríguez, A.**, Begga, A., Escolano, F., & Oliver, N. (2022). DiffWire: Inductive Graph Rewiring via the Lovász Bound. arXiv preprint arXiv:2206.07369.
+**[33] Arnaiz-Rodríguez, A., Begga, A., Escolano, F., & Oliver, N. (2022). DiffWire: Inductive Graph Rewiring via the Lovász Bound. arXiv preprint arXiv:2206.07369.**
