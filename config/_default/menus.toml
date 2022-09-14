@@ -49,6 +49,11 @@
   url = "#posts"
   weight = 70
 
+[[main]]
+  name = "Press Coverage"
+  url = "#press"
+  weight = 75
+
 
 [[main]]
   name = "Contact"
