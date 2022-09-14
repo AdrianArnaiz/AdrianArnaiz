@@ -14,7 +14,7 @@ title: 'Press Coverage'
 # Section design
 design:
   # Use a 1-column layout
-  columns: "2"
+  columns: "1"
   # Use a dark navy background with light text.
   #background:
   #  color: '#0053D6'
