@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: ELLIS PhD student in ML
-    institution: ELLIS Alicante and MPI-SWS
+    institution: ELLIS Alicante and MPI-SWS (exchange)
     year: 1st year
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
