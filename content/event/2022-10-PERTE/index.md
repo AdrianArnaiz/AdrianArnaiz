@@ -74,7 +74,7 @@ My talk starts at **2:05:05**
 
 {{< tweet 1584852743080284161 >}}
 
-{{< gallery album="perte" resize_options="250x250" >}}
+{{< gallery album="perte" resize_options="25x25" >}}
 
 ## Event and PERTE
 
