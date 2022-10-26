@@ -29,7 +29,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Schema of the Main Algorithmic Fairness mitigation methods'
+  caption: 'Presentation'
   focal_point: Right
 
 links:
