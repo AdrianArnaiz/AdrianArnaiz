@@ -56,6 +56,9 @@ url_video: "https://www.youtube.com/watch?v=21GMGpWpadM&t=7430s"
 #   Otherwise, set `projects = []`.
 # projects:
 # - example
+
+gallery_item:
+- album: perte
 ---
 
 | Table of Contents |
