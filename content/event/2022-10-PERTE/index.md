@@ -10,7 +10,7 @@ address:
   city: Madrid
   country: Spain
 
-summary: A high level introduction about algortihmic discriminations and lack of diversity and the AI challenges to solve this problem [Scientific Dissemination Language talk].
+summary: A high level introduction about algortihmic discriminations and lack of diversity and the AI challenges to solve this problem [Scientific Dissemination talk].
 abstract: "The Ministry of Economy of Spain is leading a project to boost Spanish in Artificial Intelligence and to improve diversity, and inclusion, and reduce discrimination of Artificial Intelligence algorithms. This project is called the PERTE of the New Economy of Language. In this scope, I present the main reasons we want to use AI to reduce discrimination in algorithmic decision-making and improve diversity in social dynamics, the potential risk of using AI algorithms without a proper social design, and the challenges and next research steps."
 
 # Talk start and end times.
@@ -39,8 +39,8 @@ links:
   url: https://twitter.com/arnaiztech
 url_code: ""
 url_pdf: ""
-url_slides: "https://adrian-arnaiz.netlify.app/media/Talk_Fairness_UA.pdf"
-url_video: ""
+url_slides: ""
+url_video: "https://www.youtube.com/watch?v=21GMGpWpadM&t=7430s"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -69,21 +69,21 @@ url_video: ""
 My talk starts at **2:05:05**
 {{< youtube 21GMGpWpadM >}}
 
-**Footage**
+### Footage
 
 {{< tweet 1584852743080284161 >}}
 
-![Talk](talk2.jpg "Talk")
-![Venue](venue.jpg "Venue")
+{{< gallery album="perte" >}}
 
 ## Event and PERTE
 
-**Event**
-Programa
+### Event
+
+Program:
 
 {{< tweet 1584804451935813638 >}}
 
-**What the PERTE New Economy of Language is?**
+### What the PERTE New Economy of Language is?
 
 The **Ministry of Economy of Spain** is leading a project to boost Spanish in Artificial Intelligence and to improve diversity, and inclusion, and reduce discrimination of Artificial Intelligence algorithms. This project is called the [PERTE of the New Economy of Language](https://planderecuperacion.gob.es/como-acceder-a-los-fondos/pertes/perte-nueva-economia-de-la-lengua) and it has a budget of 1.1B€ (PERTE stands for *Strategic projects for economic recovery and transformation* in Spanish). Among other objectives of that project, they want to boost the use of AI in inlusion, diversity, discrimination and equality.
 
