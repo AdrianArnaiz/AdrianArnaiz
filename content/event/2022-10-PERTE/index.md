@@ -57,8 +57,6 @@ url_video: "https://www.youtube.com/watch?v=21GMGpWpadM&t=7430s"
 # projects:
 # - example
 
-gallery_item:
-- album: perte
 ---
 
 | Table of Contents |
@@ -76,7 +74,7 @@ My talk starts at **2:05:05**
 
 {{< tweet 1584852743080284161 >}}
 
-{{< gallery album="perte" >}}
+{{< gallery album="perte" resize_options="250x250" >}}
 
 ## Event and PERTE
 
