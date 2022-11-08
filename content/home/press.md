@@ -21,7 +21,7 @@ design:
   #  text_color_light: true
 ---
 
-* ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award" [Spanish]*](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)
+* ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award*" [Spanish]](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)
 * ["Having (previous) strategy and retaining talent, Alicante's strengths for hosting the National AI Agency" [Spanish]](https://alicanteplaza.es/tenerestrategiapreviayretenertalentolasfortalezasdealicanteparaacogerlaagenciadeia), **Información**, (25/09/2022)
 * ["Artificial Intelligence, crucial to the future of companies" [Spanish]](https://www.informacion.es/alicante/2022/09/20/futuro-inteligencia-artificial-sea-capaz-75696314.html), **Información**, *Personal interview about EDS22 and the Future of AI*, (20/09/2022)
 * ["ELLIS Alicante organizes the II ELLIS Doctoral Symposium on Artificial Intelligence at the University of Alicante (UA)" [Spanish]](https://www.informacion.es/formacion/universidades/2022/09/12/ii-simposio-inteligencia-artificial-ua-75333417.html), **Información** (12/09/2022)
