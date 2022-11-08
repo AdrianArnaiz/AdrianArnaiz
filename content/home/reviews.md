@@ -21,22 +21,22 @@ design:
   #  text_color_light: true
 ---
 
-{{< spoiler text="**Program Committe member**" *}}
+{{< spoiler text="**Program Committe member**" >}}
 * **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  [[Link](https://hcai-at-neurips.github.io/site/)]
 * **ECML-PKDD 2022** - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases - *x4 papers*
 {{< /spoiler *}}
 
-{{< spoiler text="**Conferences**" *}}
+{{< spoiler text="**Conferences**" >}}
 * **AISTATS 2023** - Artificial Intelligence and Statistics - *x4 papers*
 * **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
 * **WWW'22** - The Web Conference 2022 , ACM, New York.
 {{< /spoiler *}}
 
-{{< spoiler text="**Workshops**" *}}
+{{< spoiler text="**Workshops**" >}}
 * **NeurIPS 2022 AFCP Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Causality and Privacy *x3 papers* [[Link](https://www.afciworkshop.org/)]
 {{< /spoiler *}}
 
-{{< spoiler text="**Journals**" *}}
+{{< spoiler text="**Journals**" >}}
 * **Journal of Complexity 2022**
 * **IEEE TCSS** - IEEE Transactions on Computational Social Systems 2022.
 {{< /spoiler *}}
