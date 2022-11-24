@@ -1,7 +1,7 @@
 ---
 title: "[Tutorial Learning On Graphs Conference] Graph Rewiring: From Theory to Applications in Fairness"
 
-event: LEarning on Graphs Conference
+event: Learning on Graphs Conference
 event_url: https://logconference.org/
 
 location: Online
@@ -37,6 +37,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech
+- icon: browser
+  icon_pack: fas
+  name: 'LoG Oficial Conference'
+  url: https://logconference.org/
 url_code: ""
 url_pdf: ""
 url_slides: ""
