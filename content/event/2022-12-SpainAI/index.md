@@ -2,7 +2,7 @@
 title: "Algorithmic Fairness in Artificial Intelligence (Spanish)"
 
 event: Discovering AI in Burgos - SpainAI
-event_url: https://www.eventbrite.es/e/entradas-1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking-483687641757
+event_url: https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/
 
 location: The Science and Technology Station
 address:
@@ -43,8 +43,10 @@ url_video: ""
 
 ---
 
-* **Location**: [La Estación de la Ciencia y la Tecnología](https://laestacioncyt.es/). [Twitter](https://twitter.com/laestacioncyt)
+**Event**: [Spain AI official website](https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/)
 
-* **SpainAI**: [SpainAI](https://www.spain-ai.com/). SpainAI is a non-profit organization that aims to promote the development of Artificial Intelligence in Spain. It is a community of professionals, researchers, students, and companies that work together to promote the development of Artificial Intelligence in Spain. [Twitter](https://twitter.com/spain_ai_).
+**Location**: [La Estación de la Ciencia y la Tecnología](https://laestacioncyt.es/). [Twitter](https://twitter.com/laestacioncyt)
+
+**SpainAI**: [SpainAI](https://www.spain-ai.com/). SpainAI is a non-profit organization that aims to promote the development of Artificial Intelligence in Spain. It is a community of professionals, researchers, students, and companies that work together to promote the development of Artificial Intelligence in Spain. [Twitter](https://twitter.com/spain_ai_).
 
 {{< tweet 1600912413242847233 >}}
