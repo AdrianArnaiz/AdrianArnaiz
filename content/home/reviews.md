@@ -22,7 +22,7 @@ design:
 ---
 
 {{< spoiler text="**Program Committe member**" >}}
-* **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  [[Link](https://hcai-at-neurips.github.io/site/)]
+* **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  [[Link](https://hcai-at-neurips.github.io/site/organizers.html#:~:text=Riccio%20ELLIS%20Alicante-,Adrian%20Arnaiz,-ELLIS%20Alicante)]
 * **ECML-PKDD 2022** - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases - *x4 papers*
 {{< /spoiler >}}
 
