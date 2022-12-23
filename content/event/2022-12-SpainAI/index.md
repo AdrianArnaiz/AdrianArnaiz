@@ -36,9 +36,13 @@ links:
   icon_pack: fab
   name: Twitter
   url: https://twitter.com/Spain_AI_/status/1600912413242847233
+- icon: browser
+  icon_pack: fas
+  name: 'SpainAI'
+  url: https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "https://adrian-arnaiz.netlify.app/media/SpainAI_Discriminacion_Algoritmica.pdf"
 url_video: ""
 
 ---
