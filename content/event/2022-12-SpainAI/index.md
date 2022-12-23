@@ -47,6 +47,8 @@ url_video: ""
 
 ---
 
+{{< gallery album="pics" resize_options="25x25" >}}
+
 **Event**: [Spain AI official website](https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/)
 
 **Location**: [La Estación de la Ciencia y la Tecnología](https://laestacioncyt.es/). [Twitter](https://twitter.com/laestacioncyt)
