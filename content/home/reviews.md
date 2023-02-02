@@ -37,6 +37,7 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Journals**" >}}
+* **PMLR 2022** - Proceedings of Machine Learning Research
 * **Journal of Complexity 2022**
 * **IEEE TCSS** - IEEE Transactions on Computational Social Systems 2022.
 {{< /spoiler >}}
