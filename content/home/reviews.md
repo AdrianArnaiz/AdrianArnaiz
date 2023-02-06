@@ -27,7 +27,7 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Conferences**" >}}
-* **AISTATS 2023** - Artificial Intelligence and Statistics - *x4 papers*
+* **AISTATS 2023** - Artificial Intelligence and Statistics - *x4 papers* - **[Top 10%](https://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n,-Arnaiz-Rodr%C3%ADguez)**
 * **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
 * **WWW'22** - The Web Conference 2022 , ACM, New York.
 {{< /spoiler >}}
