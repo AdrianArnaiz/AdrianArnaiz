@@ -50,7 +50,7 @@
   weight = 70
 
 [[main]]
-  name = "Press Coverage"
+  name = "Press"
   url = "#press"
   weight = 75
 
