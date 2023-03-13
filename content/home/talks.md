@@ -40,3 +40,5 @@ design:
   #   4 = Citation (publication only)
   view: 2
 ---
+
+[Click here for a complete list of talks](https://adrian-arnaiz.netlify.app/event/)
