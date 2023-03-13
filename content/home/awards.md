@@ -21,6 +21,11 @@ design:
   #  text_color_light: true
 ---
 
+#### [Outstanding Reviewer AISTATS 2023](https://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n,-Arnaiz-Rodr%C3%ADguez)
+{{< spoiler text="2023 - ***Artificial Intelligence and Statistics 2023***" >}}
+> 💡 *Selected as Outstanding Reviewer of AISTATS 2023 (Top 10 %)*
+{{< /spoiler >}}
+
 #### [Outstanding Reviewer ICML 2022](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)
 {{< spoiler text="2022 - ***International Conference on Machine Learning 2022***" >}}
 > 💡 *Selected as Outstanding Reviewer of ICML 2022 (Top 10 %)*
