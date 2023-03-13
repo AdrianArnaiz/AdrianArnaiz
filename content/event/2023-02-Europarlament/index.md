@@ -1,8 +1,8 @@
 ---
 title: "[European Parliament - JURI Committee on Legal Affairs] Societal Challenges of Algorithmic Fairness"
 
-event: European Parlament
-event_url: https://ellisalicante.org/tutorials/GraphRewiring
+event: European Parliament
+event_url: https://twitter.com/EP_Legal/status/1628413337741537280
 
 location: Alicante 
 
@@ -25,7 +25,7 @@ tags: []
 featured: true
 
 image:
-  caption: 'Europarlamentarians (MEPs) and me'
+  caption: 'Members of European Parliament (MEPs) and me'
   focal_point: Right
 
 links:
@@ -68,6 +68,4 @@ url_video: ""
 ![First person picture](adrijuri.jpeg "First person picture")
 
 ![ELLIS and MEPs](grouppicture.jpeg "ELLIS and MEPs")
-
-![Fairness Pipeline](fairnesspipeline.png "Fairness Pipeline")
  
