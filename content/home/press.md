@@ -20,11 +20,11 @@ design:
   #  color: '#0053D6'
   #  text_color_light: true
 ---
-
-* ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award*" [Spanish]](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)
-* ["Having (previous) strategy and retaining talent, Alicante's strengths for hosting the National AI Agency" [Spanish]](https://alicanteplaza.es/tenerestrategiapreviayretenertalentolasfortalezasdealicanteparaacogerlaagenciadeia), **Información**, (25/09/2022)
-* ["Artificial Intelligence, crucial to the future of companies" [Spanish]](https://www.informacion.es/alicante/2022/09/20/futuro-inteligencia-artificial-sea-capaz-75696314.html), **Información**, *Personal interview about EDS22 and the Future of AI*, (20/09/2022)
-* ["ELLIS Alicante organizes the II ELLIS Doctoral Symposium on Artificial Intelligence at the University of Alicante (UA)" [Spanish]](https://www.informacion.es/formacion/universidades/2022/09/12/ii-simposio-inteligencia-artificial-ua-75333417.html), **Información** (12/09/2022)
+* ["CHATGPT:  La AEPD Investiga La App De Inteligencia Artificial" [Spanish]](https://www.youtube.com/watch?v=I8Jmhe1CdnY), **RTVE 1 - News**, (13/04/2023)
+* ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award*" [SP]](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)
+* ["Having (previous) strategy and retaining talent, Alicante's strengths for hosting the National AI Agency" [SP]](https://alicanteplaza.es/tenerestrategiapreviayretenertalentolasfortalezasdealicanteparaacogerlaagenciadeia), **Información**, (25/09/2022)
+* ["Artificial Intelligence, crucial to the future of companies" [SP]](https://www.informacion.es/alicante/2022/09/20/futuro-inteligencia-artificial-sea-capaz-75696314.html), **Información**, *Personal interview about EDS22 and the Future of AI*, (20/09/2022)
+* ["ELLIS Alicante organizes the II ELLIS Doctoral Symposium on Artificial Intelligence at the University of Alicante (UA)" [SP]](https://www.informacion.es/formacion/universidades/2022/09/12/ii-simposio-inteligencia-artificial-ua-75333417.html), **Información** (12/09/2022)
 * ["Artificial Intelligence by and for people. ELLIS Foundation Alicante" [SP]](https://www.fundacionbancosabadell.com/inteligencia-artificial-por-y-para-las-personas-fundacion-ellis-alicante/?utm_source=socialmedia&utm_medium=twitter&utm_campaign=ellis), **Banco Sabadell Foundation**, (22/03/22)
 * ["OTRI Awards: Market-Oriented Prototypes" [SP]](https://www.ubu.es/noticias/la-ubu-avanza-en-innovacion), **Universidad de Burgos** (29/10/2020)
 * ["2019-2020 Prototype Awards Ceremony" [SP]](https://www.ubu.es/agenda/entrega-de-premios-y-lanzamiento-de-nuevas-convocatorias-curso-2019-2020-prototipos-orientados-al-mercado-vii-convocatoria-prueba-concepto), **Universidad de Burgos** (29/10/2020)
