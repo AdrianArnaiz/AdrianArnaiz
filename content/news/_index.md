@@ -13,8 +13,6 @@ header:
   image: ""
 ---
 
-**Test Page**
-
 * {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint ***Algorithms for Social Justice: Affirmative Action in Social Networks*** (with Georgina Curto and Nuria Oliver).
 
 * {{< hl >}}2023-04-25{{< /hl >}} :trident: **I've been selected as a Heidelberg Laureate Forum Student**. I will attend the Heildelberg Laureate Forum in September.
@@ -36,6 +34,8 @@ header:
 {{< tweet 1633473542762246145 >}}
 
 * {{< hl >}}2023-03-07 to 09 {{< /hl >}} :loud_sound: I presented my work at **ELLIS-DDMlab (CMU) Workshop 2023**, and we spent 3 days looking for potential joint research projects.
+
+* {{< hl >}}2023-02-28{{< /hl >}} :loud_sound: I presented an informal talk in the **ELLIS HCML Reading Group** about *Translating Principles into Practices of Digital Ethics: Five Risks of Being Unethical* (Luciano Floridi).
   
 * {{< hl >}}2023-02-22{{< /hl >}} :loud_sound: I presented my work at a joint workshop with the **JURI Committee of Legal Affairs of the European Parliament**.
   
@@ -59,9 +59,17 @@ header:
 
 * {{< hl >}}2022-09-20{{< /hl >}}  I attended and I was main co-organizer of the **ELLIS Doctoral Symposium 2022**.
 
+* {{< hl >}}2022-10-21{{< /hl >}} :loud_sound: I presented my paper ***DiffWire: Inductive Graph Rewiring via the Lovasz Bound*** at the [**EDS22**](https://ellisalicante.org/eds2022/).
+  
+* {{< hl >}}2022-09-13{{< /hl >}}  I attended a joint workshop by the **CSIC Neuroscience Institute and ELLIS Alicante** (AI-NeuroScience Workshop) and I presented my work on Algorithmic Fairness.
+  
+* {{< hl >}}2022-07-17{{< /hl >}}  I attended **ICML 22 online** with free registration for being awarded as top reviewer. 
+  
+* {{< hl >}}2022-07-07{{< /hl >}}  I attended the *Adingor Young Session: knowledge Transfer and Research* and *Adingor Young Session: Teaching and research* at the 16th International Conference on Industrial Engineering and Industrial Management (**ICIEIM 2022 - CIO 2022**).
+
 * {{< hl >}}2022-06-20{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at ICML 2022.
 
-* {{< hl >}}2023-06-15{{< /hl >}} :scroll: We released our last work [***DiffWire: Inductive Graph Rewiring via the Lovasz Bound***](https://arxiv.org/abs/2206.07369), accepted at the **Learning on Graphs Conference 2022**.
+* {{< hl >}}2022-06-15{{< /hl >}} :scroll: We released our last work [***DiffWire: Inductive Graph Rewiring via the Lovasz Bound***](https://arxiv.org/abs/2206.07369), accepted at the **Learning on Graphs Conference 2022**.
 
 * {{< hl >}}2022-03-11{{< /hl >}}  I attended a course on Algorithmic Fairness at UPF by Prof. Carlos Castillo and Prof. Ricardo Baeza Yates.
 
