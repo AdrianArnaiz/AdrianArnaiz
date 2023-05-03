@@ -19,7 +19,7 @@ header:
 
 * {{< hl >}}2023-04-20{{< /hl >}} I attended PAI Q1 Demographic Data and Algorithmic Fairness Meeting.
 
-* {{< hl >}}2023-04-14{{< /hl >}} :loud_sound: I appear in the **National Spanish News**.
+* {{< hl >}}2023-04-14{{< /hl >}} :loud_sound: I got on the [**National Spanish News**](https://www.youtube.com/watch?v=I8Jmhe1CdnY).
 
 * {{< hl >}}2023-04-05{{< /hl >}} I attended a talk by Batu.
 
@@ -27,7 +27,7 @@ header:
   
 * {{< hl >}}2023-03-22{{< /hl >}} :loud_sound: I gave a talk for 150 high-school students.
 
-* {{< hl >}}2023-03-10{{< /hl >}} :scroll: We released the preprint of our last work [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf).
+* {{< hl >}}2023-03-10{{< /hl >}} :scroll: We released the preprint of our last work [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Fancisco Escolano and Nuria Oliver).
 
 * {{< hl >}}2023-03-08{{< /hl >}} The President of the Comunitat Valenciana visit ELLIS Alicante at the ELLIS-DDMLab Workshop.
 
@@ -39,7 +39,7 @@ header:
   
 * {{< hl >}}2023-02-22{{< /hl >}} :loud_sound: I presented my work at a joint workshop with the **JURI Committee of Legal Affairs of the European Parliament**.
   
-  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="../../content/event/2023-02-Europarlament/grouppicture.jpeg" alt="European Parlamentarians"></a></p>
+  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src=".content/event/2023-02-Europarlament/grouppicture.jpeg" alt="European Parlamentarians"></a></p>
 
 * {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at AISTATS 2023.
   
