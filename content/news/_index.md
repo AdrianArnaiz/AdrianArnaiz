@@ -13,6 +13,10 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2023-07-28 to 2023-008-01{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
+
+* {{< hl >}}2023-07-28 to 2023-008-01{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS Doctoral Symposium 2023**](https://fcai.fi/eds2023/home) in Helsinki.
+  
 * {{< hl >}}2023-06-30{{< /hl >}} :loud_sound: I participated in a round table about *sustainable AI* at the **Alicante Chamber of commerce**.
 
 * {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint [***Algorithms for Social Justice: Affirmative Action in Social Networks***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver).
@@ -49,23 +53,25 @@ header:
   
 {{< tweet 1620068315866750976 >}}
 
-* {{< hl >}}2022-12-22{{< /hl >}} I presented a scientific dissemination talk at **SpainAI** in Burgos.
+* {{< hl >}}2022-12-22{{< /hl >}} :loud_sound: I presented a scientific dissemination talk at **SpainAI** in Burgos.
 
 * {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the [**Tutorial on Graph Rewiring: From Theory to Applications in Fairness**](https://ellisalicante.org/tutorials/GraphRewiring).
 
 * {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the paper [**DiffWire: Inductive Graph Rewiring via the Lovasz Bound**](https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html).
+
+* * {{< hl >}}2022-12-11{{< /hl >}} :busts_in_silhouette: I attended the [**The First Learning on Graph Conference**](http://log2022.logconference.org/).
   
-* {{< hl >}}2022-12-11{{< /hl >}} I attended and I was program committee member of the **Neurips HCML Workshop**.
+* {{< hl >}}2022-12-11{{< /hl >}} :busts_in_silhouette: I attended and I was program committee member of the **Neurips HCML Workshop**.
 
 * {{< hl >}}2022-10-25{{< /hl >}} :loud_sound: I gave a talk in the **Ministry of Economy** in relation to the PERTE of the Language.
 
-* {{< hl >}}2022-09-20{{< /hl >}}  I attended and I was main co-organizer of the **ELLIS Doctoral Symposium 2022**.
+* {{< hl >}}2022-09-20{{< /hl >}}  :busts_in_silhouette: I attended and I was ***main co-organizer*** of the **ELLIS Doctoral Symposium 2022**.
 
 * {{< hl >}}2022-10-21{{< /hl >}} :loud_sound: I presented the paper ***DiffWire: Inductive Graph Rewiring via the Lovasz Bound*** at the [**EDS22**](https://ellisalicante.org/eds2022/).
   
-* {{< hl >}}2022-09-13{{< /hl >}}  I attended a joint workshop by the **CSIC Neuroscience Institute and ELLIS Alicante** (AI-NeuroScience Workshop) and I presented my work on Algorithmic Fairness.
+* {{< hl >}}2022-09-13{{< /hl >}}  :busts_in_silhouette: I attended a joint workshop by the **CSIC Neuroscience Institute and ELLIS Alicante** (AI-NeuroScience Workshop) and I presented my work on Algorithmic Fairness.
   
-* {{< hl >}}2022-07-17{{< /hl >}}  I attended **ICML 22 online** with free registration for being awarded as top reviewer. 
+* {{< hl >}}2022-07-17{{< /hl >}}  :busts_in_silhouette: I attended **ICML 22 online** with free registration for being awarded as top reviewer. 
   
 * {{< hl >}}2022-07-07{{< /hl >}}  I attended the *Adingor Young Session: knowledge Transfer and Research* and *Adingor Young Session: Teaching and research* at the 16th International Conference on Industrial Engineering and Industrial Management (**ICIEIM 2022 - CIO 2022**).
 
