@@ -13,7 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint ***Algorithms for Social Justice: Affirmative Action in Social Networks*** (with Georgina Curto and Nuria Oliver).
+* {{< hl >}}2023-06-30{{< /hl >}} :loud_sound: I participated in a round table about *sustainable AI* at the **Alicante Chamber of commerce**.
+
+* {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint [***Algorithms for Social Justice: Affirmative Action in Social Networks***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver).
 
 * {{< hl >}}2023-04-25{{< /hl >}} :trident: **I've been selected as a Heidelberg Laureate Forum Student**. I will attend the Heildelberg Laureate Forum in September.
 
@@ -39,7 +41,7 @@ header:
   
 * {{< hl >}}2023-02-22{{< /hl >}} :loud_sound: I presented my work at a joint workshop with the **JURI Committee of Legal Affairs of the European Parliament**.
   
-  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src=".content/event/2023-02-Europarlament/grouppicture.jpeg" alt="European Parlamentarians"></a></p>
+  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians"></a></p>
 
 * {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at AISTATS 2023.
   
@@ -59,7 +61,7 @@ header:
 
 * {{< hl >}}2022-09-20{{< /hl >}}  I attended and I was main co-organizer of the **ELLIS Doctoral Symposium 2022**.
 
-* {{< hl >}}2022-10-21{{< /hl >}} :loud_sound: I presented my paper ***DiffWire: Inductive Graph Rewiring via the Lovasz Bound*** at the [**EDS22**](https://ellisalicante.org/eds2022/).
+* {{< hl >}}2022-10-21{{< /hl >}} :loud_sound: I presented the paper ***DiffWire: Inductive Graph Rewiring via the Lovasz Bound*** at the [**EDS22**](https://ellisalicante.org/eds2022/).
   
 * {{< hl >}}2022-09-13{{< /hl >}}  I attended a joint workshop by the **CSIC Neuroscience Institute and ELLIS Alicante** (AI-NeuroScience Workshop) and I presented my work on Algorithmic Fairness.
   
@@ -69,7 +71,7 @@ header:
 
 * {{< hl >}}2022-06-20{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at ICML 2022.
 
-* {{< hl >}}2022-06-15{{< /hl >}} :scroll: We released our last work [***DiffWire: Inductive Graph Rewiring via the Lovasz Bound***](https://arxiv.org/abs/2206.07369), accepted at the **Learning on Graphs Conference 2022**.
+* {{< hl >}}2022-06-15{{< /hl >}} :scroll: We released our last work [***DiffWire: Inductive Graph Rewiring via the Lovasz Bound***](https://arxiv.org/abs/2206.07369), accepted at the **Learning on Graphs Conference 2022** (with Ahmed Begga, Francisco Escolano and Nuria Oliver).
 
 * {{< hl >}}2022-03-11{{< /hl >}}  I attended a course on Algorithmic Fairness at UPF by Prof. Carlos Castillo and Prof. Ricardo Baeza Yates.
 

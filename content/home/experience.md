@@ -28,7 +28,7 @@ experience:
     location: Alicante
     date_start: '2021-11-01'
     date_end: ''
-    description: ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS with Dr. Nuria Oliver, Dr. Manuel Gomez Rodriguez and Dr. Francisco Escolano as advisors.
+    description: ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS advised by Dr. Nuria Oliver and Dr. Manuel Gomez Rodriguez as advisors.
 
   - title: Research Staff
     company: University of Burgos - DATAHES GIR - SmartArt European Project
