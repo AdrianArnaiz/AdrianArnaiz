@@ -29,7 +29,7 @@ education:
   courses:
   - course: ELLIS PhD student in ML
     institution: ELLIS Alicante and MPI-SWS (exchange)
-    year: 1st year
+    year: 2nd year
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
     year: 2021
@@ -105,8 +105,6 @@ I'm currently focused on the sociotechnical problem of **Algorithmic Fairness fo
 In the past, I've mainly worked in **ML** and **DL** applied to **life science**, as in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) - both with outstanding results (*honours*) -. Besides, I also researched in **network science** and **graph theory**, leading to some conference papers about the understanding of the acadamic network. 
 
 **Life**
-*  Guitar :guitar: and clarinet lover
-*  Cycling :bike:, soccer :soccer: and :diving_mask:
 *  Born in [Burgos](https://es.wikipedia.org/wiki/Burgos)
 
 Here is my **career at a glance**, click on it for a detailed view:
