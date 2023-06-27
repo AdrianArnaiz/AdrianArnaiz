@@ -14,7 +14,7 @@ organizations:
   url: https://ellisalicante.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: ELLIS PhD Student in Fairness ML at ELLIS Alicante.
+bio: ELLIS PhD Student in Algorithmic Fairness and Graph Neural Networks at ELLIS Alicante.
 
 # Interests to show in About widget
 interests:

@@ -13,9 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2023-07-28 to 2023-008-01{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
+* {{< hl >}}2023-09-24 to 2023-09-29{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
 
-* {{< hl >}}2023-07-28 to 2023-008-01{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS Doctoral Symposium 2023**](https://fcai.fi/eds2023/home) in Helsinki.
+* {{< hl >}}2023-08-28 to 2023-09-01{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS Doctoral Symposium 2023**](https://fcai.fi/eds2023/home) in Helsinki.
   
 * {{< hl >}}2023-06-30{{< /hl >}} :loud_sound: I participated in a round table about *sustainable AI* at the **Alicante Chamber of commerce**.
 
