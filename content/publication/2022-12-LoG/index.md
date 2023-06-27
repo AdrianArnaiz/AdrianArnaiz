@@ -16,7 +16,7 @@ publishDate: "2022-06-15T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: Proceedings of the First Learning on Graphs Conference (LoG 2022)
@@ -42,7 +42,7 @@ url_code: 'https://github.com/AdrianArnaiz/DiffWire'
 url_dataset: ''
 url_poster: 'https://ellisalicante.org/publications/arnaiz2022diffwire-en/'
 url_project: ''
-url_slides: ''
+url_slides: 'https://ellisalicante.org/assets/logtutorial2022/TutorialGraphRewiring.pdf#page=50'
 url_PapersWithCode: 'https://paperswithcode.com/paper/diffwire-inductive-graph-rewiring-via-the'
 url_source: 'https://openreview.net/pdf?id=IXvfIex0mX6f' 
 # '#' para ir a la pagina inicial
