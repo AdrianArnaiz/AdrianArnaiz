@@ -68,6 +68,10 @@ I participate in the following 1h-Round Table:
 * **Jose Fuster** - *Director of European Funds and Sustainability of Bank Sabadell*
 * **Antonio Sánchez** - *President of [AlicanTec](https://alicantec.com/)*
 
+![Round table picture](featured.jpg "Round table picture")
+
+![Event Banner](banner.jpg "Event Banner")
+
 The event is aimed at professionals, companies and future entrepreneurs from different sectors of activity.
 
 ***This conference is part of the Sustainability and Agenda 2030 Program, financed by the IVACE (Valencian Institute of Business Competitiveness), which, through the Alicante Chamber of Commerce, promotes a series of actions to help implement sustainability in companies of all economic sectors.***
