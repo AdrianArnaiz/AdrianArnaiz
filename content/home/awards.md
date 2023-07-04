@@ -21,6 +21,11 @@ design:
   #  text_color_light: true
 ---
 
+#### [Heidelberg Laureate Forum Young Researcher](https://www.heidelberg-laureate-forum.org/forum/10th-hlf-2023.html)
+{{< spoiler text="2023 - ***10th Heidelberg Laureate Forum***" >}}
+> 💡 *I have been selected as one of the 200 young researchers to attend the 10th edition of the Heidelberg Laureate Forum Foundation in 2023 to spend a week attending talks and working together with [more than 25 Laureates](https://www.heidelberg-laureate-forum.org/forum/10th-hlf-2023/laureates-10th-hlf-2023.html) in the fields of Maths, Computer Science or Physics.*
+{{< /spoiler >}}
+
 #### [Outstanding Reviewer AISTATS 2023](https://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n,-Arnaiz-Rodr%C3%ADguez)
 {{< spoiler text="2023 - ***Artificial Intelligence and Statistics 2023***" >}}
 > 💡 *Selected as Outstanding Reviewer of AISTATS 2023 (Top 10 %)*
