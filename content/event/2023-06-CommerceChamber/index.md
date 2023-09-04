@@ -40,7 +40,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: ""
+url_video: "https://vimeo.com/carlospujalte/review/857398631/cb40cbf54c"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -61,7 +61,7 @@ url_video: ""
 
 The **2nd Forum of Sustainable Technology** organized by [Chamber of Commerce of Alicante](https://www.camaralicante.com/) is a 9h event where different experts on technology, law, economy and sustainability will give talks and participate in rounds tables to shed light on the role of technology for a sustainable development in the society.
 
-I participate in the following 1h-Round Table: 
+I participate in the following 1h-Round Table ([Video](https://vimeo.com/carlospujalte/review/857398631/cb40cbf54c)): 
 
 **How does the Application of Artificial Intelligence help us to be sustainable?**
 * **Adrián Arnaiz Rodríguez** - *PhD Student at ELLIS Alicante on Human-Centric Machine Learning and Algorithmic Fairness*
