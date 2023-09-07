@@ -28,19 +28,21 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Conferences**" >}}
+* **AISTATS 2024** - Artificial Intelligence and Statistics
 * **AISTATS 2023** - Artificial Intelligence and Statistics - *x4 papers* - **[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**
 * **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
 * **WWW'22** - The Web Conference 2022 , ACM, New York.
 {{< /spoiler >}}
 
 {{< spoiler text="**Workshops**" >}}
+* **NeurIPS 2022 AFT Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Time
 * **NeurIPS 2022 AFCP Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Causality and Privacy *x3 papers* [[Link](https://www.afciworkshop.org/)]
 {{< /spoiler >}}
 
 {{< spoiler text="**Journals**" >}}
 * **IEEE TNNLS 2023** - IEEE Transactions on Neural Networks and Learning Systems - Special Issue Graph Learning.
 * **PeerJ 2023** - PeerJ Computer Science.
-* **PMLR 2022** - Proceedings of Machine Learning Research
+* **JMLR 2023** - Journal of Machine Learning Research
 * **Journal of Complexity 2022**
 * **IEEE TCSS** - IEEE Transactions on Computational Social Systems 2022.
 {{< /spoiler >}}

@@ -23,6 +23,7 @@ design:
 
 
 **Scientific organization**
+* {{< hl >}}Co-organizer{{< /hl >}} of **[Tutorial on Graph Rewiring: from Theory to Applications in Fairness](https://ellisalicante.org/tutorials/GraphRewiring)** at **the First Learning on Graphs Conference (LoG)**- *Online, Dec 2022*
 * {{< hl >}}Head{{< /hl >}} of organization of **[ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/)** - *Alicante, Sep 2022*
 * {{< hl >}}Head{{< /hl >}} of organization of **[ELLIS HCML Reading Group](https://ellisalicante.org/en/readingGroup)**: guest sessions and round tables - *Virtual, bi-weekly sessions*
 * {{< hl >}}Moderator{{< /hl >}} of **[Qualcomm+ELLIS Reading Group Session about GNN+HCML](https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research)** - *Online, Feb 2022*

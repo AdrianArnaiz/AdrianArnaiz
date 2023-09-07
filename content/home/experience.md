@@ -28,7 +28,7 @@ experience:
     location: Alicante
     date_start: '2021-11-01'
     date_end: ''
-    description: ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS advised by Dr. Nuria Oliver and Dr. Manuel Gomez Rodriguez as advisors.
+    description: 'ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS advised by Dr. Nuria Oliver and Dr. Manuel Gomez Rodriguez as advisors. Partially founded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
 
   - title: Research Staff
     company: University of Burgos - DATAHES GIR - SmartArt European Project
@@ -41,6 +41,7 @@ experience:
         * DATAHES: Data Analysis Techniques Applied in Health Environments Sciences.
         * Data Analysis in web behaviour
         * Create digital content
+        * European project 2019-1-ES01-KA204-065615
         
   - title: Research staff
     company: University of Burgos - ADMIRABLE GIR
