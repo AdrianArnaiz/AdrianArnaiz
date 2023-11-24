@@ -13,6 +13,10 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2023-11-24{{< /hl >}} :busts_in_silhouette: I attended the **ELLIS HCML Worshop**.
+
+* {{< hl >}}2023-11-22{{< /hl >}} :loud_sound: I gave a talk and participated on a round table at **CCCB** Barcelona.
+
 * {{< hl >}}2023-09-24 to 2023-09-29{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
 
 * {{< hl >}}2023-03-07 to 09 {{< /hl >}} :loud_sound: I presented at *the ELLIS Doctoral Symposium 2023* the paper [**FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values**](https://arxiv.org/pdf/2303.01928.pdf).

@@ -57,7 +57,7 @@ experience:
         * Research in Network Analysis: 2 conference works
         * Research in Parkinson's Disease detenction through voice
         
-  - title: Junior Inteligent Automation Consultant
+  - title: Inteligent Automation Consultant
     company: Ernst & Young
     company_url: 'https://www.ey.com/en_gl/intelligent-automation'
     location: Madrid
