@@ -40,7 +40,6 @@ experience:
     
         * DATAHES: Data Analysis Techniques Applied in Health Environments Sciences.
         * Data Analysis in web behaviour
-        * Create digital content
         * European project 2019-1-ES01-KA204-065615
         
   - title: Research staff
@@ -63,7 +62,7 @@ experience:
     location: Madrid
     date_start: '2019-09-05'
     date_end: '2019-12-23'
-    description: Develop of Machine Learning models and data processing pipelines to embed in RPA processes, included email classification in Telefonica.
+    description: Develop of Machine Learning models and data processing pipelines to embed AI models in RPA processes.
    
   - title: Research fellow
     company: University of Burgos - ADMIRABLE GIR

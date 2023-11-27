@@ -13,9 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2023-11-24{{< /hl >}} :busts_in_silhouette: I attended the **ELLIS HCML Worshop**.
+* {{< hl >}}2023-11-24{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS HCML Worshop**](https://ellis.eu/programs/human-centric-machine-learning).
 
-* {{< hl >}}2023-11-22{{< /hl >}} :loud_sound: I gave a talk and participated on a round table at **CCCB** Barcelona.
+* {{< hl >}}2023-11-22{{< /hl >}} :loud_sound: I gave a talk and participated on a round table at [**Algorithmic Societies** ERC Project at CCCB Barcelona](https://www.cccb.org/en/activities/file/algorithmic-societies/243038).
 
 * {{< hl >}}2023-09-24 to 2023-09-29{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
 
@@ -24,6 +24,8 @@ header:
 * {{< hl >}}2023-08-28 to 2023-09-01{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS Doctoral Symposium 2023**](https://fcai.fi/eds2023/home) in Helsinki.
   
 * {{< hl >}}2023-06-30{{< /hl >}} :loud_sound: I participated in a round table about *sustainable AI* at the **Alicante Chamber of commerce** ([Video](https://vimeo.com/carlospujalte/review/857398631/cb40cbf54c)).
+
+* {{< hl >}}2023-05-11{{< /hl >}} :loud_sound: I presented at *TRANSFORM4EUROPE* the paper [**FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values**](https://arxiv.org/pdf/2303.01928.pdf).
 
 * {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint [***Algorithms for Social Justice: Affirmative Action in Social Networks***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver).
 
