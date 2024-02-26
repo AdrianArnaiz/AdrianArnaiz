@@ -13,6 +13,12 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by Manuel Gomez-Rodriguez.
+
+* {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Chicago, USA) on the course *Ethics of Data Analytics and AI*.
+
+* {{< hl >}}2024-01-31{{< /hl >}} :busts_in_silhouette: Miguel Luengo (FORMER UN CDO) visited ELLIS Alicante.
+
 * {{< hl >}}2023-11-24{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS HCML Worshop**](https://ellis.eu/programs/human-centric-machine-learning).
 
 * {{< hl >}}2023-11-22{{< /hl >}} :loud_sound: I gave a talk and participated on a round table at [**Algorithmic Societies** ERC Project at CCCB Barcelona](https://www.cccb.org/en/activities/file/algorithmic-societies/243038).
@@ -57,7 +63,7 @@ header:
 
 * {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at AISTATS 2023.
   
-* {{< hl >}}2023-01-30{{< /hl >}} The National Secretary of AI in Spain, D. Carme Artigas, visits ELLIS Alicante.
+* {{< hl >}}2023-01-30{{< /hl >}} The National Secretary of AI in Spain, D. Carme Artigas, visited ELLIS Alicante.
   
 {{< tweet 1620068315866750976 >}}
 
