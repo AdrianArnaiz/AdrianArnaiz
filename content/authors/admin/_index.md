@@ -92,7 +92,7 @@ highlight_name: false
 #
 ---
 
-I am a second-year PhD candidate at [ELLIS](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) and I will visit [MPI-SWS](https://www.mpi-sws.org/) as part of the [ELLIS PhD & PostDoc program](https://ellis.eu/phd-postdoc). I am very lucky to be advised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver) and [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/).
+I am a PhD Student at [ELLIS](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) and **currently at [MPI-SWS](https://www.mpi-sws.org/)** as part of the [ELLIS PhD & PostDoc program](https://ellis.eu/phd-postdoc). I am very lucky to be supervised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver) and [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/).
 
 I'm currently focused on the sociotechnical problem of **Algorithmic Fairness for Decision Making, boosted by Graph Theory and Causality** (beyond i.i.d. and beyond observational respectively). I'm delving into the ethical implications of such decisions made by ML models, including concepts such as transparency, accountability, reliability, and fairness. Therefore, the main projects are developing algorithms that improves understanding of ML models with a focus un the data and it's representations (*how the data should be to make ML models fair?*), the fairness problem in networks (*the natural societal data type*), the long-term effects of this models, the feedback loops of user-model and, last but no least, the actual application in the society (regulation and politics).
 

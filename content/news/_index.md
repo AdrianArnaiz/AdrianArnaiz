@@ -15,7 +15,7 @@ header:
 
 * {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by Manuel Gomez-Rodriguez.
 
-* {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Chicago, USA) on the course *Ethics of Data Analytics and AI*.
+* {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Indiana, USA) on the course *Ethics of Data Analytics and AI*.
 
 * {{< hl >}}2024-01-31{{< /hl >}} :busts_in_silhouette: Miguel Luengo (FORMER UN CDO) visited ELLIS Alicante.
 
