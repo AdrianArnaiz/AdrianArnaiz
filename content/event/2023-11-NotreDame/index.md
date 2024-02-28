@@ -1,5 +1,5 @@
 ---
-title: "Gest Lecture @ Notre Dame-IBM Tech Ethics Lab"
+title: "Guest Lecture @ Notre Dame-IBM Tech Ethics Lab"
 
 event: Guest Lecture @ University of Notre Dame (USA), course on Ethics of Data Analytics and AI.
 event_url:
