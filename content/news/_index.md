@@ -13,7 +13,11 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by Manuel Gomez-Rodriguez.
+* {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
+* 
+* {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for Learning on graphs conference 2025**.
+
+* {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
 
 * {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Indiana, USA) on the course *Ethics of Data Analytics and AI*.
 

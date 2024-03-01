@@ -22,7 +22,6 @@ interests:
 - Algorithmic Fairness
 - Graph Neural Networks and Network Science
 - Causality
-- Deep and Reinforcement Learning
 
 # Education to show in About widget
 education:
