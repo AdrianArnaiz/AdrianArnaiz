@@ -18,7 +18,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: ICLR 2024 Workshop on Data-centric Machine Learning Research (DMLR)
-publication_short: DMLR at ICLR 2024
+publication_short: In *DMLR workshop at ICLR 2024*
 
 abstract: "Algorithmic fairness is of utmost societal importance, yet state-of-the-art largescale machine learning models require training with massive datasets that are frequently biased. In this context, pre-processing methods that focus on modeling and correcting bias in the data emerge as valuable approaches. In this paper, we propose **FairShap**, a novel instance-level data re-weighting method for fair algorithmic decision-making through data valuation by means of Shapley Values. **FairShap** is model-agnostic and easily interpretable. It measures the contribution of each training data point to a predefined fairness metric. We empirically validate **FairShap** on several state-of-the-art datasets of different nature, with a variety of training scenarios and machine learning models and show how it yields fairer models with similar levels of accuracy than the baselines. We illustrate **FairShap**’s interpretability by means of histograms and latent space visualizations and perform a utility-fairness study. We believe that **FairShap** represents a promising direction in interpretable and model-agnostic approaches to algorithmic fairness that yield competitive accuracy even when only biased datasets are available"
 
