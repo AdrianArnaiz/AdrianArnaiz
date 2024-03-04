@@ -13,8 +13,12 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2023-05-08{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/).
+
+* {{< hl >}}2023-05-08{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
+
 * {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
-* 
+  
 * {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for Learning on graphs conference 2025**.
 
 * {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
@@ -29,15 +33,15 @@ header:
 
 * {{< hl >}}2023-09-24 to 2023-09-29{{< /hl >}} :busts_in_silhouette: I attended the [**Heildelberg Laureate Forum**](https://www.heidelberg-laureate-forum.org/) in Heidelberg after being selected as a *Heidelberg Laureate Forum Young Researcher*.
 
-* {{< hl >}}2023-03-07 to 09 {{< /hl >}} :loud_sound: I presented at *the ELLIS Doctoral Symposium 2023* the paper [**FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values**](https://arxiv.org/pdf/2303.01928.pdf).
+* {{< hl >}}2023-03-07 to 09 {{< /hl >}} :loud_sound: I presented at *the ELLIS Doctoral Symposium 2023* the paper [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf).
 
 * {{< hl >}}2023-08-28 to 2023-09-01{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS Doctoral Symposium 2023**](https://fcai.fi/eds2023/home) in Helsinki.
   
 * {{< hl >}}2023-06-30{{< /hl >}} :loud_sound: I participated in a round table about *sustainable AI* at the **Alicante Chamber of commerce** ([Video](https://vimeo.com/carlospujalte/review/857398631/cb40cbf54c)).
 
-* {{< hl >}}2023-05-11{{< /hl >}} :loud_sound: I presented at *TRANSFORM4EUROPE* the paper [**FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values**](https://arxiv.org/pdf/2303.01928.pdf).
+* {{< hl >}}2023-05-11{{< /hl >}} :loud_sound: I presented at *TRANSFORM4EUROPE* the paper [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf).
 
-* {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint [***Algorithms for Social Justice: Affirmative Action in Social Networks***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver).
+* {{< hl >}}2023-05-08{{< /hl >}} :scroll: We released the preprint [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver).
 
 * {{< hl >}}2023-04-25{{< /hl >}} :trident: **I've been selected as a Heidelberg Laureate Forum Student**. I will attend the Heildelberg Laureate Forum in September.
 
@@ -51,7 +55,7 @@ header:
   
 * {{< hl >}}2023-03-22{{< /hl >}} :loud_sound: I gave a talk for 150 high-school students.
 
-* {{< hl >}}2023-03-10{{< /hl >}} :scroll: We released the preprint of our last work [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Fancisco Escolano and Nuria Oliver).
+* {{< hl >}}2023-03-10{{< /hl >}} :scroll: We released the preprint of our last work [***FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with and Nuria Oliver).
 
 * {{< hl >}}2023-03-08{{< /hl >}} The President of the Comunitat Valenciana visit ELLIS Alicante at the ELLIS-DDMLab Workshop.
 
@@ -73,11 +77,11 @@ header:
 
 * {{< hl >}}2022-12-22{{< /hl >}} :loud_sound: I presented a scientific dissemination talk at **SpainAI** in Burgos.
 
-* {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the [**Tutorial on Graph Rewiring: From Theory to Applications in Fairness**](https://ellisalicante.org/tutorials/GraphRewiring).
+* {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the [***Tutorial on Graph Rewiring: From Theory to Applications in Fairness***](https://ellisalicante.org/tutorials/GraphRewiring).
 
-* {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the paper [**DiffWire: Inductive Graph Rewiring via the Lovasz Bound**](https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html).
+* {{< hl >}}2022-12-11{{< /hl >}} :scroll: :loud_sound: I presented at *The First Learning on Graph Conference* the paper [***DiffWire: Inductive Graph Rewiring via the Lovasz Bound***](https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html).
 
-* * {{< hl >}}2022-12-11{{< /hl >}} :busts_in_silhouette: I attended the [**The First Learning on Graph Conference**](http://log2022.logconference.org/).
+* {{< hl >}}2022-12-11{{< /hl >}} :busts_in_silhouette: I attended the [**The First Learning on Graph Conference**](http://log2022.logconference.org/).
   
 * {{< hl >}}2022-12-11{{< /hl >}} :busts_in_silhouette: I attended and I was program committee member of the **Neurips HCML Workshop**.
 
