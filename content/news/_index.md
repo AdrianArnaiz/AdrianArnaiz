@@ -13,9 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2023-05-08{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/).
+* {{< hl >}}2023-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/).
 
-* {{< hl >}}2023-05-08{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
+* {{< hl >}}2023-03-04{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
 
 * {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
   
