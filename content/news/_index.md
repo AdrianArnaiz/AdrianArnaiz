@@ -65,7 +65,7 @@ header:
 
 * {{< hl >}}2023-03-08{{< /hl >}} The President of the Comunitat Valenciana visit ELLIS Alicante at the ELLIS-DDMLab Workshop.
 
-{{< tweet 1633473542762246145 >}}
+{{< tweet user="ximopuig" id="1633473542762246145" >}}
 
 * {{< hl >}}2023-03-07 to 09 {{< /hl >}} :loud_sound: I presented my work at **ELLIS-DDMlab (CMU) Workshop 2023**, and we spent 3 days looking for potential joint research projects.
 
@@ -79,7 +79,7 @@ header:
   
 * {{< hl >}}2023-01-30{{< /hl >}} The National Secretary of AI in Spain, D. Carme Artigas, visited ELLIS Alicante.
   
-{{< tweet 1620068315866750976 >}}
+{{< tweet user="SEDIAgob" id="1620068315866750976" >}}
 
 * {{< hl >}}2022-12-22{{< /hl >}} :loud_sound: I presented a scientific dissemination talk at **SpainAI** in Burgos.
 

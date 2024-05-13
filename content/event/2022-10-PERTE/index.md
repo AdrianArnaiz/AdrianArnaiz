@@ -72,7 +72,7 @@ My talk starts at **2:05:05**
 
 ### Footage
 
-{{< tweet 1584852743080284161 >}}
+{{< tweet user="PERTE_Lengua" id="1584852743080284161" >}}
 
 {{< gallery album="perte" resize_options="25x25" >}}
 
@@ -82,7 +82,7 @@ My talk starts at **2:05:05**
 
 Program:
 
-{{< tweet 1584804451935813638 >}}
+{{< tweet user="PERTE_Lengua" id="1584804451935813638" >}}
 
 ### What the PERTE New Economy of Language is?
 
