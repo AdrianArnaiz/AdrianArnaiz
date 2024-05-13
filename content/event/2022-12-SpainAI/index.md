@@ -55,4 +55,4 @@ url_video: ""
 
 **SpainAI**: [SpainAI](https://www.spain-ai.com/). SpainAI is a non-profit organization that aims to promote the development of Artificial Intelligence in Spain. It is a community of professionals, researchers, students, and companies that work together to promote the development of Artificial Intelligence in Spain. [Twitter](https://twitter.com/spain_ai_).
 
-{{< tweet user="Spain_AI_" id="1600912413242847233" >}}
+{{< tweet 1600912413242847233 >}}

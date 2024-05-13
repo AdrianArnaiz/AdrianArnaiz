@@ -141,7 +141,7 @@ $$P(S_{t+1}\mid S_t) = P(S_{t+1}\mid S_1, ..., S_N)$$
 ### Graph Neural Networks a.k.a. Graph Machine Learning a.k.a. Graph Representation Learning a.k.a. Geometric Deep Learning
 > Combination of graph theory (NS) and ML-DL to boost the potential flexibility applications of AI. DL dealing with graph data.
 
-{{< tweet user="arnaiztech" id="1358807242276032517" >}}
+{{< tweet 1358807242276032517 >}}
 
  - | *[Book](https://www.cs.mcgill.ca/~wlh/grl_book/)* | **William Hamilton Book: *Graph Representation Learning***
  - | *[Course](http://web.stanford.edu/class/cs224w/) - [Notes](https://snap-stanford.github.io/cs224w-notes/)* | **Jure Leskovec Stanford CS224W Course: *Machine Learning with Graphs***
