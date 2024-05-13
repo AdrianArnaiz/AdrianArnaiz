@@ -13,19 +13,25 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2023-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/).
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: ***Graph Learning: Principles, Challenges, and Open Directions*** (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/Conferences/2024).
+  
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [***10th International Conference on Computational Social Science***](https://ic2s2-2024.org/).  Virtual oral presentation on 2024-05-13.
 
-* {{< hl >}}2023-03-04{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
+* {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/). Poster presented in Vienna on 2024-05-11.
+
+* {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
 
 * {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
   
-* {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for Learning on graphs conference 2025**.
+* {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for Learning on Graphs conference 2025 (LoG 2025)**.
 
 * {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
 
 * {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Indiana, USA) on the course *Ethics of Data Analytics and AI*.
 
 * {{< hl >}}2024-01-31{{< /hl >}} :busts_in_silhouette: Miguel Luengo (FORMER UN CDO) visited ELLIS Alicante.
+  
+* {{< hl >}}2023-12-10{{< /hl >}} :trident: I join the organization committee of [**ICML 2024**](https://icml.cc/Conferences/2024/Committees#:~:text=Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez) as *Associate Chair*.
 
 * {{< hl >}}2023-11-24{{< /hl >}} :busts_in_silhouette: I attended the [**ELLIS HCML Worshop**](https://ellis.eu/programs/human-centric-machine-learning).
 

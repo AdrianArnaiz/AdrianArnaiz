@@ -57,7 +57,7 @@ description = "Adrian Arnaiz Rodriguez resume and portfolio"
 # Enable source code highlighting? true/false
 # Documentation: https://wowchemy.com/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["python","r"]  # Add support for highlighting additional languages
+highlight_languages = ["python"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
@@ -93,14 +93,14 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "ELLIS Alicante, Campus de San Vicente s/n, Universidad de Alicante", city = "Alicante", region = "", postcode = "03690", country = "SPAIN", country_code = "ES"}
+# address = {street = "ELLIS Alicante, Campus de San Vicente s/n, Universidad de Alicante", city = "Alicante", region = "", postcode = "03690", country = "SPAIN", country_code = "ES"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "38.38166449635113", longitude = "-0.5243026809148157"}
+# coordinates = {latitude = "38.38166449635113", longitude = "-0.5243026809148157"}
 
 # Directions for visitors to locate you.
-directions = "Office 65"
+# directions = "Office 65"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
