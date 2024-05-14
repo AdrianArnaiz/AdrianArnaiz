@@ -72,8 +72,8 @@ header:
 * {{< hl >}}2023-02-28{{< /hl >}} :loud_sound: I presented an informal talk in the **ELLIS HCML Reading Group** about *Translating Principles into Practices of Digital Ethics: Five Risks of Being Unethical* (Luciano Floridi).
   
 * {{< hl >}}2023-02-22{{< /hl >}} :loud_sound: I presented my work at a joint workshop with the **JURI Committee of Legal Affairs of the European Parliament**.
-  
-  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians"></a></p>
+ 
+  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians" width="400" class="image-blurred-edge" ></a></p>
 
 * {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at AISTATS 2023.
   
