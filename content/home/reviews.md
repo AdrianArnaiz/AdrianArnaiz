@@ -31,22 +31,21 @@ design:
 * <font size="-1">[Organizer and Moderator]</font> **[Qualcomm+ELLIS Reading Panel Session about GNN+HCML](https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research)** - Round table: Pim de Haan, Carlos Castillo, Efstatios Gavves and Manuel Gómez Rodríguez -  *Online, Feb 2022*
 {{< /spoiler >}}
 
-{{< spoiler text="**Program Committee member**" >}}
-* **FAccT 2023** - ACM Conference on Fairness, Accountability, and Transparency.
-* **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  [[Link](https://hcai-at-neurips.github.io/site/organizers.html#:~:text=Riccio%20ELLIS%20Alicante-,Adrian%20Arnaiz,-ELLIS%20Alicante)]
-* **ECML-PKDD 2022** - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases - *x4 papers*
-{{< /spoiler >}}
-
-{{< spoiler text="**Conference Reviewer**" >}}
+{{< spoiler text="**Program Committee member and Conference Reviewer**" >}}
+* **NeurIPS 2024** - Conference on Neural Information Processing Systems
+* **ICS2S 2024** - International Conference on Computational Social Science
 * **AISTATS 2024** - Artificial Intelligence and Statistics
-* **AISTATS 2023** - Artificial Intelligence and Statistics - *x4 papers* - **[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**
+* **AISTATS 2023** - Artificial Intelligence and Statistics - **[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**
+* **FAccT 2023** - ACM Conference on Fairness, Accountability, and Transparency. 
 * **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
+* **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  AI [[Link](https://hcai-at-neurips.github.io/site/organizers.html#:~:text=Riccio%20ELLIS%20Alicante-,Adrian%20Arnaiz,-ELLIS%20Alicante)] - PC member.
 * **WWW'22** - The Web Conference 2022 , ACM, New York.
+* **ECML-PKDD 2022** - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
 {{< /spoiler >}}
 
 {{< spoiler text="**Workshop Reviewer**" >}}
-* **NeurIPS 2022 AFT Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Time
-* **NeurIPS 2022 AFCP Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Causality and Privacy *x3 papers* [[Link](https://www.afciworkshop.org/)]
+* **NeurIPS 2023 AFT Workshop** - NeurIPS 2023 workshop on Algorithmic Fairness through the Lens of Time
+* **NeurIPS 2022 AFCP Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Causality and Privacy  [[Link](https://www.afciworkshop.org/)]
 {{< /spoiler >}}
 
 {{< spoiler text="**Journal Reviewer**" >}}
