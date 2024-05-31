@@ -21,7 +21,7 @@ design:
   #  text_color_light: true
 ---
 
-{{< spoiler text="**Organizer**" >}}
+{{< spoiler text="**Co-Organizer**" >}}
 * <font size="-1">[Co-Organizer]</font> **3rd Learning of Graphs (LOG) Conference 2025**, TBD, 2025
 * <font size="-1">[Co-Organizer]</font> **Tutorial on ICML 2024 Conference**: “Graph Learning: Principles, Challenges, and Open Directions”, Vienna, July 2024
 * <font size="-1">[Associate Chair]</font> **ICML 2024 Associate Chair**, Viena, 2024

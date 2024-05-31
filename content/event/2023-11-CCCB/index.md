@@ -40,7 +40,7 @@ links:
 url_code: ""
 url_pdf: ""
 url_slides: "https://adrian-arnaiz.netlify.app/media/CCCB-BCN.pdf"
-url_video: ""
+url_video: "https://vimeo.com/938187676#t=50m50s"
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
@@ -77,5 +77,9 @@ From clustering technologies to racialised surveillance and profiling, new spati
 * Piera Riccio (ELLIS Alicante Foundation)
 * Moderator: Jordi Pérez Colomé (El País)
 
+<iframe src="https://player.vimeo.com/video/938187676#t=50m50s?h=5691f48fdb&color=DA2B73&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
 {{< gallery album="pics" resize_options="25x25" >}}
+
 

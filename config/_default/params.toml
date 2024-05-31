@@ -13,7 +13,8 @@
 #   Guide to color themes: https://wowchemy.com/docs/customization/#color-themes
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/themes/
 #   Browse user installed themes in `data/themes/`
-theme = "earth"
+#   PERSONALIZATION: https://matteocourthoud.github.io/post/website/
+theme = "mydark"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -22,7 +23,8 @@ day_night = true
 #   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
 #   Browse the latest built-in font sets at https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/data/fonts
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+#   e.g "myroboto"
+font = "myroboto"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -48,7 +50,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz Rodriguez resume and portfolio"
+description = "Adrian Arnaiz Rodriguez"
 
 ############################
 ## Site Features
@@ -97,10 +99,10 @@ phone = ""
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-# coordinates = {latitude = "38.38166449635113", longitude = "-0.5243026809148157"}
+# coordinates = {latitude = "", longitude = ""}
 
 # Directions for visitors to locate you.
-# directions = "Office 65"
+# directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -124,7 +126,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "avatar"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "arnaiztech"
