@@ -22,13 +22,14 @@ design:
 ---
 
 {{< spoiler text="**Co-Organizer**" >}}
-* <font size="-1">[Co-Organizer]</font> **3rd Learning of Graphs (LOG) Conference 2025**, TBD, 2025
+* <font size="-1">[Co-Organizer]</font> **3rd Learning of Graphs (LOG) Conference 2024**, Virtual, 2024
 * <font size="-1">[Co-Organizer]</font> **Tutorial on ICML 2024 Conference**: “Graph Learning: Principles, Challenges, and Open Directions”, Vienna, July 2024
-* <font size="-1">[Associate Chair]</font> **ICML 2024 Associate Chair**, Viena, 2024
+* <font size="-1">[Associate Chair]</font> **[ICML 2024 Associate Chair](https://icml.cc/Conferences/2024/Committees#:~:text=Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**, Vienna, 2024
 * <font size="-1">[Co-Organizer]</font> **[Tutorial on Graph Rewiring: from Theory to Applications in Fairness](https://ellisalicante.org/tutorials/GraphRewiring)** at **the First Learning on Graphs Conference (LoG)**- *Online, Dec 2022*
 * <font size="-1">[Co-Organizer]</font> **[ELLIS Doctoral Symposium 2022](https://ellisalicante.org/eds2022/)** - *Alicante, Sep 2022*
 * <font size="-1">[Co-Organizer]</font> **[ELLIS HCML Reading Group](https://ellisalicante.org/en/readingGroup)**: guest sessions and round tables - *Virtual, bi-weekly sessions*
-* <font size="-1">[Organizer and Moderator]</font> **[Qualcomm+ELLIS Reading Panel Session about GNN+HCML](https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research)** - Round table: Pim de Haan, Carlos Castillo, Efstatios Gavves and Manuel Gómez Rodríguez -  *Online, Feb 2022*
+* <font size="-1">[Organizer and Moderator]</font> **[Qualcomm+ELLIS Panel about GNN+HCML](https://ellisalicante.org/readingGroup#:~:text=Guest%20talk%20by%20Qualcomm%20AI%20Research)** -  *Online, Feb 2022*
+  * Round table: Manuel Gómez Rodríguez, Carlos Castillo, Efstatios Gavves and Pim de Haan
 {{< /spoiler >}}
 
 {{< spoiler text="**Program Committee member and Conference Reviewer**" >}}

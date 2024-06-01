@@ -33,21 +33,39 @@
   url = "#experience"
   weight = 55
 
-#[[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 60
-
-[[main]]
-  name = "Press"
-  url = "#press"
-  weight = 70
-
-
 [[main]]
   name = "Contact"
   url = "#contact"
   weight = 80
+
+[[main]]
+    name = "More"
+    identifier = "more"
+    weight = 100
+
+[[main]]
+  name = "News"
+  parent = "more"
+  url = "/news"
+  weight = 1
+
+[[main]]
+  name = "Press"
+  parent = "more"
+  url = "/press"
+  weight = 2
+
+[[main]]
+  name = "More Projects"
+  parent = "more"
+  url = "/project"
+  weight = 3
+
+[[main]]
+  name = "Posts"
+  parent = "more"
+  url = "/post"
+  weight = 4
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.

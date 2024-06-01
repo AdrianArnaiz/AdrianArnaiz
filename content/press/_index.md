@@ -1,24 +1,16 @@
 ---
-# An instance of the Pages widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: blank
+title: Press Coverage
 
-# This file represents a page section.
-headless: true
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+view: 2
 
-# Order that this section appears on the page.
-weight: 65
-
-title: 'Press Coverage'
-
-# Section design
-design:
-  # Use a 1-column layout
-  columns: "1"
-  # Use a dark navy background with light text.
-  #background:
-  #  color: '#0053D6'
-  #  text_color_light: true
+# Optional header image (relative to `static/media/` folder).
+header:
+  caption: ""
+  image: ""
 ---
 * ["CHATGPT:  La AEPD Investiga La App De Inteligencia Artificial" [Spanish]](https://www.youtube.com/watch?v=I8Jmhe1CdnY), **RTVE 1 - News**, (13/04/2023)
 * ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award*" [SP]](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)

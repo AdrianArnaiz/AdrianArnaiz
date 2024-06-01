@@ -23,7 +23,7 @@ header:
 
 * {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
   
-* {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for Learning on Graphs conference 2025 (LoG 2025)**.
+* {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for [Learning on Graphs conference 2024 (LoG 2024)](https://logconference.org/)**.
 
 * {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
 

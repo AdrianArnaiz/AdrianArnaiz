@@ -50,7 +50,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz Rodriguez"
+description = "Adrian Arnaiz Rodriguez, PhD Student at ELLIS Alicante"
 
 ############################
 ## Site Features
@@ -271,7 +271,8 @@ plugins_js  = []
 [marketing]
   google_analytics = ""
   google_tag_manager = ""
-
+#<meta name="google-site-verification" content="aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s" />
+#google63df74639dbd99c1
 ############################
 ## Content Management System
 ############################
