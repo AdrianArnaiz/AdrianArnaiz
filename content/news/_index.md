@@ -13,7 +13,7 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2024-04-24{{< /hl >}} :scroll: ***Graph Learning: Principles, Challenges, and Open Directions*** (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/Conferences/2024).
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233).
   
 * {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [***10th International Conference on Computational Social Science***](https://ic2s2-2024.org/).  Virtual oral presentation on 2024-05-13.
 

@@ -1,5 +1,5 @@
 ---
-title: "Algorithmic Discriminations @ Algorithmic Societies, CCCB"
+title: "[Algorithmic Societies, CCCB] Algorithmic Discrimination"
 
 event: Algorithmic Societies - Ethics and policy in the artificial intelligence age at CCCB Barcelona
 event_url: https://www.cccb.org/en/activities/file/algorithmic-societies/243038

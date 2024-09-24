@@ -1,5 +1,5 @@
 ---
-title: "Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance"
+title: "[TrustLoG @ WWW Conference] Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance"
 
 event: The 2nd Workshop on Trustworthy Learning on Graphs (TrustLOG) at the Web Conference (WWW) 2024
 event_url: https://trustlogworkshop.github.io/

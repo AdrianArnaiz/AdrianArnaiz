@@ -12,6 +12,7 @@ header:
   caption: ""
   image: ""
 ---
+* ["Impressions of the 10th HLFF and eliminating discrimination in Social Networks" [Finnish]](https://www.tiedetoimittajat.fi/mestarit-kohtaavat-kisallit-matematiikkaa-ja-tietojenkasittelytiedetta-juhlittiin-kymmenetta-kertaa-heidelberg-laureate-forum-tapahtumassa), **Tiedetoimittajat - The Finnish Association of Science editors and journalists**, (20/09/2023).
 * ["CHATGPT:  La AEPD Investiga La App De Inteligencia Artificial" [Spanish]](https://www.youtube.com/watch?v=I8Jmhe1CdnY), **RTVE 1 - News**, (13/04/2023)
 * ["Deep Learning: Premio Principe de Asturias 2022 - *Comments about Y. LeCun, Y. Bengio, G. Hinton and D. Hassabis award*" [SP]](https://www.rtve.es/play/videos/telediario-2/inteligencia-artificial-deep-learning-premio-princesa-asturias/6724398/), **RTVE 1 - News**, (28/10/2022)
 * ["Having (previous) strategy and retaining talent, Alicante's strengths for hosting the National AI Agency" [SP]](https://alicanteplaza.es/tenerestrategiapreviayretenertalentolasfortalezasdealicanteparaacogerlaagenciadeia), **Información**, (25/09/2022)

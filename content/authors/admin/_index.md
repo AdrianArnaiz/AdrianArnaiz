@@ -26,7 +26,7 @@ interests:
 education:
   courses:
   - course: ELLIS PhD student in ML
-    institution: ELLIS Alicante and MPI-SWS (exchange)
+    institution: ELLIS Alicante and exchange at MPI-SWS
     year: started on Dec 2021
   - course: MSc in Data Science and Artificial Intelligence
     institution: Open University of Catalonia (Universitat Oberta de Catalunya)
@@ -92,9 +92,9 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a PhD Student at [ELLIS](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) and **currently at [MPI-SWS](https://www.mpi-sws.org/)** as part of the [ELLIS PhD & PostDoc program](https://ellis.eu/phd-postdoc). I am very lucky to be supervised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver) and [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/).
+I am a PhD student at [ELLIS](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I am very lucky to be supervised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver) and to have done an exchange at [MPI-SWS](https://www.mpi-sws.org/) advised by [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/).
 
-I'm currently focused on the sociotechnical problem of **Algorithmic Fairness for Decision Making, boosted by Graph Theory**. I'm delving into the ethical implications of such decisions made by ML models, including concepts such as transparency, accountability, reliability, and fairness. Therefore, the main projects are developing algorithms that improves understanding of ML models with a focus un the data and it's representations (*how the data should be to make ML models fair?*), the fairness problem in networks (*the natural societal data type*), the unexpected effects of this models, and, last but no least, the actual application in the society (regulation and politics).
+I'm currently focused on the sociotechnical problems of Machine Learning in Decision-making: **Algorithmic Fairness and Graph Neural Networks**. I'm delving into the ethical implications of such decisions made by ML models, including concepts such as transparency, accountability, reliability, and fairness. Therefore, the main projects are developing algorithms that improves understanding of ML models with a focus un the data and it's representations (*how the data should be to make ML models fair?*), the fairness problem in networks (*the natural societal data type*), the unexpected effects of this models, and, last but no least, the actual application in the society (*regulation and politics*).
 
 In the past, I've mainly worked in **ML** and **DL** applied to **life science**, as in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) - both with outstanding results (*honours*) -. Besides, I also researched in **network science** and **graph theory**, leading to some conference papers about the understanding of the acadamic network. 
 </DIV>

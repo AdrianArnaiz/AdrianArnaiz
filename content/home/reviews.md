@@ -45,6 +45,7 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Workshop Reviewer**" >}}
+* **NeurIPS 2024 AFME Workshop** - NeurIPS 2024 Algorithmic Fairness through the Lens of Metrics and Evaluation
 * **NeurIPS 2023 AFT Workshop** - NeurIPS 2023 workshop on Algorithmic Fairness through the Lens of Time
 * **NeurIPS 2022 AFCP Workshop** - NeurIPS 2022 workshop on Algorithmic Fairness through the Lens of Causality and Privacy  [[Link](https://www.afciworkshop.org/)]
 {{< /spoiler >}}

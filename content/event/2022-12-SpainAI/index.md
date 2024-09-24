@@ -1,5 +1,5 @@
 ---
-title: "Algorithmic Fairness in Artificial Intelligence (Spanish)"
+title: "[SpainAI] Algorithmic Fairness in Artificial Intelligence (Spanish)"
 
 event: Discovering AI in Burgos - SpainAI
 event_url: https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/
