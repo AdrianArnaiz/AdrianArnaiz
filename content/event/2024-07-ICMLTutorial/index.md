@@ -45,21 +45,12 @@ url_code: ""
 url_pdf: ""
 url_slides: "https://slideslive.com/39021923/graph-learning-principles-challenges-and-open-directions"
 url_video: "https://www.youtube.com/watch?v=Rd_8QcPg6kw"
-
-#{{< youtube Rd_8QcPg6kw >}}
 ---
 
 
+{{< youtube Rd_8QcPg6kw >}}
 
-<div id="presentation-embed-39021923"></div>
-<script src="https://slideslive.com/embed_presentation.js"></script>
-<script>
-  embed = new SlidesLiveEmbed("presentation-embed-39021923", {
-    presentationId: "39021923",
-    autoPlay: false,
-    verticalEnabled: true,
-  });
-</script>
+</br>
 
 ICML Tutorial at ICML with [Ameya Velingker](https://www.ameyavelingker.com/) (Google Research) on Graph Machine Learning. In addition to the foundations, we cover challenges in  expressiveness and generalizability, and understanding and addressing under-reaching, over-smoothing, over-squashing, and graph rewiring techniques. We also moderate a panel discussion with [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/), [Bryan Perozzi](http://www.perozzi.net/),  [Christopher Morris](https://chrsmrrs.github.io/) and [Michael Galkin](https://migalkin.github.io/) about future steps in GNNs.
 
