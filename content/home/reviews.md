@@ -33,9 +33,9 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Program Committee member and Conference Reviewer**" >}}
+* **AISTATS 2024** - Conference on Neural Information Processing Systems
 * **NeurIPS 2024** - Conference on Neural Information Processing Systems
 * **ICS2S 2024** - International Conference on Computational Social Science
-* **AISTATS 2024** - Artificial Intelligence and Statistics
 * **AISTATS 2023** - Artificial Intelligence and Statistics - **[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**
 * **FAccT 2023** - ACM Conference on Fairness, Accountability, and Transparency. 
 * **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
