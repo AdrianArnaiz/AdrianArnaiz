@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -b https://adrian-arnaiz.netlify.app/"
+  command = "hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]

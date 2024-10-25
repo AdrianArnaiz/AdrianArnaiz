@@ -67,7 +67,9 @@ image:
 # slides: ""
 ---
 
-{{< tweet user="kschweig_" id="1848257945596768258" >}}
+<blockquote class="twitter-tweet">
+  <a href="https://twitter.com/kschweig_/status/1848257945596768258"></a> 
+</blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 {{% callout note %}}
 Click the *Cite* button above to show and copy bibtex reference.
