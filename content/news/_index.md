@@ -12,10 +12,21 @@ header:
   caption: ""
   image: ""
 ---
+* {{< hl >}}2024-11-18{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**ICWSM 2025**](https://www.icwsm.org/2025/index.html).
+
+* {{< hl >}}2024-11-16{{< /hl >}} :scroll: [***The Intersection of Trustworthy AI and Labour Law. A Legal and Technical Study from a Tripartite Taxonomy***](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (with Julio Losada) is published at [**RGDTSS n.69**](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (Spanish General Journal of Labor Law and Social Security, ISSN 1696-9626). 
+  
+* {{< hl >}}2024-11-08{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**V Conference on Intellectual Disability: support for a good life**](https://csanrafael.org/jornadas2024/).
+
+* {{< hl >}}2024-09-22{{< /hl >}} :loud_sound: I gave a ***3-hours lecture on Graph Neural Networks*** at the [**delveDeepLearning**](https://delveedu.com/dl.html) online course.
+
+* {{< hl >}}2024-06-22{{< /hl >}} :loud_sound::scroll: The [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233) tutorial on [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was succesfully presented.
+
+* {{< hl >}}2024-06-12{{< /hl >}} :busts_in_silhouette: I attended [**LOGML**](https://www.logml.ai/) in London working on a project mentored by [Joshua Robinson](https://joshrobinson.mit.edu/).
 
 * {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233).
   
-* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [***10th International Conference on Computational Social Science***](https://ic2s2-2024.org/).  Virtual oral presentation on 2024-05-13.
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [**10th International Conference on Computational Social Science**](https://ic2s2-2024.org/).  Virtual oral presentation on 2024-05-13.
 
 * {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/). Poster presented in Vienna on 2024-05-11.
 
