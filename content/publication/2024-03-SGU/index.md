@@ -18,8 +18,8 @@ publishDate: "2022-06-15T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: WWW 2024 2nd Workshop on Trustworthy Learning on Graphs (TrustLOG) AND International Conference on Computational Social Science (IC2S2)
-publication_short: In *TrustLOG Workshop at WWW 2024* AND *IC2S2*
+publication: International AAAI Conference on Web and Social Media (ICWSM 2025)
+publication_short: In *ICWSM 2025*. Also in *TrustLOG Workshop at WWW 2024* AND *IC2S2*.
 
 abstract: "Social networks contribute to the distribution of social capital, defined as the relationships, norms of trust and reciprocity within a community or society that facilitate cooperation and collective action. Social capital exists in the relations among individuals, such that better positioned members in a social network benefit from faster access to diverse information and higher influence on information dissemination. A variety of methods have been proposed in the literature to measure social capital at an individual level. However, there is a lack of methods to quantify social capital at a group level, which is particularly important when the groups are defined on the grounds of protected attributes. Furthermore, state-of-theart approaches fail to model the role of long-range interactions between nodes in the network and their contributions to social capital. To fill this gap, we propose to measure the social capital of a group of nodes by means of their information flow and emphasize the importance of considering the whole network topology. Grounded in spectral graph theory, **we introduce three effective resistance-based measures of group social capital, namely group isolation, group diameter and group control**, where the groups are defined according to the value of a protected attribute. **We denote the social capital disparity among different groups in a network as structural group unfairness**, and propose to **mitigate it by means of a budgeted edge augmentation heuristic that systematically increases the social capital of the most disadvantaged group**. In experiments on real-world networks, we uncover significant levels of structural group unfairness when using gender as the protected attribute, with females being the most disadvantaged group in comparison to males. We also illustrate how our proposed edge augmentation approach is able to not only effectively mitigate the structural group unfairness but also increase the social capital of all groups in the network."
 
@@ -68,6 +68,12 @@ image:
 #   Otherwise, set `slides: ""`.
 # slides: ""
 ---
+
+Work accepted at [**ICWSM 2025: International AAAI Conference on Web and Social Media**](https://www.icwsm.org/2025/index.html).
+
+Also presented at 
+* [**TrustLOG @ WWW 2024**: 2nd Workshop on Trustworthy Learning on Graphs at the Web Conference](https://trustlogworkshop.github.io/#contribution). Singapore. May 2024.
+* [**IC2S2 2024**:  10th International Conference on Computational Social Science](https://ic2s2-2024.org/schedule#Poster-Presentations:~:text=Poster%20Presentations). Philadelphia, USA. June 2024.
 
 {{% callout note %}}
 Click the *Cite* button above to show and copy bibtex reference.

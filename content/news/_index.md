@@ -26,11 +26,11 @@ header:
 
 * {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233).
   
-* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [**10th International Conference on Computational Social Science**](https://ic2s2-2024.org/).  Virtual oral presentation on 2024-05-13.
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [**10th International Conference on Computational Social Science**](https://ic2s2-2024.org/schedule#Poster-Presentations:~:text=Poster%20Presentations).  Presentaiton on June 2024.
 
 * {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/). Poster presented in Vienna on 2024-05-11.
 
-* {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/).
+* {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**WWW 2024**](https://www2024.thewebconf.org/) workshop on [**Trustworthy Learning on Graphs (TrustLOG)**](https://trustlogworkshop.github.io/). Virtual oral presentation on 2024-05-13.
 
 * {{< hl >}}2024-02-29{{< /hl >}} :trident: I was selected to participate in the **London Geometry and Machine Learning Summer School** (8-12 July) to collaborate with [**Joshua Robinson**](https://joshrobinson.mit.edu/).
   
