@@ -12,9 +12,11 @@ header:
   caption: ""
   image: ""
 ---
+
+* {{< hl >}}2024-11-29{{< /hl >}} :scroll: [***The Intersection of Trustworthy AI and Labour Law. A Legal and Technical Study from a Tripartite Taxonomy***](https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=427491) (with Julio Losada) is published at [**RGDTSS n.69**](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (Spanish General Journal of Labor Law and Social Security, ISSN 1696-9626). 
+
 * {{< hl >}}2024-11-18{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**ICWSM 2025**](https://www.icwsm.org/2025/index.html).
 
-* {{< hl >}}2024-11-16{{< /hl >}} :scroll: [***The Intersection of Trustworthy AI and Labour Law. A Legal and Technical Study from a Tripartite Taxonomy***](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (with Julio Losada) is published at [**RGDTSS n.69**](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (Spanish General Journal of Labor Law and Social Security, ISSN 1696-9626). 
   
 * {{< hl >}}2024-11-08{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**V Conference on Intellectual Disability: support for a good life**](https://csanrafael.org/jornadas2024/).
 
