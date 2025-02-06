@@ -13,6 +13,12 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***A Holistic View of Algorithmic Fairness and Trustworthy AI: Society and Algorithms*** at the [**Joint Research Center of the European Commission (JRC-EU)**](https://joint-research-centre.ec.europa.eu/jrc-sites-across-europe/jrc-seville-spain_en) and [**European Center of Algorithmic Transparency**](https://algorithmic-transparency.ec.europa.eu/about_en) at Sevilla, Spain
+
+* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**Faculty of Philosophy at the University of Sevilla**](https://csanrafael.org/jornadas2024/) as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”.
+
+* {{< hl >}}2024-12{{< /hl >}} :scroll: [***Studying Causality in Algorithmic Decision Making: the Impact of IA in the Business Domain***](https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518) (with Julio Losada) is published at [**RLDE vol. 12 num. 4**](https://ejcls.adapt.it/index.php/rlde_adapt/issue/view/105) (International Journal of Labor Relations and Labor Law, ISSN 2282-2313). 
+
 * {{< hl >}}2024-11-29{{< /hl >}} :scroll: [***The Intersection of Trustworthy AI and Labour Law. A Legal and Technical Study from a Tripartite Taxonomy***](https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=427491) (with Julio Losada) is published at [**RGDTSS n.69**](https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1) (Spanish General Journal of Labor Law and Social Security, ISSN 1696-9626). 
 
 * {{< hl >}}2024-11-18{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at [**ICWSM 2025**](https://www.icwsm.org/2025/index.html).
