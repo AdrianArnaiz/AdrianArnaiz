@@ -81,6 +81,8 @@ We specifically study the implications of the AI Act and AI technical features i
 
 ![Spanish Intersection of Ai and Labour Law](AIA-LaboralLaw-intersection.png "Intersection of the AI and Law in Spain")
 
+![Effective Regulaton](overlap.png "Effective Regulation of AI in Spain")
+
 
 ***KEYWORDS***: Artificial Intelligence (AI), Labour Law, Labour Law, Reliable AI, AI Regulation, High-Level Expert Group on AI (HLEG), Life Cycle of AI Systems
 
