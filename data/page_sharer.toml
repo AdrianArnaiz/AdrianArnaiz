@@ -23,9 +23,9 @@
   id = "bluesky"
   url = "https://bsky.app/profile/adri-arnaiz.bsky.social"
   title = "bluesky"
-  icon_pack = "fab"
-  icon = "bluesky"
-  enable = true
+  icon_pack = "fa"
+  icon = "cloud"
+  enable = false
 
  [[buttons]]
   id = "cv" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
