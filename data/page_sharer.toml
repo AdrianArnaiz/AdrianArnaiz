@@ -1,6 +1,16 @@
 # Page Sharer
 # Documentation: https://sourcethemes.com/academic/docs/customization/#page-sharer
 
+
+[[buttons]]
+  id = "google-scholar" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
+  url = "https://scholar.google.com/citations?hl=en&user=M50V8k4AAAAJ"
+  title = "Google Scholar"
+  icon_pack = "ai"
+  icon = "google-scholar" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
+  enable = true
+
+
 [[buttons]]
   id = "twitter"
   url = "https://twitter.com/arnaiztech"
@@ -10,6 +20,32 @@
   enable = true
 
 [[buttons]]
+  id = "bluesky"
+  url = "https://bsky.app/profile/adri-arnaiz.bsky.social"
+  title = "bluesky"
+  icon_pack = "fab"
+  icon = "bluesky"
+  enable = true
+
+ [[buttons]]
+  id = "cv" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
+  url = "/media/resume.pdf"
+  title = "CV"
+  icon_pack = "ai"
+  icon = "cv" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
+  enable = false
+  
+ 
+
+[[buttons]]
+  id = "linkedin"
+  url = "https://www.linkedin.com/in/adrian-arnaiz-rodriguez/?locale=en_US"
+  title = "LinkedIn"
+  icon_pack = "fab"
+  icon = "linkedin-in"
+  enable = true
+
+  [[buttons]]
   id = "email"
   url = "https://adrian-arnaiz.netlify.app/#contact"
   title = "Email"
@@ -23,31 +59,7 @@
   title = "ORCID"
   icon_pack = "ai"
   icon = "orcid" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  enable = true
-  
- [[buttons]]
-  id = "cv" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  url = "https://orcid.org/0000-0001-5567-801X"
-  title = "CV"
-  icon_pack = "ai"
-  icon = "cv" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  enable = true
-  
- [[buttons]]
-  id = "google-scholar" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  url = "https://orcid.org/0000-0001-5567-801X"
-  title = "Google Scholar"
-  icon_pack = "ai"
-  icon = "google-scholar" #cv, google-scholar, arxiv, orcid, researchgate, mendeley
-  enable = true
-
-[[buttons]]
-  id = "linkedin"
-  url = "https://www.linkedin.com/in/adrian-arnaiz-rodriguez/?locale=en_US"
-  title = "LinkedIn"
-  icon_pack = "fab"
-  icon = "linkedin-in"
-  enable = true
+  enable = false
 
 #[[buttons]]
 #  id = "whatsapp"
