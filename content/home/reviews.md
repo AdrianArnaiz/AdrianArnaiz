@@ -33,15 +33,14 @@ design:
 {{< /spoiler >}}
 
 {{< spoiler text="**Program Committee member and Conference Reviewer**" >}}
-* **AISTATS 2024** - Conference on Neural Information Processing Systems
-* **NeurIPS 2024** - Conference on Neural Information Processing Systems
-* **ICS2S 2024** - International Conference on Computational Social Science
-* **AISTATS 2023** - Artificial Intelligence and Statistics - **[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**
-* **FAccT 2023** - ACM Conference on Fairness, Accountability, and Transparency. 
-* **ICML 2022** - International Conference on Machine Learning - **[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**
-* **NeurIPS 2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  AI [[Link](https://hcai-at-neurips.github.io/site/organizers.html#:~:text=Riccio%20ELLIS%20Alicante-,Adrian%20Arnaiz,-ELLIS%20Alicante)] - PC member.
-* **WWW'22** - The Web Conference 2022 , ACM, New York.
-* **ECML-PKDD 2022** - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+* **ICML** - 2022, (**[Top 10%](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)**, 2025) - International Conference on Machine Learning
+* **AISTATS** - 2023 (**[Top 10%](http://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n%20Arnaiz%2DRodr%C3%ADguez)**, 2024) - Artificial Intelligence and Statistics
+* **NeurIPS** - 2024 - Conference on Neural Information Processing Systems
+* **ICS2S** - 2024, 2025 - International Conference on Computational Social Science
+* **FAccT** - 2023 - ACM Conference on Fairness, Accountability, and Transparency. 
+* **NeurIPS** -  2022 HCAI Workshop** - NeurIPS 2022 workshop on Human Centered  AI [[Link](https://hcai-at-neurips.github.io/site/organizers.html#:~:text=Riccio%20ELLIS%20Alicante-,Adrian%20Arnaiz,-ELLIS%20Alicante)] - PC member.
+* **WWW** - 2022 - The Web Conference 2022 , ACM, New York.
+* **ECML-PKDD** - 2022 - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
 {{< /spoiler >}}
 
 {{< spoiler text="**Workshop Reviewer**" >}}
@@ -52,7 +51,7 @@ design:
 
 {{< spoiler text="**Journal Reviewer**" >}}
 * **IEEE TNNLS 2023** - IEEE Transactions on Neural Networks and Learning Systems - Special Issue Graph Learning.
-* **PeerJ 2023** - PeerJ Computer Science.
+* **PeerJ 2023, 2025** - PeerJ Computer Science.
 * **JMLR 2023** - Journal of Machine Learning Research
 * **Journal of Complexity 2022**
 * **IEEE TCSS** - IEEE Transactions on Computational Social Systems 2022.

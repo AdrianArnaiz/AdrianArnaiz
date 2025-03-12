@@ -34,7 +34,7 @@ tags:
 featured: false
 
 links:
-url_pdf: 'https://www.iustel.com/v2/revistas/detalle_revista.asp?id=12&z=1'
+url_pdf: 'https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=427491'
 url_code: ''
 url_dataset: ''
 url_poster: ''
