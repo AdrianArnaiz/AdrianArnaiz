@@ -13,6 +13,8 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2025-04{{< /hl >}} :trident: I received the **Top Reviewer Award** at AISTATS 2025.
+
 * {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***A Holistic View of Algorithmic Fairness and Trustworthy AI: Society and Algorithms*** at the [**Joint Research Center of the European Commission (JRC-EU)**](https://joint-research-centre.ec.europa.eu/jrc-sites-across-europe/jrc-seville-spain_en) and [**European Center of Algorithmic Transparency**](https://algorithmic-transparency.ec.europa.eu/about_en) at Sevilla, Spain
 
 * {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**Faculty of Philosophy at the University of Sevilla**](https://csanrafael.org/jornadas2024/) as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”.
@@ -94,7 +96,7 @@ header:
  
   <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians" width="400" class="image-blurred-edge" ></a></p>
 
-* {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Outstanding Reviewer Award** at AISTATS 2023.
+* {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Top Reviewer Award** at AISTATS 2023.
   
 * {{< hl >}}2023-01-30{{< /hl >}} The National Secretary of AI in Spain, D. Carme Artigas, visited ELLIS Alicante.
   

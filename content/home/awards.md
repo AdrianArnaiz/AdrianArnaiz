@@ -21,17 +21,29 @@ design:
   #  text_color_light: true
 ---
 
+#### [Top Reviewer AISTATS 2025](https://aistats.org/aistats2025/awards.html\#:\~:text=Adrian\%20Arnaiz\%2DRodriguez)
+{{< spoiler text="2025 - ***Artificial Intelligence and Statistics 2025***" >}}
+> 💡 *Selected as Outstanding Reviewer of AISTATS 2025 (Top 10 %)*
+{{< /spoiler >}}
+
+
+#### [London Geometry and Machine Learning Summer School 2024](https://www.logml.ai/)
+{{< spoiler text="2024 - ***London Geometry and Machine Learning Summer School 2024***" >}}
+> 💡 *I have been selected to attend the LOGML 2024. Selected to take part as a contributor in the project: "GNNs for Relational Databases" with [Joshua Robinson](https://joshrobinson.mit.edu/)*
+{{< /spoiler >}}
+
+
 #### [Heidelberg Laureate Forum Young Researcher](https://www.heidelberg-laureate-forum.org/forum/10th-hlf-2023.html)
 {{< spoiler text="2023 - ***10th Heidelberg Laureate Forum***" >}}
 > 💡 *I have been selected as one of the 200 young researchers to attend the 10th edition of the Heidelberg Laureate Forum Foundation in 2023 to spend a week attending talks and working together with [more than 25 Laureates](https://www.heidelberg-laureate-forum.org/forum/10th-hlf-2023/laureates-10th-hlf-2023.html) in the fields of Maths, Computer Science or Physics.*
 {{< /spoiler >}}
 
-#### [Outstanding Reviewer AISTATS 2023](https://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n,-Arnaiz-Rodr%C3%ADguez)
+#### [Top Reviewer AISTATS 2023](https://aistats.org/aistats2023/reviewers.html#:~:text=Adam%20M.%20Johansen-,Adri%C3%A1n,-Arnaiz-Rodr%C3%ADguez)
 {{< spoiler text="2023 - ***Artificial Intelligence and Statistics 2023***" >}}
 > 💡 *Selected as Outstanding Reviewer of AISTATS 2023 (Top 10 %)*
 {{< /spoiler >}}
 
-#### [Outstanding Reviewer ICML 2022](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)
+#### [Top Reviewer ICML 2022](https://icml.cc/Conferences/2022/Reviewers#:~:text=Outstanding%20Reviewers)
 {{< spoiler text="2022 - ***International Conference on Machine Learning 2022***" >}}
 > 💡 *Selected as Outstanding Reviewer of ICML 2022 (Top 10 %)*
 {{< /spoiler >}}
