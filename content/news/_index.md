@@ -13,6 +13,8 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2025-05{{< /hl >}} :scroll: [***The Disparate Benefits of Deep Ensembles***](https://arxiv.org/abs/2410.13831) (with  Kajetan Schweighofer, Sepp Hochreiter and Nuria Oliver) was accepted at [**ICML 2025**](https://icml.cc/).
+
 * {{< hl >}}2025-04{{< /hl >}} :trident: I received the **Top Reviewer Award** at AISTATS 2025.
 
 * {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***A Holistic View of Algorithmic Fairness and Trustworthy AI: Society and Algorithms*** at the [**Joint Research Center of the European Commission (JRC-EU)**](https://joint-research-centre.ec.europa.eu/jrc-sites-across-europe/jrc-seville-spain_en) and [**European Center of Algorithmic Transparency**](https://algorithmic-transparency.ec.europa.eu/about_en) at Sevilla, Spain

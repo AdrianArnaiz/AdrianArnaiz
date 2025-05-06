@@ -95,13 +95,18 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a PhD student at [ELLIS](https://ellis.eu) in [Alicante Unit](https://ellisalicante.org/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I am very lucky to be supervised by Dr. [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver) and to have done an exchange at [MPI-SWS](https://www.mpi-sws.org/) advised by [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/).
+I am a PhD student at [Alicante Unit](https://ellisalicante.org/) within the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc), where I am fortunate to be supervised by [Dr. Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver).  I also conducted a research visit at [MPI-SWS](https://www.mpi-sws.org/), hosted by [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/). My work explores the **sociotechnical challenges of AI**, with a focus on **algorithmic fairness**, **Graph Neural Networks**, and the intersection between **technical design and AI regulation**.
 
-I'm currently focused on the sociotechnical problems of Machine Learning in Decision-making: **Algorithmic Fairness and Graph Neural Networks**. I'm delving into the ethical implications of such decisions made by ML models, including concepts such as transparency, accountability, reliability, and fairness. Therefore, the main projects are developing algorithms that improves understanding of ML models with a focus un the data and it's representations (*how the data should be to make ML models fair?*), the fairness problem in networks (*the natural societal data type*), the unexpected effects of this models, and, last but no least, the actual application in the society (*regulation and politics*).
+I work on developing **Trustworthy AI** systems that are both **technically rigorous and socially responsible**. My work spans from theoretical methods (*e.g. develop algorithms and metrics for algorithmic fairness, fairness in graphs and social networks, human-AI Collaboration*) to real-world impact (*e.g. AI intersection with regulation and policy-making*), having contributed to frameworks such as the development of the [Spanish Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales).
+<!--asking questions like: <a style="color:gray;">*How should data be represented to ensure fairness? How do network structures amplify disparities? How can we develop robust algorithms to interact with humans? How can regulation effectively align with technical practice?*</a>-->
 
-In the past, I've mainly worked in **ML** and **DL** applied to **life science**, as in my [Bachelor's](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master's Thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) - both with outstanding results (*honours*) -. Besides, I also researched in **network science** and **graph theory**, leading to some conference papers about the understanding of the acadamic network. 
+I'm also particularly interested in **graph-based learning**, with a focus on theoretical challenges in GNNs and how to better leverage graph structure to improve model performance. This has led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+
+Prior to my PhD, I worked on ML/DL applications in life sciences, completing both my [Bachelor’s](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master’s](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) theses with honors. I also explored *network science* and *graph theory*, work that laid the foundation for my current research in graph-based fairness.
+
+<p style="font-size: 0.8em; color:rgb(92, 92, 92); background-color:rgb(241, 241, 241); padding: 5px; border-radius: 2px;">
+<i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament’s JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
+</p>
 </DIV>
 
-**Life**
-*  Born in [Burgos](https://es.wikipedia.org/wiki/Burgos) (Spain)
 

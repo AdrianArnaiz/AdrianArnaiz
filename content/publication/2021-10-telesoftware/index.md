@@ -34,7 +34,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: Frontiers in Neurology, 1812
-publication_short: Appl. Sci.
+publication_short: Frontiers in Neurology
 
 abstract: 1-Background. The use of telemedicine has increased to address the ongoing healthcare needs of patients with movement disorders. 2-Objective. We aimed to describe the technical and basic security features of the most popular telemedicine videoconferencing software. 3-Methods. We conducted a systematic review of articles/websites about “Telemedicine”, “Cybersecurity”, and “Videoconferencing software”. Technical capabilities and basic security features were determined for each videoconferencing software. 4-Results. Twenty-six videoconferencing software programs were reviewed, 13 (50.0%) were specifically designed for use in healthcare, and 6/26 (23.0%) were compliant with both European and US regulations. Overall technical and security information were found in 5/26 software (19.2%), including Microsoft Teams, Google Hangout, Coviu, Doxy.me and Thera platforms. 5- Conclusions.Detailed information about technical capabilities and data security of videoconferencing tools is not easily and openly retrievable. Our data serves as a guide for practitioners seeking to understand what features should be examined when choosing software, and what options are available.
 
