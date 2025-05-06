@@ -31,7 +31,7 @@ tags:
 - Deep Ensembles
 - Algorithmic Fairness
 
-featured: false
+featured: true
 
 links:
 url_pdf: 'https://arxiv.org/abs/2410.13831'

@@ -33,7 +33,7 @@ tags:
 - Social Capital
 - Algorithmic Fairness
 
-featured: false
+featured: true
 
 links:
 url_pdf: 'https://arxiv.org/pdf/2305.03223.pdf'

@@ -34,7 +34,7 @@ tags:
 - Graph Rewiring
 - Graph Diffusion
 
-featured: false
+featured: true
 
 links:
 url_pdf: 'https://openreview.net/pdf?id=IXvfIex0mX6f'

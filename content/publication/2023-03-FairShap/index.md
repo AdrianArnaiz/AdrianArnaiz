@@ -31,7 +31,7 @@ tags:
 - Shapley Values
 - Game Theory
 
-featured: false
+featured: true
 
 links:
 url_pdf: 'https://arxiv.org/pdf/2303.01928.pdf'

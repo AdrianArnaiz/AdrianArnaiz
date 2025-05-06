@@ -31,7 +31,7 @@ tags:
 - Labour Law
 - AI Act
 
-featured: false
+featured: true
 
 links:
 url_pdf: 'https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518'

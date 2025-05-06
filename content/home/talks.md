@@ -32,4 +32,6 @@ design:
   view: 1
 ---
 
-**[Click here for a complete list of talks](/event/)**
+{{% callout note %}}
+[See complete list of talks {{< icon name="hand-pointer" pack="fas" >}}](/event/)
+{{% /callout %}}

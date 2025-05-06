@@ -20,6 +20,7 @@ design:
   #  color: '#0053D6'
   #  text_color_light: true
 ---
+{{< spoiler text="***Click to expand***" >}}
 
 #### [Top Reviewer AISTATS 2025](https://aistats.org/aistats2025/awards.html\#:\~:text=Adrian\%20Arnaiz\%2DRodriguez)
 {{< spoiler text="2025 - ***Artificial Intelligence and Statistics 2025***" >}}
@@ -76,7 +77,6 @@ design:
 *************************
 
 #### 8 out of 10 MSc Subjects graded with honours, included Thesis
-> GPA: 9.7 / 10
-
 #### 10 out of 39 BSc Subjects graded with honours, included Thesis
-> GPA: 8.9 / 10
+
+{{< /spoiler >}}
