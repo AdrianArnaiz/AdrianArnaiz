@@ -104,9 +104,9 @@ I'm also particularly interested in **graph-based learning**, with a focus on th
 
 Prior to my PhD, I worked on ML/DL applications in life sciences, completing both my [Bachelor’s](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master’s](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) theses with honors. I also explored *network science* and *graph theory*, work that laid the foundation for my current research in graph-based fairness.
 
-<p style="font-size: 0.8em; color:rgb(92, 92, 92); background-color:rgb(241, 241, 241); padding: 5px; border-radius: 2px;">
+<!--<p style="font-size: 0.8em; color:rgb(92, 92, 92); background-color:rgb(241, 241, 241); padding: 5px; border-radius: 2px;">
 <i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament’s JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
-</p>
+</p>-->
 </DIV>
 
 
