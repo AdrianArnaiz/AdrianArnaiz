@@ -6,7 +6,7 @@ authors:
 - Nuria Oliver
 
 date: "2024-03-15T00:00:00Z"
-doi: "https://arxiv.org/pdf/2305.03223.pdf"
+doi: "https://doi.org/10.1609/icwsm.v19i1.35805"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-15T00:00:00Z"
@@ -36,14 +36,14 @@ tags:
 featured: true
 
 links:
-url_pdf: 'https://arxiv.org/pdf/2305.03223.pdf'
-url_code: ''
+url_pdf: 'https://ojs.aaai.org/index.php/ICWSM/article/view/35805'
+url_code: 'https://github.com/ellisalicante/StructuralGroupUnfairness'
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: 'https://adrian-arnaiz.netlify.app/media/NotreDameSGU.pdf'
 url_PapersWithCode: ''
-url_source: 'https://arxiv.org/pdf/2305.03223.pdf' 
+url_source: 'https://ojs.aaai.org/index.php/ICWSM/article/view/35805' 
 # '#' para ir a la pagina inicial
 url_video: ''
 
@@ -69,10 +69,10 @@ image:
 # slides: ""
 ---
 
-Work accepted at [**ICWSM 2025: International AAAI Conference on Web and Social Media**](https://www.icwsm.org/2025/index.html).
+Work published at [**ICWSM 2025: International AAAI Conference on Web and Social Media**](https://ojs.aaai.org/index.php/ICWSM/article/view/35805).
 
 Also presented at 
-* [**TrustLOG @ WWW 2024**: 2nd Workshop on Trustworthy Learning on Graphs at the Web Conference](https://trustlogworkshop.github.io/#contribution). Singapore. May 2024.
+* [**TrustLOG @ WWW 2024**: 2nd Workshop on Trustworthy Learning on Graphs at the Web Conference](https://trustlogworkshop.github.io/#contribution). Singapore. May 2024 (Virtual presentation).
 * [**IC2S2 2024**:  10th International Conference on Computational Social Science](https://ic2s2-2024.org/schedule#Poster-Presentations:~:text=Poster%20Presentations). Philadelphia, USA. June 2024.
 
 {{% callout note %}}
