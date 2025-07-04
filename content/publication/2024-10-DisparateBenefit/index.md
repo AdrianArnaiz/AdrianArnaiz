@@ -34,14 +34,14 @@ tags:
 featured: true
 
 links:
-url_pdf: 'https://arxiv.org/abs/2410.13831'
+url_pdf: 'https://openreview.net/pdf?id=tjPxZiqeHB'
 url_code: 'https://github.com/ml-jku/disparate-benefits'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://icml.cc/virtual/2025/poster/43767'
 url_project: ''
 url_slides: ''
 url_PapersWithCode: 'https://paperswithcode.com/paper/the-disparate-benefits-of-deep-ensembles'
-url_source: '' 
+url_source: 'https://openreview.net/forum?id=tjPxZiqeHB' 
 # '#' para ir a la pagina inicial
 url_video: ''
 
