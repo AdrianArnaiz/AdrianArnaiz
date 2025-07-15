@@ -65,4 +65,4 @@ image:
 ---
 
 
-
+Accepted at the **[MLG 2025](https://mlg-europe.github.io/2025/)** (*22nd International Workshop on Mining and Learning with Graphs*) at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/) (*European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*).
