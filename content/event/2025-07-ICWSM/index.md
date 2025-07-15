@@ -11,12 +11,12 @@ abstract: "Social networks contribute to the distribution of social capital, def
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2025-07-25T12:00:00Z"
-date_end: "2025-07-25T14:00:00Z"
+date: "2025-06-25T12:00:00Z"
+date_end: "2025-06-25T14:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2025-07-25T12:00:00Z"
+publishDate: "2025-06-25T12:00:00Z"
 
 authors: []
 tags: []
