@@ -66,6 +66,9 @@ image:
 # slides: ""
 ---
 
+
+*Official WebPage of the Public Project: [Derechos Digitales en el Trabajo (Digital Rights at Work)](https://www.derechosdigitales.gob.es/es/novedades/estudio-de-la-causalidad-en-la-toma%20de-decisiones-algoritmicas-el-impacto-de-la-ia-en-el-ambito-empresarial)*
+
 **Article written in Spanish** for the [**RRLDE vol.12 n.2**](https://ejcls.adapt.it/index.php/rlde_adapt/issue/view/105): Spanish General Journal of Labor Law and Social Security (Revista General del Derecho del Trabajo y de la Seguridad Social). AI-driven algorithmic management is reshaping workplaces but clashes with existing labor regulations, which are designed for human decision-making. AI relies on correlations, not causes, while labor laws require causal justifications for decisions. This gap can lead to legal insufficiencies and hard-to-detect discrimination. The study explores these issues and suggests possible solutions.
 
 #### SUMMARY:
