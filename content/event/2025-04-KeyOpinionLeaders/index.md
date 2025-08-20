@@ -1,5 +1,5 @@
 ---
-title: "[Spanish Key Opinion Leaders] Sistemic Risk of Decision-making and Recommender Systems"
+title: "[Spanish Key Opinion Leaders] Systemic Risk of Decision-making and Recommender Systems"
 
 event: Key Opinion Leaders @ ELLIS ALC
 event_url: https://ellisalicante.org/2025/04/16/UnidosPorLaIA.es
