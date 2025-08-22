@@ -18,7 +18,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In **Journal of Labor Relations and Labor Law**. vol. 12, n. 3
-publication_short: In *RRLDE*
+publication_short: In *RRLDE* (Journal of Labor Relations and Labor Law, Spanish)
 
 abstract: "One of the main applications of artificial intelligence (AI) in the workplace is the so-called ‘algorithmic management’, which involves the delegation and execution of business functions in AI systems. As labour regulations have been created and developed around individuals, not machines, algorithmic management may give rise to new problems that cannot be dealt with under current regulations. One of these new problems is the fact that these systems base their operation on correlations (not on causes), and labour regulations require the concurrence of causes (not correlations) in the making of some business decisions. This dichotomy can generate possible problems related to the inexistence and/or lack of sufficiency of the legally required causes, or the generation of labour discrimination that is difficult to detect. For this reason, this study will examine these issues and propose different solutions."
 

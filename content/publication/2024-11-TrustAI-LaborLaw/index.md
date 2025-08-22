@@ -18,7 +18,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In **Spanish General Journal of Labor Law and Social Security**. n. 69
-publication_short: In *RGDTSS*
+publication_short: In *RGDTSS* (Spanish General Journal of Labor Law and Social Security, Spanish)
 
 abstract: "This article addresses the growing intersection between Artificial Intelligence (AI) and labour law. Through a tripartite taxonomy, and from a legal utility approach, it explores the characteristics and capabilities of sub-symbolic AI, the phases of its life cycle, both pre-implementation and post-implementation. The main documentary obligations and ethical principles established by the High-Level Expert Group on AI (HLEG) and the AI Act are analysed, highlighting the importance of human action and oversight, technical soundness, privacy and data management, transparency, diversity, non-discrimination and equity, social and environmental welfare, and accountability. The article concludes by providing an overview of the need for appropriate regulation to ensure the safe and legal use of AI in the workplace."
 
