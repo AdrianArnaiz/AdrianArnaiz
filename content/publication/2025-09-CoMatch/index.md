@@ -68,4 +68,6 @@ image:
 ---
 
 
-Accepted as **ORAL** at the **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** workshop (*The Third Workshop on Hybrid Human-Machine Learning and Decision Making*) at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/) (*European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*). Oporto, Portugal, September 2025.
+Accepted as ***ORAL*** at the **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** workshop (*The Third Workshop on Hybrid Human-Machine Learning and Decision Making*) at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/) (*European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*). Oporto, Portugal, September 2025.
+
+Also, accepted for both a poster presentation and a ***Spotlight Lightning Talk*** in [AI-SDM Workshop on Human-AI Complementarity for Decision Making](https://www.cmu.edu/ai-sdm/research/human-ai-workshop/index.html) at CMU.
