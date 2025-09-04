@@ -13,7 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2025-07{{< /hl >}} :scroll: ***Towards Human-AI Complementarity in Matching Tasks*** (with Nina Corvelo, Suhas Thejaswi, Nuria Oliver and Manuel Gomez Rodriguez) was accepted at **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).
+* {{< hl >}}2025-07{{< /hl >}} :loud_sound: :scroll: I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) (with Federico Errica) at the **[GLOW Reading Group](https://sites.google.com/view/graph-learning-on-weds/)**.
+
+* {{< hl >}}2025-07{{< /hl >}} :scroll: ***[Towards Human-AI Complementarity in Matching Tasks](https://arxiv.org/abs/2508.13285)*** (with Nina Corvelo, Suhas Thejaswi, Nuria Oliver and Manuel Gomez Rodriguez) was accepted at **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).
   
 * {{< hl >}}2025-07{{< /hl >}} :scroll: [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) (with Federico Errica) was accepted at **[MLG 2025](https://mlg-europe.github.io/2025/)** at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).
 
