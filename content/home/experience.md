@@ -39,34 +39,27 @@ experience:
     description: 'ELLIS PhD exchange student in Machine Learning at MPI-SWS advised by Dr. Manuel Gomez Rodriguez. Project on Human-AI collaboration.'
 
   - title: Research Staff
-    company: University of Burgos - DATAHES GIR - SmartArt European Project
-    company_url: 'https://www.ubu.es/data-analysis-techniques-applied-health-environments-sciences-datahes-english'
+    company: University of Burgos - DATAHES - SmartArt European Project
+    company_url: 'https://investigacion.ubu.es/grupos/1812/detalle?lang=en'
     location: Burgos
     date_start: '2020-12-10'
     date_end: '2021-08-10'
-    description: |2-
-    
-        * DATAHES: Data Analysis Techniques Applied in Health Environments Sciences.
-        * Data Analysis in web behaviour
-        * European project 2019-1-ES01-KA204-065615
-        
+    description: Data Analysis in web behaviour (*European project 2019-1-ES01-KA204-065615*)
+
   - title: Research staff
-    company: University of Burgos - ADMIRABLE GIR
+    company: University of Burgos - ADMIRABLE
     company_url: 'http://admirable-ubu.es/'
     location: Burgos
     date_start: '2020-01-01'
     date_end: '2020-09-05'
     description: |2-
     
-        * ADMIRABLE: Advanced Data MIning Research And [Business intelligence | Bioinformatics | Big Data] LEarning.    
-        * Support VR research in data mining 
-        * Support in MLaas platfomr: UBUMLaas
-        * Research in Network Analysis: 2 conference works
-        * Research in Parkinson's Disease detenction through voice
+        * Research in Network Science and Parkinson's Disease detection through voice
+        * Support VR research in data mining and MLaas platform (UBUMLaas)
         
   - title: Inteligent Automation Consultant
     company: Ernst & Young
-    company_url: 'https://www.ey.com/en_gl/intelligent-automation'
+    company_url: 'https://www.ey.com/en_gl/services/intelligent-automation'
     location: Madrid
     date_start: '2019-09-05'
     date_end: '2019-12-23'
@@ -78,5 +71,7 @@ experience:
     location: Burgos
     date_start: '2018-12-15'
     date_end: '2019-07-05'
-    description: Research assistant scholarship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Working with collaboration grant. Research in the project "***Use of biomarkers extracted from the voice for the detection of Parkinson***", which was my Bachelor's Thesis, evaluated with honors.
+    description: |2-
+      * Research assistant at the ADMIRABLE research group of the University of Burgos. Funded by the *Collaboration Scholarship of the Spanish Ministry of Education*. 
+      * Developed the project *Use of biomarkers extracted from the voice for the detection of Parkinson*, which was my BSc Thesis, evaluated with honors.
 ---
