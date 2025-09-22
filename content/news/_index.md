@@ -13,6 +13,12 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: Federico Errica I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[MLG 2025](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award**.
+
+
+* {{< hl >}}2025-09{{< /hl >}} :loud_sound: :scroll: I presented ***[Towards Human-AI Complementarity in Matching Tasks](https://arxiv.org/abs/2508.13285)*** (with Nina Corvelo, Suhas Thejaswi, Nuria Oliver and Manuel Gomez Rodriguez) at the **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** workshop at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).
+  
+
 * {{< hl >}}2025-09{{< /hl >}} :loud_sound: :scroll: Federico Errica I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[GLOW Reading Group](https://sites.google.com/view/graph-learning-on-weds/)**.
 
 * {{< hl >}}2025-07{{< /hl >}} :scroll: ***[Towards Human-AI Complementarity in Matching Tasks](https://arxiv.org/abs/2508.13285)*** (with Nina Corvelo, Suhas Thejaswi, Nuria Oliver and Manuel Gomez Rodriguez) was accepted at **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).

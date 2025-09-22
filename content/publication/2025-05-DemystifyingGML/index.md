@@ -18,7 +18,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: 22nd International Workshop on Mining and Learning with Graphs @ ECML-PKDD 2025
-publication_short: In *[MLG 2025 workshop](https://mlg-europe.github.io/2025/) @ ECML-PKDD (***Contributed Talk***)*
+publication_short: In *[MLG 2025 workshop](https://mlg-europe.github.io/2025/) @ ECML-PKDD (***Best Paper Award*** and ***Best Poster Award***)*
 
 abstract: "After a renaissance phase in which researchers revisited the message-passing paradigm through the lens of deep learning, the graph machine learning community shifted its attention towards a deeper and practical understanding of message-passing's benefits and limitations. In this position paper, we notice how the fast pace of progress around the topics of oversmoothing and oversquashing, the homophily-heterophily dichotomy, and long-range tasks, came with the consolidation of commonly accepted beliefs and assumptions that are not always true nor easy to distinguish from each other. We argue that this has led to ambiguities around the investigated problems, preventing researchers from focusing on and addressing precise research questions while causing a good amount of misunderstandings. Our contribution wants to make such common beliefs explicit and encourage critical thinking around these topics, supported by simple but noteworthy counterexamples. The hope is to clarify the distinction between the different issues and promote separate but intertwined research directions to address them."
 
@@ -64,5 +64,6 @@ image:
 # slides: ""
 ---
 
+## *Best Paper Award* :trophy:  and *Best Poster Award* :trophy: at *MLG 2025*.
 
 Accepted as **Contributed Talk** at the **[MLG 2025](https://mlg-europe.github.io/2025/)** (*22nd International Workshop on Mining and Learning with Graphs*) at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/) (*European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*). Oporto, Portugal, September 2025.
