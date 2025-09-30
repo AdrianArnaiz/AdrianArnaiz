@@ -30,6 +30,7 @@ summary: Deep Ensembles can improve performance but may also introduce fairness 
 tags:
 - Deep Ensembles
 - Algorithmic Fairness
+- Trustworthy AI
 
 featured: true
 

@@ -32,6 +32,7 @@ tags:
 - Graph Diffusion
 - Social Capital
 - Algorithmic Fairness
+- Trustworthy AI
 
 featured: true
 

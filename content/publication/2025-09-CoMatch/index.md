@@ -30,6 +30,7 @@ summary: CoMatch is a collaborative matching system that combines human decision
 
 tags:
 - Human-AI Collaboration
+- Trustworthy AI
 
 featured: true
 

@@ -28,8 +28,9 @@ summary: FairShap, i.e. Fair Shapley Values, is a family of data valuation funct
 tags:
 - Algorithmic Fairness
 - Data Valuation
-- Shapley Values
+- Shapley Value
 - Game Theory
+- Trustworthy AI
 
 featured: true
 
