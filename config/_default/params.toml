@@ -269,8 +269,8 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  [verification]
-    google:"aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s"
+  [marketing.verification]
+    google = "aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s"
   #google_analytics = ""
   #google_tag_manager = ""
 # <meta name="google-site-verification" content="aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s" />
