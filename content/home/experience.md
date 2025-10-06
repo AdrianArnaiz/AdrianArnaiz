@@ -31,12 +31,12 @@ experience:
     description: 'Trustworthy AI in decision-making and recommender systems using multi-modal and foundational models. Technical advancements and regulation intersection.'
 
   - title: PhD Student
-    company: ELLIS (European Lab for Learning & Intelligent Systems) & Max Planck Institute SWS exchange
+    company: ELLIS Alicante & ELLIS (European Lab for Learning & Intelligent Systems)
     company_url: 'https://ellis.eu/'
     location: Alicante
     date_start: '2021-11-01'
     date_end: '2025-09-26'
-    description: 'ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS advised by Dr. Nuria Oliver and Dr. Manuel Gomez Rodriguez as advisors. Partially founded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
+    description: 'ELLIS PhD student in Machine Learning at the ELLIS Unit Alicante advised by Nuria Oliver. PhD exchange at MPI-SWS hosted by Manuel Gomez Rodriguez as advisors. Partially founded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
 
   - title: Research Fellow
     company: Max Planck Institute for Software Systems (MPI-SWS)
