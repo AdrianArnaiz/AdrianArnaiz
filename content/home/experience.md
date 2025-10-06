@@ -22,12 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Postdoctoral Researcher
+    company: ELLIS Alicante
+    company_url: 'https://ellisalicante.org/'
+    location: Alicante
+    date_start: '2025-09-26'
+    date_end: ''
+    description: 'Trustworthy AI in decision-making and recommender systems using multi-modal and foundational models. Technical advancements and regulation intersection.'
+
   - title: PhD Student
     company: ELLIS (European Lab for Learning & Intelligent Systems) & Max Planck Institute SWS exchange
     company_url: 'https://ellis.eu/'
     location: Alicante
     date_start: '2021-11-01'
-    date_end: ''
+    date_end: '2025-09-26'
     description: 'ELLIS PhD student in Machine Leaning at ELLIS Unit Alicante and excahnge in MPI-SWS advised by Dr. Nuria Oliver and Dr. Manuel Gomez Rodriguez as advisors. Partially founded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
 
   - title: Research Fellow

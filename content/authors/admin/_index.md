@@ -6,7 +6,7 @@ title: Adrián Arnaiz-Rodríguez
 superuser: true
 
 # Role/position/tagline
-role: Artificial Intelligence PhD Student
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -14,22 +14,22 @@ organizations:
   url: https://ellisalicante.org/
 
 # Short bio (displayed in user profile at end of posts)
-bio: ELLIS PhD Student in Algorithmic Fairness and Graph Neural Networks at ELLIS Alicante.
+bio: Postdoctoral Researcher in Trustworthy AI, AI Regulation and Graph Neural Networks @ ELLIS Alicante.
 
 # Interests to show in About widget
 interests:
-- AI & ML for Decision Making
-- Algorithmic Fairness and Trustworthy AI
+- Trustworthy AI on Decision Making, Social Networks and Recommender Systems
 - Graph Neural Networks and Network Science
+- AI Regulation and Policy-making
 
 # Education to show in About widget
 education:
   courses:
-  - course: ELLIS PhD student in ML
-    institution: ELLIS Alicante and exchange at MPI-SWS
-    year: started on Dec 2021
-  - course: MSc in Data Science and Artificial Intelligence
-    institution: Open University of Catalonia (Universitat Oberta de Catalunya)
+  - course: PhD in Computer Science
+    institution: ELLIS Alicante (exchange at MPI-SWS)
+    year: 2025
+  - course: MSc in Data Science and AI
+    institution: Open University of Catalonia
     year: 2021
   - course: BSc in Computer Science
     institution: Burgos University
@@ -93,17 +93,33 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a PhD student at [ELLIS Alicante](https://ellisalicante.org/) within the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc), where I am fortunate to be supervised by [Dr. Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver).  I also conducted a research visit at [MPI-SWS](https://www.mpi-sws.org/), hosted by [Dr. Manuel Gómez Rodríguez](https://people.mpi-sws.org/~manuelgr/). My work explores the **sociotechnical challenges of AI**, with a focus on **algorithmic fairness**, **Graph Neural Networks**, and the intersection between **technical design and AI regulation**.
+**Hola**👋🏼 **!**
 
-I work on developing **Trustworthy AI** systems that are both **technically rigorous and socially responsible**. My work spans from theoretical methods (*e.g. develop algorithms and metrics for algorithmic fairness, fairness in graphs and social networks, human-AI Collaboration*) to real-world impact (*e.g. AI intersection with regulation and policy-making*), having contributed to frameworks such as the development of the [Spanish Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales).
-<!--asking questions like: <a style="color:gray;">*How should data be represented to ensure fairness? How do network structures amplify disparities? How can we develop robust algorithms to interact with humans? How can regulation effectively align with technical practice?*</a>-->
+I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). My research focuses on building **trustworthy AI** (⚖️+🤖) systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making* 🏛️. I am also passionate about  **graph neural networks** (GNNs) 🕸️ and how we can better understand their challenges to improve model performance and interpretability.
 
-I'm also particularly interested in **graph-based learning**, with a focus on theoretical challenges in GNNs and how to better leverage graph structure to improve model performance. This has led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+------
 
-Prior to my PhD, I worked on ML/DL applications in life sciences, completing both my [Bachelor’s](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) and [Master’s](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) theses with honors. I also explored *network science* and *graph theory*, work that laid the foundation for my current research in graph-based fairness.
+I completed my PhD at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
+During my PhD, I collaborated closely with [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1) through the RESUMAIS project and with [Banco Sabadell](https://www.bancsabadell.com/), and I was also part of the [ELIAS](https://elias-ai.eu/) European project. 
+In addition, some of my work on AI governance contributed to the development of the [Spanish Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales).
+
+* This research bridges technical advances in fairness and human-AI collaboration with regulatory frameworks, summarized in *[A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation](https://ellisalicante.org/publications/arnaiz2025thesis-en/)*, my PhD thesis.
+
+* My work on GNNs has also led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+
+
+Before starting my PhD, I worked on **network science** and **ML for life sciences** at both the [Open University of Catalonia (UOC)](https://www.uoc.edu/), where I completed my [MSc thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) with [Baris Kanber](https://profiles.ucl.ac.uk/52758) (UCL), and at [Burgos University (UBU)](https://admirable-ubu.es/), where I completed my [BSc thesis](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) with a research scholarship.
+
+
+
+<!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.
+
+I completed my PhD at ELLIS Alicante under Nuria Oliver, spent time as a visiting researcher at MPI-SWS with Manuel Gomez-Rodriguez, and collaborated with Intel Labs. My work also contributed to Spain's Charter of Digital Rights.
+
+I'm especially passionate about graph learning, both its theory and applications — a topic I explored in our ICML 2024 tutorial. Before my PhD, I worked on network science and ML for life sciences during my MSc and BSc studies.-->
 
 <!--<p style="font-size: 0.8em; color:rgb(92, 92, 92); background-color:rgb(241, 241, 241); padding: 5px; border-radius: 2px;">
-<i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament’s JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
+<i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament's JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
 </p>-->
 </DIV>
 
