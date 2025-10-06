@@ -47,10 +47,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "ELLIS Alicante"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz Rodriguez, AI Researcher on Trustworthy AI and Graph Neural Networks. ELLIS Alicante."
+description = "Adrian Arnaiz-Rodriguez, Researcher on Trustworthy AI and Graph Neural Networks at ELLIS Alicante."
 
 ############################
 ## Site Features
@@ -269,6 +269,8 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
+  [verification]
+    google:"aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s"
   #google_analytics = ""
   #google_tag_manager = ""
 # <meta name="google-site-verification" content="aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s" />
