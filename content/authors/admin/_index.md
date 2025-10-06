@@ -40,7 +40,7 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-- icon: google-scholar  # Alternatively, use `google-scholar` icon from `ai` icon pack
+- icon: google-scholar 
   icon_pack: ai
   link: https://scholar.google.com/citations?hl=es&user=M50V8k4AAAAJ
 - icon: orcid 
@@ -100,12 +100,12 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
 ------
 
 I completed my PhD at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
-During my PhD, I collaborated closely with [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1) through the RESUMAIS project and with [Banco Sabadell](https://www.bancsabadell.com/), and I was also part of the [ELIAS](https://elias-ai.eu/) European project. 
+
+During my PhD, I collaborated closely with [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1) through the RESUMAIS project and with [Bank Sabadell](https://www.bancsabadell.com/), and I was also part of the [ELIAS](https://elias-ai.eu/) European project. 
 In addition, some of my work on AI governance contributed to the development of the [Spanish Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales).
+This work on algorithmic fairness, human-AI collaboration and its alignment with regulatory frameworks is summarized in *[A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation](https://ellisalicante.org/publications/arnaiz2025thesis-en/)*, my PhD thesis.
 
-* This research bridges technical advances in fairness and human-AI collaboration with regulatory frameworks, summarized in *[A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation](https://ellisalicante.org/publications/arnaiz2025thesis-en/)*, my PhD thesis.
-
-* My work on GNNs has also led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+In addition, my work on GNNs has also led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
 
 
 Before starting my PhD, I worked on **network science** and **ML for life sciences** at both the [Open University of Catalonia (UOC)](https://www.uoc.edu/), where I completed my [MSc thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) with [Baris Kanber](https://profiles.ucl.ac.uk/52758) (UCL), and at [Burgos University (UBU)](https://admirable-ubu.es/), where I completed my [BSc thesis](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) with a research scholarship.

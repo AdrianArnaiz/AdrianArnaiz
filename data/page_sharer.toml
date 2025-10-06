@@ -47,7 +47,7 @@
 
   [[buttons]]
   id = "email"
-  url = "https://adrian-arnaiz.netlify.app/#contact"
+  url = "/#contact"
   title = "Email"
   icon_pack = "fas"
   icon = "envelope"

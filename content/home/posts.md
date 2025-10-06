@@ -42,4 +42,4 @@ design:
   view: 2
 ---
 
-{{< hl >}}[**Go to All Posts**](https://adrian-arnaiz.netlify.app/post){{< /hl >}}
+{{< hl >}}[**Go to All Posts**](/post){{< /hl >}}
