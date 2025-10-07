@@ -35,5 +35,5 @@ design:
   view: 4
 ---
 {{% callout note %}}
-[See complete list of publications {{< icon name="hand-pointer" pack="fas" >}}](./publication/)
+[See complete list of publications {{< icon name="hand-pointer" pack="fas" >}}](/publication)
 {{% /callout %}}

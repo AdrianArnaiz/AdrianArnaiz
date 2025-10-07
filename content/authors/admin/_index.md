@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Adrián Arnaiz-Rodríguez
+title: Adrian Arnaiz-Rodriguez
 
 # Is this the primary user of the site?
 superuser: true
@@ -93,23 +93,58 @@ highlight_name: true
 
 <DIV align="justify">
 
-**Hola**👋🏼 **!**
+**Hola**👋🏼 **!** I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
+<!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
-I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). My research focuses on building **trustworthy AI** (⚖️+🤖) systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making* 🏛️. I am also passionate about  **graph neural networks** (GNNs) 🕸️ and how we can better understand their challenges to improve model performance and interpretability.
+⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
+<br>
+🕸️ I am also passionate about  **graph neural networks** to understand their challenges and improve model performance and interpretability, highlighting our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+
+<div align="center">
+<a href="/#featured"
+   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
+   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
+   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+   Publications
+</a> &nbsp;
+<a href="/#tutorials"
+   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
+   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
+   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+   Tutorials
+</a>
+</div>
 
 ------
 
-I completed my PhD at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
 
-During my PhD, I collaborated closely with [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1) through the RESUMAIS project and with [Bank Sabadell](https://www.bancsabadell.com/), and I was also part of the [ELIAS](https://elias-ai.eu/) European project. 
-In addition, some of my work on AI governance contributed to the development of the [Spanish Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales).
-This work on algorithmic fairness, human-AI collaboration and its alignment with regulatory frameworks is summarized in *[A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation](https://ellisalicante.org/publications/arnaiz2025thesis-en/)*, my PhD thesis.
+I completed my PhD at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). This work focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+<a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
+   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
+   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
+   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+   Thesis
+</a>
 
-In addition, my work on GNNs has also led to several publications and to our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+
+During my PhD, I was part of the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project, and part of a [Bank Sabadell](https://www.bancsabadell.com/) scholarship. In addition, I contributed to developing the [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/#reviews) within the research community.
 
 
-Before starting my PhD, I worked on **network science** and **ML for life sciences** at both the [Open University of Catalonia (UOC)](https://www.uoc.edu/), where I completed my [MSc thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder) with [Baris Kanber](https://profiles.ucl.ac.uk/52758) (UCL), and at [Burgos University (UBU)](https://admirable-ubu.es/), where I completed my [BSc thesis](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection) with a research scholarship.
+Prior to my PhD, I worked on network science and ML for life sciences both at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at [Admirable lab](https://admirable-ubu.es/) at the [Burgos University](https://www.ubu.es/) with a research scholarship.
+<a href="https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder"
+   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
+   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
+   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+   MSc project
+</a> &nbsp;
+<a href="https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection"
+   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
+   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
+   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+   BSc project
+</a> 
 
+***Overall, my work lies at the intersection of machine learning, human-centered AI, and policy, with a focus on building systems that are both powerful and socially responsible.***
 
 
 <!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.
@@ -122,5 +157,4 @@ I'm especially passionate about graph learning, both its theory and applications
 <i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament's JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
 </p>-->
 </DIV>
-
 
