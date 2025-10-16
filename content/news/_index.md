@@ -13,7 +13,7 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2025-09{{< /hl >}} :loud_sound: :scroll: I succesfully defended my PhD thesis on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
+* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: I succesfully defended my PhD thesis (**cum-laude**) on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
 
 * {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: Federico Errica I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[MLG 2025](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award**.
 

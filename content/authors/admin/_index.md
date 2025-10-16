@@ -118,7 +118,7 @@ highlight_name: true
 ------
 
 
-I completed my PhD at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). This work focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). This work focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
    style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
    onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
