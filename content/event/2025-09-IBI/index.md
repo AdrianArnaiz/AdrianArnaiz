@@ -49,9 +49,9 @@ I took part in the **Round Table: “Artificial Intelligence in Industry”** at
 This discussion addressed the responsible integration of AI into industrial processes — exploring its **opportunities**, **regulatory frameworks**, and its **impact on people and society**.
 
 ### 🧑‍💼 Participants
-- **Pedro Pernías** – Director of CENID (Centro de Inteligencia Digital Alicante), Professor at the University of Alicante.  
+- **Pedro Pernías** – Professor at the University of Alicante.  
 - **Javier Sanchis** – Researcher at the Instituto de Automática e Informática Industrial, UPV.  
-- **Adrián Arnaiz** – Researcher at Fundación ELLIS Alicante. *(Responsible AI, ethics, transparency, and alignment with social values.)*
+- **Adrián Arnaiz**.
 
 **Moderator:** **Beatriz Botella** - CENID – Centro de Inteligencia Digital Alicante
 
