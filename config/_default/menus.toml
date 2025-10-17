@@ -20,23 +20,23 @@
 
 [[main]]
   name = "Awards"
-  url = "#awards"
+  url = "/awards"
   weight = 50
 
 [[main]]
   name = "Scientific community"
-  url = "#reviews"
+  url = "/community"
   weight = 52
 
   [[main]]
   name = "Experience"
-  url = "#experience"
+  url = "/experience"
   weight = 55
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 80
+#[[main]]
+#  name = "Contact"
+#  url = "#contact"
+#  weight = 80
 
 [[main]]
     name = "More"
@@ -55,11 +55,11 @@
   url = "/press"
   weight = 2
 
-[[main]]
-  name = "More Projects"
-  parent = "more"
-  url = "/project"
-  weight = 3
+#[[main]]
+#  name = "More Projects"
+#  parent = "more"
+#  url = "/project"
+#  weight = 3
 
 [[main]]
   name = "Posts"

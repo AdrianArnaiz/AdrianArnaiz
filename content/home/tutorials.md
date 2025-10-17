@@ -24,7 +24,7 @@ design:
 
 <!-- HTML for the two-column layout with tutorial details and logos, using inline styles -->
 </br>
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px;">
   <!-- First tutorial -->
   <div style="width: 48%; border: 1px solid #ccc; padding: 15px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); text-align: center;">
     <div style="display: flex; justify-content: center; align-items: center; height: 100px; margin-bottom: 10px;">

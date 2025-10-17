@@ -18,9 +18,10 @@ bio: Postdoctoral Researcher in Trustworthy AI, AI Regulation and Graph Neural N
 
 # Interests to show in About widget
 interests:
-- Trustworthy AI on Decision Making, Social Networks and Recommender Systems
-- Graph Neural Networks and Network Science
-- AI Regulation and Policy-making
+- Trustworthy for high-stakes settings 
+- Social networks and recommender systems
+- Graph neural networks and network science
+- AI regulation and policy-making
 
 # Education to show in About widget
 education:
@@ -127,7 +128,7 @@ I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org
 </a>
 
 
-During my PhD, I was part of the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project, and part of a [Bank Sabadell](https://www.bancsabadell.com/) scholarship. In addition, I contributed to developing the [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/#reviews) within the research community.
+During my PhD, I was part of the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project, and part of a [Bank Sabadell](https://www.bancsabadell.com/) scholarship. In addition, I contributed to developing the [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
 
 Prior to my PhD, I worked on network science and ML for life sciences both at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at [Admirable lab](https://admirable-ubu.es/) at the [Burgos University](https://www.ubu.es/) with a research scholarship.
@@ -144,7 +145,6 @@ Prior to my PhD, I worked on network science and ML for life sciences both at [U
    BSc project
 </a> 
 
-***Overall, my work lies at the intersection of machine learning, human-centered AI, and policy, with a focus on building systems that are both powerful and socially responsible.***
 
 
 <!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.

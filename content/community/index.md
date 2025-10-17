@@ -1,17 +1,19 @@
 ---
-# An instance of the Pages widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
+title: Scientific Community
+
 widget: blank
 
-# This file represents a page section.
-headless: true
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+view: 2
 
-# Order that this section appears on the page.
-weight: 55
+# Optional header image (relative to `static/media/` folder).
+header:
+  caption: ""
+  image: ""
 
-title: 'Scientific community'
-
-# Section design
 design:
   # Use a 1-column layout
   columns: "2"

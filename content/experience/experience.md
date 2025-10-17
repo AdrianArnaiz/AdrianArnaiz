@@ -2,25 +2,14 @@
 # An instance of the Experience widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: experience
-
-# This file represents a page section.
-headless: true
-
-# Order that this section appears on the page.
-weight: 60
+headless: true   # ✅ keep this so it doesn't create its own page
+weight: 10       # ✅ controls order within the /exp page
 
 title: Experience
 subtitle:
 
-# Date format for experience
-#   Refer to https://wowchemy.com/docs/customization/#date-format
 date_format: Jan 2006
 
-# Experiences.
-#   Add/remove as many `experience` items below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Postdoctoral Researcher
     company: ELLIS Alicante
@@ -61,11 +50,11 @@ experience:
     date_start: '2020-01-01'
     date_end: '2020-09-05'
     description: |2-
-    
+
         * Research in Network Science and Parkinson's Disease detection through voice
         * Support VR research in data mining and MLaas platform (UBUMLaas)
         
-  - title: Inteligent Automation Consultant
+  - title: Intelligent Automation Consultant
     company: Ernst & Young
     company_url: 'https://www.ey.com/en_gl/services/intelligent-automation'
     location: Madrid
@@ -82,4 +71,7 @@ experience:
     description: |2-
       * Research assistant at the ADMIRABLE research group of the University of Burgos. Funded by the *Collaboration Scholarship of the Spanish Ministry of Education*. 
       * Developed the project *Use of biomarkers extracted from the voice for the detection of Parkinson*, which was my BSc Thesis, evaluated with honors.
+design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
 ---
