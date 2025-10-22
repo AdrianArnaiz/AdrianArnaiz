@@ -56,10 +56,10 @@ categories:
 # Graph Neural Networks and Human-Centric ML intersection
 
 {{% callout note %}}
-TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It is the most human-like data type, it captures complex relationship and its interpretable!
+TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It is the most human-like data type, it captures complex relationship and it's interpretable!
 {{% /callout %}}
 
-{{< hl >}}The past 17th February of 2022, I and my ELLIS Alicante collegues organized a 2-hour Guest Session in the ELLIS HCML Reading Group in which I was moderator of the main panel. This session was organized together with **Qualcomm AI Research**. **The main purpose was to discuss the intersection between Graph Neural Networks and Human-Centric Machine Learning** in a panel made up by distinguished scientist from ELLIS and Qualcomm AI Research,  which **I organized and moderated**.{{< /hl >}} 
+{{< hl >}}On 17th February of 2022, I and my ELLIS Alicante colleagues organized a 2-hour Guest Session in the ELLIS HCML Reading Group in which I was moderator of the main panel. This session was organized together with **Qualcomm AI Research**. **The main purpose was to discuss the intersection between Graph Neural Networks and Human-Centric Machine Learning** in a panel made up by distinguished scientist from ELLIS and Qualcomm AI Research,  which **I organized and moderated**.{{< /hl >}} 
 
 * Speakers : Pim de Haan [^1] , Manuel Gómez Rodríguez [^2], Carlos Castillo [^3] and Efstratios Gavves [^4].
 * Moderator: Adrián Arnaiz Rodríguez
@@ -75,7 +75,7 @@ TL;DR: GNN is a promising field to include in Human-Centric Machine Learning! It
 
 ## GNN and HCML intersection 
 
-This relationship mainly arises from the fact that a lot of human interaction data is expressed as network structured data. Additionally, many advantages of GNNs, such as capturing complex structures between data or information flow, could lead to GNNs being an outstanding tool for addressing HCML problems. Therefore, the main goal is to leverage the whole landscape of GNN [2] to address Algorithmic Fairness problems [3] even with a causal approach [4]. In this intersection, some works has already been done [5, 6].
+This relationship mainly arises from the fact that a lot of human interaction data is expressed as network structured data. Additionally, many advantages of GNNs, such as capturing complex structures between data or information flow, could lead to GNNs being an outstanding tool for addressing HCML problems. Therefore, the main goal is to leverage the whole landscape of GNN [2] to address Algorithmic Fairness problems [3] even with a causal approach [4]. In this intersection, some work has already been done [5,6].
 
 ## Research Round Table
 

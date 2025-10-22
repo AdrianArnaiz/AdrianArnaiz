@@ -94,7 +94,7 @@ highlight_name: true
 
 <DIV align="justify">
 
-**Hola**👋🏼 **!** I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
+I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
 <!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
 ⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
@@ -128,7 +128,7 @@ I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org
 </a>
 
 
-During my PhD, I was part of the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project, and part of a [Bank Sabadell](https://www.bancsabadell.com/) scholarship. In addition, I contributed to developing the [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
+During my PhD, I collaborated with the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project and [Bank Sabadell](https://www.bancsabadell.com/). In addition, I contributed to developing [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
 
 Prior to my PhD, I worked on network science and ML for life sciences both at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at [Admirable lab](https://admirable-ubu.es/) at the [Burgos University](https://www.ubu.es/) with a research scholarship.

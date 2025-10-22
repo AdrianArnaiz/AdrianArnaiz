@@ -13,9 +13,9 @@ header:
   image: ""
 ---
 
-* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: I succesfully defended my PhD thesis (**cum-laude**) on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
+* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: I successfully defended my PhD thesis (**cum-laude**) on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
 
-* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: Federico Errica I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[MLG 2025](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award**.
+* {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: Federico Errica and I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[MLG 2025](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award**.
 
 
 * {{< hl >}}2025-09{{< /hl >}} :loud_sound: :scroll: I presented ***[Towards Human-AI Complementarity in Matching Tasks](https://arxiv.org/abs/2508.13285)*** (with Nina Corvelo, Suhas Thejaswi, Nuria Oliver and Manuel Gomez Rodriguez) at the **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** workshop at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/).
@@ -33,9 +33,9 @@ header:
 
 * {{< hl >}}2025-04{{< /hl >}} :trident: I received the **Top Reviewer Award** at AISTATS 2025.
 
-* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***A Holistic View of Algorithmic Fairness and Trustworthy AI: Society and Algorithms*** at the [**Joint Research Center of the European Commission (JRC-EU)**](https://joint-research-centre.ec.europa.eu/jrc-sites-across-europe/jrc-seville-spain_en) and [**European Center of Algorithmic Transparency**](https://algorithmic-transparency.ec.europa.eu/about_en) at Sevilla, Spain
+* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***A Holistic View of Algorithmic Fairness and Trustworthy AI: Society and Algorithms*** at the [**Joint Research Center of the European Commission (JRC-EU)**](https://joint-research-centre.ec.europa.eu/jrc-sites-across-europe/jrc-seville-spain_en) and [**European Center of Algorithmic Transparency**](https://algorithmic-transparency.ec.europa.eu/about_en) at Seville, Spain
 
-* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**Faculty of Philosophy at the University of Sevilla**](https://csanrafael.org/jornadas2024/) as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”.
+* {{< hl >}}2025-02{{< /hl >}} :loud_sound: I gave a talk on ***AI for Social Good*** at the [**Faculty of Philosophy at the University of Seville**](https://csanrafael.org/jornadas2024/) as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”.
 
 * {{< hl >}}2024-12{{< /hl >}} :scroll: [***Studying Causality in Algorithmic Decision Making: the Impact of IA in the Business Domain***](https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518) (with Julio Losada) is published at [**RLDE vol. 12 num. 4**](https://ejcls.adapt.it/index.php/rlde_adapt/issue/view/105) (International Journal of Labor Relations and Labor Law, ISSN 2282-2313). 
 
@@ -48,13 +48,13 @@ header:
 
 * {{< hl >}}2024-09-22{{< /hl >}} :loud_sound: I gave a ***3-hours lecture on Graph Neural Networks*** at the [**delveDeepLearning**](https://delveedu.com/dl.html) online course.
 
-* {{< hl >}}2024-06-22{{< /hl >}} :loud_sound::scroll: The [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233) tutorial on [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was succesfully presented.
+* {{< hl >}}2024-06-22{{< /hl >}} :loud_sound::scroll: The [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233) tutorial on [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was successfully presented.
 
 * {{< hl >}}2024-06-12{{< /hl >}} :busts_in_silhouette: I attended [**LOGML**](https://www.logml.ai/) in London working on a project mentored by [Joshua Robinson](https://joshrobinson.mit.edu/).
 
 * {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Graph Learning: Principles, Challenges, and Open Directions***](https://icml2024graphs.ameyavelingker.com/) (with [**Ameya Velingker**](https://www.ameyavelingker.com/en/)) was accepted at [**ICML 2024**](https://icml.cc/virtual/2024/tutorial/35233).
   
-* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [**10th International Conference on Computational Social Science**](https://ic2s2-2024.org/schedule#Poster-Presentations:~:text=Poster%20Presentations).  Presentaiton on June 2024.
+* {{< hl >}}2024-04-24{{< /hl >}} :scroll: [***Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance***](https://arxiv.org/pdf/2305.03223.pdf) (with Georgina Curto and Nuria Oliver) was accepted at the [**10th International Conference on Computational Social Science**](https://ic2s2-2024.org/schedule#Poster-Presentations:~:text=Poster%20Presentations).  Presentation on June 2024.
 
 * {{< hl >}}2024-03-04{{< /hl >}} :scroll: [***Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values***](https://arxiv.org/pdf/2303.01928.pdf) (with Nuria Oliver) was accepted at [**ICLR 2024**](https://iclr.cc/Conferences/2024) workshop on [**Data-centric Machine Learning Research (DMLR)**](https://dmlr.ai/). Poster presented in Vienna on 2024-05-11.
 
@@ -64,7 +64,7 @@ header:
   
 * {{< hl >}}2024-02-27{{< /hl >}} :trident: I joined the main **organization team for [Learning on Graphs conference 2024 (LoG 2024)](https://logconference.org/)**.
 
-* {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Felloship at **Max Planck Institute - Software Systems** (Kaiserslautern), adviced by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
+* {{< hl >}}2024-02-13{{< /hl >}} :trident: I started a Research Fellowship at **Max Planck Institute - Software Systems** (Kaiserslautern), advised by [**Manuel Gomez-Rodriguez**](https://people.mpi-sws.org/~manuelgr/).
 
 * {{< hl >}}2024-02-20{{< /hl >}} :loud_sound: I gave a *guest lecture* on the **University of Notre Dame** (Indiana, USA) on the course *Ethics of Data Analytics and AI*.
 

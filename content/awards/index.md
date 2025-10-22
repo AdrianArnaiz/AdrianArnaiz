@@ -39,7 +39,7 @@ header:
 
 #### 💡 [London Geometry and Machine Learning Summer School 2024](https://www.logml.ai/)
 {{< spoiler text="2024 - *London Geometry and Machine Learning Summer School 2024*" >}}
-> 💡 *I have been selected to attend the LOGML 2024. Selected to take part as a contributor in the project: "GNNs for Relational Databases" with [Joshua Robinson](https://uk.linkedin.com/in/joshua-robinson-0a8315131)*
+> 💡 *I have been selected to attend the LOGML 2024. Worked in the project: "GNNs for Relational Databases" with [Joshua Robinson](https://uk.linkedin.com/in/joshua-robinson-0a8315131)*
 {{< /spoiler >}}
 
 <div style="height:1px"></div>
@@ -68,8 +68,8 @@ header:
 <div style="height:1px"></div>
 
 #### 📚 FPU PhD Fellowship (Declined) 
-{{< spoiler text="2021 - *Spanish Goverment - Universities Ministry*" >}}
-> 📚 *Doctoral Fellowship given by Spanish Goverment. FPU20/03687. Grants for pre-doctoral contracts for the completion of doctoral theses, in Spanish Universities.*
+{{< spoiler text="2021 - *Spanish Government - Universities Ministry*" >}}
+> 📚 *Doctoral Fellowship given by Spanish Government. FPU20/03687. Grants for predoctoral contracts for the completion of doctoral theses, in Spanish Universities.*
 {{< /spoiler >}}
 
 <div style="height:1px"></div>
@@ -93,7 +93,7 @@ header:
 
 #### 📚 Undergraduate Research Fellowship 
 {{< spoiler text="2019 - *University of Burgos*" >}}
-> 📚 *Assistant research Fellowship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Research in the project 'Use of biomarkers extracted from the voicefor the detection of Parkinson', which is my final degree project (BSc Thesis), evaluated with honors.*
+> 📚 *Assistant research Fellowship in the Civil Engineering department of the University of Burgos, research group ADMIRABLE. Research in the project 'Use of biomarkers extracted from the voice for the detection of Parkinson', which is my final degree project (BSc Thesis), evaluated with honors.*
 {{< /spoiler >}}
 
 

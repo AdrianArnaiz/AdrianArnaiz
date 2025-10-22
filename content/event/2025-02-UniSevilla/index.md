@@ -39,7 +39,7 @@ url_video: ""
 
 ---
 
-Adrian Arnaiz presented gave a talk on "AI for Social Good" at the Faculty of Philosophy of the University of Sevilla as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”, which aims to raise awareness of the risks and opportunities of AI for the Professors of Philosohpy.
+Adrian Arnaiz gave a talk on "AI for Social Good" at the Faculty of Philosophy of the University of Seville as part of the Teaching Innovation Project “Final Projects in Philosophy in the Context of AI”, which aims to raise awareness of the risks and opportunities of AI for the Professors of Philosophy.
 
 The presentation focused on three key aspects:
 

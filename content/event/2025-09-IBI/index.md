@@ -56,7 +56,7 @@ This discussion addressed the responsible integration of AI into industrial proc
 **Moderator:** **Beatriz Botella** - CENID – Centro de Inteligencia Digital Alicante
 
 ### 🗓️ Event details
-- **Date:** September 3, 2025  
+- **Date:** October 15, 2025  
 - **Time:** 17:00 – 19:00 (CEST)  
 - **Location:** Ibi, Spain  
 - **Format:** Round Table

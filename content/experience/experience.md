@@ -25,7 +25,7 @@ experience:
     location: Alicante
     date_start: '2021-11-01'
     date_end: '2025-09-26'
-    description: 'ELLIS PhD student in Machine Learning at the ELLIS Unit Alicante advised by Nuria Oliver. PhD exchange at MPI-SWS hosted by Manuel Gomez Rodriguez as advisors. Partially founded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
+    description: 'ELLIS PhD student in Machine Learning at the ELLIS Unit Alicante advised by Nuria Oliver. PhD exchange at MPI-SWS hosted by Manuel Gomez Rodriguez as advisors. Partially funded by several sources: INTEL, ELIAS European project [101120237-HORIZON-CL4-2022-HUMAN-02], Generalitat Valenciana and Bank Sabadell.'
 
   - title: Research Fellow
     company: Max Planck Institute for Software Systems (MPI-SWS)
