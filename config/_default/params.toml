@@ -126,7 +126,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = "avatar"
+sharing_image = "avatar.jpg"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "arnaiztech"
@@ -180,7 +180,7 @@ plugins_js  = []
   gravatar = false
 
   # Choose a shape for avatar images. Options: circle, square.
-  shape = "circle"
+  shape = "square"
 
 # Configuration of publication pages.
 [publications]

@@ -99,7 +99,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/).
 
 ⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
 <br>
-🕸️ I am also passionate about  **graph neural networks** to understand their challenges and improve model performance and interpretability, highlighting our [**ICML 2024** tutorial on *Graph Learning: Principles, Challenges, and Open Directions*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+🕸️ I am also passionate about  **graph neural networks** to understand their challenges and improve model performance and interpretability, highlighting our [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
 
 <div align="center">
 <a href="/#featured"
@@ -119,7 +119,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/).
 ------
 
 
-I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). This work focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
    style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
    onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
@@ -128,7 +128,7 @@ I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org
 </a>
 
 
-During my PhD, I collaborated with the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), part of the [ELIAS](https://elias-ai.eu/) European project and [Bank Sabadell](https://www.bancsabadell.com/). In addition, I contributed to developing [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
+During my PhD, I collaborated with the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), the [ELIAS](https://elias-ai.eu/) European project and [Bank Sabadell](https://www.bancsabadell.com/). In addition, I contributed to developing [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
 
 Prior to my PhD, I worked on network science and ML for life sciences both at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at [Admirable lab](https://admirable-ubu.es/) at the [Burgos University](https://www.ubu.es/) with a research scholarship.
