@@ -97,7 +97,7 @@ highlight_name: true
 I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
 <!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
-⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions*, *social networks*, and *recommender systems*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
+⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
 <br>
 🕸️ I am also passionate about  **graph neural networks** to understand their challenges and improve model performance and interpretability, highlighting our [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
 
@@ -118,6 +118,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/).
 
 ------
 
+{{< spoiler text="👆 **Learn more about my journey**">}}
 
 I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
@@ -145,7 +146,7 @@ Prior to my PhD, I worked on network science and ML for life sciences both at [U
    BSc project
 </a> 
 
-
+{{< /spoiler >}}
 
 <!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.
 
