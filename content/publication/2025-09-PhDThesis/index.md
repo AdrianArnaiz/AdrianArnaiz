@@ -60,7 +60,7 @@ image:
 # slides: ""
 ---
 
-### 🏅 Ph.D. thesis evaluated with the highest honors (cum laude) by Isabel Valera (Saarland University), Ciro Cattuto (ISI Foundation), and Germán González Serrano (University of Alicante).**
+### 🏅 Ph.D. thesis evaluated with the highest honors (cum laude) by Isabel Valera (Saarland University), Ciro Cattuto (ISI Foundation), and Germán González Serrano (University of Alicante).
 
 > Read Adrian's PhD thesis: [*PDF*](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
 > See Adrian's thesis defense presentation (2026/09/26): [*Video*](https://vertice.cpd.ua.es/308319).
