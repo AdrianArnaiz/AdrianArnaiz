@@ -10,7 +10,7 @@ headless: true
 weight: 20
 
 title: Selected Publications
-subtitle: ""
+subtitle: 'A selection of my recent publications'
 
 content:
   # Page type to display. E.g. post, talk, publication...

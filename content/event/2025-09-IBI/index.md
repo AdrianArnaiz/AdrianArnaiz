@@ -1,5 +1,5 @@
 ---
-title: "[The Big Factory] Trustworthy AI and Regulation"
+title: "[The Big Factory] Trustworthy AI and Regulation (Spanish)"
 
 event: The Big Factory - IBI
 event_short: IBI

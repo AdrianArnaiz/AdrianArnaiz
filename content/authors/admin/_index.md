@@ -18,7 +18,7 @@ bio: Postdoctoral Researcher in Trustworthy AI, AI Regulation and Graph Neural N
 
 # Interests to show in About widget
 interests:
-- Trustworthy for high-stakes settings 
+- Trustworthy AI for high-stakes settings 
 - Social networks and recommender systems
 - Graph neural networks and network science
 - AI regulation and policy-making

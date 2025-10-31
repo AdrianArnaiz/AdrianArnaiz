@@ -1,5 +1,5 @@
 ---
-title: "[University of Notre Dame (USA)] Guest Lecture."
+title: "[University of Notre Dame] Guest Lecture"
 
 event: Guest Lecture @ University of Notre Dame (USA), course on Ethics of Data Analytics and AI.
 event_url:

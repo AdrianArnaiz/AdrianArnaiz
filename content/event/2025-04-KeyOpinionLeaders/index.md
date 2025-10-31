@@ -22,7 +22,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   caption: 'Talk to key Spanish opinon leaders at ELLIS Alicante'

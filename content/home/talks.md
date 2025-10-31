@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: featured
 
 # This file represents a page section.
 headless: true
@@ -10,14 +10,14 @@ active: true
 # Order that this section appears on the page.
 weight: 40
 
-title: 'Talks'
-subtitle:
+title: 'Selected Talks'
+subtitle: 'A selection of my recent presentations and invited talks'
 
 content:
   # Page type to display. E.g. post, event, publication...
   page_type: event
   # Choose how many pages you would like to display (0 = all pages)
-  count: 8
+  count: 0
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
@@ -33,5 +33,5 @@ design:
 ---
 
 {{% callout note %}}
-[See complete list of talks {{< icon name="hand-pointer" pack="fas" >}}](/event/)
+[{{< icon name="hand-pointer" pack="fas" >}} See complete list of talks and conference oral presentations ($n=23$)](/event/)
 {{% /callout %}}

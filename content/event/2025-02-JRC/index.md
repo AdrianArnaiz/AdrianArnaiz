@@ -1,5 +1,5 @@
 ---
-title: "[JRC-ECAT European Commission] A Holistic View of Algorithmic Fairness and Trustworthy AI: Algorithms and Society"
+title: "[JRC-ECAT European Commission] A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation"
 
 event: JRC Invited Talk
 #event_url: https://csanrafael.org/jornadas2024/

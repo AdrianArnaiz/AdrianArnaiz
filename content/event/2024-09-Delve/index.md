@@ -1,5 +1,5 @@
 ---
-title: "[DelveDeepLearning] Graph Neural Networks"
+title: "[DelveDeepLearning] Graph Neural Networks (Spanish)"
 
 event: Delve Deep Learning - Online Course
 event_url: https://delveeducation.github.io/
@@ -22,7 +22,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   caption: 'Event Banner'

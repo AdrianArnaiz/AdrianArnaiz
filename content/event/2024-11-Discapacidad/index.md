@@ -1,5 +1,5 @@
 ---
-title: "[Conference Intellectual Disabilities] AI for Social Good"
+title: "[Conference Intellectual Disabilities] AI for Social Good (Spanish)"
 
 event: V Conference on Intellectual Disability
 event_url: https://csanrafael.org/jornadas2024/
@@ -21,7 +21,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: true
+featured: false
 
 image:
   caption: 'Talk'

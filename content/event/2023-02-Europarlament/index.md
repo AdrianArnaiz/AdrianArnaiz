@@ -1,5 +1,5 @@
 ---
-title: "[European Parliament - JURI Committee on Legal Affairs] Societal Challenges of Algorithmic Fairness"
+title: "[JURI Committee on Legal Affairs of the European Parliament] Societal Challenges of Algorithmic Fairness"
 
 event: European Parliament
 event_url: https://twitter.com/EP_Legal/status/1628413337741537280

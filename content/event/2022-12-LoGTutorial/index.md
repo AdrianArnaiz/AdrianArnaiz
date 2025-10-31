@@ -1,5 +1,5 @@
 ---
-title: "[Tutorial Learning On Graphs Conference] Graph Rewiring: From Theory to Applications in Fairness"
+title: "[Learning On Graphs Conference] Tutorial on Graph Rewiring: From Theory to Applications in Fairness"
 
 event: Learning on Graphs Conference
 event_url: https://ellisalicante.org/tutorials/GraphRewiring

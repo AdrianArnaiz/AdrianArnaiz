@@ -1,5 +1,5 @@
 ---
-title: "[University of Seville] AI for Social Good"
+title: "[Univ. of Seville – Faculty of Philosophy] AI for Social Good (Spanish)"
 
 event: V Conference on Intellectual Disability
 #event_url: https://csanrafael.org/jornadas2024/
