@@ -41,10 +41,13 @@ links:
 url_code: ""
 url_pdf: "https://arxiv.org/abs/2505.15547"
 url_slides: ""
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=ufCbRlTCk0w"
 
 
 ---
 
-Federico Errica and I presented the paper [*Oversmoothing, Oversquashing, Heterophily, Long-Range, and more: Demystifying Common Beliefs in Graph Machine Learning*](https://arxiv.org/abs/2505.15547) at the **[GLOW](https://sites.google.com/view/graph-learning-on-weds/)** reading group.
+* This work was selected as **Best paper and poster award** at the **[22nd International Workshop on Mining and Learning with Graphs](https://mlg-europe.github.io/2025/#awards)** (co-located with ECLM-PKDD 2025, Porto, September).
+* This work was presented at the **[Graph Learning on Wednesdays (GLOW)](https://sites.google.com/view/graph-learning-on-weds/)** reading group on September 3, 2025 [Video](https://www.youtube.com/watch?v=ufCbRlTCk0w).
+
+{{< youtube ufCbRlTCk0w >}}
 
