@@ -16,8 +16,8 @@ publishDate: "2025-09-30T00:00:00Z"
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-publication: "PhD Thesis, University of Alicante, 2025 — awarded ***cum laude***"
-publication_short: "PhD Thesis (University of Alicante, 2025) — awarded ***cum laude***"
+publication: "PhD Thesis, University of Alicante, 2025, ***cum laude***"
+publication_short: "PhD Thesis (University of Alicante, 2025), ***cum laude***"
 
 abstract: "This thesis presents a sociotechnical framework for implementing Trustworthy Artificial Intelligence (TAI), integrating technical, human, and regulatory aspects. It emphasizes the importance of aligning algorithmic development with societal needs and legal standards throughout the AI lifecycle. First, the thesis focuses on algorithmic fairness and proposes two novel methods to mitigate algorithmic discrimination in decision-making (FairShap) and in social networks (ERG). Next, the thesis explores the challenge of provably optimal human-AI complementarity in a resource allocation task. Finally, the thesis investigates the interplay between AI and Spanish labor legislation. Concludes that trustworthiness in AI systems requires a holistic understanding of data, algorithms, institutions, and regulatory factors."
 
@@ -49,7 +49,7 @@ url_video: "https://vertice.cpd.ua.es/308319"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: "Trustworthy AI — balancing technical, human, and regulatory dimensions"
+  caption: "Trustworthy AI: balancing technical, human, and regulatory dimensions"
   focal_point: ""
   preview_only: false
 

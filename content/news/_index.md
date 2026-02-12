@@ -13,6 +13,8 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2025-09{{< /hl >}} :scroll: [***Demystifying Common Beliefs in Graph Machine Learning***](https://openreview.net/forum?id=Q3MisVkuTu) (w/ Federico Errica) was accepted at [ICLR 2026](https://iclr.cc/Conferences/2026).
+
 * {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: I successfully defended my PhD thesis (**cum-laude**) on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).
 
 * {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: Federico Errica and I presented [***Demystifying Common Beliefs in Graph Machine Learning***](https://arxiv.org/abs/2505.15547) at the **[MLG 2025](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award**.

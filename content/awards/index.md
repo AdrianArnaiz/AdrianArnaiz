@@ -13,6 +13,12 @@ header:
   image: ""
 ---
 
+### ELLIS Member and ELLIS PhD Program Graduate
+{{ < spoiler text="2026 - *ELLIS*" >}} 
+> 🏅 *Selected as ELLIS Member and Graduated from the ELLIS PhD Program (Academic Track) after fulfilling all program requirements.* 
+{{< /spoiler >}} 
+
+<div style="height:1px"></div>
 
 
 #### 🏅 [Ph.D. Thesis *Cum Laude* Distinction](https://ellisalicante.org/publications/arnaiz2025thesis-en/)
@@ -22,9 +28,9 @@ header:
 
 <div style="height:1px"></div>
 
-#### 🏅 [*Best Paper Award* and *Best Poster Award* at *MLG 2025*](https://mlg-europe.github.io/2025/)
+#### 🏅 [*Best Paper Award* and *Best Poster Award* at *MLG 2025*](https://mlg-europe.github.io/2025/#awards)
 {{< spoiler text="2025 - *MLG @ ECML-PKDD 2025*" >}}
-> 🏅 *Federico Errica I presented [*Demystifying Common Beliefs in Graph Machine Learning*](https://arxiv.org/abs/2505.15547) at the **[22nd International Workshop on Mining and Learning with Graphs](https://mlg-europe.github.io/2025/)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award***.
+> 🏅 *Federico Errica I presented [*Demystifying Common Beliefs in Graph Machine Learning*](https://arxiv.org/abs/2505.15547) at the **[22nd International Workshop on Mining and Learning with Graphs](https://mlg-europe.github.io/2025/#awards)** at **[ECML-PKDD 2025](https://ecmlpkdd.org/2025/)** and received the **Best Paper Award** and **Best Poster Award***.
 {{< /spoiler >}}
 
 <div style="height:1px"></div>
