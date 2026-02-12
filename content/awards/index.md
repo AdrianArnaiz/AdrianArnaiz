@@ -14,7 +14,7 @@ header:
 ---
 
 ### ELLIS Member and ELLIS PhD Program Graduate
-{{ < spoiler text="2026 - *ELLIS*" >}} 
+{{< spoiler text="2026 - *ELLIS*" >}} 
 > 🏅 *Selected as ELLIS Member and Graduated from the ELLIS PhD Program (Academic Track) after fulfilling all program requirements.* 
 {{< /spoiler >}} 
 
