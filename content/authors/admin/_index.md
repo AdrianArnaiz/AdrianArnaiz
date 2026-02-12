@@ -94,7 +94,7 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/). 
+I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) and [ELLIS member](https://ellis.eu/members/members-list). 
 <!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
 ⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
