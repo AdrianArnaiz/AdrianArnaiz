@@ -1,5 +1,5 @@
 ---
-title: "[Chamber of Commerce of  Alicante] Round table about Sustainable AI (Spanish)"
+title: "[Chamber of Commerce of  Alicante] Round table about Sustainable AI (Sp)"
 
 event: 2nd Forum of Sustainable Technology - Chamber of Commerce of Alicante
 event_url: https://www.camaralicante.com/medio-ambiente-y-energia/sostenibilidad/jornadas/ii-foro-sostenibilidad/

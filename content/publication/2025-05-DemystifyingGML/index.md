@@ -18,7 +18,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: The Fourteenth International Conference on Learning Representations.
-publication_short: ICLR 2026. (Also ***best-paper award*** at *[MLG 2025 workshop](https://mlg-europe.github.io/2025/#awards) @ ECML-PKDD*)
+publication_short: In *ICLR 2026*. (Also ***best-paper award*** at *[MLG 2025 workshop](https://mlg-europe.github.io/2025/#awards) @ ECML-PKDD*)
 
 abstract: "After a renaissance phase in which researchers revisited the message-passing paradigm through the lens of deep learning, the graph machine learning community shifted its attention towards a deeper and practical understanding of message-passing's benefits and limitations. In this position paper, we notice how the fast pace of progress around the topics of oversmoothing and oversquashing, the homophily-heterophily dichotomy, and long-range tasks, came with the consolidation of commonly accepted beliefs and assumptions that are not always true nor easy to distinguish from each other. We argue that this has led to ambiguities around the investigated problems, preventing researchers from focusing on and addressing precise research questions while causing a good amount of misunderstandings. Our contribution wants to make such common beliefs explicit and encourage critical thinking around these topics, supported by simple but noteworthy counterexamples. The hope is to clarify the distinction between the different issues and promote separate but intertwined research directions to address them."
 
@@ -32,7 +32,7 @@ featured: true
 
 links:
 url_pdf: 'https://openreview.net/forum?id=Q3MisVkuTu'
-url_code: ''
+url_code: 'https://github.com/AdrianArnaiz/demystifyingGraphML/'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -40,7 +40,7 @@ url_slides: ''
 url_PapersWithCode: ''
 url_source: '' 
 # '#' para ir a la pagina inicial
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=ufCbRlTCk0w'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

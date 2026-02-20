@@ -1,5 +1,5 @@
 ---
-title: "[DelveDeepLearning] Graph Neural Networks (Spanish)"
+title: "[DelveDeepLearning] Graph Neural Networks (Sp)"
 
 event: Delve Deep Learning - Online Course
 event_url: https://delveeducation.github.io/

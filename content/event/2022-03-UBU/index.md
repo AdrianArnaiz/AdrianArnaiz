@@ -1,5 +1,5 @@
 ---
-title: "[University of Burgos] A Fairness perspective in algorithmic decision-making (Spanish)"
+title: "[University of Burgos] A Fairness perspective in algorithmic decision-making (Sp)"
 
 event: PhD Seminars in Industrial Technologies and Civil Engineering
 event_url: https://www.ubu.es/agenda/seminario-fairness-en-la-toma-de-decisiones-algoritmica

@@ -1,5 +1,5 @@
 ---
-title: "[Workshop AI and Labour Law] Algorithmic Bias and Discrimination in Workforce Management (Spanish)"
+title: "[Workshop AI and Labour Law] Algorithmic Bias and Discrimination in Workforce Management (Sp)"
 
 event: Seminar on the Impact of AI in Workforce Management
 event_url: https://www.derechosdigitales.gob.es/es/noticias/seminario-sobre-el-impacto-del-uso-de-tecnologias-de-inteligencia-artificial-para-la-direccion-de-personas-en-el-trabajo
