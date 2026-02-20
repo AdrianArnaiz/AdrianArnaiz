@@ -94,12 +94,12 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) and [ELLIS member](https://ellis.eu/members/members-list). 
+I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) and a member of the [ELLIS network](https://ellis.eu/members/members-list). 
 <!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
-⚖️+🤖+🏛️ My research focuses on building **trustworthy AI**  systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
+⚖️+🤖+🏛️ My research focuses on building **trustworthy AI** systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
 <br>
-🕸️ I am also passionate about  **graph neural networks** to understand their challenges and improve model performance and interpretability, highlighting our [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw), co-organized with [Ameya Velingker](https://www.ameyavelingker.com/).
+🕸️ I am particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as General Chair of [*LoG 2025*](https://logconference.org/) and Associate Chair of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
 
 <div align="center">
 <a href="/#featured"
@@ -120,19 +120,22 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 
 {{< spoiler text="👆 **Learn more about my journey**">}}
 
-I completed my PhD (``cum laude``) at [ELLIS Alicante](https://ellisalicante.org/), advised by [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+🎓 I completed my PhD (``cum laude``) at the [ELLIS Alicante](https://ellisalicante.org/), under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+
+<div align="center" style="margin-bottom: 1em;">
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
    style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
    onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
    onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
    Thesis
 </a>
+</div>
 
+🌍 During my doctoral research, I engaged in project-based collaborations with industry and institutional partners, including [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1) (RESUMAIS project) and [Bank Sabadell](https://www.bancsabadell.com/), addressing responsible AI integration in operational settings. At the European level, I contributed to the research and innovation project [ELIAS](https://elias-ai.eu/). At the national level, I participated in the development of [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales), contributing to policy discussions on AI governance, fundamental rights, and algorithmic accountability.
 
-During my PhD, I collaborated with the RESUMAIS project of [Intel Labs](https://www.intel.com/content/www/us/en/artificial-intelligence/responsible-ai.html#tab-blade-1-1), the [ELIAS](https://elias-ai.eu/) European project and [Bank Sabadell](https://www.bancsabadell.com/). In addition, I contributed to developing [Spain's Charter of Digital Rights](https://www.derechosdigitales.gob.es/es/carta-espanola-de-derechos-digitales) and played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
+📢 Beyond research and policy work, I played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
-
-Prior to my PhD, I worked on network science and ML for life sciences both at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at [Admirable lab](https://admirable-ubu.es/) at the [Burgos University](https://www.ubu.es/) with a research scholarship.
+🔙 Before my PhD, I worked on network science and ML for life sciences at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at the [Admirable lab](https://admirable-ubu.es/) at the [University of Burgos](https://www.ubu.es/) with a research scholarship.
 <a href="https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder"
    style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
    onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"

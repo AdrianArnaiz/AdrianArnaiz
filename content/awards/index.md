@@ -13,7 +13,7 @@ header:
   image: ""
 ---
 
-### ELLIS Member and ELLIS PhD Program Graduate
+#### [ELLIS Member and ELLIS PhD Program Graduate](https://ellis.eu/members)
 {{< spoiler text="2026 - *ELLIS*" >}} 
 > 🏅 *Selected as ELLIS Member and Graduated from the ELLIS PhD Program (Academic Track) after fulfilling all program requirements.* 
 {{< /spoiler >}} 
@@ -73,7 +73,7 @@ header:
 
 <div style="height:1px"></div>
 
-#### 📚 FPU PhD Fellowship (Declined) 
+#### 📚 [FPU PhD Fellowship (Declined)](https://www.unizar.es/actualidad/ficheros/20210601/60154/resolucion_definitiva_1a_fase_fpu20.pdf)
 {{< spoiler text="2021 - *Spanish Government - Universities Ministry*" >}}
 > 📚 *Doctoral Fellowship given by Spanish Government. FPU20/03687. Grants for predoctoral contracts for the completion of doctoral theses, in Spanish Universities.*
 {{< /spoiler >}}
@@ -81,7 +81,7 @@ header:
 <div style="height:1px"></div>
 
 
-#### 🏅 Extraordinary Award of Degree in Computer Engineering 
+#### 🏅 [Extraordinary Award of Degree in Computer Engineering](https://www.ubu.es/sites/default/files/portal_page/files/boubu_171_dic_19_0.pdf)
 {{< spoiler text="2019 - *Council of the University of Burgos*" >}}
 > 🏅 *Award for the best student qualification record of the Computer Engineering Degree from the University of Burgos, academic year 18/19.*
 {{< /spoiler >}}
