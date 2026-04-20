@@ -17,7 +17,7 @@ publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
 publication: "PhD Thesis, University of Alicante, 2025, ***cum laude***"
-publication_short: "PhD Thesis (University of Alicante, 2025), ***cum laude***"
+publication_short: "***[PhD Thesis](http://hdl.handle.net/10045/163375)*** (University of Alicante, 2025), ***cum laude***"
 
 abstract: "This thesis presents a sociotechnical framework for implementing Trustworthy Artificial Intelligence (TAI), integrating technical, human, and regulatory aspects. It emphasizes the importance of aligning algorithmic development with societal needs and legal standards throughout the AI lifecycle. First, the thesis focuses on algorithmic fairness and proposes two novel methods to mitigate algorithmic discrimination in decision-making (FairShap) and in social networks (ERG). Next, the thesis explores the challenge of provably optimal human-AI complementarity in a resource allocation task. Finally, the thesis investigates the interplay between AI and Spanish labor legislation. Concludes that trustworthiness in AI systems requires a holistic understanding of data, algorithms, institutions, and regulatory factors."
 
@@ -36,7 +36,7 @@ tags:
 featured: true
 
 links:
-url_pdf: "https://ellisalicante.org/assets/phd_theses/2025-AdrianArnaiz-PhD-Thesis.pdf"
+url_pdf: "http://hdl.handle.net/10045/163375"
 url_code: ""
 url_dataset: ""
 url_poster: ""

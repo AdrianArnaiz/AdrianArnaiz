@@ -22,7 +22,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *14th International Conference on Industrial Engineering and Industrial Management*
-publication_short: In *14th CIO*
+publication_short: In ***[14th CIO](https://eventos.uc3m.es/_files/_event/_43190/_editorFiles/file/BookOfAbstracts10.pdf)***
 
 abstract: This paper applies complex network analysis to unveil the informal structure of the knowledge area of business organization —Organización de em-presas— in Spain. To do so, we use the TESEO database. We retrieve and stati-cally analyze all the theses referred to the UNESCO academic field of Organiza-tion and management of enterprises. Our results reveal a degree distribution of the participation in thesis examining committees and thesis supervision compatible with a truncated power law. Community analysis of the projected network of co-participation in dissertation committees shows a modular structure. When we focus on the backbone of such network, we find that the patterns detected can be partially explained by homophily of scholars that interact in the same academic association.
 

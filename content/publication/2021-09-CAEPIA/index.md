@@ -20,7 +20,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Actas de la XIX Conferencia de la Asociación Española para la Inteligencia Artificial*
-publication_short: In *Actas CAEPIA XIX*
+publication_short: In ***[Actas CAEPIA XIX](https://caepia20-21.uma.es/inicio_files/caepia20-21-actas.pdf)***
 
 abstract: Understanding the scientific structure of a field is pivotal for designing the strategic policy for the research development of the discipline and evaluating scientific production. The objective of this paper is to analyze and understand the structure of Computing Science as an area of knowledge in Spain. We use complex network analysis tools on the network representing the supervision and the participation in the examining committees of doctoral theses in this field. The results show a scientific network of academics characterized by a modular structure partially explained by specialization and a degree distribution compatible with a truncated power law. Also, we analyze the structure of the relationships between Artificial Intelligence and the rest of the fields, using the topic descriptors contained in each of the theses.
 

@@ -24,7 +24,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In **International Journal of Production Management and Engineering**. 2022, V. 10, n. 1, p. 65-76
-publication_short: In *IJPME*
+publication_short: In ***[IJPME](https://doi.org/10.4995/ijpme.2022.16666)***
 
 abstract: Understanding the scientific and social structure of a discipline is a fundamental aspect for scientific evaluation processes, identifying trends and niches, and balancing the trade-off between exploitation and exploration re-search. This article aims to analyze the scientific structure of the knowledge area of business organization in Spain through the scientific production of doctoral theses by means of complex networks analysis tools. Our contribution formalizes the social network of co-participation in thesis examining committees and thesis supervision. This network has a modular structure that is partially explained by thematic specialization in different sub-disciplines. We also analyze the interdis-ciplinary structure of the discipline by means of a bipartite network of theses and thesis descriptors, which enables the characterization of affinity levels between fields, re-search poles and thematic clusters. Our results have implications for the scientific evaluation and formal definition of related fields.
 

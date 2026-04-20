@@ -23,8 +23,8 @@ publishDate: "2026-03-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: JMIR Mental Health.
-publication_short: In JMIR Mental Health.
+publication: JMIR Mental Health
+publication_short: In ***[JMIR Mental Health](https://preprints.jmir.org/preprint/88435)***
 
 abstract: "The widespread use of chatbots powered by large language models (LLMs) has transformed how people seek advice across domains, including high-stakes contexts such as mental health support. Despite their scalability, LLMs' ability to safely detect and respond to acute mental health crises remains poorly understood due to the absence of unified taxonomies, annotated benchmarks, and clinically grounded evaluations. This work introduces a unified taxonomy of six crisis types, a curated evaluation dataset, and an expert-designed protocol for assessing response safety and appropriateness. We benchmark three state-of-the-art LLMs on their ability to classify crisis types and generate safe responses. While LLMs often provide consistent support for explicit crises, significant risks persist: a notable proportion of responses are harmful or inappropriate, especially from open-weight models. We also uncover systemic weaknesses in handling indirect signals, overreliance on formulaic replies, and misalignment with user context. Our framework lays the foundation for responsible innovation in AI-driven mental health support, aimed at minimizing harm and improving crisis intervention."
 

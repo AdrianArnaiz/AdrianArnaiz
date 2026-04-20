@@ -32,7 +32,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *6th Workshop on Complex Sociotechnical Systems*
-publication_short: In *VI COMSOTEC WORKSHOP*
+publication_short: In ***[VI COMSOTEC WORKSHOP](http://www.comsotec.org)***
 
 abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
 

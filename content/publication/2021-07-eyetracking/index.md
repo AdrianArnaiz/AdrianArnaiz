@@ -31,7 +31,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: Applied Sciences, 2021, 11, 6157
-publication_short: Appl. Sci.
+publication_short: In ***[Applied Sciences](https://doi.org/10.3390/app11136157)***
 
 abstract: In recent decades, the use of technological resources such as the eye tracking methodology is providing cognitive researchers with important tools to better understand the learning process. However, the interpretation of the metrics requires the use of supervised and unsupervised learning techniques. The main goal of this study was to analyse the results obtained with the eye tracking methodology by applying statistical tests and supervised and unsupervised machine learning techniques, and to contrast the effectiveness of each one. The parameters of fixations, saccades, blinks and scan path, and the results in a puzzle task were found. The statistical study concluded that no significant differences were found between participants in solving the crossword puzzle task; significant differences were only detected in the parameters saccade amplitude minimum and saccade velocity minimum. On the other hand, this study, with supervised machine learning techniques, provided possible features for analysis, some of them different from those used in the statistical study. Regarding the clustering techniques, a good fit was found between the algorithms used (k-means ++, fuzzy k-means and DBSCAN). These algorithms provided the learning profile of the participants in three types (students over 50 years old; and students and teachers under 50 years of age). Therefore, the use of both types of data analysis is considered complementary.
 

@@ -97,9 +97,9 @@ highlight_name: true
 I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) and a member of the [ELLIS network](https://ellis.eu/members/members-list). 
 <!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
 
-⚖️+🤖+🏛️ My research focuses on building **trustworthy AI** systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation*, *standardization*, and *policy-making*. 
+⚖️+🤖+🏛️ My research focuses on building **trustworthy AI** systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation* and *policy-making*, understanding AI as a sociotechnical system.
 <br>
-🕸️ I am particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as General Chair of [*LoG 2025*](https://logconference.org/) and Associate Chair of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
+🕸️ I am also particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as *General Chair* of [*LoG 2025*](https://logconference.org/) and *Associate Chair* of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
 
 <div align="center">
 <a href="/#featured"

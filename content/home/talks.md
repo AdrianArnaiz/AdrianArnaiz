@@ -33,5 +33,5 @@ design:
 ---
 
 {{% callout note %}}
-[{{< icon name="hand-pointer" pack="fas" >}} See complete list of talks and conference oral presentations ($n=23$)](/event/)
+[{{< icon name="hand-pointer" pack="fas" >}} See complete list of talks and conference oral presentations](/event/)
 {{% /callout %}}
