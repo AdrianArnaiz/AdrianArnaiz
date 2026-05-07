@@ -64,4 +64,4 @@ The session emphasized that trustworthy AI in government requires more than tech
 👉 [Visit the official event page](https://encuentrosporlaigualdad.com/encuentro-2/)
 
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLaDipuSocial%2Fposts%2Fpfbid0iNEdFNjbNt4B4X5HqEiMKbmUpDawPu8d7WfZWacFWkF3hpHDrPYBQSQna25yULttl&show_text=true&width=500" width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FLaDipuSocial%2Fposts%2Fpfbid0iNEdFNjbNt4B4X5HqEiMKbmUpDawPu8d7WfZWacFWkF3hpHDrPYBQSQna25yULttl&show_text=true&width=500" width="500" height="697" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
