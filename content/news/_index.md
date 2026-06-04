@@ -13,6 +13,13 @@ header:
   image: ""
 ---
 
+* {{< hl >}}2026-05{{< /hl >}} :loud_sound: I gave a seminar on trustworthy AI at the University of Burgos. [Read more](/talk/ubu-trustworthy-ai-decisions-networks-and-human-ai-collaboration-in-sociotechnical-systems/).
+
+* {{< hl >}}2026-05{{< /hl >}} :loud_sound: I participated in a round table on AI for Science and Education at the SENPE Workshop in Pamplona, Spain. [Read more](/talk/senpe-round-table-on-ai-for-science-and-ai4health/).
+
+* {{< hl >}}2026-04{{< /hl >}} :scroll: [**Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs**](https://arxiv.org/abs/2509.24857) (with Miguel Baidal, Erik Derner, Jenn Layton Annable, Mark Ball, Mark Ince, Elvira Perez Vallejos, Nuria Oliver) was accepted at [**JMIR Mental Health**](https://mental.jmir.org/).
+
+
 * {{< hl >}}2025-09{{< /hl >}} :scroll: [***Demystifying Common Beliefs in Graph Machine Learning***](https://openreview.net/forum?id=Q3MisVkuTu) (w/ Federico Errica) was accepted at [ICLR 2026](https://iclr.cc/Conferences/2026).
 
 * {{< hl >}}2025-09{{< /hl >}} :trident: :loud_sound: :scroll: I successfully defended my PhD thesis (**cum-laude**) on **A Sociotechnical Approach to Trustworthy AI: from Algorithms to Regulation** at the **University of Alicante**. [Thesis link](https://ellisalicante.org/publications/arnaiz2025thesis-en/).

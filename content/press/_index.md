@@ -12,6 +12,7 @@ header:
   caption: ""
   image: ""
 ---
+* ["Building an AI we can trust" [Sp]](https://www.fundacionbancosabadell.com/construir-una-ia-en-la-que-podamos-confiar/), **Banco Sabadell Foundation**, (28/05/2026)
 * ["DeepSeek is Open Source" [Spanish]](https://www.youtube.com/watch?v=9RHvHj2mTqQ&t=30s), **RTVE 1 - News**, (28/01/2023)
 * ["Impressions of the 10th HLFF and eliminating discrimination in Social Networks" [Finnish]](https://www.tiedetoimittajat.fi/mestarit-kohtaavat-kisallit-matematiikkaa-ja-tietojenkasittelytiedetta-juhlittiin-kymmenetta-kertaa-heidelberg-laureate-forum-tapahtumassa), **Tiedetoimittajat - The Finnish Association of Science editors and journalists**, (20/09/2023).
 * ["CHATGPT:  La AEPD Investiga La App De Inteligencia Artificial" [Spanish]](https://www.youtube.com/watch?v=I8Jmhe1CdnY), **RTVE 1 - News**, (13/04/2023)
