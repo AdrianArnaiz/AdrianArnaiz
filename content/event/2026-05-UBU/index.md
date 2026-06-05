@@ -4,7 +4,7 @@ title: "[UBU] Trustworthy AI: Decisions, Networks and Human-AI Collaboration in 
 
 event: Seminarios del Programa de Doctorado en Ingeniería y Tecnologías Industrial, Informática y Civil, Universidad de Burgos
 event_short: UBU Doctoral Seminar
-event_url: https://www.linkedin.com/feed/update/urn:li:activity:7464943254204116992/
+event_url: https://www.ubu.es/la-eps-acoge-una-charla-sobre-inteligencia-artificial-etica-y-fiable
 
 location: University of Burgos, Burgos, Spain
 
@@ -38,6 +38,10 @@ links:
   icon_pack: fab
   name: LinkedIn Post
   url: https://www.linkedin.com/feed/update/urn:li:activity:7464943254204116992/
+- icon: globe
+  icon_pack: fas
+  name: UBU Website
+  url: https://www.ubu.es/la-eps-acoge-una-charla-sobre-inteligencia-artificial-etica-y-fiable
 url_code: ""
 url_pdf: ""
 url_slides: ""
