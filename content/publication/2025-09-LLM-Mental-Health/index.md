@@ -11,7 +11,7 @@ authors:
 - Nuria Oliver
 
 date: "2026-03-01T00:00:00Z"
-doi: 10.2196/88435
+doi: "10.2196/88435"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2026-03-01T00:00:00Z"
@@ -24,7 +24,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: JMIR Mental Health
-publication_short: In ***[JMIR Mental Health](https://preprints.jmir.org/preprint/88435)***
+publication_short: In ***[JMIR Mental Health](https://doi.org/10.2196/88435)***
 
 abstract: "The widespread use of chatbots powered by large language models (LLMs) has transformed how people seek advice across domains, including high-stakes contexts such as mental health support. Despite their scalability, LLMs' ability to safely detect and respond to acute mental health crises remains poorly understood due to the absence of unified taxonomies, annotated benchmarks, and clinically grounded evaluations. This work introduces a unified taxonomy of six crisis types, a curated evaluation dataset, and an expert-designed protocol for assessing response safety and appropriateness. We benchmark three state-of-the-art LLMs on their ability to classify crisis types and generate safe responses. While LLMs often provide consistent support for explicit crises, significant risks persist: a notable proportion of responses are harmful or inappropriate, especially from open-weight models. We also uncover systemic weaknesses in handling indirect signals, overreliance on formulaic replies, and misalignment with user context. Our framework lays the foundation for responsible innovation in AI-driven mental health support, aimed at minimizing harm and improving crisis intervention."
 
@@ -40,12 +40,12 @@ featured: true
 links:
 url_pdf: 'https://arxiv.org/pdf/2509.24857.pdf'
 url_code: 'https://github.com/ellisalicante/LLMs-Mental-Health-Crisis'
-url_dataset: 'https://github.com/ellisalicante/LLMs-Mental-Health-Crisis'
+url_dataset: 'https://huggingface.co/collections/arnaiztech/llm-mental-health-crisis'
 url_poster: ''
-url_project: 'https://preprints.jmir.org/preprint/88435'
+url_project: 'https://doi.org/10.2196/88435'
 url_slides: ''
 url_PapersWithCode: ''
-url_source: ''
+url_source: 'https://doi.org/10.2196/88435'
 url_video: ''
 
 # Featured image
@@ -62,4 +62,4 @@ image:
 # slides: ""
 ---
 
-This preprint introduces a unified framework to evaluate how large language models (LLMs) detect and respond to mental health crises, combining a novel taxonomy, a curated dataset, and expert-based assessments. The findings reveal that, while LLMs can offer support in many situations, they also pose significant safety risks — particularly when handling subtle crisis signals. The work highlights critical challenges and provides a foundation for safer, more effective AI-driven mental health interventions.
+This article in *JMIR Mental Health* introduces a unified framework to evaluate how large language models (LLMs) detect and respond to mental health crises, combining a novel taxonomy, a curated dataset, and expert-based assessments. The findings reveal that, while LLMs can offer support in many situations, they also pose significant safety risks, particularly when handling subtle crisis signals. The work highlights critical challenges and provides a foundation for safer, more effective AI-driven mental health interventions.

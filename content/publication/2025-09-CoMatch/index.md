@@ -8,7 +8,7 @@ authors:
 - Manuel Gomez Rodriguez
 
 date: "2025-08-18T00:00:00Z"
-doi: ""
+doi: "10.1007/978-3-032-19099-4_3"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-02-02T00:00:00Z"
@@ -42,14 +42,14 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_PapersWithCode: ''
-url_source: '' 
+url_source: 'https://link.springer.com/chapter/10.1007/978-3-032-19099-4_3' 
 # '#' para ir a la pagina inicial
 url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Demystifying Common Beliefs in Graph Machine Learning'
+  caption: 'Towards Human-AI Complementarity in Matching Tasks'
   focal_point: ""
   preview_only: false
 
@@ -68,7 +68,10 @@ image:
 # slides: ""
 ---
 
+* Published version: [Springer](https://link.springer.com/chapter/10.1007/978-3-032-19099-4_3) (2026).
+* Preprint version: [arXiv](https://www.arxiv.org/abs/2508.13285) (2025).
+
 
 Accepted for a ***Oral Presentation*** at the **[HLDM'25](https://sml.disi.unitn.it/hldm25.html)** workshop (*The Third Workshop on Hybrid Human-Machine Learning and Decision Making*) at [**ECML-PKDD 2025**](https://ecmlpkdd.org/2025/) (*European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases*). Oporto, Portugal, September 2025.
 
-Also, accepted for both a poster presentation and a ***Spotlight Lightning Talk*** in [**AI-SDM Workshop on Human-AI Complementarity for Decision Making**](https://www.cmu.edu/ai-sdm/research/human-ai-workshop/index.html) at CMU.
+Also, accepted for both a poster presentation and a ***Spotlight Lightning Talk*** in [**AI-SDM Workshop on Human-AI Complementarity for Decision Making 2025**](https://www.cmu.edu/ai-sdm/research/human-ai-workshop/index.html) at CMU.
