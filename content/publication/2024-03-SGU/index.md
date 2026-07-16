@@ -5,7 +5,7 @@ authors:
 - Georgina Curto
 - Nuria Oliver
 
-date: "2024-03-15T00:00:00Z"
+date: "2025-06-25T00:00:00Z"
 doi: "https://doi.org/10.1609/icwsm.v19i1.35805"
 
 # Schedule page publish date (NOT publication's date).

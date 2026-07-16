@@ -36,7 +36,7 @@ featured: true
 
 links:
 url_pdf: 'https://arxiv.org/pdf/2303.01928.pdf'
-url_code: 'https://anonymous.4open.science/r/fair-shap'
+url_code: 'https://github.com/AdrianArnaiz/fair-shap'
 url_dataset: ''
 url_poster: ''
 url_project: ''
