@@ -69,5 +69,20 @@ image:
 In addition to the official publication at **[ICLR 2026](https://openreview.net/forum?id=Q3MisVkuTu)**, we would like to highlight the following:
 * This work was selected as **Best paper and poster award** at the **[22nd International Workshop on Mining and Learning with Graphs](https://mlg-europe.github.io/2025/#awards)** (co-located with ECML-PKDD 2025, Porto, September 2025).
 * This work was presented at the **[Graph Learning on Wednesdays (GLOW)](https://sites.google.com/view/graph-learning-on-weds/)** reading group on September 3, 2025 [Video](https://www.youtube.com/watch?v=ufCbRlTCk0w).
+## 4 minutes video summary
+
+<div id="presentation-embed-39057996"></div>
+<script src="https://slideslive.com/embed_presentation.js"></script>
+<script>
+  embed = new SlidesLiveEmbed("presentation-embed-39057996", {
+    presentationId: "39057996",
+    autoPlay: false,
+    verticalEnabled: true,
+  });
+</script>
+
+## 30 minutes video presentation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ufCbRlTCk0w?si=ZPz__Yp3vi_mFcM3" title="Graph Learning on Wednesdays (GLOW) Reading Group Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
