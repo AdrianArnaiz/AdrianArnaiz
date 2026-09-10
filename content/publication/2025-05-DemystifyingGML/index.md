@@ -34,9 +34,9 @@ links:
 url_pdf: 'https://openreview.net/forum?id=Q3MisVkuTu'
 url_code: 'https://github.com/AdrianArnaiz/demystifyingGraphML/'
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://iclr.cc/virtual/2026/poster/10009626'
 url_project: ''
-url_slides: ''
+url_slides: 'https://iclr.cc/virtual/2026/poster/10009626'
 url_PapersWithCode: ''
 url_source: '' 
 # '#' para ir a la pagina inicial
