@@ -1,0 +1,6 @@
+Source Sans Pro by Adobe, SIL Open Font License 1.1.
+Unmodified WOFF2 subsets downloaded from Google Fonts on 2026-10-01.
+Styles: normal/italic, 400/700. Subsets: Latin and Latin Extended.
+Stylesheet: https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap
+License: https://raw.githubusercontent.com/adobe-fonts/source-sans/release/LICENSE.md
+Optional font display prevents late layout shifts on slow connections.

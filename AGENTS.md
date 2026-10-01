@@ -11,7 +11,8 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
 - Actual configuration lives in `config/_default/`. Root `config.toml` is a
   compatibility stub for Blogdown and Forestry.
 - Theme templates and shortcodes come from Hugo modules declared in `go.mod`
-  and imported in `config/_default/config.toml`. No local `layouts/` exists yet.
+  and imported in `config/_default/config.toml`. Local overrides and visual
+  extension points are documented in [DESIGN.md](DESIGN.md).
 - Both Wowchemy modules are pinned to
   `v0.0.0-20210106233222-68b9925c9351`; Netlify pins Hugo `0.79.1`.
   Preserve this setup unless the task includes an upgrade. Do not assume current
@@ -39,6 +40,10 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   future-content builds when changing scheduled content.
 - Shared downloads belong in `static/media/`, linked as `/media/<filename>`.
   Keep page-specific media in its page bundle.
+- Read [DESIGN.md](DESIGN.md) before changing appearance or motion. Custom Sass
+  is imported by the pinned theme; custom JS uses its `custom_js.html` hook.
+  Keep the network decorative, confined to the first homepage section, idle at
+  rest, pointer-driven, and static for reduced motion and touch devices. Do not add animation runtime dependencies casually.
 - Customize colors and fonts in `data/themes/mydark.toml`,
   `data/fonts/myroboto.toml`, and `config/_default/params.toml`. Inspect the pinned
   module before adding a local `layouts/` override. Do not edit the module cache.
@@ -82,3 +87,55 @@ version alone.
 
 Update this file and the documentation map when structure, commands, dependencies,
 or editing conventions change.
+
+## Potential design tools
+
+| Tool / approach | Hugo/Wowchemy fit | What I’d use it for |
+|---|---|---|
+| **tsParticles** | **Excellent** | Primary candidate for the interactive graph/network background. Vanilla/CDN support, links + cursor repulsion/grab, reduced-motion controls. ([GitHub][1]) |
+| **Custom Canvas** | **Excellent** | Alternative to tsParticles if the exact network aesthetic can be implemented cleanly with less code/dependency. |
+| **Motion / motion.dev** | **Excellent** | My preferred general-purpose motion library if one is needed. It supports plain JS, SVG and WebGL; the mini API is deliberately small. ([Motion][2]) |
+| **Anime.js** | **Excellent** | Very good alternative for SVG/path/timeline work. Current Anime.js is modular, supports vanilla JS and has a lightweight WAAPI implementation. ([Anime.js][3]) |
+| **GSAP** | **Excellent technically**, probably unnecessary initially | Best if we eventually want sophisticated scroll choreography, pinned sections, path animation, etc. It is explicitly framework-agnostic. ([GSAP][4]) |
+| **Morphicons** | **Good** | Tiny high-quality microinteraction for e.g. hamburger→close, sun→moon, external-link states. Not for the background. It supports plain JS and multiple frameworks. ([morphicons][5]) |
+| **Haikei** | **Excellent** | Static SVG decoration: subtle graph-like patterns, low-poly grids, waves, section separators. Zero runtime animation cost. ([Haikei][6]) |
+| **Spline** | **Compatible**, but use sparingly | A single intentional interactive 3D hero/object. Its Viewer is a native web component and can react to page-level cursor/scroll. ([Spline][7]) |
+| **shadcn/ui** | **Not something I would install wholesale** | It is fundamentally aimed at component-app stacks such as React/Vite/etc. Borrow its spacing, tokens, component restraint and interaction patterns instead. ([shadcn/ui][8]) |
+| **Vercel Web Interface Guidelines** | **Very useful** | Agent-side design/accessibility audit. They explicitly provide an agent skill. ([Vercel][9]) |
+| **Impeccable** | **Very useful** | Agent-side visual/design review and polishing, not a runtime dependency. It explicitly supports Codex skills. ([GitHub][10]) |
+| **Emil Kowalski skills** | **Very useful** | You meant **Emil Kowalski**. His current skills include `animate`, `review-animations`, `improve-animations`, `find-animation-opportunities`, etc., and explicitly target Codex too. ([Skills][11]) |
+| **frontend-design skill** | **Useful** | Gives the agent art-direction and rendered-verification discipline; again, agent guidance rather than code shipped to visitors. ([GitHub][12]) |
+
+
+**More**
+* Refero style
+* cult-ui
+* shader Gradient
+* Manus.im
+* kokonut ui
+* bklit ui
+
+
+[1]: https://github.com/tsparticles/tsparticles/blob/main/websites/website/docs/guide/getting-started.md?utm_source=chatgpt.com "tsparticles/websites/website/docs/guide/getting-started.md at main · tsparticles/tsparticles · GitHub"
+
+[2]: https://motion.dev/?utm_source=chatgpt.com "Motion (prev Framer Motion): JavaScript & React animation library"
+
+[3]: https://animejs.com/documentation/animation/?utm_source=chatgpt.com "Animation | Documentation | Anime.js | JavaScript Animation Engine"
+
+[4]: https://gsap.com/docs/v3/Installation/?utm_source=chatgpt.com "Installation | GSAP | Docs & Learning"
+
+[5]: https://www.morphicons.com/?utm_source=chatgpt.com "morphicons — SVG icon morphing library for React, Vue & Svelte"
+
+[6]: https://haikei.app/?utm_source=chatgpt.com "Generate unique SVG design assets | Haikei"
+
+[7]: https://docs.spline.design/exporting-your-scene/web/exporting-as-spline-viewer?utm_source=chatgpt.com "Exporting as Spline Viewer | Spline Documentation"
+
+[8]: https://ui.shadcn.com/docs/official?utm_source=chatgpt.com "Official shadcn/ui Website - shadcn/ui"
+
+[9]: https://vercel.com/design/guidelines?utm_source=chatgpt.com "Web Interface Guidelines"
+
+[10]: https://github.com/pbakaus/impeccable/blob/main/.agent/skills/impeccable/SKILL.md?utm_source=chatgpt.com "impeccable/.agent/skills/impeccable/SKILL.md at main · pbakaus/impeccable · GitHub"
+
+[11]: https://www.skills.sh/emilkowalski/skills/animate?utm_source=chatgpt.com "animate — emilkowalski/skills"
+
+[12]: https://github.com/PaulRBerg/agent-skills/blob/main/skills/frontend-design/SKILL.md?utm_source=chatgpt.com "agent-skills/skills/frontend-design/SKILL.md at main · PaulRBerg/agent-skills · GitHub"

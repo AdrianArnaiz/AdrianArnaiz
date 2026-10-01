@@ -287,3 +287,7 @@ plugins_js  = []
 ############################
 [icon.pack]
   ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+
+# Optional, homepage-only decorative network.
+[research_design]
+  network = true

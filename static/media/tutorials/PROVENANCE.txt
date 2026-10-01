@@ -1,0 +1,3 @@
+Existing tutorial conference logos, copied unchanged from their original site URLs on 2026-10-01.
+ICML: https://icml.cc/static/core/img/ICML-logo.svg
+LoG: https://logconference.org/media/logo_conf_below_512_512_hu0b3b5122a793f6cbe7d94790c745769e_24489_1200x0_resize_lanczos_3.png

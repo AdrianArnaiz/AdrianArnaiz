@@ -12,6 +12,7 @@ separate template examples.
 | [AGENTS.md](AGENTS.md) | Repository instructions, editing conventions, and validation commands. |
 | [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) | This guide to documentation and site sources. |
 | [HUGO_TEMPLATE_DOC.md](HUGO_TEMPLATE_DOC.md) | Original Academic/Wowchemy introduction and upstream links; historical template context. |
+| [DESIGN.md](DESIGN.md) | Visual system, graph implementation, dependency decisions, and verification. |
 | [LICENSE.md](LICENSE.md) | Repository license. |
 
 ## Content editing map
@@ -51,9 +52,22 @@ separate template examples.
 | [static/](static/) | Files served directly, including downloads and site verification HTML. |
 | [theme.toml](theme.toml) | Academic template metadata and declared minimum Hugo version. |
 
-There are currently no local layout overrides. Imported Wowchemy modules provide
-templates, widgets, shortcodes, and theme assets. Match their pinned version when
-investigating rendering or adding overrides.
+Local visual extensions are isolated in:
+
+- [assets/scss/custom.scss](assets/scss/custom.scss): tokens, layout, responsive rules, focus, and motion preferences.
+- [assets/scss/_research-fonts.scss](assets/scss/_research-fonts.scss): local font faces.
+- [assets/js/network-background.js](assets/js/network-background.js): first-section, pointer-driven network.
+- [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges for the legacy theme.
+- [layouts/partials/custom_head.html](layouts/partials/custom_head.html) and [layouts/partials/custom_js.html](layouts/partials/custom_js.html): supported legacy asset hooks.
+- [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.
+- [layouts/partials/research/network.html](layouts/partials/research/network.html): decorative canvas markup.
+- [layouts/partials/li_citation.html](layouts/partials/li_citation.html): publication hierarchy, retaining native author/action partials.
+- [layouts/_default/baseof.html](layouts/_default/baseof.html): original page shell with skip link and main landmark.
+- [static/fonts/source-sans-pro/](static/fonts/source-sans-pro/): licensed, self-hosted existing typeface.
+- [static/media/tutorials/](static/media/tutorials/): locally served existing conference logos.
+
+Imported Wowchemy modules still provide the underlying templates, widgets,
+shortcodes, and theme assets. See [DESIGN.md](DESIGN.md) before changing overrides.
 
 ## Build and maintenance
 

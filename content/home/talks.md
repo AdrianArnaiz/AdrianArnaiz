@@ -31,7 +31,4 @@ design:
   #   4 = Citation (publication only)
   view: 1
 ---
-
-{{% callout note %}}
-[{{< icon name="hand-pointer" pack="fas" >}} See complete list of talks and conference oral presentations](/event/)
-{{% /callout %}}
+<p class="section-index-link"><a href="/event/">See complete list of talks and conference oral presentations <span aria-hidden="true">&rarr;</span></a></p>

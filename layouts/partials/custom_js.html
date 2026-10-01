@@ -1,0 +1,7 @@
+{{/* Supported legacy Wowchemy footer hook. No JS package manager required. */}}
+{{ $interface := resources.Get "js/research-interface.js" | minify | fingerprint "sha256" }}
+<script defer src="{{ $interface.RelPermalink }}" integrity="{{ $interface.Data.Integrity }}"></script>
+{{ if and .IsHome (ne site.Params.research_design.network false) }}
+  {{ $network := resources.Get "js/network-background.js" | minify | fingerprint "sha256" }}
+  <script defer src="{{ $network.RelPermalink }}" integrity="{{ $network.Data.Integrity }}"></script>
+{{ end }}

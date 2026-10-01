@@ -34,6 +34,4 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
-{{% callout note %}}
-[See complete list of publications {{< icon name="hand-pointer" pack="fas" >}}](/publication)
-{{% /callout %}}
+<p class="section-index-link"><a href="/publication/">See complete list of publications <span aria-hidden="true">&rarr;</span></a></p>

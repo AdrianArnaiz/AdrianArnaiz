@@ -101,17 +101,11 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 <br>
 🕸️ I am also particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as *General Chair* of [*LoG 2025*](https://logconference.org/) and *Associate Chair* of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
 
-<div align="center">
-<a href="/#featured"
-   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
-   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
-   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+<div class="research-actions">
+<a href="/#featured" class="research-link">
    Publications
 </a> &nbsp;
-<a href="/#tutorials"
-   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
-   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
-   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+<a href="/#tutorials" class="research-link">
    Tutorials
 </a>
 </div>
@@ -122,11 +116,8 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 
 🎓 I completed my PhD (``cum laude``) at the [ELLIS Alicante](https://ellisalicante.org/), under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
 
-<div align="center" style="margin-bottom: 1em;">
-<a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/"
-   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
-   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
-   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+<div class="research-actions">
+<a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/" class="research-link">
    Thesis
 </a>
 </div>
@@ -136,16 +127,10 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 📢 Beyond research and policy work, I played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
 🔙 Before my PhD, I worked on network science and ML for life sciences at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at the [Admirable lab](https://admirable-ubu.es/) at the [University of Burgos](https://www.ubu.es/) with a research scholarship.
-<a href="https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder"
-   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
-   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
-   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+<a href="https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder" class="research-link">
    MSc project
 </a> &nbsp;
-<a href="https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection"
-   style="font-size:0.8em; color:black; background-color:rgba(211, 209, 209, 1); padding:4px; border-radius:40px; text-decoration:none; transition:all 0.2s ease;"
-   onmouseover="this.style.backgroundColor='rgba(255,87,34,1)'; this.style.color='black'; this.style.boxShadow='0 0 8px rgba(255,87,34,0.6)';"
-   onmouseout="this.style.backgroundColor='rgba(211, 209, 209, 1)'; this.style.color='black'; this.style.boxShadow='none';">
+<a href="https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection" class="research-link">
    BSc project
 </a> 
 

@@ -1,26 +1,24 @@
-# Theme metadata
+# Research palette. Keep in sync with CSS custom properties in custom.scss.
 name = "mydark"
-
-# Is theme light or dark?
 light = true
-
-# Primary
-primary = "#0A2E97"
-
-# Menu
-#header
-menu_primary = "#1C2542"
-#text sections
-menu_text = "rgba(255,255,255,0.6)"
-menu_text_active = "rgba(255,255,255,1)"
-#fontcolor title
-menu_title = "#fff"
-
-# Home sections
-home_section_odd = "hsla(231, 15%, 18%, 0.05)"
-home_section_even = "hsla(231, 15%, 16%, 0.1)"
+primary = "#236657"
+link = "#236657"
+link_hover = "#253633"
+background = "#faf9f6"
+menu_primary = "#faf9f6"
+menu_text = "#566963"
+menu_text_active = "#236657"
+menu_title = "#253633"
+home_section_odd = "#faf9f6"
+home_section_even = "#faf9f6"
 
 [dark]
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  menu_primary = "#1C2542"
+  link = "#9ccdbb"
+  link_hover = "#e5ede8"
+  background = "#172322"
+  menu_primary = "#172322"
+  menu_text = "#acbfb6"
+  menu_text_active = "#9ccdbb"
+  menu_title = "#e5ede8"
+  home_section_odd = "#172322"
+  home_section_even = "#172322"

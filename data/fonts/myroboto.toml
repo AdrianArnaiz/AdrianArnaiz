@@ -2,10 +2,10 @@
 name = "myroboto"
 
 # Optional Google font URL
-google_fonts = "family=Roboto+Mono&family=Source+Sans+Pro:wght@200;300;400;700"
+google_fonts = ""  # Source Sans Pro is self-hosted through custom.scss.
 
 # Font families
 heading_font = "Source Sans Pro"
 body_font = "Source Sans Pro"
 nav_font = "Source Sans Pro"
-mono_font = "Roboto Mono"
+mono_font = "Consolas"
