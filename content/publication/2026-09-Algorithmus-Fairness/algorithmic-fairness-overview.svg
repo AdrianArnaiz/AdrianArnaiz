@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+
+    <!-- Header Navy Gradient -->
+    <linearGradient id="techHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+
+    <!-- Header Maroon Gradient -->
+    <linearGradient id="legalHeader" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#800000"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <style>
+    .paper-title { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 38px; fill: #0f172a; }
+    .paper-subtitle { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 20px; fill: #800000; }
+    .card-header-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 18px; fill: #ffffff; letter-spacing: 0.5px; }
+    .body-bold { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 15px; fill: #1e293b; }
+    .body-regular { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 400; font-size: 14px; fill: #475569; }
+    .author-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; font-size: 15px; fill: #64748b; }
+    .badge-text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 12px; fill: #003366; }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Main Container Card -->
+  <rect x="50" y="40" width="1100" height="550" rx="20" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <!-- Top Title Banner -->
+  <g transform="translate(90, 95)">
+    <text x="0" y="0" class="paper-title">Can an Algorithm be Fair?</text>
+    <text x="0" y="32" class="paper-subtitle">Technical and Legal Perspectives</text>
+  </g>
+
+  <!-- Decorative Top Right Pill -->
+  <rect x="910" y="70" width="190" height="34" rx="17" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+  <text x="1005" y="92" class="badge-text" text-anchor="middle">EU AI ACT &amp; LAW</text>
+
+  <!-- LEFT CARD: TECHNICAL DOMAIN -->
+  <g transform="translate(90, 160)">
+    <!-- Outer Card Frame -->
+    <rect x="0" y="0" width="480" height="340" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    
+    <!-- Card Header Banner -->
+    <rect x="0" y="0" width="480" height="55" rx="14" fill="url(#techHeader)"/>
+    <!-- Cover Bottom Corners of Header -->
+    <rect x="0" y="40" width="480" height="15" fill="#003366"/>
+    
+    <text x="55" y="34" class="card-header-text">TECHNICAL PERSPECTIVE</text>
+    
+    <!-- Network Icon -->
+    <g transform="translate(25, 20)" stroke="#ffffff" stroke-width="2" fill="none">
+      <circle cx="5" cy="5" r="4" fill="#4BA0BC"/>
+      <circle cx="20" cy="5" r="4" fill="#4BA0BC"/>
+      <circle cx="12" cy="18" r="4" fill="#4BA0BC"/>
+      <line x1="5" y1="5" x2="20" y2="5"/>
+      <line x1="5" y1="5" x2="12" y2="18"/>
+      <line x1="20" y1="5" x2="12" y2="18"/>
+    </g>
+
+    <!-- Card Content -->
+    <g transform="translate(25, 85)">
+      <!-- Item 1 -->
+      <circle cx="6" cy="6" r="4" fill="#003366"/>
+      <text x="20" y="10" class="body-bold">Group &amp; Individual Fairness Metrics</text>
+      <text x="20" y="28" class="body-regular">Demographic Parity, Equal Opportunity, Odds</text>
+
+      <!-- Item 2 -->
+      <circle cx="6" cy="66" r="4" fill="#003366"/>
+      <text x="20" y="70" class="body-bold">Impossibility Theorems</text>
+      <text x="20" y="88" class="body-regular">Mathematical trade-offs between criteria</text>
+
+      <!-- Item 3 -->
+      <circle cx="6" cy="126" r="4" fill="#003366"/>
+      <text x="20" y="130" class="body-bold">Causal Methods &amp; Path Analysis</text>
+      <text x="20" y="148" class="body-regular">Direct, indirect, and counterfactual effects</text>
+
+      <!-- Item 4 -->
+      <circle cx="6" cy="186" r="4" fill="#003366"/>
+      <text x="20" y="190" class="body-bold">Mitigation Interventions</text>
+      <text x="20" y="208" class="body-regular">Pre-processing, in-processing, post-processing</text>
+    </g>
+  </g>
+
+  <!-- RIGHT CARD: LEGAL DOMAIN -->
+  <g transform="translate(630, 160)">
+    <!-- Outer Card Frame -->
+    <rect x="0" y="0" width="480" height="340" rx="14" fill="#fdf2f2" stroke="#fecaca" stroke-width="1.5"/>
+    
+    <!-- Card Header Banner -->
+    <rect x="0" y="0" width="480" height="55" rx="14" fill="url(#legalHeader)"/>
+    <!-- Cover Bottom Corners of Header -->
+    <rect x="0" y="40" width="480" height="15" fill="#800000"/>
+    
+    <text x="55" y="34" class="card-header-text">LEGAL PERSPECTIVE</text>
+    
+    <!-- Legal Pillar Icon -->
+    <g transform="translate(25, 18)" fill="#ffffff">
+      <path d="M2,6 L14,0 L26,6 L26,9 L2,9 Z"/>
+      <rect x="5" y="11" width="3" height="12"/>
+      <rect x="12" y="11" width="3" height="12"/>
+      <rect x="19" y="11" width="3" height="12"/>
+      <rect x="2" y="24" width="24" height="3"/>
+    </g>
+
+    <!-- Card Content -->
+    <g transform="translate(25, 85)">
+      <!-- Item 1 -->
+      <circle cx="6" cy="6" r="4" fill="#800000"/>
+      <text x="20" y="10" class="body-bold">EU Non-Discrimination Law</text>
+      <text x="20" y="28" class="body-regular">Direct &amp; indirect discrimination doctrines</text>
+
+      <!-- Item 2 -->
+      <circle cx="6" cy="66" r="4" fill="#800000"/>
+      <text x="20" y="70" class="body-bold">EU AI Act &amp; High-Risk Systems</text>
+      <text x="20" y="88" class="body-regular">Bias management, data governance, Article 10</text>
+
+      <!-- Item 3 -->
+      <circle cx="6" cy="126" r="4" fill="#800000"/>
+      <text x="20" y="130" class="body-bold">Evidentiary Tools vs. Rules</text>
+      <text x="20" y="148" class="body-regular">Metrics as legal evidence, not legal definitions</text>
+
+      <!-- Item 4 -->
+      <circle cx="6" cy="186" r="4" fill="#800000"/>
+      <text x="20" y="190" class="body-bold">Normative &amp; Societal Consensus</text>
+      <text x="20" y="208" class="body-regular">Trade-offs settled by law &amp; society, not math</text>
+    </g>
+  </g>
+
+  <!-- CENTRAL CONNECTOR / BRIDGE -->
+  <g transform="translate(585, 305)">
+    <circle cx="15" cy="15" r="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="15" y="22" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#003366" text-anchor="middle">⚖</text>
+  </g>
+
+  <!-- FOOTER / AUTHORS -->
+  <line x1="90" y1="535" x2="1110" y2="535" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="600" y="562" class="author-text" text-anchor="middle">
+    Adrian Arnaiz-Rodriguez  ·  Iana Kazeeva  ·  Kajetan Schweighofer  ·  Nuria Oliver
+  </text>
+</svg>
