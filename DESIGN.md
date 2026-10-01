@@ -34,6 +34,23 @@ landmark; book/docs layouts retain their own main landmark. No module cache or
 vendor file is edited. Compare these small overrides against upstream if an
 upgrade is intentionally undertaken later.
 
+## Portrait treatment
+
+The homepage portrait uses a tighter top-anchored crop, softly rounded square
+corners (10px), a 4px paper-colored rim, and a fine theme-aware outline. The
+portrait stays still; the surrounding network supplies motion. No portrait
+animation or new runtime dependency is added.
+
+The original avatar file is untouched. The about-widget override creates the
+homepage admin crop with two Hugo Fill operations, compatible with 0.79.1, and
+provides 270px/540px responsive sources for high-density displays. Other author
+portraits retain their original crop. The existing avatar.shape setting remains
+supported: circle selects a circular border; square uses the soft corners.
+
+Verified the pinned production build and desktop/mobile light/dark views at
+DPR 2. The browser selected the 540px source; no overflow or page JS errors were
+observed. A circular alternative was also rendered for comparison.
+
 ## Graph decision
 
 The network spans the entire first homepage section: portrait, name, biography,

@@ -94,7 +94,14 @@ section[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 #about > .container > .row { position: relative; z-index: 1; }
 #profile { padding: 0; text-align: left; }
 .profile-visual { position: relative; height: 306px; padding-top: 24px; isolation: isolate; }
-.profile-visual .avatar { position: relative; width: 240px; height: 240px; margin: 0 auto; border-radius: 3px; object-fit: cover; }
+/* A still portrait anchors the moving graph. The paper rim separates its edge
+   without adding an orbit, glow, or another animation. Respect avatar.shape. */
+.profile-visual .avatar {
+  position: relative; width: 240px; height: 240px; margin: 0 auto;
+  border: 4px solid var(--research-paper); border-radius: 10px;
+  outline: 1px solid var(--research-rule); object-fit: cover;
+}
+.profile-visual .avatar-circle { border-radius: 50%; }
 .research-network { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; }
 .research-network-canvas, .research-network-shields { position: absolute; inset: 0; }
 .research-network-shield { position: absolute; background: var(--research-paper); opacity: .72; box-shadow: 0 0 22px 18px var(--research-paper); }

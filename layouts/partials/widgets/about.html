@@ -29,7 +29,16 @@
       <img width="270" height="270" decoding="async" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      <img width="270" height="270" decoding="async" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      {{ $avatar_large := $avatar.Fill "540x540 Center" }}
+      {{ if and $.IsHome $page.Params.widget (eq $author "admin") }}
+        {{/* Two Fill steps support Hugo 0.79.1 (which has no Crop method).
+             A 540:692 portrait followed by a top square keeps about 78% of the
+             source width. Reduce 692 toward 540 for a wider crop. */}}
+        {{ $portrait := $avatar.Fill "540x692 Top" }}
+        {{ $avatar_large = $portrait.Fill "540x540 Top" }}
+        {{ $avatar_image = $avatar_large.Resize "270x" }}
+      {{ end }}
+      <img width="270" height="270" decoding="async" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" srcset="{{ $avatar_image.RelPermalink }} 270w, {{ $avatar_large.RelPermalink }} 540w" sizes="(max-width: 1199px) 220px, 240px" alt="{{$person_page.Title}}">
       {{ end }}
 
       </div>
