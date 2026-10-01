@@ -1,0 +1,25 @@
+{{- define "main" -}}
+{{/* Section-only override; /talk/:slug/ pages retain the native event template. */}}
+{{ partial "page_header.html" . }}
+<div class="universal-wrapper talks-archive">
+  {{ with .Content }}<div class="article-style">{{ . }}</div>{{ end }}
+  {{ $paginator := .Paginate .RegularPages.ByDate.Reverse }}
+  {{ range $paginator.Pages.GroupByDate "2006" "desc" }}
+  <section class="talk-year-group" aria-labelledby="talks-{{ .Key }}">
+    <h2 class="talk-year-heading" id="talks-{{ .Key }}">{{ .Key }}</h2>
+    <div class="talk-year-entries">
+      {{ range .Pages }}
+        {{ partial "research/talk-row.html" (dict "page" . "show_summary" true "show_year" false) }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="talk-pagination" aria-label="Talk archive pages">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}" rel="prev"><span aria-hidden="true">&#8592;</span> Previous</a>{{ end }}
+    <span class="talk-page-position">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}" rel="next">Next <span aria-hidden="true">&#8594;</span></a>{{ end }}
+  </nav>
+  {{ end }}
+</div>
+{{- end -}}

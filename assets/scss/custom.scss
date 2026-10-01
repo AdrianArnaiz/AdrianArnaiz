@@ -243,3 +243,47 @@ section[id], h2[id], h3[id] { scroll-margin-top: 90px; }
 .alert-note, .dark .alert-note {
   color: var(--research-ink); background: var(--research-surface); border-color: var(--research-rule);
 }
+
+/* Talk subjects lead; dates and venues form a quiet, consistent reading grid. */
+.research-talk {
+  display: grid; grid-template-columns: 68px minmax(0, 1fr); gap: 20px;
+  padding: 22px 0; border-top: 1px solid var(--research-rule);
+}
+#talks .research-talk:first-of-type { border-top: 0; padding-top: 0; }
+.talk-date { padding-top: 3px; font-size: .84rem; line-height: 1.6; color: var(--research-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.talk-date span { display: block; }
+.talk-date-year { font-size: .78rem; }
+.talk-title { font-family: 'Source Sans Pro', sans-serif; font-size: 1.2rem; line-height: 1.4; font-weight: 700; letter-spacing: -.01em; margin: 0 0 7px; text-wrap: pretty; overflow-wrap: anywhere; }
+.talk-title a, .dark .talk-title a { color: var(--research-ink); }
+.talk-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+.talk-context { display: flex; flex-wrap: wrap; gap: 2px 0; font-size: .88rem; line-height: 1.6; color: var(--research-muted); }
+.talk-context > span + span::before { content: '\00b7'; margin: 0 .5em; }
+.talk-venue { font-weight: 600; }
+.talk-summary { margin: 9px 0 0; font-size: .92rem; line-height: 1.65; color: var(--research-muted); }
+.talk-resources { display: flex; flex-wrap: wrap; gap: 0 18px; margin-top: 4px; }
+.talk-resources a, .talk-pagination a {
+  display: inline-flex; align-items: center; gap: 5px; min-height: 44px;
+  font-size: .85rem; text-decoration: underline; text-decoration-color: var(--research-rule);
+}
+.talk-resources a:hover, .talk-pagination a:hover { text-decoration-color: currentColor; }
+.talks-archive { padding-bottom: 36px; }
+.talk-year-group { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 26px; margin-top: 30px; }
+.talk-year-heading { margin: 0; padding-top: 22px; font-size: 1.45rem; font-variant-numeric: tabular-nums; }
+.talk-year-group + .talk-year-group { margin-top: 38px; }
+.talk-year-entries { min-width: 0; }
+.talk-pagination { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 28px; border-top: 1px solid var(--research-rule); margin-top: 32px; padding-top: 20px; }
+.talk-page-position { font-size: .85rem; color: var(--research-muted); }
+@media (max-width: 767px) {
+  .talk-year-group { grid-template-columns: 1fr; gap: 14px; }
+  .talk-year-heading { padding-top: 0; }
+  .talks-archive { padding-inline: 22px; }
+}
+@media (max-width: 575px) {
+  .research-talk { grid-template-columns: 1fr; gap: 7px; padding: 22px 0; }
+  .talk-date { display: flex; gap: 6px; padding-top: 0; }
+  .talk-date-year { font-size: inherit; }
+  .talk-title { font-size: 1.13rem; }
+  .talk-context { display: block; }
+  .talk-context > span { display: block; }
+  .talk-context > span + span::before { content: none; }
+}

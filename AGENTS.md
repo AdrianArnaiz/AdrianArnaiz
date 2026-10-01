@@ -38,6 +38,11 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   individual talk URLs follow `/talk/:slug/` in the permalink configuration.
 - Distinguish event/publication `date` from page `publishDate`. Check normal and
   future-content builds when changing scheduled content.
+- Talk listing appearance is shared by `layouts/partials/research/talk-row.html`
+  and `layouts/section/event.html`. Preserve the homepage's featured selection
+  and archive pagination. Bracketed venue prefixes are separated for display;
+  original titles and URLs stay intact. Optional `list_title`, `list_venue`, and
+  `list_summary` customize listing copy only. Keep resource URLs in native fields.
 - Shared downloads belong in `static/media/`, linked as `/media/<filename>`.
   Keep page-specific media in its page bundle.
 - Read [DESIGN.md](DESIGN.md) before changing appearance or motion. Custom Sass

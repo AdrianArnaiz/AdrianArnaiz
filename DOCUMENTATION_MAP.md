@@ -62,6 +62,9 @@ Local visual extensions are isolated in:
 - [layouts/partials/custom_head.html](layouts/partials/custom_head.html) and [layouts/partials/custom_js.html](layouts/partials/custom_js.html): supported legacy asset hooks.
 - [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.
 - [layouts/partials/research/network.html](layouts/partials/research/network.html): decorative canvas markup.
+- [layouts/partials/research/talk-row.html](layouts/partials/research/talk-row.html): shared editorial talk rows, display metadata, and direct resource links.
+- [layouts/partials/li_list.html](layouts/partials/li_list.html): routes event listings to talk rows; keeps the pinned list view for other types.
+- [layouts/section/event.html](layouts/section/event.html): year-grouped talk archive with preserved pagination.
 - [layouts/partials/li_citation.html](layouts/partials/li_citation.html): publication hierarchy, retaining native author/action partials.
 - [layouts/_default/baseof.html](layouts/_default/baseof.html): original page shell with skip link and main landmark.
 - [static/fonts/source-sans-pro/](static/fonts/source-sans-pro/): licensed, self-hosted existing typeface.

@@ -1,0 +1,58 @@
+{{/* Shared editorial talk view. Display parsing never changes titles or URLs.
+     Optional list_title/list_venue/list_summary override listing copy only. */}}
+{{ $page := .page }}
+{{ $prefix := "" }}
+{{ range first 1 (findRE `^\[[^\]]+\]` $page.Title) }}
+  {{ $prefix = trim . "[]" }}
+{{ end }}
+{{ $title := $page.Params.list_title | default (replaceRE `^\[[^\]]+\]\s*` "" $page.Title) }}
+{{ $spanish := gt (len (findRE `\s+\(Sp\)$` $page.Title)) 0 }}
+{{ $title = replaceRE `\s+\(Sp\)$` "" $title }}
+{{ $venue := $page.Params.list_venue | default $prefix | default $page.Params.event_short | default $page.Params.event }}
+<article class="research-talk">
+  <time class="talk-date" datetime="{{ $page.Date.Format "2006-01-02" }}">
+    <span>{{ $page.Date.Format "2 Jan" }}</span>
+    {{ if .show_year }}<span class="talk-date-year">{{ $page.Date.Format "2006" }}</span>{{ end }}
+  </time>
+  <div class="talk-body">
+    {{ if .show_summary }}
+    <h3 class="talk-title"><a href="{{ $page.RelPermalink }}">{{ $title }}</a></h3>
+    {{ else }}
+    <h2 class="talk-title"><a href="{{ $page.RelPermalink }}">{{ $title }}</a></h2>
+    {{ end }}
+    <div class="talk-context">
+      {{ with $venue }}<span class="talk-venue">{{ . }}</span>{{ end }}
+      {{ with $page.Params.location }}<span>{{ . }}</span>{{ end }}
+      {{ if $spanish }}<span>In Spanish</span>{{ end }}
+    </div>
+    {{ if .show_summary }}
+      {{ with ($page.Params.list_summary | default $page.Params.summary) }}
+      <p class="talk-summary">{{ . | markdownify | plainify | emojify | truncate 210 }}</p>
+      {{ end }}
+    {{ end }}
+    {{/* Resource links resolve page-bundle files like the native Academic actions.
+         Social Follow and general organisation links stay on the detail page. */}}
+    {{ $resources := slice }}
+    {{ range slice (dict "field" "url_video" "label" "Video") (dict "field" "url_slides" "label" "Slides") (dict "field" "url_pdf" "label" "Paper") (dict "field" "url_code" "label" "Code") (dict "field" "url_poster" "label" "Poster") (dict "field" "url_dataset" "label" "Data") }}
+      {{ $label := .label }}
+      {{ with index $page.Params .field }}
+        {{ $link := . | relURL }}
+        {{ with $page.Resources.GetMatch . }}{{ $link = .RelPermalink }}{{ end }}
+        {{ $resources = $resources | append (dict "label" $label "url" $link) }}
+      {{ end }}
+    {{ end }}
+    {{ with $page.Params.slides }}
+      {{ with site.GetPage (printf "slides/%s" .) }}
+        {{ $resources = where $resources "label" "ne" "Slides" }}
+        {{ $resources = $resources | append (dict "label" "Slides" "url" .RelPermalink) }}
+      {{ end }}
+    {{ end }}
+    {{ if $resources }}
+    <div class="talk-resources">
+      {{ range $resources }}
+      <a href="{{ .url | safeURL }}" target="_blank" rel="noopener" aria-label="{{ .label }}: {{ $title }} (opens in a new tab)">{{ .label }} <span aria-hidden="true">&#8599;</span></a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</article>

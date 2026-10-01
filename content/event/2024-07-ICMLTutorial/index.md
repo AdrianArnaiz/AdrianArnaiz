@@ -1,5 +1,5 @@
 ---
-title: "[ICML] Tutorial on Graph Rewiring: From Theory to Applications in Fairness"
+title: "[ICML] Tutorial on Graph Learning: Principles, Challenges, and Open Directions"
 
 event: ICML
 event_url: https://icml2024graphs.ameyavelingker.com/

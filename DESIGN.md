@@ -34,6 +34,41 @@ landmark; book/docs layouts retain their own main landmark. No module cache or
 vendor file is edited. Compare these small overrides against upstream if an
 upgrade is intentionally undertaken later.
 
+## Talk listings
+
+Selected Talks keeps the native featured-widget query, filters, ordering, and
+count. `layouts/partials/li_list.html` dispatches event records to the shared
+`research/talk-row.html` partial; other types retain the pinned theme's original
+list markup. The homepage has all 11 currently featured talks, with dates,
+subjects, venues/locations, and direct resources. No summaries are shown there.
+
+`layouts/section/event.html` groups each archive page by event year, newest first,
+and uses the same rows with short summaries. Existing pagination remains at
+10 entries, preserving `/event/`, `/event/page/2/`, and `/event/page/3/`. There
+are 29 current records across those pages. Year groups may continue on the next
+page. Detail templates and `/talk/:slug/` URLs are unchanged.
+
+Display titles remove the leading bracketed venue and terminal `(Sp)` marker.
+The venue comes from that prefix, with event_short/event as fallbacks; `(Sp)`
+is shown as plain ?In Spanish? metadata. Original titles and content remain
+intact. Optional list_title/list_venue/list_summary fields can override only
+listing copy when a record needs a clearer label. Do not infer talk categories.
+
+Available Video, Slides, Paper, Code, Poster, and Data links resolve page-bundle
+resources or configured URLs. Markdown slides are supported. General Follow
+and organisation links remain on the native detail page. Links have descriptive
+accessible names, visible focus, and 44px minimum heights. There is no added JS,
+animation, imagery, or runtime dependency. Mobile rows stack naturally; long
+titles wrap. Colors use the existing light/dark tokens.
+
+Validation (2026-10-01): normal and buildFuture production builds passed with
+Hugo Extended 0.79.1. Checked both views at 1440, 1024, 768, 390, and 320 CSS px
+in both themes; no overflow, page JS errors, or axe WCAG 2 A/AA and 2.1 AA
+violations on these surfaces. Verified all 29 unique archive links, chronological
+ordering, preserved detail-page titles, pagination navigation, keyboard focus,
+and homepage/archive content without JavaScript. These automated accessibility
+checks are scoped to these views, not a site-wide certification.
+
 ## Portrait treatment
 
 The homepage portrait uses a tighter top-anchored crop, softly rounded square
