@@ -1,0 +1,14 @@
+{
+  "note": "Unmodified official self-contained slim browser distribution, including its engine, extracted from the npm tarball after SHA-512 integrity verification. Load this bundle alone: a second engine creates incompatible duplicated range classes in 4.4.0. Do not pass vendor JS through the legacy Hugo minifier.",
+  "files": [
+    {
+      "file": "tsparticles.slim.bundle.min.js",
+      "package": "@tsparticles/slim",
+      "version": "4.4.0",
+      "source": "https://registry.npmjs.org/@tsparticles/slim/-/slim-4.4.0.tgz",
+      "sha256": "5074f51a355702b6b3a07a13ad9a94b603ce7613fb7a8cae70660de0fbe4d92b",
+      "bytes": 158878,
+      "gzip_bytes": 44458
+    }
+  ]
+}

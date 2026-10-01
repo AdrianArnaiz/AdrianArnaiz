@@ -2,6 +2,11 @@
 {{ $interface := resources.Get "js/research-interface.js" | minify | fingerprint "sha256" }}
 <script defer src="{{ $interface.RelPermalink }}" integrity="{{ $interface.Data.Integrity }}"></script>
 {{ if and .IsHome (ne site.Params.research_design.network false) }}
+  {{/* Self-contained official slim bundle (includes engine): fingerprint only; keep modern JS out of the old minifier. */}}
+  {{ range slice "tsparticles.slim.bundle.min.js" }}
+    {{ $vendor := resources.Get (printf "vendor/tsparticles/4.4.0/%s" .) | fingerprint "sha256" }}
+    <script defer src="{{ $vendor.RelPermalink }}" integrity="{{ $vendor.Data.Integrity }}"></script>
+  {{ end }}
   {{ $network := resources.Get "js/network-background.js" | minify | fingerprint "sha256" }}
   <script defer src="{{ $network.RelPermalink }}" integrity="{{ $network.Data.Integrity }}"></script>
 {{ end }}

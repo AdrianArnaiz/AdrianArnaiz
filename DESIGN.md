@@ -4,7 +4,7 @@
 
 An editorial academic site: warm paper, deep green ink, quiet rules, readable
 Source Sans Pro body text, and Georgia headings. Dense research content stays
-visible and stationary. The first-section network responds only to pointer interaction.
+visible and stationary. The first-section network uses tsParticles with continuous drift and cursor interaction.
 No scroll reveals, animated paragraphs, gradient decoration, or nested cards.
 
 The original biography, publication records, author resolution, citations,
@@ -18,11 +18,13 @@ and fine rules instead of alternating gray panels.
 - Legacy Hugo Academic/Wowchemy module: `v0.0.0-20210106233222-68b9925c9351`.
 - Netlify: Hugo Extended 0.79.1; local installed Hugo: 0.95.0 Extended.
 - Bootstrap and Hugo Pipes/Sass, with theme-provided jQuery and search libraries.
-- No npm, Tailwind, PostCSS, React, or new site runtime library is introduced.
+- No npm build step, Tailwind, PostCSS, or React is introduced. tsParticles 4.4.0
+  is a pinned, self-hosted browser dependency loaded only on the homepage.
 - The pinned theme imports `assets/scss/custom.scss` at the end of its stylesheet.
 - Its real hooks are `layouts/partials/custom_head.html` and `custom_js.html`;
   modern HugoBlox hook-directory examples do not apply here.
-- JS is minified and SHA-256 fingerprinted by Hugo. The graph script loads only
+- Site JS is minified and SHA-256 fingerprinted by Hugo. The prebuilt vendor
+  bundle is fingerprinted without re-minification. The graph script loads only
   on the homepage. Interface accessibility bridges load site-wide.
 - The theme still owns dark-mode persistence and its `body.dark` class.
 
@@ -38,37 +40,85 @@ The network spans the entire first homepage section: portrait, name, biography,
 interests, and education. It is positioned behind the section's content and never
 intercepts input. Later homepage sections and interior pages have no graph.
 
-An initial portrait-only version had almost imperceptible ambient movement and a
-pause button. Following author feedback, the graph now stays still at rest;
-there is no ambient loop or pause control. Pointer interaction displaces nearby
-nodes by up to 24 CSS pixels over a 190-pixel radius, with smooth settling and a
-small increase in local edge visibility. Moving away returns nodes to rest.
+The author requested a tsParticles exploration after the initial custom Canvas
+versions. The active renderer is the official **tsParticles 4.4.0 slim bundle**.
+It supplies node movement, proximity links, repulsion, grab, and local-connect
+interactions. The old hand-written renderer is no longer shipped.
 
-There are 84 seeded nodes in twelve loose communities, with nearest-neighbor
-links and bridges between adjacent communities. Topology is computed once.
-Content rectangles are measured on resize, then cached attenuation factors make
-lines and nodes fainter behind biography, interests, education, and profile text.
-Expanding the biography updates the canvas size and these quiet regions.
-No layout is measured inside the drawing loop.
+The selected **Evolving** network has 100 desktop nodes and 42 phone nodes.
+Distance-based links form and dissolve as nearby nodes change position. Nodes
+have a radius of 2.5-4.5 CSS pixels; movement speed is 0.3. The initial arrangement is random per visit.
+The preset selector, Pause, and New layout controls were removed at the author's
+request; old saved preset/pause preferences are no longer read.
 
-Rendering is event-driven, capped at 30 FPS during settling, and completely idle
-after settling. The backing buffer caps both DPR at 1.5 and total pixels at two
-million, including tall mobile/expanded sections. Reduced-motion, touch/coarse
-pointer, and data-saving modes get a static graph. Hidden/offscreen pages stop
-interaction. Theme changes repaint the same topology in the matching palette.
-The canvas is decorative, aria-hidden, and pointer-events:none; page pointer
-listeners are passive. Core content needs no graph JavaScript.
+Desktop drift continues while the section and document are visible, with
+pointer repulsion and continuously updated proximity links. The author requested
+removal of the introductory cutoff while retaining no visible controls.
+Reduced-motion, touch, and data-saving users receive a static graph. Hidden
+documents and offscreen sections pause, then resume without resetting positions.
+There is no in-page pause control; reduced motion remains an OS/browser setting.
 
-To disable it site-wide, set `[research_design] network = false` in
-`config/_default/params.toml`. For tuning, use `CONFIG` and `communities` in
-`assets/js/network-background.js`.
+Soft paper-colored layers behind profile text, biography, interests, and
+education protect readability. They follow content sizing, including biography
+expansion. Colors follow --research-graph and --research-paper in both themes.
+The decorative container is aria-hidden and pointer-events:none.
+
+Rendering is capped at 30 FPS and uses 1x CSS-pixel resolution. Hidden
+documents and offscreen sections stop drawing. Static previews render
+once. Rebuilds are serialized to avoid accumulating canvases during theme/layout
+changes. Content and navigation remain available if the library fails to load.
+
+### Personalization
+
+- `assets/js/network-background.js`: NETWORK contains count, link distance,
+  drift speed, edge opacity, and node radius. CONFIG contains FPS, mobile count,
+  and an optional initial-position seed. There is no motion-duration timer.
+- `addNodes()` sets distributed starting positions; tsParticles computes
+  subsequent proximity connections. This is decoration, not research data.
+- `options()` sets repulsion strength/range and mobile link visibility. Version 4
+  uses `paint.color`, rather than the old `particles.color` field.
+- `protectText()` selects protected content; `.research-network-shield` in
+  custom.scss controls attenuation opacity and softness.
+- Set `research_design.network = false` in `config/_default/params.toml` to
+  omit the graph and its scripts. There is no visitor-facing preset setting.
+
+### Previous timed-introduction verification (2026-10-01)
+
+- Hugo Extended 0.79.1 production build passed (221 pages, 72 aliases).
+- Desktop/mobile light and dark views checked in headless Edge. Nodes measured
+  within the configured 1.5-2.3 px radius; no selector or action controls remain.
+- Verified automatic settling, pointer displacement and subsequent stopping,
+  reduced-motion behavior, and that old saved preferences cannot select a
+  removed preset. No horizontal overflow or page JavaScript errors.
+- axe WCAG 2 A/AA and 2.1 AA checks returned zero violations on those views.
+  This is a bounded automated check, not a full accessibility certification.
+- Resize and static redraw now share one observer. Visibility updates only pause
+  an active animation, so they cannot cancel a pending static frame.
+- Measurements in the initial exploration section below describe that earlier
+  three-preset implementation, not the simplified controller.
+
+### Vendor maintenance
+
+The unmodified `assets/vendor/tsparticles/4.4.0/tsparticles.slim.bundle.min.js`
+contains both slim features and its engine. Load this self-contained file alone.
+Loading the separate engine as well caused duplicate range-class identities in
+4.4.0 and prevented spatial queries from generating links; this was reproduced
+and resolved during integration. Do not alter library files to work around it.
+
+The npm tarball was checked against its published SHA-512 integrity. The vendor
+folder includes the MIT license and PROVENANCE.json with source and SHA-256.
+Hugo fingerprints the bundle but does not run its old minifier over modern vendor
+syntax. Updating it is an explicit dependency change: verify the new distribution,
+update versioned paths/provenance, then test links, interactions, pause, theme,
+resize, and reduced motion. The current library requires OffscreenCanvas; older
+unsupported browsers retain the complete site without this decoration.
 
 ## Technology choices
 
 | Technology | Used? | Reason |
 | --- | --- | --- |
-| tsParticles | No | Its slim/custom packages can link particles and handle interaction, but this fixed 84-node topology needs only a small renderer. |
-| Custom Canvas | Yes | Exact topology, bounded movement, event-driven rendering, no dependency. |
+| tsParticles | Yes | Pinned self-contained slim 4.4.0 bundle for evolving links and pointer repulsion. |
+| Custom Canvas renderer | Replaced | The engine now owns drawing, motion, and links; site code owns configuration and lifecycle. |
 | CSS / WAAPI | CSS only | Fast, interruptible navigation underline and social-link feedback. No programmatic sequence needs WAAPI. |
 | Motion | No | Vanilla animation APIs are useful, but no selected interaction needs its runtime. |
 | Anime.js | No | No coordinated SVG/path timeline. |
@@ -110,7 +160,7 @@ which require correct native theme values.
 | Before | After | Reason |
 | --- | --- | --- |
 | Inline glow and `transition: all` on biography actions | Shared native link styles, immediate focus and bounded press feedback | Clear state without a decorative halo or uncontrolled transitions. |
-| Almost invisible ambient drift and pause button | Section-wide, pointer-driven topology, idle at rest | Clear interaction without ongoing decorative movement. |
+| Fixed custom topology | Evolving tsParticles presets with explicit pause | Author-requested exploration of changing connections and interactions. |
 | Generic motion on dense content | No entry/reveal animation | Visitors can read and follow links immediately. |
 | Theme jQuery motion ignores user preference | Reduced motion disables jQuery effects plus CSS motion | Covers existing scrolling behavior as well as the new enhancement. |
 | Hidden-from-AT social list | Named, keyboard-accessible links and decorative icons | Academic profiles are available to assistive technology. |
@@ -120,6 +170,33 @@ The interface bridge also labels publication filters and legacy sharing links,
 restores citation-dialog Escape/focus behavior through Bootstrap, and keeps
 keyboard focus inside search while it is open. Underlying search, citation,
 filtering, and menu implementations remain the theme's own.
+
+## Initial tsParticles exploration verification (2026-10-01)
+
+- Pinned Hugo Extended 0.79.1 production build passed: 221 pages, 72 aliases.
+- All three presets were exercised across desktop light/dark (1440), laptop
+  (1024), mobile light/dark (390), and small mobile (320): 18 combinations.
+  Canvas/node counts remained stable with one engine container; no horizontal
+  overflow, page JS errors, or WCAG 2 A/AA and 2.1 AA axe violations were found.
+- Verified changing edge identities over three seconds, visible repulsion and
+  local connect/grab effects, pause persistence, New layout while paused,
+  reduced-motion static rendering, hidden/offscreen pause/resume, expanded
+  biography sizing, rapid preset changes, keyboard controls, and theme changes.
+- Mobile link distances/opacity were subsequently adjusted for readable static
+  previews and all three phone presets rechecked in both themes. Phone count is
+  42; paused/static states perform no ongoing drawing.
+- Decoration/script failure and JavaScript-disabled checks retained visible
+  biography/links and hid the controls. Publication pages loaded no graph bundle.
+- Layout shift on the tested pages was 0 on mobile and desktop light, below
+  0.00004 on laptop/desktop dark. These are local measurements, not field data.
+- Actual pinned-build gzip sizes measured with Node/zlib: vendor 44,601 bytes,
+  controller 2,874 bytes; graph total **47,475 bytes gzip** (166,186 raw/minified
+  bytes). The earlier custom renderer was 2,571 bytes gzip. Different gzip
+  implementations/levels may produce slightly different byte counts.
+- In headless Edge, two-second samples at DPR 3 recorded 45-46 draws per preset
+  (about 22-23 FPS), 84-96 ms of total browser task time, and zero layout time.
+  Pausing yielded zero draws. Backing canvas: 1440 by 909 pixels at 1x resolution.
+  This confirms local behavior; it is not a physical-device battery benchmark.
 
 ## Initial visual-system verification (2026-10-01)
 
@@ -161,7 +238,7 @@ implementation; the section-wide revision is verified separately below.
 Playwright and axe were installed only in a temporary audit directory; no npm
 manifest, test dependency, or generated browser artifact was added to the site.
 
-## Section-wide graph revision verification (2026-10-01)
+## Previous custom-Canvas revision verification (2026-10-01)
 
 - Exact pinned Hugo Extended 0.79.1 production build passed.
 - Inspected 1440-pixel desktop light/dark, 1024-pixel laptop, and 390-pixel mobile
@@ -180,7 +257,7 @@ manifest, test dependency, or generated browser artifact was added to the site.
 
 ## Potential modern integrations
 
-These are optional next steps, not new dependencies in this revision. Integration
+Except for tsParticles, these remain optional future work. Integration
 assessments are based on the libraries' published browser APIs; each actual
 addition should be tested against the pinned Hugo build and selected browsers.
 No template migration is necessary for these browser-side enhancements.
@@ -189,7 +266,7 @@ No template migration is necessary for these browser-side enhancements.
 | --- | --- | --- |
 | [Motion](https://motion.dev/docs/quick-start) | A user-triggered graph message-passing explanation, or coordinated state transitions | Load a pinned vanilla browser build through custom_js.html only where used. Use one motion owner per element; retain Bootstrap control behavior and reduced-motion handling. |
 | [Anime.js](https://animejs.com/documentation/getting-started/installation/) | SVG edge drawing or a step-by-step GNN diagram | A pinned ESM or UMD build can accompany a Hugo shortcode. Prefer this instead of Motion when SVG timelines are the main requirement. |
-| [tsParticles](https://particles.js.org/) | More configurable graph interaction or changing particle behaviors | Replace the Canvas renderer, preserving section bounds, text attenuation, input rules, and lifecycle controls. Benchmark a selected bundle; avoid shipping both renderers. |
+| [tsParticles](https://particles.js.org/) | Implemented: evolving network with pointer response | Uses the existing hook and self-contained slim bundle; the custom renderer is replaced. |
 | [Morphicons](https://www.morphicons.com/) | Menu/close or theme-icon state transitions | Use its plain-JS core with local SVG path data, replacing selected Font Awesome icons. Synchronize with Bootstrap/theme events and keep labels and immediate reduced-motion states. |
 | [GSAP](https://gsap.com/docs/v3/Installation/) | An advanced research explainer with coordinated timelines | Load on that page through a conditional hook; retain normal scrolling and provide static content. Ordinary site navigation does not warrant it. |
 | [Spline Viewer](https://docs.spline.design/exporting-your-scene/web/exporting-as-spline-viewer) | One meaningful interactive 3D research object | A Hugo shortcode can emit the native web component with reserved dimensions, a static poster, and controlled loading. Measure GPU/load costs before adoption. |

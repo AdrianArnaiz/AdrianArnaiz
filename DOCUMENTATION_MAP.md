@@ -56,7 +56,8 @@ Local visual extensions are isolated in:
 
 - [assets/scss/custom.scss](assets/scss/custom.scss): tokens, layout, responsive rules, focus, and motion preferences.
 - [assets/scss/_research-fonts.scss](assets/scss/_research-fonts.scss): local font faces.
-- [assets/js/network-background.js](assets/js/network-background.js): first-section, pointer-driven network.
+- [assets/js/network-background.js](assets/js/network-background.js): tsParticles evolving network, personalization, and first-section lifecycle.
+- [assets/vendor/tsparticles/4.4.0/](assets/vendor/tsparticles/4.4.0/): pinned self-contained slim bundle, MIT license, and source/checksum provenance.
 - [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges for the legacy theme.
 - [layouts/partials/custom_head.html](layouts/partials/custom_head.html) and [layouts/partials/custom_js.html](layouts/partials/custom_js.html): supported legacy asset hooks.
 - [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.

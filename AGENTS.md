@@ -42,8 +42,11 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   Keep page-specific media in its page bundle.
 - Read [DESIGN.md](DESIGN.md) before changing appearance or motion. Custom Sass
   is imported by the pinned theme; custom JS uses its `custom_js.html` hook.
-  Keep the network decorative, confined to the first homepage section, idle at
-  rest, pointer-driven, and static for reduced motion and touch devices. Do not add animation runtime dependencies casually.
+  Keep the tsParticles network decorative, confined to the first homepage section,
+  static for reduced motion and touch devices. Use the evolving network without
+  visible controls and continuous drift while visible, as requested by the author.
+  Pause rendering when the document is hidden or the section is offscreen. Keep the pinned vendor bundle unmodified; tune
+  the site-owned controller instead. Do not add unrelated animation libraries.
 - Customize colors and fonts in `data/themes/mydark.toml`,
   `data/fonts/myroboto.toml`, and `config/_default/params.toml`. Inspect the pinned
   module before adding a local `layouts/` override. Do not edit the module cache.
