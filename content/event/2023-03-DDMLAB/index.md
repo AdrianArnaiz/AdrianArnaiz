@@ -29,15 +29,15 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'CMU WebPage'
   url: https://www.cmu.edu/dietrich/sds/ddmlab/ellisddmlab.html#ellis
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'ELLIS Webpage'
   url: https://ellisalicante.org/ellisddmlab2023

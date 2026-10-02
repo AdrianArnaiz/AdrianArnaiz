@@ -28,15 +28,15 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'Joint Research Center of the European Commission (JRC)'
   url: https://joint-research-centre.ec.europa.eu/index_en
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'European Center of Algorithmic Transparency (ECAT)'
   url: https://algorithmic-transparency.ec.europa.eu/index_en

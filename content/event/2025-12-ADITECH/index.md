@@ -53,7 +53,7 @@ The talk combined:
 * 🧮 **Sources of bias**: data imbalance, label bias, proxy variables, feedback loops, and distribution shift.
 * 🛠️ **Mitigation strategies**: pre-, in-, and post-processing techniques.
 * 🏛️ **Regulatory and governance perspective**: transparency obligations, risk categorization, and compliance considerations under the EU AI Act.
-* 👥** Case study** (Viogén system): analysis of the Spanish VioGén algorithm used for gender-based violence risk assessment, examining transparency, risk scoring methodology, potential bias amplification, and governance challenges in public-sector AI deployment.
+* 👥 **Case study** (Viogén system): analysis of the Spanish VioGén algorithm used for gender-based violence risk assessment, examining transparency, risk scoring methodology, potential bias amplification, and governance challenges in public-sector AI deployment.
 
 The discussion emphasized that fairness in AI is not only a technical optimization problem but a **sociotechnical design challenge** requiring alignment between modeling choices, institutional constraints, and legal frameworks.
 

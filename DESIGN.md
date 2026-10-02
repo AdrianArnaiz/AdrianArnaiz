@@ -69,6 +69,63 @@ ordering, preserved detail-page titles, pagination navigation, keyboard focus,
 and homepage/archive content without JavaScript. These automated accessibility
 checks are scoped to these views, not a site-wide certification.
 
+## Homepage interface polish
+
+The homepage keeps its editorial layout and existing content. Publication and
+Talk section headings become sticky only at desktop widths of at least 992px
+and viewport heights of at least 600px. They remain bounded by their section
+row; small screens and short viewports use normal flow. Tutorial titles now
+share the ink-colored title hierarchy used by publications and talks.
+
+The "See complete list..." links sit directly beneath each section's subtitle,
+inside the native section-heading column. They are authored in the widgets'
+subtitle fields and remain visible with the sticky desktop heading. Mobile
+keeps them beneath the subtitle before the first record. The link wording,
+archive URLs, featured queries, and archive pagination are unchanged.
+
+Heading-link validation (2026-10-02): normal and buildFuture builds passed with
+Hugo Extended 0.79.1. Checked both themes at 1440, 1024, 768, 390, and 320px;
+links remain visible in desktop sticky headings and follow subtitles on mobile.
+No horizontal overflow, page JS errors, or axe WCAG 2 A/AA and 2.1 AA violations
+were found on these homepage views. Verified one link per section, 44px minimum
+link height, keyboard focus, unchanged featured-talk count, archive destinations,
+and navigation without JavaScript. Temporary preview stopped after verification.
+
+The biography's native disclosure has a thin rotating chevron. Only the
+indicator moves; the long biography opens immediately and stays stationary.
+The mobile hamburger changes to a close symbol using CSS driven by Bootstrap's
+aria-expanded state. A local sun/moon SVG reflects the theme's actual body.dark
+state, with an accessible label naming the currently rendered theme. Indicator
+transitions are 160ms, interruptible, and covered by reduced-motion rules.
+
+The pinned citation partial is overridden locally to use a native copy button,
+keyboard-scrollable BibTeX text, and a polite status announcement. The site-owned
+interface bridge replaces the legacy copy handler: it uses the Clipboard API
+with an execCommand fallback, confirms only actual success, restores button
+focus, and exposes a manual-copy error if both methods fail. Feedback resets
+after 2.2 seconds or on dialog changes; a generation guard discards stale async
+results. Loading, downloading, and modal behavior remain owned by the theme.
+
+No animation library, new build step, scroll reveal, or body-text animation was
+added. The evolving network controller and author-tuned settings are unchanged.
+
+Validation (2026-10-01): normal and buildFuture production builds passed with
+Hugo Extended 0.79.1 (221 pages, 72 aliases). Reviewed desktop/mobile light/dark
+renders of the hero, tutorials, publications, talks, menu, and citation feedback.
+Responsive checks at 1440, 1024, 768, 390, and 320 CSS px found no horizontal
+overflow, page JS errors, or axe WCAG 2 A/AA and 2.1 AA violations. Additional
+citation-dialog checks in both themes at 1440 and 390 found zero violations.
+Verified copying actual BibTeX, failure/manual-copy feedback, reset on reopening,
+keyboard focus, Escape/focus restoration, disclosure without JS, theme changes,
+reduced-motion transitions, and normal heading flow in a 540px-high viewport.
+Automated accessibility checks are scoped to these views, not a certification.
+
+The interface bridge is 6,245 bytes minified / 2,311 bytes gzip in the pinned
+production build. There are no new runtime dependencies or animation loops.
+These local payload figures may vary with gzip implementation/settings. Audit
+scripts/screenshots remain outside the repository. The temporary preview was
+stopped after verification.
+
 ## Portrait treatment
 
 The homepage portrait uses a tighter top-anchored crop, softly rounded square
@@ -165,33 +222,54 @@ update versioned paths/provenance, then test links, interactions, pause, theme,
 resize, and reduced motion. The current library requires OffscreenCanvas; older
 unsupported browsers retain the complete site without this decoration.
 
-## Technology choices
+## Design tools reference
 
-| Technology | Used? | Reason |
-| --- | --- | --- |
-| tsParticles | Yes | Pinned self-contained slim 4.4.0 bundle for evolving links and pointer repulsion. |
-| Custom Canvas renderer | Replaced | The engine now owns drawing, motion, and links; site code owns configuration and lifecycle. |
-| CSS / WAAPI | CSS only | Fast, interruptible navigation underline and social-link feedback. No programmatic sequence needs WAAPI. |
-| Motion | No | Vanilla animation APIs are useful, but no selected interaction needs its runtime. |
-| Anime.js | No | No coordinated SVG/path timeline. |
-| GSAP | No | No pinned scenes, scroll choreography, or advanced timeline. |
-| Morphicons | No | Existing accessible theme/menu controls do not need icon-morph infrastructure. |
-| Haikei | No | Generic exported geometry would duplicate the specific network motif. |
-| Spline | No | 3D adds no research communication value here. |
-| shadcn concepts | Principles only | Borrow restrained spacing, clear states, tokens, and semantic controls; no React components. |
+The complete tool catalog, current adoption status, future integration notes,
+and grounded homepage opportunities live in [DESIGN_TOOLS.md](DESIGN_TOOLS.md).
+Maintain tool inventories there. This document records the implemented visual
+system and its verification.
 
-Consulted references (agent guidance, not website dependencies):
-[Impeccable](https://github.com/pbakaus/impeccable),
-[Emil Kowalski's skills](https://github.com/emilkowalski/skills), and
-[Vercel Web Interface Guidelines](https://vercel.com/design/guidelines).
-The installed skill catalog had no frontend-design package. The published
-Impeccable guidance was consulted without installing its CLI or hooks.
+## Font Awesome and X icons
 
-Primary technology references:
-[tsParticles](https://particles.js.org/), [Motion vanilla](https://motion.dev/docs/animate),
-[Anime.js](https://animejs.com/documentation/), [GSAP](https://gsap.com/),
-[Morphicons](https://www.morphicons.com/), [Haikei](https://haikei.app/),
-[Spline](https://spline.design/), [shadcn/ui](https://ui.shadcn.com/).
+Font Awesome Free **7.3.1** replaces the module's 5.14.0 stylesheet through
+`data/assets.toml`. Hugo 0.79.1 replaces the complete data file, so this override
+copies the pinned module's asset manifest and changes only Font Awesome,
+preserving every other version and integrity value. The CDN URL stays versioned
+and the SHA-512 integrity was independently computed from the CSS and
+matched against cdnjs metadata. No Hugo/Wowchemy upgrade or module-cache edit is
+needed. Upgrade reference: https://docs.fontawesome.com/upgrade/upgrade-from-older-versions
+
+Native `fab`, `fas`, and `far` classes and legacy icon-name aliases remain
+supported by the new stylesheet. Profile, contact, article-sharing, and talk
+resource metadata use `x-twitter` with `icon_pack: fab`. Existing account URLs
+and Twitter/Open Graph metadata remain intact. The homepage and interface bridge
+retain the accessible "X (formerly Twitter)" label. The local X SVG mask and its
+unused asset have been removed; the font glyph inherits the link color and
+renders without JavaScript.
+
+The pinned theme hardcodes `Font Awesome 5 Free` in search, article callouts,
+and card hover pseudo-elements. Site-owned Sass switches those selectors to
+`Font Awesome 7 Free`, preserving their codepoints and weight. No extra shim
+stylesheet, icon JavaScript, or animation dependency is added. Existing talk
+resource entries used the unavailable Free icon `browser`; these now use the
+Free `globe` glyph, retaining their labels and resource URLs.
+
+Validation (2026-10-02): normal and buildFuture production builds passed with
+Hugo Extended 0.79.1 (221 pages, 72 aliases). All 137 generated HTML pages with
+theme assets in each build have exactly one Font Awesome 7.3.1 stylesheet with
+SRI; none references the retired Twitter/browser glyphs or SVG mask. Every
+non-Font-Awesome asset entry matches the pinned module manifest exactly.
+
+Reviewed the homepage/contact, publication archive/article, published blog
+callout, project archive, and talk-resource icons at 1440px and 390px in both
+themes. No horizontal overflow or page JS errors appeared in the five-page
+responsive audit; publication-article axe WCAG 2 A/AA and 2.1 AA checks found no
+violations. Verified all 26 distinct Font Awesome icon classes against the actual
+solid/brands font codepoint maps, CSS integrity, search, callouts, and X rendering
+and its homepage label without JS. Unused card-hover, aside, and warning
+pseudo-element selectors were checked with temporary browser fixtures and their
+codepoints exist in the solid font. These checks are scoped to these surfaces.
+Temporary audit scripts/screenshots stay outside the repository.
 
 ## Typography and assets
 
@@ -212,7 +290,7 @@ which require correct native theme values.
 | Before | After | Reason |
 | --- | --- | --- |
 | Inline glow and `transition: all` on biography actions | Shared native link styles, immediate focus and bounded press feedback | Clear state without a decorative halo or uncontrolled transitions. |
-| Fixed custom topology | Evolving tsParticles presets with explicit pause | Author-requested exploration of changing connections and interactions. |
+| Fixed custom topology | Evolving tsParticles links and pointer response | Author-requested exploration of changing connections and interactions. |
 | Generic motion on dense content | No entry/reveal animation | Visitors can read and follow links immediately. |
 | Theme jQuery motion ignores user preference | Reduced motion disables jQuery effects plus CSS motion | Covers existing scrolling behavior as well as the new enhancement. |
 | Hidden-from-AT social list | Named, keyboard-accessible links and decorative icons | Academic profiles are available to assistive technology. |
@@ -306,34 +384,6 @@ manifest, test dependency, or generated browser artifact was added to the site.
   (graph plus interface) is 3,879 bytes gzip.
 - Removed the pause button and its storage handling because there is no ongoing
   ambient animation. Previous stored pause values no longer affect the graph.
-
-## Potential modern integrations
-
-Except for tsParticles, these remain optional future work. Integration
-assessments are based on the libraries' published browser APIs; each actual
-addition should be tested against the pinned Hugo build and selected browsers.
-No template migration is necessary for these browser-side enhancements.
-
-| Technology | Useful application | Compatibility work in this repository |
-| --- | --- | --- |
-| [Motion](https://motion.dev/docs/quick-start) | A user-triggered graph message-passing explanation, or coordinated state transitions | Load a pinned vanilla browser build through custom_js.html only where used. Use one motion owner per element; retain Bootstrap control behavior and reduced-motion handling. |
-| [Anime.js](https://animejs.com/documentation/getting-started/installation/) | SVG edge drawing or a step-by-step GNN diagram | A pinned ESM or UMD build can accompany a Hugo shortcode. Prefer this instead of Motion when SVG timelines are the main requirement. |
-| [tsParticles](https://particles.js.org/) | Implemented: evolving network with pointer response | Uses the existing hook and self-contained slim bundle; the custom renderer is replaced. |
-| [Morphicons](https://www.morphicons.com/) | Menu/close or theme-icon state transitions | Use its plain-JS core with local SVG path data, replacing selected Font Awesome icons. Synchronize with Bootstrap/theme events and keep labels and immediate reduced-motion states. |
-| [GSAP](https://gsap.com/docs/v3/Installation/) | An advanced research explainer with coordinated timelines | Load on that page through a conditional hook; retain normal scrolling and provide static content. Ordinary site navigation does not warrant it. |
-| [Spline Viewer](https://docs.spline.design/exporting-your-scene/web/exporting-as-spline-viewer) | One meaningful interactive 3D research object | A Hugo shortcode can emit the native web component with reserved dimensions, a static poster, and controlled loading. Measure GPU/load costs before adoption. |
-
-For modern vendor JS, prefer a pinned, already-built browser distribution and
-fingerprinting. Avoid passing new syntax through Hugo 0.79.1's legacy minifier
-without testing it. A browser module can also be loaded with type=module through
-the existing hook. Self-host the complete dependency graph when choosing ESM;
-copying only an entry file with bare imports is not sufficient. A dedicated
-prebuild/bundler is optional if future requirements justify it, not required for
-these enhancements. Never load CDN @latest URLs in production.
-
-Static Haikei SVG exports would require only a local asset; shadcn spacing/state
-principles remain compatible as native CSS. Its React component runtime would
-add an unnecessary second UI system here.
 
 ## Later opportunities
 

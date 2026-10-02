@@ -30,7 +30,7 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech

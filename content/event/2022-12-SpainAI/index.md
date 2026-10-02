@@ -32,11 +32,11 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Twitter
   url: https://twitter.com/Spain_AI_/status/1600912413242847233
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'SpainAI'
   url: https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/

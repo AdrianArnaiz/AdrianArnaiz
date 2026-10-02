@@ -10,7 +10,9 @@ headless: true
 weight: 20
 
 title: Selected Publications
-subtitle: 'A selection of my recent publications'
+subtitle: >-
+  A selection of my recent publications
+  <a class="section-index-link" href="/publication/">See complete list of publications <span aria-hidden="true">&rarr;</span></a>
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -34,4 +36,3 @@ design:
   #   4 = Citation (publication only)
   view: 4
 ---
-<p class="section-index-link"><a href="/publication/">See complete list of publications <span aria-hidden="true">&rarr;</span></a></p>

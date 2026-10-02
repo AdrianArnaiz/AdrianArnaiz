@@ -34,6 +34,8 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
 - Homepage widgets live in `content/home/`. Check `active`, `headless`, `weight`,
   and content filters when adjusting visibility or ordering. Coordinate section
   filename changes with navigation anchors in `config/_default/menus.toml`.
+  Publications/talks archive links live in their widget subtitle fields so they
+  belong to the sticky section heading. Do not duplicate them in widget bodies.
 - Preserve slugs and public URLs. Talk sources live in `content/event/`, while
   individual talk URLs follow `/talk/:slug/` in the permalink configuration.
 - Distinguish event/publication `date` from page `publishDate`. Check normal and
@@ -52,6 +54,16 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   visible controls and continuous drift while visible, as requested by the author.
   Pause rendering when the document is hidden or the section is offscreen. Keep the pinned vendor bundle unmodified; tune
   the site-owned controller instead. Do not add unrelated animation libraries.
+- Interface-state polish uses `assets/js/research-interface.js` and custom Sass.
+  The local `layouts/partials/citation.html` preserves the pinned dialog while
+  adding a native copy button and feedback. Keep one copy handler, announce only
+  confirmed success, and preserve keyboard focus and failure/manual-copy paths.
+- Font Awesome Free 7.3.1 is pinned independently in `data/assets.toml`, with
+  verified stylesheet SRI. Keep all other CDN entries at their module pins. Use
+  `icon: x-twitter` / `icon_pack: fab` for X and preserve the accessible
+  "X (formerly Twitter)" label. No SVG-mask workaround is needed. Custom Sass
+  updates the legacy theme's hardcoded pseudo-element font family; verify search,
+  callouts, and card hovers as well as native icons when upgrading the font.
 - Customize colors and fonts in `data/themes/mydark.toml`,
   `data/fonts/myroboto.toml`, and `config/_default/params.toml`. Inspect the pinned
   module before adding a local `layouts/` override. Do not edit the module cache.
@@ -96,54 +108,10 @@ version alone.
 Update this file and the documentation map when structure, commands, dependencies,
 or editing conventions change.
 
-## Potential design tools
+## Design tools reference
 
-| Tool / approach | Hugo/Wowchemy fit | What I’d use it for |
-|---|---|---|
-| **tsParticles** | **Excellent** | Primary candidate for the interactive graph/network background. Vanilla/CDN support, links + cursor repulsion/grab, reduced-motion controls. ([GitHub][1]) |
-| **Custom Canvas** | **Excellent** | Alternative to tsParticles if the exact network aesthetic can be implemented cleanly with less code/dependency. |
-| **Motion / motion.dev** | **Excellent** | My preferred general-purpose motion library if one is needed. It supports plain JS, SVG and WebGL; the mini API is deliberately small. ([Motion][2]) |
-| **Anime.js** | **Excellent** | Very good alternative for SVG/path/timeline work. Current Anime.js is modular, supports vanilla JS and has a lightweight WAAPI implementation. ([Anime.js][3]) |
-| **GSAP** | **Excellent technically**, probably unnecessary initially | Best if we eventually want sophisticated scroll choreography, pinned sections, path animation, etc. It is explicitly framework-agnostic. ([GSAP][4]) |
-| **Morphicons** | **Good** | Tiny high-quality microinteraction for e.g. hamburger→close, sun→moon, external-link states. Not for the background. It supports plain JS and multiple frameworks. ([morphicons][5]) |
-| **Haikei** | **Excellent** | Static SVG decoration: subtle graph-like patterns, low-poly grids, waves, section separators. Zero runtime animation cost. ([Haikei][6]) |
-| **Spline** | **Compatible**, but use sparingly | A single intentional interactive 3D hero/object. Its Viewer is a native web component and can react to page-level cursor/scroll. ([Spline][7]) |
-| **shadcn/ui** | **Not something I would install wholesale** | It is fundamentally aimed at component-app stacks such as React/Vite/etc. Borrow its spacing, tokens, component restraint and interaction patterns instead. ([shadcn/ui][8]) |
-| **Vercel Web Interface Guidelines** | **Very useful** | Agent-side design/accessibility audit. They explicitly provide an agent skill. ([Vercel][9]) |
-| **Impeccable** | **Very useful** | Agent-side visual/design review and polishing, not a runtime dependency. It explicitly supports Codex skills. ([GitHub][10]) |
-| **Emil Kowalski skills** | **Very useful** | You meant **Emil Kowalski**. His current skills include `animate`, `review-animations`, `improve-animations`, `find-animation-opportunities`, etc., and explicitly target Codex too. ([Skills][11]) |
-| **frontend-design skill** | **Useful** | Gives the agent art-direction and rendered-verification discipline; again, agent guidance rather than code shipped to visitors. ([GitHub][12]) |
-
-
-**More**
-* Refero style
-* cult-ui
-* shader Gradient
-* Manus.im
-* kokonut ui
-* bklit ui
-
-
-[1]: https://github.com/tsparticles/tsparticles/blob/main/websites/website/docs/guide/getting-started.md?utm_source=chatgpt.com "tsparticles/websites/website/docs/guide/getting-started.md at main · tsparticles/tsparticles · GitHub"
-
-[2]: https://motion.dev/?utm_source=chatgpt.com "Motion (prev Framer Motion): JavaScript & React animation library"
-
-[3]: https://animejs.com/documentation/animation/?utm_source=chatgpt.com "Animation | Documentation | Anime.js | JavaScript Animation Engine"
-
-[4]: https://gsap.com/docs/v3/Installation/?utm_source=chatgpt.com "Installation | GSAP | Docs & Learning"
-
-[5]: https://www.morphicons.com/?utm_source=chatgpt.com "morphicons — SVG icon morphing library for React, Vue & Svelte"
-
-[6]: https://haikei.app/?utm_source=chatgpt.com "Generate unique SVG design assets | Haikei"
-
-[7]: https://docs.spline.design/exporting-your-scene/web/exporting-as-spline-viewer?utm_source=chatgpt.com "Exporting as Spline Viewer | Spline Documentation"
-
-[8]: https://ui.shadcn.com/docs/official?utm_source=chatgpt.com "Official shadcn/ui Website - shadcn/ui"
-
-[9]: https://vercel.com/design/guidelines?utm_source=chatgpt.com "Web Interface Guidelines"
-
-[10]: https://github.com/pbakaus/impeccable/blob/main/.agent/skills/impeccable/SKILL.md?utm_source=chatgpt.com "impeccable/.agent/skills/impeccable/SKILL.md at main · pbakaus/impeccable · GitHub"
-
-[11]: https://www.skills.sh/emilkowalski/skills/animate?utm_source=chatgpt.com "animate — emilkowalski/skills"
-
-[12]: https://github.com/PaulRBerg/agent-skills/blob/main/skills/frontend-design/SKILL.md?utm_source=chatgpt.com "agent-skills/skills/frontend-design/SKILL.md at main · PaulRBerg/agent-skills · GitHub"
+[DESIGN_TOOLS.md](DESIGN_TOOLS.md) is the single catalog of all design tools,
+agent guidance, inspiration references, and potential integrations. Maintain
+that inventory there; do not duplicate it here or in DESIGN.md. Listing a tool
+is not authorization to add a runtime dependency. Follow the implemented visual
+system and extension points in [DESIGN.md](DESIGN.md).

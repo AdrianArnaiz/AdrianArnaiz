@@ -70,8 +70,10 @@
         {{ else if in (slice "http" "https") $scheme }}
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
+        {{ $label := .icon | humanize }}
+        {{ if eq .icon "x-twitter" }}{{ $label = "X (formerly Twitter)" }}{{ end }}
         <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon | humanize }}">
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ $label }}">
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon" aria-hidden="true"></i>
           </a>
         </li>

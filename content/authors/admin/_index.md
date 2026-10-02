@@ -53,7 +53,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/adrian-arnaiz-rodriguez/?locale=en_US
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://twitter.com/arnaiztech
 - icon: envelope
@@ -101,6 +101,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 <br>
 🕸️ I am also particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as *General Chair* of [*LoG 2025*](https://logconference.org/) and *Associate Chair* of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
 
+<!--
 <div class="research-actions">
 <a href="/#featured" class="research-link">
    Publications
@@ -109,6 +110,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
    Tutorials
 </a>
 </div>
+-->
 
 ------
 
@@ -119,6 +121,12 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 <div class="research-actions">
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/" class="research-link">
    Thesis
+</a> &nbsp;
+<a href="/#featured" class="research-link">
+   Publications
+</a> &nbsp;
+<a href="/#tutorials" class="research-link">
+   Tutorials
 </a>
 </div>
 
@@ -126,15 +134,11 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 
 📢 Beyond research and policy work, I played an active role in [dissemination](/event), [outreach](/event), and [organization efforts](/community) within the research community.
 
-🔙 Before my PhD, I worked on network science and ML for life sciences at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758), and at the [Admirable lab](https://admirable-ubu.es/) at the [University of Burgos](https://www.ubu.es/) with a research scholarship.
-<a href="https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder" class="research-link">
-   MSc project
-</a> &nbsp;
-<a href="https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection" class="research-link">
-   BSc project
-</a> 
+🔙 Before my PhD, I worked on network science and ML for life sciences at [UOC](https://www.uoc.edu/) with [Baris Kanber (UCL)](https://profiles.ucl.ac.uk/52758) in my [MSc thesis](https://github.com/AdrianArnaiz/Brain-MRI-Autoencoder), and at the [Admirable lab](https://admirable-ubu.es/) at the [University of Burgos](https://www.ubu.es/) with a research scholarship in my [BSc thesis](https://github.com/AdrianArnaiz/TFG-Neurodegenerative-Disease-Detection).
 
 {{< /spoiler >}}
+
+
 
 <!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.
 

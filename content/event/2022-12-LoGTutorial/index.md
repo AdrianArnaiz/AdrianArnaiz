@@ -29,15 +29,15 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'LoG Oficial Conference'
   url: https://logconference.org/
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'Tutorial Webpage'
   url: https://ellisalicante.org/tutorials/GraphRewiring

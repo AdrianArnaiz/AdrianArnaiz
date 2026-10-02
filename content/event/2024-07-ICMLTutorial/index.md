@@ -29,15 +29,15 @@ image:
   focal_point: Right
 
 links:
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   name: Follow
   url: https://twitter.com/arnaiztech
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'ICML'
   url: https://icml.cc/virtual/2024/tutorial/35233
-- icon: browser
+- icon: globe
   icon_pack: fas
   name: 'Tutorial Webpage'
   url: https://icml2024graphs.ameyavelingker.com/

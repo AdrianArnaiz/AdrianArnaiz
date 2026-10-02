@@ -12,7 +12,8 @@ separate template examples.
 | [AGENTS.md](AGENTS.md) | Repository instructions, editing conventions, and validation commands. |
 | [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) | This guide to documentation and site sources. |
 | [HUGO_TEMPLATE_DOC.md](HUGO_TEMPLATE_DOC.md) | Original Academic/Wowchemy introduction and upstream links; historical template context. |
-| [DESIGN.md](DESIGN.md) | Visual system, graph implementation, dependency decisions, and verification. |
+| [DESIGN.md](DESIGN.md) | Implemented visual system, graph implementation, and verification. |
+| [DESIGN_TOOLS.md](DESIGN_TOOLS.md) | Single catalog of all design tools, adoption status, compatibility notes, and future homepage opportunities. |
 | [LICENSE.md](LICENSE.md) | Repository license. |
 
 ## Content editing map
@@ -21,8 +22,8 @@ separate template examples.
 | --- | --- | --- |
 | Biography, affiliations, education, and profile links | [content/authors/admin/_index.md](content/authors/admin/_index.md) | Main author profile; portrait media lives alongside it. |
 | Homepage sections | [content/home/](content/home/) | `index.md` declares the widget page; other files define sections and ordering. |
-| Selected publications | [content/home/featured.md](content/home/featured.md) | Homepage widget; records live in `content/publication/`. |
-| Selected talks | [content/home/talks.md](content/home/talks.md) | Homepage widget; records live in `content/event/`. |
+| Selected publications | [content/home/featured.md](content/home/featured.md) | Homepage widget; subtitle includes the complete-list link in the sticky heading; records live in `content/publication/`. |
+| Selected talks | [content/home/talks.md](content/home/talks.md) | Homepage widget; subtitle includes the complete-list link in the sticky heading; records live in `content/event/`. |
 | Publication records | [content/publication/](content/publication/) | Page bundles and attachments; `_index.md` controls the section listing. |
 | Talks and events | [content/event/](content/event/) | Page bundles; individual pages use `/talk/:slug/`. |
 | Experience | [content/experience/experience.md](content/experience/experience.md) | Widget rendered within [content/experience/index.md](content/experience/index.md). |
@@ -48,6 +49,7 @@ separate template examples.
 | [data/themes/mydark.toml](data/themes/mydark.toml) | Custom color theme selected in `params.toml`. |
 | [data/fonts/myroboto.toml](data/fonts/myroboto.toml) | Custom font set selected in `params.toml`. |
 | [data/page_sharer.toml](data/page_sharer.toml) | Sharing button definitions. |
+| [data/assets.toml](data/assets.toml) | Font Awesome 7.3.1 version/SRI override; preserves all other module asset pins. |
 | [assets/images/icon.png](assets/images/icon.png) | Source site icon. |
 | [static/](static/) | Files served directly, including downloads and site verification HTML. |
 | [theme.toml](theme.toml) | Academic template metadata and declared minimum Hugo version. |
@@ -58,7 +60,7 @@ Local visual extensions are isolated in:
 - [assets/scss/_research-fonts.scss](assets/scss/_research-fonts.scss): local font faces.
 - [assets/js/network-background.js](assets/js/network-background.js): tsParticles evolving network, personalization, and first-section lifecycle.
 - [assets/vendor/tsparticles/4.4.0/](assets/vendor/tsparticles/4.4.0/): pinned self-contained slim bundle, MIT license, and source/checksum provenance.
-- [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges for the legacy theme.
+- [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges, menu/theme state indicators, and citation-copy feedback for the legacy theme.
 - [layouts/partials/custom_head.html](layouts/partials/custom_head.html) and [layouts/partials/custom_js.html](layouts/partials/custom_js.html): supported legacy asset hooks.
 - [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.
 - [layouts/partials/research/network.html](layouts/partials/research/network.html): decorative canvas markup.
@@ -66,6 +68,7 @@ Local visual extensions are isolated in:
 - [layouts/partials/li_list.html](layouts/partials/li_list.html): routes event listings to talk rows; keeps the pinned list view for other types.
 - [layouts/section/event.html](layouts/section/event.html): year-grouped talk archive with preserved pagination.
 - [layouts/partials/li_citation.html](layouts/partials/li_citation.html): publication hierarchy, retaining native author/action partials.
+- [layouts/partials/citation.html](layouts/partials/citation.html): pinned citation dialog with native copy button, keyboard-scrollable citation, and feedback status.
 - [layouts/_default/baseof.html](layouts/_default/baseof.html): original page shell with skip link and main landmark.
 - [static/fonts/source-sans-pro/](static/fonts/source-sans-pro/): licensed, self-hosted existing typeface.
 - [static/media/tutorials/](static/media/tutorials/): locally served existing conference logos.

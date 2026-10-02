@@ -14,9 +14,9 @@
 [[buttons]]
   id = "twitter"
   url = "https://twitter.com/arnaiztech"
-  title = "Twitter"
+  title = "X (formerly Twitter)"
   icon_pack = "fab"
-  icon = "twitter"
+  icon = "x-twitter"
   enable = true
 
 [[buttons]]

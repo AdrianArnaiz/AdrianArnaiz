@@ -11,7 +11,9 @@ active: true
 weight: 40
 
 title: 'Selected Talks'
-subtitle: 'A selection of my recent presentations and invited talks'
+subtitle: >-
+  A selection of my recent presentations and invited talks
+  <a class="section-index-link" href="/event/">See complete list of talks and conference oral presentations <span aria-hidden="true">&rarr;</span></a>
 
 content:
   # Page type to display. E.g. post, event, publication...
@@ -31,4 +33,3 @@ design:
   #   4 = Citation (publication only)
   view: 1
 ---
-<p class="section-index-link"><a href="/event/">See complete list of talks and conference oral presentations <span aria-hidden="true">&rarr;</span></a></p>

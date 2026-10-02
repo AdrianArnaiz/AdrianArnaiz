@@ -13,10 +13,10 @@
   const fine=matchMedia('(hover: hover) and (pointer: fine)');
   const connection=navigator.connection;
   // Continuous drift while visible; reduced-motion/touch/data-saving stay static.
-  const CONFIG={fps:30, mobileCount:42, seed:null};
+  const CONFIG={fps:40, mobileCount:42, seed:null};
   // seed:null gives a fresh arrangement per visit. Set an integer for repeatable
   // initial POSITIONS; tsParticles' initial velocities are still stochastic.
-  const NETWORK={count:100, distance:180, speed:.3, opacity:.4, radius:{min:2.5,max:4.5}};
+  const NETWORK={count:120, distance:180, speed:.3, opacity:.45, radius:{min:2.5,max:5}};
   // distance/radius: CSS pixels. speed: tsParticles movement units. opacity: edge
   // alpha. Links form/dissolve by proximity during continuous drift and pointer input.
   const seed=CONFIG.seed===null?Math.floor(Math.random()*2147483646)+1:CONFIG.seed;
