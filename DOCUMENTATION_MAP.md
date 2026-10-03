@@ -111,3 +111,6 @@ Additional SEO extension points: [widget headings](layouts/partials/widget_page.
 [source asset](assets/images/tutorials/log.png). The original public logo remains
 in `static/media/tutorials/`. Netlify contexts explicitly provide
 `HUGO_DEPLOY_CONTEXT`; production always builds for `https://adrianarnaiz.me/`.
+
+The root text file linked from [SEO_AUDIT.md](SEO_AUDIT.md) provides IndexNow
+ownership proof. Preserve it unless intentionally rotating/removing this key.

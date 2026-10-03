@@ -42,6 +42,8 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   redirects and preview base URLs. The local widget-page override uses h2
   section headings below the homepage profile h1. Deferred Netlify Identity
   registers its login handler on load; retain that timing when editing the head.
+  Preserve the root IndexNow ownership text file documented in SEO_AUDIT.md;
+  submit only canonical, indexable production URLs after live-file verification.
 - Keep page bundles (`index.md` plus related media) together. Preserve the
   distinction between `index.md`, section `_index.md`, and headless widget files.
 - Homepage widgets live in `content/home/`. Check `active`, `headless`, `weight`,

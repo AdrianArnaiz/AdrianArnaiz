@@ -116,7 +116,7 @@ connects eligibility to ordinary indexing and search fundamentals.
   destinations were found on the scoped pages.
 - Preview and branch output were checked for page noindex, the exact `_headers`
   content, and robots behavior. Netlify's actual response headers and redirect
-  application still require verification after deployment.
+  application were subsequently verified on production as described below.
 - Browser checks passed at 1440, 768, 390 and 320 CSS pixels in both themes:
   no homepage overflow, page errors or axe WCAG 2 A/AA and 2.1 AA violations.
   Reviewed representative desktop/light and mobile/dark screenshots. Checked
@@ -135,6 +135,11 @@ connects eligibility to ordinary indexing and search fundamentals.
   These are single lab runs on different origins; local responses were uncompressed
   and did not reproduce Netlify caching, so they do not establish a production
   improvement or real-user Core Web Vitals.
+- After deployment, the same mobile Lighthouse setup measured the live site at
+  84 performance, 100 accessibility, 100 best practices and 100 SEO: FCP 2.3s,
+  LCP 4.1s, TBT 70ms, CLS 0. This is one lab run, not CrUX field data or a ranking
+  prediction. LCP remains a performance opportunity; shared legacy CSS/icon
+  fonts and Identity's internal modal CSS still contribute loading costs.
 - `git diff --check` passed. No generated `public/` or `resources/` sources,
   module pins, vendor bundles or tracked build lock were edited for this work.
 
@@ -157,14 +162,23 @@ intentional; no blanket removal of research archives was applied.
 
 ## External actions and remaining work
 
-1. Deploy the changes. Verify the production homepage is indexable, preview
-   responses send noindex, the two legacy talk paths redirect, `/admin/` and
-   `/slides/example/` send noindex, and the icon/portrait URLs return successfully.
+1. Production code changes were pushed in commit `9d96009` and Netlify
+   deployed them to `https://adrianarnaiz.me/`. HTTP checks confirmed the homepage
+   is indexable, the 128-URL sitemap exclusively uses the custom domain, both
+   legacy talk redirects and host redirects return 301, `/admin/` and
+   `/slides/example/` send noindex, and icon/portrait/logo URLs return 200.
+   The Netlify-host redirect retains nested paths and query strings. Preview
+   noindex was checked in generated output; no new remote preview was created.
+   The separate pre-existing `assets/images/icon.png` and `icon.svg` edits were
+   preserved outside this SEO commit and have not been published by this work.
 2. Confirm ownership in Google Search Console for `https://adrianarnaiz.me/`
    using the retained verification file/token. A Domain property for
    `adrianarnaiz.me` can use Google's actual TXT token at the authoritative DNS
    provider (Namecheap only if DNS is managed there). A URL-prefix property
-   can use the existing HTML/meta verification. Do not guess a DNS token.
+   can use the existing HTML/meta verification. Public DNS checks already found
+   a Google verification TXT record and Namecheap authoritative nameservers.
+   No DNS edits were made; open the existing property in the owning account
+   rather than creating speculative replacement records.
    Submit `/sitemap.xml`, inspect the homepage and important research pages,
    and request a recrawl after deployment. Review indexing, queries and Core
    Web Vitals. Verify structured data with Schema Markup Validator and relevant
@@ -198,3 +212,17 @@ external profiles to that same URL.
 An academic personal site does not by itself establish eligibility for a Google
 Business Profile. Searches for "Ahugo WOW Academy" require the actual academy's
 site and identity; this audit improves branded searches for Adrian's name.
+
+## IndexNow notification support
+
+A real ownership key is published at
+[e856dd2e716041d0a9938565d1439421.txt](static/e856dd2e716041d0a9938565d1439421.txt). It authorizes IndexNow
+notifications only after that file is available on the actual canonical host.
+The file is an ownership proof for this protocol, not a Google/Bing account
+credential, and must remain deployed for validation. Do not submit preview URLs
+or noindex utility pages. The canonical sitemap URLs are the submission list.
+[Official IndexNow documentation](https://www.indexnow.org/documentation)
+explains the protocol. A received/accepted response confirms notification only;
+it does not guarantee crawling, indexing or ranking. IndexNow does not replace
+Google Search Console or Bing Webmaster reporting. Submission response status
+is recorded in the task completion message after live-file verification.

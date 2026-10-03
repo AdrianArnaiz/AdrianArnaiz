@@ -48,6 +48,11 @@
   [headers.values]
     X-Robots-Tag = "noindex, follow"
 
+[[headers]]
+  for = "/e856dd2e716041d0a9938565d1439421.txt"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
 [[redirects]]
   from = "https://adrian-arnaiz.netlify.app/*"
   to = "https://adrianarnaiz.me/:splat"
