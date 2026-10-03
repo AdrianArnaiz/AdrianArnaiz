@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+{{ if not (in (slice "deploy-preview" "branch-deploy") (getenv "HUGO_DEPLOY_CONTEXT")) -}}
+Sitemap: {{ "sitemap.xml" | absURL }}
+{{ end -}}

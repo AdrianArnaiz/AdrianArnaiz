@@ -6,7 +6,7 @@ subtitle: Compilation of courses, slides, videos, books and code about broad AI 
 summary: Compilation of Artificial intelligence courses, slides, videos, books and code about broad AI topics. Maths, Linear Algebra and Calculus, going through Statistics, specific and also broad Machine and Deep Learning Courses and finally leading to cutting-edge areas like Graph Neural Networks, Reinforcement Learning or Neuroscience.
 
 math: true
-diagram: true
+diagram: false
 
 # Link this post with a project
 # projects: []

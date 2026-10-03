@@ -1,4 +1,5 @@
 ---
+description: "AI learning resources and research notes by Adrian Arnaiz-Rodriguez, including graph neural networks and human-centric machine learning."
 title: Posts
 
 # View.

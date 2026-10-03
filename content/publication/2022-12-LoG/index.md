@@ -7,7 +7,7 @@ authors:
 - Nuria Oliver
 
 date: "2022-06-15T00:00:00Z"
-doi: "https://openreview.net/pdf?id=IXvfIex0mX6f"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-15T00:00:00Z"
@@ -36,14 +36,17 @@ tags:
 
 featured: true
 
-links:
 url_pdf: 'https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a/arnaiz-rodri-guez22a.pdf'
 url_code: 'https://github.com/AdrianArnaiz/DiffWire'
 url_dataset: ''
 url_poster: 'https://ellisalicante.org/publications/arnaiz2022diffwire-en/'
 url_project: ''
 url_slides: 'https://ellisalicante.org/assets/logtutorial2022/TutorialGraphRewiring.pdf#page=50'
-url_source: 'https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html' 
+url_source: 'https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html'
+
+links:
+  - name: OpenReview
+    url: 'https://openreview.net/pdf?id=IXvfIex0mX6f'
 # '#' para ir a la pagina inicial
 url_video: ''
 

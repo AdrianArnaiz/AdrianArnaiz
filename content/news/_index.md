@@ -1,4 +1,5 @@
 ---
+description: "News from Adrian Arnaiz-Rodriguez: research publications, talks, tutorials and activities in trustworthy AI and graph learning."
 title: News
 
 # View.
@@ -15,7 +16,7 @@ header:
 
 * {{< hl >}}2026-05{{< /hl >}} :loud_sound: I gave a seminar on trustworthy AI at the University of Burgos. [Read more](/talk/ubu-trustworthy-ai-decisions-networks-and-human-ai-collaboration-in-sociotechnical-systems/).
 
-* {{< hl >}}2026-05{{< /hl >}} :loud_sound: I participated in a round table on AI for Science and Education at the SENPE Workshop in Pamplona, Spain. [Read more](/talk/senpe-round-table-on-ai-for-science-and-ai4health/).
+* {{< hl >}}2026-05{{< /hl >}} :loud_sound: I participated in a round table on AI for Science and Education at the SENPE Workshop in Pamplona, Spain. [Read more](/talk/senpe-round-table-on-ai-for-science-and-ai4health-sp/).
 
 * {{< hl >}}2026-04{{< /hl >}} :scroll: [**Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs**](https://arxiv.org/abs/2509.24857) (with Miguel Baidal, Erik Derner, Jenn Layton Annable, Mark Ball, Mark Ince, Elvira Perez Vallejos, Nuria Oliver) was accepted at [**JMIR Mental Health**](https://mental.jmir.org/).
 
@@ -121,7 +122,7 @@ header:
   
 * {{< hl >}}2023-02-22{{< /hl >}} :loud_sound: I presented my work at a joint workshop with the **JURI Committee of Legal Affairs of the European Parliament**.
  
-  <p align="center"><a href="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="https://adrian-arnaiz.netlify.app/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians" width="400" class="image-blurred-edge" ></a></p>
+  <p align="center"><a href="/talk/juri-committee-on-legal-affairs-of-the-european-parliament-societal-challenges-of-algorithmic-fairness/" target="_blank" rel="noopener"><img src="/talk/juri-committee-on-legal-affairs-of-the-european-parliament-societal-challenges-of-algorithmic-fairness/grouppicture.jpeg" alt="European Parlamentarians" width="400" class="image-blurred-edge" ></a></p>
 
 * {{< hl >}}2023-02-06{{< /hl >}} :trident: I received the **Top Reviewer Award** at AISTATS 2023.
   

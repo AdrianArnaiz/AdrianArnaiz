@@ -6,7 +6,7 @@ authors:
 - Nuria Oliver
 
 date: "2025-06-25T00:00:00Z"
-doi: "https://doi.org/10.1609/icwsm.v19i1.35805"
+doi: "10.1609/icwsm.v19i1.35805"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-15T00:00:00Z"
@@ -42,7 +42,7 @@ url_code: 'https://github.com/ellisalicante/StructuralGroupUnfairness'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://adrian-arnaiz.netlify.app/media/NotreDameSGU.pdf'
+url_slides: '/media/NotreDameSGU.pdf'
 url_PapersWithCode: ''
 url_source: 'https://ojs.aaai.org/index.php/ICWSM/article/view/35805' 
 # '#' para ir a la pagina inicial

@@ -1,0 +1,17 @@
+{{/* Scholar/Highwire metadata uses the publication date, never publishDate. */}}
+{{ if and .IsPage (eq .Type "publication") }}
+  <meta name="citation_title" content="{{ .Title }}">
+  {{ range partial "research/authors.html" . }}
+  <meta name="citation_author" content="{{ .name }}">
+  {{ end }}
+  {{ if not .Date.IsZero }}<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">{{ end }}
+  {{ with partial "research/doi.html" . }}<meta name="citation_doi" content="{{ . }}">{{ end }}
+  {{/* PDF metadata must identify a full-text PDF in the same page bundle. */}}
+  {{ $pdf := "" }}
+  {{ with .Params.url_pdf }}
+    {{ with $.Resources.GetMatch . }}{{ $pdf = . }}{{ end }}
+  {{ end }}
+  {{ with $pdf }}
+    {{ if eq (lower (path.Ext .Name)) ".pdf" }}<meta name="citation_pdf_url" content="{{ .Permalink }}">{{ end }}
+  {{ end }}
+{{ end }}

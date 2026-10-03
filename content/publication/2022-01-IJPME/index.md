@@ -11,7 +11,7 @@ authors:
 - Jose M. Galán
 
 date: "2022-01-31T00:00:00Z"
-doi: "https://doi.org/10.4995/ijpme.2022.16666"
+doi: "10.4995/ijpme.2022.16666"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-06-06T00:00:00Z"

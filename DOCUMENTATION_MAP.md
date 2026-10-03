@@ -13,6 +13,7 @@ separate template examples.
 | [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) | This guide to documentation and site sources. |
 | [HUGO_TEMPLATE_DOC.md](HUGO_TEMPLATE_DOC.md) | Original Academic/Wowchemy introduction and upstream links; historical template context. |
 | [DESIGN.md](DESIGN.md) | Implemented visual system, graph implementation, and verification. |
+| [SEO_AUDIT.md](SEO_AUDIT.md) | Search discoverability findings, implemented SEO, validation and external actions. |
 | [DESIGN_TOOLS.md](DESIGN_TOOLS.md) | Single catalog of all design tools, adoption status, compatibility notes, and future homepage opportunities. |
 | [LICENSE.md](LICENSE.md) | Repository license. |
 
@@ -33,7 +34,9 @@ separate template examples.
 | Press | [content/press/_index.md](content/press/_index.md) | Press coverage content. |
 | Blog | [content/post/](content/post/) | Posts and section listing. |
 | Projects | [content/project/](content/project/) | Project bundles. |
+| Project archive metadata | [content/project/_index.md](content/project/_index.md) | Title and search description for the project listing. |
 | Markdown slide decks | [content/slides/](content/slides/) | Includes an example deck. |
+| Slide archive indexing | [content/slides/_index.md](content/slides/_index.md) | Noindex while the archive contains only template demonstration content. |
 | Privacy and terms | [content/privacy.md](content/privacy.md), [content/terms.md](content/terms.md) | Existing policy page sources. |
 | CV and shared downloads | [static/media/](static/media/) | Served at `/media/`; includes `resume.pdf` and presentation PDFs. |
 
@@ -62,6 +65,12 @@ Local visual extensions are isolated in:
 - [assets/vendor/tsparticles/4.4.0/](assets/vendor/tsparticles/4.4.0/): pinned self-contained slim bundle, MIT license, and source/checksum provenance.
 - [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges, menu/theme state indicators, and citation-copy feedback for the legacy theme.
 - [layouts/partials/custom_head.html](layouts/partials/custom_head.html) and [layouts/partials/custom_js.html](layouts/partials/custom_js.html): supported legacy asset hooks.
+- [layouts/partials/site_head.html](layouts/partials/site_head.html): pinned head implementation with corrected metadata, archive canonicals, favicon, sharing image and deferred CMS Identity startup.
+- [layouts/partials/research/metadata.html](layouts/partials/research/metadata.html): title/description normalization and pagination metadata; matches the actual listing queries.
+- [layouts/partials/jsonld/main.html](layouts/partials/jsonld/main.html): linked personal-site entity graph, complete article authors and native Event metadata.
+- [layouts/partials/research/authors.html](layouts/partials/research/authors.html), [citation-meta.html](layouts/partials/research/citation-meta.html) and [doi.html](layouts/partials/research/doi.html): resolved author records, scholarly citation tags and validated DOI identifiers.
+- [layouts/partials/page_header.html](layouts/partials/page_header.html): pinned page header with featured-image descriptions and intrinsic dimensions.
+- [layouts/robots.txt](layouts/robots.txt), [layouts/_default/sitemap.xml](layouts/_default/sitemap.xml) and [layouts/index.netlifyheaders](layouts/index.netlifyheaders): generated crawl instructions, sitemap exclusions and Netlify preview noindex headers.
 - [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.
 - [layouts/partials/research/network.html](layouts/partials/research/network.html): decorative canvas markup.
 - [layouts/partials/research/talk-row.html](layouts/partials/research/talk-row.html): shared editorial talk rows, display metadata, and direct resource links.
@@ -82,7 +91,7 @@ shortcodes, and theme assets. See [DESIGN.md](DESIGN.md) before changing overrid
 | --- | --- |
 | [go.mod](go.mod), [go.sum](go.sum) | Module dependencies and checksums. Both Wowchemy modules are pinned to `v0.0.0-20210106233222-68b9925c9351`; `go.mod` declares Go 1.15. |
 | [netlify.toml](netlify.toml) | Deployment commands, `public/` output, Hugo `0.79.1` pin, environment settings, and headers. Deploy previews use `--buildFuture`. |
-| [view.sh](view.sh) | Preview helper: `hugo server --disableFastRender --i18n-warnings`. |
+| [view.sh](view.sh) | Preview helper: `hugo server --disableFastRender`. |
 | [update_wowchemy.sh](update_wowchemy.sh) | Legacy updater that changes dependencies and the Netlify Hugo pin without a confirmation prompt. |
 | [scripts/init_kickstart.sh](scripts/init_kickstart.sh) | Legacy reset/import script with old theme paths; can overwrite customizations. Not a normal setup step. |
 | [.editorconfig](.editorconfig) | Encoding, indentation, and whitespace conventions. |
@@ -96,3 +105,9 @@ The root `.hugo_build.lock` is currently tracked; avoid incidental edits.
 
 Update this map when documentation or major source locations change. Source
 files remain authoritative for dependency pins and deployment commands.
+
+Additional SEO extension points: [widget headings](layouts/partials/widget_page.html),
+[responsive tutorial logo](layouts/shortcodes/tutorial-logo.html) and its
+[source asset](assets/images/tutorials/log.png). The original public logo remains
+in `static/media/tutorials/`. Netlify contexts explicitly provide
+`HUGO_DEPLOY_CONTEXT`; production always builds for `https://adrianarnaiz.me/`.

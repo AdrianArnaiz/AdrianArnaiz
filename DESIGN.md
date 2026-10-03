@@ -23,6 +23,12 @@ and fine rules instead of alternating gray panels.
 - The pinned theme imports `assets/scss/custom.scss` at the end of its stylesheet.
 - Its real hooks are `layouts/partials/custom_head.html` and `custom_js.html`;
   modern HugoBlox hook-directory examples do not apply here.
+- Search metadata uses a pinned `site_head.html` override with site-owned SEO
+  helpers; the existing theme asset pipeline remains intact. The page header
+  adds featured-image alt fallbacks and intrinsic dimensions. Default social
+  sharing uses an optimized portrait. Math/diagram/map libraries are enabled
+  only where needed. See [SEO_AUDIT.md](SEO_AUDIT.md) for source locations,
+  crawl/index controls and validation. These changes preserve the visual system.
 - Site JS is minified and SHA-256 fingerprinted by Hugo. The prebuilt vendor
   bundle is fingerprinted without re-minification. The graph script loads only
   on the homepage. Interface accessibility bridges load site-wide.
@@ -392,3 +398,9 @@ featured papers, but this work intentionally preserves the author's wording and
 selection. Search/math/icon CDN assets and old tweet embeds remain upstream
 performance dependencies. A future targeted audit could localize or conditionally
 load those assets without coupling that effort to a theme migration.
+
+SEO follow-up preserves the visual system while giving homepage sections h2
+headings beneath the profile h1. Role/affiliation use styled paragraphs. The
+Learning on Graphs tutorial logo uses Hugo-generated 90/180px images from
+`assets/images/tutorials/log.png`, retaining the original public asset. Homepage
+Netlify Identity loads with `defer` and registers login redirection on load.

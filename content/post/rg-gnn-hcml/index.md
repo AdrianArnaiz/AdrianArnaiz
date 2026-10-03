@@ -5,8 +5,8 @@ subtitle: Reading Group Session and Panel about Graph Neural Networks and Human-
 # Summary for listings and search engines
 summary: Reading Group Session and Panel about Graph Neural Networks and Human-Centric Machine Learning by distinguished scientist from ELLIS and Qualcomm AI Research in which I was organizer and moderator.
 
-math: true
-diagram: true
+math: false
+diagram: false
 
 # Link this post with a project
 # projects: []

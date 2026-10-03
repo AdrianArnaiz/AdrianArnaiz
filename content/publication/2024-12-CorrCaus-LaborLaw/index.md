@@ -34,13 +34,13 @@ tags:
 featured: true
 
 links:
-url_pdf: 'https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518'
+url_pdf: 'https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518/1604'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: '' 
+url_source: 'https://ejcls.adapt.it/index.php/rlde_adapt/article/view/1518'
 # '#' para ir a la pagina inicial
 url_video: ''
 

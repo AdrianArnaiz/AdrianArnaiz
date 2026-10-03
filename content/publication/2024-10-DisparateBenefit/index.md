@@ -2,7 +2,7 @@
 title: "The Disparate Benefits of Deep Ensembles"
 authors:
 - Kajetan Schweighofer
-- admin,
+- admin
 - Sepp Hochreiter
 - Nuria Oliver
 

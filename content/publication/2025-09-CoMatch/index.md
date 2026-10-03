@@ -35,7 +35,7 @@ tags:
 featured: true
 
 links:
-url_pdf: 'https://www.arxiv.org/abs/2508.13285'
+url_pdf: 'https://arxiv.org/pdf/2508.13285'
 url_code: 'https://github.com/Networks-Learning/human-AI-complementarity-matching'
 url_dataset: ''
 url_poster: ''

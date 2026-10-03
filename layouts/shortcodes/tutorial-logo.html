@@ -1,0 +1,5 @@
+{{/* Retain the original public logo; serve an appropriately sized derivative. */}}
+{{ $source := resources.Get "images/tutorials/log.png" }}
+{{ $small := $source.Resize "90x" }}
+{{ $large := $source.Resize "180x" }}
+<img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 90w, {{ $large.RelPermalink }} 180w" sizes="(max-width: 767px) 48px, 90px" alt="Learning on Graphs Conference" width="90" height="90" loading="lazy" decoding="async">

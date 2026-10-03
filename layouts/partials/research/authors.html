@@ -1,0 +1,12 @@
+{{/* Resolve every actual author; never substitute an affiliation as author. */}}
+{{ $authors := slice }}
+{{ range .Params.authors }}
+  {{ $entry := dict "@type" "Person" "name" . }}
+  {{ with site.GetPage (printf "/authors/%s" (urlize .)) }}
+    {{ $entry = dict "@type" "Person" "name" .Title }}
+    {{ with .Permalink }}{{ $entry = merge $entry (dict "url" .) }}{{ end }}
+    {{ if .Params.superuser }}{{ $entry = merge $entry (dict "@id" (printf "%s#person" site.BaseURL)) }}{{ end }}
+  {{ end }}
+  {{ $authors = $authors | append $entry }}
+{{ end }}
+{{ return $authors }}

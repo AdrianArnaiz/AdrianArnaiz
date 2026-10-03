@@ -34,10 +34,10 @@ publication_types: ["1"]
 publication: In *6th Workshop on Complex Sociotechnical Systems*
 publication_short: In ***[VI COMSOTEC WORKSHOP](http://www.comsotec.org)***
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi.
+abstract: "" # Add the verified abstract when available.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "Network analysis of the informal structure of an academic field in Spain, presented at the 6th Workshop on Complex Sociotechnical Systems."
 
 tags:
 - Network Science

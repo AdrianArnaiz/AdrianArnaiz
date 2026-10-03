@@ -41,7 +41,7 @@ links:
   url: https://twitter.com/arnaiztech
 url_code: ""
 url_pdf: ""
-url_slides: "https://adrian-arnaiz.netlify.app/media/Talk_Fairness_UBU.pdf"
+url_slides: "/media/Talk_Fairness_UBU.pdf"
 url_video: ""
 
 # Markdown Slides (optional).

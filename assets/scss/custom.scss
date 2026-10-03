@@ -94,7 +94,7 @@ div.alert-warning > div:first-child::before,
 .home-section:nth-of-type(even), .dark .home-section:nth-of-type(even) { background: var(--research-paper); }
 .home-section + .home-section > .container { border-top: 1px solid var(--research-rule); padding-top: 64px; }
 .home-section + .home-section { padding-top: 0; }
-.section-heading h1 { font-size: 2.15rem; margin-bottom: .7rem; }
+.section-heading h1, .section-heading h2 { font-size: 2.15rem; margin-bottom: .7rem; }
 .section-heading p { font-size: 1rem; color: var(--research-muted); line-height: 1.5; }
 .section-subheading { font-size: 1.05rem; font-weight: 700; margin-bottom: 18px; }
 /* First-section network: content stays above its decorative, non-interactive layer. */
@@ -117,7 +117,7 @@ div.alert-warning > div:first-child::before,
 .research-network canvas { display: block; width: 100%; height: 100%; }
 #profile .portrait-title h1 { font-size: 1.65rem; margin: 0 0 16px; max-width: 300px; }
 #profile .name-part { display: inline-block; }
-#profile .portrait-title h3 { font-size: 1rem; font-weight: 400; line-height: 1.45; margin: 4px 0; color: var(--research-muted); }
+#profile .portrait-title .profile-role { font-family: Georgia, serif; font-size: 1rem; font-weight: 400; line-height: 1.45; margin: 4px 0; color: var(--research-muted); }
 #profile .network-icon { display: flex; flex-wrap: wrap; gap: 5px; margin: 24px 0 8px; padding: 0; }
 #profile .network-icon li { margin: 0; }
 #profile .network-icon a { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 44px; border-radius: 3px; }
@@ -146,7 +146,7 @@ div.alert-warning > div:first-child::before,
 .tutorial-logo img { width: 100%; height: 100%; object-fit: contain; }
 .tutorial-entry h3 { font-size: 1.17rem; line-height: 1.4; margin: 0 0 10px; }
 .tutorial-entry p { font-size: .88rem; color: var(--research-muted); margin: 0; }
-#tutorials .section-heading, #tutorials .section-heading h1 { text-align: left; }
+#tutorials .section-heading, #tutorials .section-heading h1, #tutorials .section-heading h2 { text-align: left; }
 #tutorials .section-heading { margin-bottom: 36px; }
 /* Structured bibliography; the original author and action partials remain intact. */
 .research-publication { display: grid; grid-template-columns: 46px minmax(0,1fr); gap: 20px; border-top: 1px solid var(--research-rule); padding: 25px 0; }
@@ -228,7 +228,7 @@ div.alert-warning > div:first-child::before,
   #navbar-main .navbar-brand-mobile-wrapper { min-width: 0; }
   #about .article-style p:first-child { font-size: 1.08rem; }
   h1, .article-header h1 { font-size: 1.9rem; }
-  .section-heading h1 { font-size: 1.85rem; }
+  .section-heading h1, .section-heading h2 { font-size: 1.85rem; }
   .tutorial-grid { grid-template-columns: 1fr; }
   .tutorial-entry + .tutorial-entry { border-top: 1px solid var(--research-rule); padding-top: 28px; }
   .research-publication { grid-template-columns: 1fr; gap: 6px; }

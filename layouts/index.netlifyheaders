@@ -1,0 +1,4 @@
+{{- if in (slice "deploy-preview" "branch-deploy") (getenv "HUGO_DEPLOY_CONTEXT") -}}
+/*
+  X-Robots-Tag: noindex, follow
+{{ end -}}

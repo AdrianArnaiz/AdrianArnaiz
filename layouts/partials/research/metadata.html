@@ -1,0 +1,44 @@
+{{/* Match the pinned listing queries before resolving pagination metadata. */}}
+{{ $url := .Permalink }}
+{{ $number := 1 }}
+{{ if and (not .IsHome) .IsNode }}
+  {{ if and (eq .Kind "section") (eq .Section "event") }}
+    {{ $paginator := .Paginate .RegularPages.ByDate.Reverse }}
+    {{ $number = $paginator.PageNumber }}
+    {{ $url = $paginator.URL | absURL }}
+  {{ else if or (eq .Kind "taxonomy") (and (eq .Kind "term") (ne .Section "authors")) (and (eq .Kind "section") (ne .Section "publication") (ne .Section "authors")) }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ $number = $paginator.PageNumber }}
+    {{ $url = $paginator.URL | absURL }}
+  {{ end }}
+{{ end }}
+{{ $title := site.Title }}
+{{ if .IsHome }}
+  {{ $title = printf "%s | Trustworthy AI & Graph Learning" site.Title }}
+{{ else }}
+  {{ $label := .Title }}
+  {{ if and (eq .Kind "term") (eq .Section "tags") }}{{ $label = printf "%s research" .Title }}{{ end }}
+  {{ if and (eq .Kind "term") (eq .Section "categories") }}{{ $label = printf "%s posts and resources" .Title }}{{ end }}
+  {{ if gt $number 1 }}{{ $label = printf "%s - Page %d" $label $number }}{{ end }}
+  {{ $title = printf "%s | %s" $label site.Title }}
+{{ end }}
+{{ $description := .Params.description | default .Params.summary | default .Params.abstract }}
+{{ if not $description }}
+  {{ if .IsHome }}
+    {{ $description = site.Params.description }}
+  {{ else if eq .Section "authors" }}
+    {{ $description = .Params.bio | default (printf "Publications and research collaborations by %s, listed on %s's academic website." .Title site.Title) }}
+  {{ else if eq .Kind "term" }}
+    {{ $description = printf "Explore %s: publications, talks, projects and resources on %s's academic website." .Title site.Title }}
+    {{ if eq .Section "categories" }}{{ $description = printf "Read %s posts and learning resources by %s." .Title site.Title }}{{ end }}
+  {{ else if eq .Kind "taxonomy" }}
+    {{ $description = printf "Browse %s on %s's academic website to find research publications, talks and resources." (lower .Title) site.Title }}
+  {{ else if .IsPage }}
+    {{ $description = .Summary }}
+  {{ end }}
+{{ end }}
+{{ $description = $description | default site.Params.description | markdownify | plainify | htmlUnescape | replaceRE "\\s+" " " }}
+{{ $description = trim $description " \t\r\n" }}
+{{ $description = $description | truncate 170 }}
+{{ if gt $number 1 }}{{ $description = printf "%s Archive page %d." $description $number }}{{ end }}
+{{ return (dict "title" $title "description" $description "url" $url) }}

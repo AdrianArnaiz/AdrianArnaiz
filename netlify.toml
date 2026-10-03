@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "hugo --gc --minify -b https://adrianarnaiz.me/"
   publish = "public"
 
 [build.environment]
@@ -8,12 +8,19 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
+  HUGO_DEPLOY_CONTEXT = "production"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
+[context.deploy-preview.environment]
+  HUGO_DEPLOY_CONTEXT = "deploy-preview"
+
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+  HUGO_DEPLOY_CONTEXT = "branch-deploy"
 
 [[headers]]
   for = "*.webmanifest"
@@ -29,3 +36,36 @@
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml; charset=UTF-8"
+
+
+[[headers]]
+  for = "/slides/example/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
+
+[[redirects]]
+  from = "https://adrian-arnaiz.netlify.app/*"
+  to = "https://adrianarnaiz.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.adrianarnaiz.me/*"
+  to = "https://adrianarnaiz.me/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/talk/senpe-round-table-on-ai-for-science-and-ai4health/"
+  to = "/talk/senpe-round-table-on-ai-for-science-and-ai4health-sp/"
+  status = 301
+
+[[redirects]]
+  from = "/talk/european-parliament-juri-committee-on-legal-affairs-societal-challenges-of-algorithmic-fairness/*"
+  to = "/talk/juri-committee-on-legal-affairs-of-the-european-parliament-societal-challenges-of-algorithmic-fairness/:splat"
+  status = 301

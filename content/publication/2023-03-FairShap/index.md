@@ -5,7 +5,7 @@ authors:
 - Nuria Oliver
 
 date: "2024-03-04T00:00:00Z"
-doi: "https://openreview.net/forum?id=ivf1QaxEGQ"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-06-24T00:00:00Z"
@@ -41,7 +41,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: 'https://youtu.be/EYT_kTQE1E8?t=3393'
-url_source: 'https://arxiv.org/pdf/2303.01928.pdf' 
+url_source: 'https://openreview.net/forum?id=ivf1QaxEGQ'
 # '#' para ir a la pagina inicial
 url_video: 'https://youtu.be/EYT_kTQE1E8?t=3393'
 

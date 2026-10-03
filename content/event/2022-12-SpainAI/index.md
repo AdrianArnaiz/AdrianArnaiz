@@ -42,7 +42,7 @@ links:
   url: https://www.spain-ai.com/evento/1o-encuentro-presencial-de-burgos-ai-inteligencia-artificial-networking/
 url_code: ""
 url_pdf: ""
-url_slides: "https://adrian-arnaiz.netlify.app/media/SpainAI_Discriminacion_Algoritmica.pdf"
+url_slides: "/media/SpainAI_Discriminacion_Algoritmica.pdf"
 url_video: ""
 
 ---

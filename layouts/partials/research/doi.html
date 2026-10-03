@@ -1,0 +1,4 @@
+{{/* A DOI identifier, not a publisher or OpenReview URL. */}}
+{{ $doi := .Params.doi | default "" | replaceRE "^https?://(dx\\.)?doi\\.org/" "" }}
+{{ if not (findRE "^10\\.[0-9]{4,9}/\\S+$" $doi) }}{{ $doi = "" }}{{ end }}
+{{ return $doi }}

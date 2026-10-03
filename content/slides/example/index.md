@@ -1,5 +1,7 @@
 ---
 title: Slides
+# Keep the reusable template accessible without indexing sample content.
+noindex: true
 summary: An introduction to using Wowchemy's Slides feature.
 authors: []
 tags: []

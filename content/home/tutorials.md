@@ -33,7 +33,7 @@ design:
   </article>
   <article class="tutorial-entry">
     <div class="tutorial-logo">
-      <img src="/media/tutorials/log.png" alt="Learning on Graphs Conference" width="90" height="90" loading="lazy" decoding="async">
+      {{< tutorial-logo >}}
     </div>
     <div>
       <h3><a href="https://ellisalicante.org/tutorials/GraphRewiring">Graph Rewiring: From Theory to Applications in Fairness</a></h3>

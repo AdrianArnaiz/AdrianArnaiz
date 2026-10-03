@@ -35,7 +35,7 @@ links:
   url: https://twitter.com/arnaiztech
 url_code: ""
 url_pdf: "https://ojs.aaai.org/index.php/ICWSM/article/view/35805"
-url_slides: "https://adrian-arnaiz.netlify.app/media/ERG-TrustLog-Slides.pdf"
+url_slides: "/media/ERG-TrustLog-Slides.pdf"
 url_video: ""
 
 # Markdown Slides (optional).

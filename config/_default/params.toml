@@ -47,10 +47,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "ELLIS Alicante"
+org_name = "" # Personal site; ELLIS Alicante is an affiliation, not the publisher.
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz-Rodriguez, Researcher on Trustworthy AI and Graph Neural Networks at ELLIS Alicante."
+description = "Adrian Arnaiz-Rodriguez is a postdoctoral researcher at ELLIS Alicante working on trustworthy AI, graph neural networks, algorithmic fairness and AI regulation."
 
 ############################
 ## Site Features
@@ -64,11 +64,11 @@ highlight_languages = ["python"]  # Add support for highlighting additional lang
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = true
+math = false # Enable only on pages that render equations.
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = true
+diagram = false # Enable only on pages that render Mermaid diagrams.
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -126,7 +126,7 @@ contact_links = [
 ############################
 
 # Default image for social sharing and search engines. Place image in `static/media/` folder and specify image name here.
-sharing_image = "avatar.jpg"
+sharing_image = "" # Use an optimized author portrait by default.
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
 twitter = "arnaiztech"
@@ -261,7 +261,7 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
+  engine = 0 # No address/coordinates or visible map is configured.
   api_key = ""
   zoom = 15
 
@@ -271,6 +271,7 @@ plugins_js  = []
 [marketing]
   [marketing.verification]
     google = "aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s"
+    bing = "" # Paste an actual Bing Webmaster Tools verification token.
   #google_analytics = ""
   #google_tag_manager = ""
 # <meta name="google-site-verification" content="aqu7ecLa6Sdejj41NMl__AvrA5-SLbHxQ5mqRchdf1s" />

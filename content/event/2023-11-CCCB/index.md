@@ -39,7 +39,7 @@ links:
   url: https://www.cccb.org/en/activities/file/algorithmic-societies/243038
 url_code: ""
 url_pdf: ""
-url_slides: "https://adrian-arnaiz.netlify.app/media/CCCB-BCN.pdf"
+url_slides: "/media/CCCB-BCN.pdf"
 url_video: "https://vimeo.com/938187676#t=50m50s"
 
 # Markdown Slides (optional).

@@ -1,4 +1,5 @@
 ---
+description: "Research publications by Adrian Arnaiz-Rodriguez on trustworthy AI, algorithmic fairness, graph learning, human-AI collaboration and AI regulation."
 title: Publications
 
 # View.

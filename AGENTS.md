@@ -29,6 +29,19 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
 - Preserve YAML front matter and legacy Academic field names. Publications use
   `publication_types`, `authors`, `featured`, and `url_*`. The `admin` author
   references `content/authors/admin/_index.md`.
+- Search metadata and indexing conventions are documented in [SEO_AUDIT.md](SEO_AUDIT.md).
+  Use `description` for concise search copy and `noindex: true` for retained
+  demonstration/utility pages; the generated sitemap excludes them. Keep archive
+  pagination queries synchronized with `layouts/partials/research/metadata.html`.
+  Keep DOI fields as identifiers, not publisher URLs; use native resource/link
+  fields for those URLs. Enable `math`/`diagram` only where content needs them.
+  Netlify `HUGO_DEPLOY_CONTEXT` controls preview noindex headers; do not block crawling of
+  those pages before engines can read their noindex directive. Special slide
+  templates and CMS pages use Netlify response headers for indexing control.
+  Production builds target `https://adrianarnaiz.me/`; preserve host-specific
+  redirects and preview base URLs. The local widget-page override uses h2
+  section headings below the homepage profile h1. Deferred Netlify Identity
+  registers its login handler on load; retain that timing when editing the head.
 - Keep page bundles (`index.md` plus related media) together. Preserve the
   distinction between `index.md`, section `_index.md`, and headless widget files.
 - Homepage widgets live in `content/home/`. Check `active`, `headless`, `weight`,
@@ -85,7 +98,7 @@ Run from the repository root:
 
 ```sh
 # Local preview; also the command in view.sh.
-hugo server --disableFastRender --i18n-warnings
+hugo server --disableFastRender
 
 # Production-style build using the configured base URL.
 hugo --gc --minify

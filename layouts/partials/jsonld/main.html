@@ -1,0 +1,70 @@
+{{/* One linked entity graph, using existing profile and content facts. */}}
+{{ $page := .page }}
+{{ $meta := $page.Scratch.Get "seo_metadata" }}
+{{ $personID := printf "%s#person" site.BaseURL }}
+{{ $siteID := printf "%s#website" site.BaseURL }}
+{{ $pageID := printf "%s#webpage" $meta.url }}
+{{ $personRef := dict "@id" $personID }}
+{{ $nodes := slice }}
+{{ $pageType := "WebPage" }}
+{{ if or $page.IsHome (and (eq $page.Section "authors") $page.Params.superuser) }}{{ $pageType = "ProfilePage" }}{{ end }}
+{{ if and (ne $pageType "ProfilePage") (in (slice "section" "taxonomy" "term") $page.Kind) }}{{ $pageType = "CollectionPage" }}{{ end }}
+{{ $webpage := dict "@type" $pageType "@id" $pageID "url" $meta.url "name" $meta.title "description" $meta.description "inLanguage" (site.LanguageCode | default "en-us") "isPartOf" (dict "@id" $siteID) }}
+{{ if eq $pageType "ProfilePage" }}{{ $webpage = merge $webpage (dict "mainEntity" $personRef) }}{{ end }}
+
+{{ if eq $pageType "ProfilePage" }}
+  {{ with site.GetPage "/authors/admin" }}
+    {{ $sameAs := slice }}
+    {{ range .Params.social }}
+      {{ if or (hasPrefix .link "https://") (hasPrefix .link "http://") }}{{ $sameAs = $sameAs | append .link }}{{ end }}
+    {{ end }}
+    {{ $person := dict "@type" "Person" "@id" $personID "name" .Title "url" site.BaseURL "description" .Params.bio "jobTitle" .Params.role "sameAs" $sameAs }}
+    {{ with (.Resources.ByType "image").GetMatch "avatar*" }}
+      {{ $person = merge $person (dict "image" (.Fill "600x600 Center").Permalink) }}
+    {{ end }}
+    {{ $affiliations := slice }}
+    {{ range .Params.organizations }}
+      {{ $organization := dict "@type" "Organization" "name" .name }}
+      {{ with .url }}{{ $organization = merge $organization (dict "url" .) }}{{ end }}
+      {{ $affiliations = $affiliations | append $organization }}
+    {{ end }}
+    {{ with $affiliations }}{{ $person = merge $person (dict "affiliation" .) }}{{ end }}
+    {{ $nodes = $nodes | append $person }}
+  {{ end }}
+{{ end }}
+{{ if $page.IsHome }}
+  {{ $website := dict "@type" "WebSite" "@id" $siteID "url" site.BaseURL "name" site.Title "description" site.Params.description "publisher" $personRef "inLanguage" (site.LanguageCode | default "en-us") }}
+  {{ $nodes = $nodes | append $website }}
+{{ else }}
+  {{ $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" site.Title "item" site.BaseURL) }}
+  {{ $position := 2 }}
+  {{ with $page.CurrentSection }}
+    {{ if and (not .IsHome) (ne .Permalink $page.Permalink) }}
+      {{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) }}
+      {{ $position = add $position 1 }}
+    {{ end }}
+  {{ end }}
+  {{ $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $position "name" $page.Title "item" $meta.url) }}
+  {{ $breadcrumbID := printf "%s#breadcrumb" $meta.url }}
+  {{ $nodes = $nodes | append (dict "@type" "BreadcrumbList" "@id" $breadcrumbID "itemListElement" $crumbs) }}
+  {{ $webpage = merge $webpage (dict "breadcrumb" (dict "@id" $breadcrumbID)) }}
+{{ end }}
+{{ $nodes = $nodes | append $webpage }}
+
+{{ if and $page.IsPage (in (slice "post" "publication" "project") $page.Type) }}
+  {{ $type := "Article" }}
+  {{ if eq $page.Type "post" }}{{ $type = "BlogPosting" }}{{ end }}
+  {{ if eq $page.Type "publication" }}{{ $type = "ScholarlyArticle" }}{{ end }}
+  {{ $article := dict "@type" $type "@id" (printf "%s#article" $meta.url) "headline" $page.Title "url" $meta.url "description" $meta.description "mainEntityOfPage" (dict "@id" $pageID) "publisher" $personRef }}
+  {{ with partial "research/authors.html" $page }}{{ $article = merge $article (dict "author" .) }}{{ end }}
+  {{ if not $page.PublishDate.IsZero }}{{ $article = merge $article (dict "datePublished" ($page.PublishDate.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
+  {{ if not $page.Lastmod.IsZero }}{{ $article = merge $article (dict "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")) }}{{ end }}
+  {{ with ($page.Resources.ByType "image").GetMatch "*featured*" }}{{ $article = merge $article (dict "image" .Permalink) }}{{ end }}
+  {{ with partial "research/doi.html" $page }}{{ $article = merge $article (dict "identifier" (dict "@type" "PropertyValue" "propertyID" "DOI" "value" .)) }}{{ end }}
+  {{ $nodes = $nodes | append $article }}
+{{ end }}
+<script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@graph" $nodes) | jsonify | safeJS }}</script>
+{{/* Retain the native Event metadata for authored talk records. */}}
+{{ if and $page.IsPage (eq $page.Type "event") }}
+  {{ partial "jsonld/event.html" (dict "page" $page "summary" $meta.description) }}
+{{ end }}

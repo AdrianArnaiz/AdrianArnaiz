@@ -1,3 +1,11 @@
 {{/* Preload the two above-the-fold weights of the existing, self-hosted typeface. */}}
 <link rel="preload" href="{{ "fonts/source-sans-pro/source-sans-pro-400-normal-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ "fonts/source-sans-pro/source-sans-pro-700-normal-latin.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+{{/* Optional ownership tokens; the existing Google verification file remains. */}}
+{{ with site.Params.marketing.verification.google }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{ with site.Params.marketing.verification.bing }}<meta name="msvalidate.01" content="{{ . }}">{{ end }}
+{{ if or .Params.noindex (eq .Kind "404") (in (slice "deploy-preview" "branch-deploy") (getenv "HUGO_DEPLOY_CONTEXT")) }}
+<meta name="robots" content="noindex, follow">
+{{ end }}
+{{ partial "research/citation-meta.html" . }}

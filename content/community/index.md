@@ -1,4 +1,5 @@
 ---
+description: "Conference organization, reviewing and scientific community service by Adrian Arnaiz-Rodriguez, including Learning on Graphs and ELLIS activities."
 title: Scientific Community
 
 widget: blank

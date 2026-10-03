@@ -44,14 +44,14 @@
       </div>
       <div class="portrait-title">
         <h1>{{ range split $person_page.Title " " }}<span class="name-part">{{ . }}</span> {{ end }}</h1>
-        {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
+        {{ with $person.role }}<p class="profile-role">{{ . | markdownify | emojify }}</p>{{ end }}
 
         {{ range $person.organizations }}
-        <h3>
+        <p class="profile-role">
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
           <span>{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
-        </h3>
+        </p>
         {{ end }}
       </div>
 
