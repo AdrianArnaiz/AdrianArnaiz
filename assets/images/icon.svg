@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    /* Default: Light Mode */
+    .bg { fill: #FAF9F5; }
+    .fg { stroke: #172323; fill: #172323; }
+    .highlight { fill: #FAF9F5; stroke: #172323; }
+    
+    /* Auto-switch to Dark Mode */
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #172323; }
+      .fg { stroke: #FAF9F5; fill: #FAF9F5; }
+      .highlight { fill: #172323; stroke: #FAF9F5; }
+    }
+  </style>
+
+  <!-- Rounded Background -->
+  <rect width="100" height="100" rx="22" class="bg" />
+  
+  <!-- 'A' Graph Edges -->
+  <path d="M 50 20 L 25 80 M 50 20 L 75 80 M 35 60 L 65 60" 
+        class="fg" stroke-width="6" stroke-linecap="round" fill="none" />
+        
+  <!-- Main Graph Nodes -->
+  <circle cx="50" cy="20" r="8" class="fg" /> 
+  <circle cx="25" cy="80" r="8" class="fg" /> 
+  <circle cx="75" cy="80" r="8" class="fg" /> 
+  
+  <!-- Smaller Connecting Nodes -->
+  <circle cx="35" cy="60" r="6" class="fg" />
+  <circle cx="65" cy="60" r="6" class="fg" />
+  
+  <!-- Central Highlight Node -->
+  <circle cx="50" cy="60" r="10" class="highlight" stroke-width="4" />
+</svg>
