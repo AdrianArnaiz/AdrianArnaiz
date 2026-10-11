@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-10-11",
+  "notes": "Official organization identity assets, retained for identification in employment history. EY extracted from the official footer with its SVG namespace made explicit. Logos retain their original colors and geometry; no external runtime requests. Text assets use repository-standard UTF-8/LF formatting; hashes identify the installed files.",
+  "assets": [
+    {
+      "file": "apart.svg",
+      "source_page": "https://apartresearch.com/",
+      "source_asset": "https://apartresearch.com/icon.svg?icon.1559caroykp0-.svg",
+      "sha256": "18cb361bbc1ec603c6fa61b921f05cfb6ab995f72bbc018d60cacb2ff7ef76d8"
+    },
+    {
+      "file": "ellis-alicante.png",
+      "source_page": "https://ellisalicante.org/",
+      "source_asset": "https://ellisalicante.org/assets/ELLISAlicanteIcon.png",
+      "sha256": "b1dfcf4ba108db3f1e74e20973d50b835f48758e9650bc4b2d66206a2b52dc5c"
+    },
+    {
+      "file": "mpi-sws.png",
+      "source_page": "https://www.mpi-sws.org/",
+      "source_asset": "https://www.mpi-sws.org/wp-content/themes/mpi-sws/assets/images/favicon/apple-touch-icon.png?ver=1.9.0",
+      "sha256": "b3db45bda6d2c145d7326e6b7568f9739ce7f9e1cb7f7a0d1aa8eee4a624d0af"
+    },
+    {
+      "file": "university-of-burgos.svg",
+      "source_page": "https://www.ubu.es/",
+      "source_asset": "https://www.ubu.es/sites/default/files/2025-04/UBU_logo_0_5.svg",
+      "sha256": "e64ab62e7ff30c1de300d13d237113a3f6832977ef428974d6d082aeecf90a89"
+    },
+    {
+      "file": "ey.svg",
+      "source_page": "https://www.ey.com/en_gl",
+      "source_asset": "Inline footer SVG, viewBox 0 0 92 100",
+      "sha256": "9b5d42b45318fb6c0d15dd260ded5109ceead304b8922fd26276053f63c695fc"
+    }
+  ]
+}

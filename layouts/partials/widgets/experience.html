@@ -1,0 +1,48 @@
+{{/* Local rendering of the pinned 2021 widget; retain its fields and start-date ordering. */}}
+{{ $page := .page }}
+{{ $columns := $page.Params.design.columns | default "2" }}
+{{ $heading_level := .heading_level | default 2 }}
+{{ $today := time (now.Format "2006-01-02") }}
+
+<div class="col-12 {{ if eq $columns "2" }}col-lg-8{{ end }} experience-content">
+  {{ with $page.Content }}{{ . }}{{ end }}
+  {{ with $page.Params.experience }}
+  <ol class="experience-list">
+    {{ range sort . ".date_start" "desc" }}
+      {{ $start := time .date_start }}
+      {{ $upcoming := gt $start $today }}
+      {{ $current := false }}
+      {{ if not $upcoming }}
+        {{ if .date_end }}{{ $current = ge (time .date_end) $today }}{{ else }}{{ $current = true }}{{ end }}
+      {{ end }}
+    <li class="experience-entry{{ if $current }} experience-current{{ end }}">
+      {{ with .company_logo }}
+      <div class="experience-logo" aria-hidden="true">
+        <img src="{{ (printf "/media/organizations/%s" .) | relURL }}" alt="" width="56" height="56" decoding="async">
+      </div>
+      {{ end }}
+      <div class="experience-body{{ if not .company_logo }} experience-without-logo{{ end }}">
+        <div class="experience-header">
+          <div class="experience-heading">
+            {{ if eq $heading_level 1 }}<h2 class="experience-title">{{ .title | markdownify | emojify }}</h2>{{ else }}<h3 class="experience-title">{{ .title | markdownify | emojify }}</h3>{{ end }}
+            <div class="experience-company">
+              {{ with .company_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .company | markdownify | emojify }}{{ with .company_url }}</a>{{ end }}
+            </div>
+            {{ with .context }}<p class="experience-context">{{ . }}</p>{{ end }}
+          </div>
+          <div class="experience-meta">
+            <div class="experience-dates">
+              {{ if $upcoming }}Starts <time datetime="{{ $start.Format "2006-01-02" }}">{{ $start.Format "Jan 2, 2006" }}</time>{{ else }}
+              <time datetime="{{ $start.Format "2006-01-02" }}">{{ $start.Format ($page.Params.date_format | default "January 2006") }}</time><span aria-hidden="true"> &ndash; </span><span class="sr-only"> to </span>{{ if .date_end }}<time datetime="{{ (time .date_end).Format "2006-01-02" }}">{{ (time .date_end).Format ($page.Params.date_format | default "January 2006") }}</time>{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
+              {{ end }}
+            </div>
+            <div class="experience-location">{{ with .location }}<span>{{ . }}</span>{{ end }}{{ if $upcoming }}<span class="experience-status">Upcoming</span>{{ else if $current }}<span class="experience-status">Current</span>{{ end }}</div>
+          </div>
+        </div>
+        {{ with .description }}<div class="experience-description">{{ . | markdownify | emojify }}</div>{{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+  {{ end }}
+</div>

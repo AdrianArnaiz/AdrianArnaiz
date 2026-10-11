@@ -1,0 +1,68 @@
+/* The legacy Experience widget, scoped independently of other site lists. */
+.wg-experience {
+  .section-heading, .experience-content {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-heading {
+    text-align: left !important;
+    margin-bottom: 32px;
+  }
+  .section-heading p { max-width: 680px; }
+  .experience-list { list-style: none; margin: 0; padding: 0; }
+  .experience-entry {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 24px;
+    padding: 30px 0;
+    border-top: 1px solid var(--research-rule);
+  }
+  .experience-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    padding: 6px;
+    background: #fff;
+    border: 1px solid var(--research-rule);
+    border-radius: 4px;
+  }
+  .experience-logo img { width: 100%; height: 100%; object-fit: contain; }
+  .experience-body { min-width: 0; }
+  .experience-without-logo { grid-column: 1 / -1; }
+  .experience-header { display: flex; justify-content: space-between; gap: 16px; }
+  .experience-heading { min-width: 0; }
+  .experience-title { font-family: inherit; font-size: 1.12rem; font-weight: 700; letter-spacing: 0; margin: 0 0 5px; line-height: 1.35; }
+  .experience-company { font-size: .94rem; line-height: 1.5; }
+  .experience-company a { text-decoration: underline; text-decoration-color: var(--research-rule); }
+  .experience-context { color: var(--research-muted); font-size: .83rem; margin: 5px 0 0; }
+  .experience-meta { flex-shrink: 0; text-align: right; font-size: .82rem; line-height: 1.6; color: var(--research-muted); }
+  .experience-dates { font-variant-numeric: tabular-nums; }
+  .experience-location { display: flex; justify-content: flex-end; align-items: baseline; flex-wrap: wrap; gap: 4px 12px; margin-top: 3px; }
+  .experience-status { color: var(--research-accent); font-weight: 600; }
+  .experience-description { font-size: .92rem; line-height: 1.65; margin-top: 14px; }
+  .experience-description p { margin: 0; }
+  .experience-description ul { margin: 0; padding-left: 20px; }
+  .experience-description li + li { margin-top: 7px; }
+  .experience-description a { text-decoration: underline; text-decoration-color: var(--research-rule); }
+}
+
+@media (max-width: 767.98px) {
+  .wg-experience {
+    .experience-entry { grid-template-columns: 44px minmax(0, 1fr); gap: 16px; padding: 25px 0; }
+    .experience-logo { width: 44px; height: 44px; padding: 5px; }
+    .experience-header { flex-direction: column; gap: 8px; }
+    .experience-meta { text-align: left; }
+    .experience-location { justify-content: flex-start; }
+    .experience-description { margin-top: 12px; }
+  }
+}
+
+@media (max-width: 359.98px) {
+  .wg-experience {
+    .experience-entry { gap: 12px; }
+    .experience-body:not(.experience-without-logo) .experience-description { margin-left: -56px; }
+  }
+}
