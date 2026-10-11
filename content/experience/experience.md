@@ -11,13 +11,25 @@ subtitle:
 date_format: Jan 2006
 
 experience:
+  - title: Research Scientist
+    company: Apart Research
+    company_url: 'https://apartresearch.com/'
+    location: Remote
+    date_start: '2026-10-13'
+    date_end: ''
+    description: |2-
+      * We study and evaluate manipulation risks in frontier AI systems.
+      * We build third-party evaluations of advanced AI, with a focus on assessing risks from AI manipulating people's actions, behaviour, and beliefs.
+
   - title: Postdoctoral Researcher
     company: ELLIS Alicante
     company_url: 'https://ellisalicante.org/'
     location: Alicante
     date_start: '2025-09-26'
-    date_end: ''
-    description: '* Trustworthy AI in decision-making and recommender systems using multi-modal and foundational models. Technical advancements and regulation intersection.'
+    date_end: '2026-10-08'
+    description: |2-
+      * Extend sociotechnical AI and graph-ML work toward multi-agent interaction, human-AI systems and benchmarking.
+      * Contribute to EU-facing research/proposals on socially-aware GenAI agents, human-AI coevolution, cooperation/competition, orchestration, teaming, opinion dynamics, and emergent collective behavior.
 
   - title: PhD Student
     company: ELLIS Alicante & ELLIS (European Lab for Learning & Intelligent Systems)

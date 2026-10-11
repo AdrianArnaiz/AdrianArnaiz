@@ -50,7 +50,7 @@ local_business_type = ""
 org_name = "" # Personal site; ELLIS Alicante is an affiliation, not the publisher.
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz-Rodriguez is a postdoctoral researcher at ELLIS Alicante working on trustworthy AI, graph neural networks, algorithmic fairness and AI regulation."
+description = "Adrian Arnaiz-Rodriguez is a Research Scientist at Apart Research, working on AI Manipulation."
 
 ############################
 ## Site Features
@@ -90,7 +90,7 @@ show_related = {book = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "adrian@ellisalicante.org"
+email = "contact@adrianarnaiz.me"
 phone = ""
 
 # Address

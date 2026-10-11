@@ -6,20 +6,20 @@ title: Adrian Arnaiz-Rodriguez
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Research Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: ELLIS Alicante
-  url: https://ellisalicante.org/
+- name: Apart Research
+  url: https://apartresearch.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Postdoctoral Researcher in Trustworthy AI, AI Regulation and Graph Neural Networks @ ELLIS Alicante.
+bio: Research Scientist in AI Manipulation @ Apart Research.
 
 # Interests to show in About widget
 interests:
-- Trustworthy AI for high-stakes settings 
-- Social networks  # and recommender systems
+- AI Manipulation 
+- Trustworthy AI for high-stakes settings and social networks
 - GNNs and network science
 - AI regulation and policy-making
 
@@ -94,8 +94,9 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) and a member of the [ELLIS network](https://ellis.eu/members/members-list). 
-<!--<img src="https://ellis.eu/uploads/ckeditor/pictures/9/content_ellis_logo1_320_transparent.png" style="height:3em; display:inline;"> -->
+I am Research Scientist at [Apart Research](https://apartresearch.com/) studying and evaluating manipulation risks in frontier AI systems. I'm also a member of the [ELLIS network](https://ellis.eu/members/members-list).
+
+I previously completed my PhD (``cum laude``) at the [ELLIS Alicante](https://ellisalicante.org/), under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
 
 ⚖️+🤖+🏛️ My research focuses on building **trustworthy AI** systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation* and *policy-making*, understanding AI as a sociotechnical system.
 <br>
@@ -116,7 +117,7 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 
 {{< spoiler text="👆 **Learn more about my journey**">}}
 
-🎓 I completed my PhD (``cum laude``) at the [ELLIS Alicante](https://ellisalicante.org/), under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc). I focused on algorithmic fairness, human-AI collaboration, and their alignment with AI regulatory frameworks and labor law.
+🎓 On my PhD and Postdoc I focused on technical and interdisciplinary aspects of **Trustworthy AI**: algorithmic fairness, human-AI collaboration, AI Safety in LLMs and multi-agent systems, and their alignment with AI regulatory frameworks and labor law. I also focused on the limitations of Graph Neural Networks.
 
 <div class="research-actions">
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/" class="research-link">
@@ -138,16 +139,5 @@ I am a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/) a
 
 {{< /spoiler >}}
 
-
-
-<!--👋🏼 Hi! I'm Adrián, a postdoctoral researcher at ELLIS Alicante, where I work on trustworthy AI and recommender systems; and graph-based machine learning. My research explores how AI can support high-stakes decisions in areas like social networks, recommender systems, and policy-making, while aligning with emerging regulations and societal values.
-
-I completed my PhD at ELLIS Alicante under Nuria Oliver, spent time as a visiting researcher at MPI-SWS with Manuel Gomez-Rodriguez, and collaborated with Intel Labs. My work also contributed to Spain's Charter of Digital Rights.
-
-I'm especially passionate about graph learning, both its theory and applications — a topic I explored in our ICML 2024 tutorial. Before my PhD, I worked on network science and ML for life sciences during my MSc and BSc studies.-->
-
-<!--<p style="font-size: 0.8em; color:rgb(92, 92, 92); background-color:rgb(241, 241, 241); padding: 5px; border-radius: 2px;">
-<i>Community</i>: My work has been presented at major academic venues (e.g., ICML, ICLR, ICWSM, LoG, etc) and policy platforms including the Joint Research Centre (JRC) and the European Parliament's JURI Committee. I've helped organize conferences such as ICML 2024, LoG (2024 & 2025), and the ELLIS Doctoral Symposium 2022. As a reviewer, I've actively contributed to the community and received Top Reviewer Awards at ICML 2023, AISTATS 2023, and AISTATS 2025.
-</p>-->
 </DIV>
 
