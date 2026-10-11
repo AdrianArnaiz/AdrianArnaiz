@@ -40,7 +40,8 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   templates and CMS pages use Netlify response headers for indexing control.
   Production builds target `https://adrianarnaiz.me/`; preserve host-specific
   redirects and preview base URLs. The local widget-page override uses h2
-  section headings below the homepage profile h1. Deferred Netlify Identity
+  section headings below the homepage profile h1; the first standalone Experience
+  section supplies that page's h1. Deferred Netlify Identity
   registers its login handler on load; retain that timing when editing the head.
   Preserve the root IndexNow ownership text file documented in SEO_AUDIT.md;
   submit only canonical, indexable production URLs after live-file verification.
@@ -62,6 +63,13 @@ Read [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md) to locate relevant sources.
   `list_summary` customize listing copy only. Keep resource URLs in native fields.
 - Shared downloads belong in `static/media/`, linked as `/media/<filename>`.
   Keep page-specific media in its page bundle.
+- Experience uses `layouts/partials/widgets/experience.html` and
+  `assets/scss/_research-experience.scss`, retaining the pinned widget's
+  start-date ordering and native fields. Optional `company_logo` filenames
+  resolve under `static/media/organizations/`; `context` explains overlapping
+  roles. Preserve official logo colors and update `PROVENANCE.json` when replacing
+  assets. Upcoming/current labels are resolved at build time, so rebuild when a
+  role starts or ends. The standalone page has one h1 and role h2s.
 - Read [DESIGN.md](DESIGN.md) before changing appearance or motion. Custom Sass
   is imported by the pinned theme; custom JS uses its `custom_js.html` hook.
   Keep the tsParticles network decorative, confined to the first homepage section,

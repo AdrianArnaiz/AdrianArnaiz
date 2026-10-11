@@ -79,7 +79,10 @@
   {{ if eq $widget "projects" }}{{ $widget = "portfolio" }}{{ end }}{{/* Support legacy Projects widget */}}
 
   {{ $widget_path := printf "widgets/%s.html" $widget }}
-  {{ $widget_args := dict "root" $ "page" $st "hash_id" $hash_id }}
+  {{/* The standalone Experience page has no outer page header. */}}
+  {{ $heading_level := 2 }}
+  {{ if and (not $.IsHome) (eq $widget "experience") (eq $index 0) }}{{ $heading_level = 1 }}{{ end }}
+  {{ $widget_args := dict "root" $ "page" $st "hash_id" $hash_id "heading_level" $heading_level }}
   {{ $css_classes := $st.Params.advanced.css_class | default "" }}
   {{ $extra_attributes := "" }}
   {{ $use_container := true }}
@@ -112,12 +115,12 @@
       {{ if $st.Title }}
         {{ if eq $columns "1" }}
           <div class="col-12 section-heading text-center">
-            {{ with $st.Title }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}
+            {{ with $st.Title }}{{ if eq $heading_level 1 }}<h1>{{ . | markdownify | emojify }}</h1>{{ else }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}{{ end }}
             {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
           </div>
         {{else}}
           <div class="col-12 col-lg-4 section-heading">
-            {{ with $st.Title }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}
+            {{ with $st.Title }}{{ if eq $heading_level 1 }}<h1>{{ . | markdownify | emojify }}</h1>{{ else }}<h2>{{ . | markdownify | emojify }}</h2>{{ end }}{{ end }}
             {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
           </div>
         {{end}}

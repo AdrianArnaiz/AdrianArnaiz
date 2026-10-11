@@ -34,11 +34,52 @@ and fine rules instead of alternating gray panels.
   on the homepage. Interface accessibility bridges load site-wide.
 - The theme still owns dark-mode persistence and its `body.dark` class.
 
-Local overrides of `about.html`, `li_citation.html`, and `_default/baseof.html`
+Local overrides of `about.html`, `experience.html`, `li_citation.html`, and `_default/baseof.html`
 are based on this pinned module. The base template adds a skip link and main
 landmark; book/docs layouts retain their own main landmark. No module cache or
 vendor file is edited. Compare these small overrides against upstream if an
 upgrade is intentionally undertaken later.
+
+## Experience page
+
+`layouts/partials/widgets/experience.html` replaces the pinned widget's timeline
+cards with stationary editorial rows. It retains native experience fields,
+Markdown descriptions, the one/two-column setting, and descending start-date
+ordering. Optional `company_logo` and `context` fields add organization identities
+and clarify overlapping roles, including the MPI-SWS PhD exchange.
+
+`assets/scss/_research-experience.scss` is imported by existing custom Sass and
+scoped to `.wg-experience`. Rows use the established colors, typography, and fine
+rules. Date/location metadata aligns right on desktop and stacks below the
+organization on smaller screens. At 320px, descriptions use the available row
+width. No added JavaScript, animation, dependency, or collapsed content is needed.
+
+Five official organization assets are served locally from
+`static/media/organizations/`, with source URLs and SHA-256 checksums in
+`PROVENANCE.json`. Apart and MPI-SWS use official compact identity marks; ELLIS
+Alicante, Burgos, and EY use their official artwork. A small white backing
+preserves original colors and legibility in both themes. Logos repeat nearby
+organization text, so they have empty alt text and do not add duplicate links.
+
+The first standalone Experience section supplies its page h1 through a narrow
+condition in `widget_page.html`; roles use h2. Homepage sections keep their h2s
+below the profile h1. The canonical `/experience/` URL and existing search
+description remain intact. Exact dates are retained in semantic time elements.
+Future roles show their precise start date and Upcoming; active roles show
+Current. These labels use the build date and require a rebuild at a transition.
+
+Validation (2026-10-11): normal and buildFuture production builds passed with
+Hugo Extended 0.79.1 and the pinned modules (221 pages, 72 aliases). Inspected
+desktop/mobile light and dark renders. Headless Edge checks at 1440, 1024, 768,
+390, and 320px verified seven roles, all logos loaded, no horizontal overflow,
+and zero axe-core WCAG 2 A/AA and 2.1 A/AA violations within main content. Real
+Tab-key navigation confirmed a visible 2px focus outline. Content remains
+available without JavaScript; no page JavaScript exceptions were observed.
+Source/output checks verified canonical metadata, sitemap inclusion, internal
+links, JSON-LD, logo checksums, and the unchanged homepage h1. Separate temporary
+content fixtures exercised start-day and inclusive end-day Current labels,
+ended roles, missing-logo fallback, and the two-column setting. These checks are
+scoped validation, not a site-wide accessibility certification.
 
 ## Talk listings
 

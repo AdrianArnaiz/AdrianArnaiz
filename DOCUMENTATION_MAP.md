@@ -27,7 +27,7 @@ separate template examples.
 | Selected talks | [content/home/talks.md](content/home/talks.md) | Homepage widget; subtitle includes the complete-list link in the sticky heading; records live in `content/event/`. |
 | Publication records | [content/publication/](content/publication/) | Page bundles and attachments; `_index.md` controls the section listing. |
 | Talks and events | [content/event/](content/event/) | Page bundles; individual pages use `/talk/:slug/`. |
-| Experience | [content/experience/experience.md](content/experience/experience.md) | Widget rendered within [content/experience/index.md](content/experience/index.md). |
+| Experience | [content/experience/experience.md](content/experience/experience.md) | Widget rendered within [content/experience/index.md](content/experience/index.md); optional `company_logo` and `context` fields support organization identities and overlapping roles. |
 | Awards | [content/awards/index.md](content/awards/index.md) | Honors and awards page. |
 | Scientific community | [content/community/index.md](content/community/index.md) | Service and community activities. |
 | News | [content/news/_index.md](content/news/_index.md) | News section content. |
@@ -61,6 +61,7 @@ Local visual extensions are isolated in:
 
 - [assets/scss/custom.scss](assets/scss/custom.scss): tokens, layout, responsive rules, focus, and motion preferences.
 - [assets/scss/_research-fonts.scss](assets/scss/_research-fonts.scss): local font faces.
+- [assets/scss/_research-experience.scss](assets/scss/_research-experience.scss): responsive experience rows, organization logo sizing and light/dark styling; imported by custom Sass.
 - [assets/js/network-background.js](assets/js/network-background.js): tsParticles evolving network, personalization, and first-section lifecycle.
 - [assets/vendor/tsparticles/4.4.0/](assets/vendor/tsparticles/4.4.0/): pinned self-contained slim bundle, MIT license, and source/checksum provenance.
 - [assets/js/research-interface.js](assets/js/research-interface.js): accessibility bridges, menu/theme state indicators, and citation-copy feedback for the legacy theme.
@@ -72,6 +73,7 @@ Local visual extensions are isolated in:
 - [layouts/partials/page_header.html](layouts/partials/page_header.html): pinned page header with featured-image descriptions and intrinsic dimensions.
 - [layouts/robots.txt](layouts/robots.txt), [layouts/_default/sitemap.xml](layouts/_default/sitemap.xml) and [layouts/index.netlifyheaders](layouts/index.netlifyheaders): generated crawl instructions, sitemap exclusions and Netlify preview noindex headers.
 - [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html): accessible profile and network placement.
+- [layouts/partials/widgets/experience.html](layouts/partials/widgets/experience.html): local legacy widget rendering, native date/start ordering, optional logos/context, semantic headings and build-time upcoming/current status.
 - [layouts/partials/research/network.html](layouts/partials/research/network.html): decorative canvas markup.
 - [layouts/partials/research/talk-row.html](layouts/partials/research/talk-row.html): shared editorial talk rows, display metadata, and direct resource links.
 - [layouts/partials/li_list.html](layouts/partials/li_list.html): routes event listings to talk rows; keeps the pinned list view for other types.
@@ -81,6 +83,7 @@ Local visual extensions are isolated in:
 - [layouts/_default/baseof.html](layouts/_default/baseof.html): original page shell with skip link and main landmark.
 - [static/fonts/source-sans-pro/](static/fonts/source-sans-pro/): licensed, self-hosted existing typeface.
 - [static/media/tutorials/](static/media/tutorials/): locally served existing conference logos.
+- [static/media/organizations/](static/media/organizations/): official employment organization assets; [PROVENANCE.json](static/media/organizations/PROVENANCE.json) records source pages, asset URLs and checksums.
 
 Imported Wowchemy modules still provide the underlying templates, widgets,
 shortcodes, and theme assets. See [DESIGN.md](DESIGN.md) before changing overrides.
