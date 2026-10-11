@@ -14,11 +14,11 @@ organizations:
   url: https://apartresearch.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Scientist in AI Manipulation @ Apart Research.
+bio: Research Scientist at Apart Research, studying AI manipulation risks and developing AI evaluations.
 
 # Interests to show in About widget
 interests:
-- AI Manipulation 
+- AI manipulation and AI evaluations
 - Trustworthy AI for high-stakes settings and social networks
 - GNNs and network science
 - AI regulation and policy-making
@@ -94,13 +94,13 @@ highlight_name: true
 
 <DIV align="justify">
 
-I am Research Scientist at [Apart Research](https://apartresearch.com/) studying and evaluating manipulation risks in frontier AI systems. I'm also a member of the [ELLIS network](https://ellis.eu/members/members-list).
+I am a Research Scientist at [Apart Research](https://apartresearch.com/), studying manipulation risks in frontier AI systems and developing third-party AI evaluations. I'm also a member of the [ELLIS network](https://ellis.eu/members/members-list).
 
-I previously completed my PhD (``cum laude``) at the [ELLIS Alicante](https://ellisalicante.org/), under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver), and was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/) hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
+I previously worked as a postdoctoral researcher at [ELLIS Alicante](https://ellisalicante.org/), where I also completed my PhD (``cum laude``) under the supervision of [Nuria Oliver](https://es.wikipedia.org/wiki/Nuria_Oliver). During my PhD, I was a visiting researcher at [MPI-SWS](https://www.mpi-sws.org/), hosted by [Manuel Gomez-Rodriguez](https://people.mpi-sws.org/~manuelgr/) as part of the [ELLIS PhD & PostDoc Program](https://ellis.eu/phd-postdoc).
 
 ⚖️+🤖+🏛️ My research focuses on building **trustworthy AI** systems for *high-stakes decisions* and *social networks*, and on exploring how these technologies intersect with *AI regulation* and *policy-making*, understanding AI as a sociotechnical system.
 <br>
-🕸️ I am also particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and contribute to the community as *General Chair* of [*LoG 2025*](https://logconference.org/) and *Associate Chair* of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
+🕸️ I am also particularly interested in *graph neural networks*: understanding their theoretical and practical limitations, improving performance and interpretability, and analyzing fairness and robustness in networked settings. I co-organized the [**ICML 2024** tutorial on *Graph Learning*](https://www.youtube.com/watch?v=Rd_8QcPg6kw) with [Ameya Velingker](https://www.ameyavelingker.com/), and served as *General Chair* of [*LoG 2025*](https://logconference.org/) and *Associate Chair* of [*ICML 2024*](https://icml.cc/Conferences/2024/Committees).
 
 <!--
 <div class="research-actions">
@@ -117,7 +117,7 @@ I previously completed my PhD (``cum laude``) at the [ELLIS Alicante](https://el
 
 {{< spoiler text="👆 **Learn more about my journey**">}}
 
-🎓 On my PhD and Postdoc I focused on technical and interdisciplinary aspects of **Trustworthy AI**: algorithmic fairness, human-AI collaboration, AI Safety in LLMs and multi-agent systems, and their alignment with AI regulatory frameworks and labor law. I also focused on the limitations of Graph Neural Networks.
+🎓 During my PhD and postdoctoral research, I focused on technical and interdisciplinary aspects of **Trustworthy AI**: algorithmic fairness, human-AI collaboration, AI safety in LLMs and multi-agent systems, and their alignment with AI regulatory frameworks and labor law. I also studied the limitations of graph neural networks.
 
 <div class="research-actions">
 <a href="https://ellisalicante.org/publications/arnaiz2025thesis-en/" class="research-link">

@@ -64,9 +64,9 @@ archive URLs.
 ## Search appearance and content opportunities
 
 The intended homepage title is
-`Adrian Arnaiz-Rodriguez | Trustworthy AI & Graph Learning`. The description
-identifies his postdoctoral role, ELLIS Alicante, trustworthy AI, graph neural
-networks, algorithmic fairness and AI regulation. The named WebSite, connected
+`Adrian Arnaiz-Rodriguez | AI Manipulation & Evaluations`. Updated on October 11,
+2026 for his transition to Apart Research, the description identifies his
+Research Scientist role, AI manipulation risks and AI evaluations. The named WebSite, connected
 Person, profile links, visible name, social identity and favicon give search
 systems consistent evidence for a professional personal-site result.
 Google chooses the displayed title, snippet, site name and favicon; rendering

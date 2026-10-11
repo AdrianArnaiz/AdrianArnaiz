@@ -13,6 +13,7 @@ header:
   caption: ""
   image: ""
 ---
+* {{< hl >}}2026-10{{< /hl >}} I'm starting a new position as a Research Scientist at Apart Research, working on decoding AI Manipulation.
 
 * {{< hl >}}2026-05{{< /hl >}} :loud_sound: I gave a seminar on trustworthy AI at the University of Burgos. [Read more](/talk/ubu-trustworthy-ai-decisions-networks-and-human-ai-collaboration-in-sociotechnical-systems/).
 

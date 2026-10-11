@@ -28,8 +28,8 @@ experience:
     date_start: '2025-09-26'
     date_end: '2026-10-08'
     description: |2-
-      * Extend sociotechnical AI and graph-ML work toward multi-agent interaction, human-AI systems and benchmarking.
-      * Contribute to EU-facing research/proposals on socially-aware GenAI agents, human-AI coevolution, cooperation/competition, orchestration, teaming, opinion dynamics, and emergent collective behavior.
+      * Extended sociotechnical AI and graph-ML work toward multi-agent interaction, human-AI systems and benchmarking.
+      * Contributed to EU-facing research/proposals on socially-aware GenAI agents, human-AI coevolution, cooperation/competition, orchestration, teaming, opinion dynamics, and emergent collective behavior.
 
   - title: PhD Student
     company: ELLIS Alicante & ELLIS (European Lab for Learning & Intelligent Systems)

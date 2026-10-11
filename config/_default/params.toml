@@ -47,10 +47,10 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = "" # Personal site; ELLIS Alicante is an affiliation, not the publisher.
+org_name = "" # Personal site; the author is the publisher.
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Adrian Arnaiz-Rodriguez is a Research Scientist at Apart Research, working on AI Manipulation."
+description = "Adrian Arnaiz-Rodriguez is a Research Scientist at Apart Research, studying AI manipulation risks and developing AI evaluations."
 
 ############################
 ## Site Features
