@@ -31,7 +31,7 @@ tags:
 - Labour Law
 - AI Act
 
-featured: true
+featured: false
 
 links:
 url_pdf: 'https://www.iustel.com/v2/revistas/detalle_revista.asp?id_noticia=427491'

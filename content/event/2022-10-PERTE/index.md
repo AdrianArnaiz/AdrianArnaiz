@@ -1,5 +1,5 @@
 ---
-title: "[Ministry of Economy] Diversity and Discrimination in AI and New Technologies (Sp)"
+title: "[Ministry of Economy of Spain] Diversity and Discrimination in AI and New Technologies (Sp)"
 
 event: Spanish Ministry of Economics - PERTE Nueva Economía de la Lengua
 event_url: https://twitter.com/PERTE_Lengua
